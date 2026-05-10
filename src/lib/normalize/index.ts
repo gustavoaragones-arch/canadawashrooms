@@ -1,0 +1,8 @@
+export { normalizeAddress } from './address'
+export { normalizeBadge } from './badge'
+export { normalizeBusinessName } from './businessName'
+export { normalizeCategory } from './category'
+export { normalizeCity } from './city'
+export { normalizePhone } from './phone'
+export { normalizeServiceArea } from './serviceArea'
+export { normalizeWebsite } from './website'

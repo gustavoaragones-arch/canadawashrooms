@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "id": "northern-rig-sanitation-fmm",
+      "patch": {
+        "primary_segment": "oilfield",
+        "primary_segment_confidence": 0.94,
+        "remote_logistics": true,
+        "winter_service": true,
+        "trust_signals_append": ["curated_industrial_remote_operator"]
+      }
+    },
+    {
+      "id": "prairie-event-restrooms-yyc",
+      "patch": {
+        "primary_segment": "event",
+        "primary_segment_confidence": 0.93,
+        "luxury_trailers": true
+      }
+    },
+    {
+      "id": "athabasca-remote-san-fmm",
+      "patch": {
+        "primary_segment": "oilfield",
+        "camp_support": true,
+        "remote_logistics": true
+      }
+    },
+    {
+      "id": "bow-valley-site-services-can",
+      "patch": {
+        "primary_segment": "construction",
+        "primary_segment_confidence": 0.9,
+        "crane_liftable": true
+      }
+    }
+  ]
+}

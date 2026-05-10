@@ -1,0 +1,8 @@
+node_modules
+dist
+
+# Generated ingest outputs (keep folder markers via .gitkeep)
+data/processed/*.json
+data/snapshots/*.json
+data/reports/*.json
+data/raw/*.csv

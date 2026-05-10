@@ -1,0 +1,79 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'IBM Plex Sans', ui-sans-serif, system-ui, sans-serif;
+
+  --color-cwr-bg: #f6f5f2;
+  --color-cwr-surface: #fdfdfc;
+  --color-cwr-ink: #141413;
+  --color-cwr-muted: #5c5a54;
+  --color-cwr-border: #e4e2dc;
+  --color-cwr-accent: #b45309;
+  --color-cwr-accent-muted: #fef3c7;
+  --color-cwr-steel: #3f3f46;
+
+  --shadow-card: 0 1px 2px rgb(20 20 19 / 0.06),
+    0 12px 24px -8px rgb(20 20 19 / 0.12);
+
+  --radius-xl: 1rem;
+  --radius-2xl: 1.25rem;
+}
+
+@layer base {
+  html {
+    @apply scroll-smooth antialiased;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+
+  body {
+    @apply bg-cwr-bg text-cwr-ink font-sans m-0 min-h-dvh;
+  }
+
+  #root {
+    @apply min-h-dvh;
+  }
+
+  #intent,
+  #location,
+  #filters {
+    scroll-margin-top: 5.5rem;
+  }
+
+  .cwr-skip-link {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+
+  .cwr-skip-link:focus {
+    position: fixed;
+    left: 1rem;
+    top: 1rem;
+    z-index: 100;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0.75rem 1rem;
+    overflow: visible;
+    clip: auto;
+    white-space: normal;
+    border-radius: var(--radius-xl);
+    background-color: var(--color-cwr-ink);
+    color: var(--color-cwr-surface);
+    font-size: 0.875rem;
+    font-weight: 600;
+    outline: 2px solid var(--color-cwr-accent);
+    outline-offset: 2px;
+  }
+}

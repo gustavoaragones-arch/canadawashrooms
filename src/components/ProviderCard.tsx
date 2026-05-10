@@ -1,0 +1,197 @@
+import { useMemo } from 'react'
+import { getCompatibilityLabel } from '../lib/compatibilityLabel'
+import { buildProviderIntelligence } from '../lib/intelligence/providerIntelligence'
+import { deriveTrustTierLabels } from '../lib/intelligence/trustTiers'
+import { segmentLabel } from '../lib/segments'
+import { emitProductionAnalytics } from '../lib/analytics/productionAnalytics'
+import { TRANSPARENCY } from '../lib/transparencyCopy'
+import type { FilterCapability, PrimarySegment, Provider } from '../types/provider'
+import { useOperationalInquiry } from './inquiry/OperationalInquiryContext'
+import { ProviderOperationalDetail } from './ProviderOperationalDetail'
+
+interface ProviderCardProps {
+  provider: Provider
+  segment: PrimarySegment
+  /** Matcher workspace city — aligns inquiry targeting with the active cohort. */
+  city: string
+  activeCapabilities: FilterCapability[]
+  activeFilterLabels: string[]
+  isRelaxedFallback: boolean
+}
+
+function telHref(phone: string): string {
+  const digits = phone.replace(/[^\d+]/g, '')
+  return digits.startsWith('+') ? `tel:${digits}` : `tel:+${digits}`
+}
+
+export function ProviderCard({
+  provider,
+  segment,
+  city,
+  activeCapabilities,
+  activeFilterLabels,
+  isRelaxedFallback,
+}: ProviderCardProps) {
+  const { openInquiry } = useOperationalInquiry()
+  const segmentTitle = segmentLabel(provider.primary_segment)
+  const matchLabel = getCompatibilityLabel(
+    provider,
+    segment,
+    activeCapabilities,
+    isRelaxedFallback,
+  )
+
+  const headerTrust = useMemo(
+    () => deriveTrustTierLabels(provider).slice(0, 2),
+    [provider],
+  )
+
+  const intelligence = useMemo(
+    () => buildProviderIntelligence(provider, { activeSegment: segment }),
+    [provider, segment],
+  )
+
+  return (
+    <article
+      id={`provider-anchor-${provider.id}`}
+      className="group flex scroll-mt-32 flex-col rounded-2xl border border-cwr-border bg-cwr-surface shadow-card transition-[box-shadow,border-color] duration-200 ease-out hover:border-cwr-steel/25 hover:shadow-[0_16px_40px_-12px_rgb(20_20_19/0.18)] focus-within:border-cwr-steel/30 focus-within:shadow-[0_16px_40px_-12px_rgb(20_20_19/0.18)]"
+    >
+      <div className="flex flex-col gap-6 px-5 py-6 sm:px-7 sm:py-8">
+        <div className="flex items-start justify-between gap-4">
+          <div className="min-w-0 flex-1 space-y-4">
+            <div className="flex flex-wrap gap-2">
+              {headerTrust.map((label) => (
+                <span
+                  key={label}
+                  className="rounded-md border border-cwr-border bg-cwr-bg px-2 py-1 text-[10px] font-semibold uppercase tracking-wider text-cwr-steel"
+                >
+                  {label}
+                </span>
+              ))}
+            </div>
+            <div>
+              <h3 className="text-xl font-semibold tracking-tight text-cwr-ink sm:text-[1.35rem]">
+                {provider.company_name}
+              </h3>
+              <p className="mt-2 text-xs font-semibold uppercase tracking-[0.16em] text-cwr-accent">
+                Primary segment · {segmentTitle}
+              </p>
+            </div>
+          </div>
+          <div className="shrink-0 pt-1 text-right">
+            <span className="inline-block rounded-md border border-cwr-border bg-cwr-bg px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wider text-cwr-steel">
+              {matchLabel}
+            </span>
+          </div>
+        </div>
+
+        <div>
+          <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-cwr-muted">
+            On-site positioning
+          </p>
+          <ul className="mt-4 flex flex-wrap gap-2.5" aria-label="Operator capabilities">
+            {provider.badges.map((badge) => (
+              <li
+                key={badge}
+                className="rounded-lg border border-cwr-border bg-cwr-bg px-3 py-2 text-xs font-semibold leading-snug text-cwr-ink shadow-[inset_0_1px_0_rgb(255_255_255/0.65)]"
+              >
+                {badge}
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        {intelligence.subtleUiCues.length > 0 ? (
+          <div className="rounded-xl border border-dashed border-cwr-border bg-cwr-bg/60 px-4 py-3">
+            <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-cwr-muted">
+              Signal cues
+            </p>
+            <ul className="mt-2 space-y-1.5 text-sm leading-snug text-cwr-steel">
+              {intelligence.subtleUiCues.map((cue) => (
+                <li key={cue}>· {cue}</li>
+              ))}
+            </ul>
+          </div>
+        ) : null}
+
+        <div className="rounded-xl border border-dashed border-cwr-border bg-cwr-bg/80 px-4 py-3">
+          <p className="text-[11px] font-semibold uppercase tracking-[0.16em] text-cwr-muted">
+            Service area
+          </p>
+          <p className="mt-2 text-sm leading-relaxed text-cwr-steel">{provider.service_area}</p>
+        </div>
+
+        <div className="flex flex-wrap items-end justify-between gap-4 border-t border-cwr-border pt-6">
+          <div>
+            <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-cwr-muted">
+              Field reputation
+            </p>
+            <p
+              className="mt-2 text-base font-semibold text-cwr-ink"
+              aria-label={`Google rating ${provider.rating} out of 5, ${provider.review_count} reviews`}
+            >
+              Google <span className="text-amber-600">★</span> {provider.rating.toFixed(1)}
+              <span className="ml-2 text-sm font-medium text-cwr-muted">
+                ({provider.review_count} reviews)
+              </span>
+            </p>
+          </div>
+        </div>
+
+        <ProviderOperationalDetail
+          provider={provider}
+          activeSegment={segment}
+          activeCapabilities={activeCapabilities}
+        />
+      </div>
+
+      <div className="flex flex-col gap-3 border-t border-cwr-border bg-cwr-bg/50 px-5 py-5 sm:px-7">
+        <p className="text-center text-[10px] leading-snug text-cwr-muted">{TRANSPARENCY.availability}</p>
+        {!provider.website ? (
+          <p className="text-center text-[11px] font-semibold uppercase tracking-wider text-cwr-muted">
+            Phone-only provider
+          </p>
+        ) : null}
+        <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-stretch">
+          <button
+            type="button"
+            onClick={() =>
+              openInquiry({
+                segment,
+                city,
+                provider,
+                activeCapabilityLabels: activeFilterLabels,
+                ctaOrigin: 'card',
+              })
+            }
+            className="inline-flex min-h-12 flex-1 cursor-pointer items-center justify-center rounded-xl bg-cwr-ink px-4 py-3.5 text-center text-sm font-semibold text-cwr-surface transition-colors duration-150 hover:bg-cwr-steel focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cwr-accent sm:min-w-[10.5rem]"
+          >
+            Operational inquiry
+          </button>
+          <a
+            href={telHref(provider.phone)}
+            onClick={() =>
+              emitProductionAnalytics('provider_phone_click', { provider_id: provider.id })
+            }
+            className="inline-flex min-h-12 flex-1 items-center justify-center rounded-xl border border-cwr-border bg-cwr-surface px-4 py-3.5 text-center text-sm font-semibold text-cwr-ink transition-colors duration-150 hover:border-cwr-steel/45 hover:bg-cwr-surface focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cwr-accent sm:min-w-[10.5rem]"
+          >
+            Call now
+          </a>
+          {provider.website ? (
+            <a
+              href={provider.website}
+              target="_blank"
+              rel="noreferrer"
+              onClick={() =>
+                emitProductionAnalytics('provider_website_click', { provider_id: provider.id })
+              }
+              className="inline-flex min-h-12 flex-1 items-center justify-center rounded-xl border border-transparent px-4 py-3.5 text-center text-sm font-semibold text-cwr-accent underline-offset-4 transition-colors duration-150 hover:underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cwr-accent sm:flex-none"
+            >
+              Website
+            </a>
+          ) : null}
+        </div>
+      </div>
+    </article>
+  )
+}
