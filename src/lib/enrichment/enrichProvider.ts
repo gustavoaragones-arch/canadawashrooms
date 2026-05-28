@@ -67,6 +67,12 @@ function deriveSupportedSegments(
     }
   }
 
+  if (raw.primary_segment !== 'site_services') {
+    if (raw.septic_service || raw.site_support || raw.roll_off_disposal) {
+      s.add('site_services')
+    }
+  }
+
   return [...s]
 }
 
@@ -83,6 +89,8 @@ function buildCapabilityTokens(p: {
   camp_support?: boolean
   ada_accessible: boolean
   septic_service?: boolean
+  site_support?: boolean
+  roll_off_disposal?: boolean
   winter_service: boolean
   remote_logistics: boolean
   luxury_trailers: boolean
@@ -105,6 +113,8 @@ function buildCapabilityTokens(p: {
   add('camp_support', p.camp_support)
   add('ada_accessible', p.ada_accessible)
   add('septic_service', p.septic_service)
+  add('site_support', p.site_support)
+  add('roll_off_disposal', p.roll_off_disposal)
   add('winter_service', p.winter_service)
   add('remote_logistics', p.remote_logistics)
   add('luxury_trailers', p.luxury_trailers)
@@ -120,6 +130,8 @@ function deriveServiceTypes(raw: ProviderRaw): string[] {
   if (raw.luxury_units || raw.wedding_friendly) t.add('event_trailer_operations')
   if (raw.construction_ready) t.add('jobsite_programs')
   if (raw.septic_service) t.add('fluid_handling_partnership')
+  if (raw.site_support) t.add('integrated_site_support')
+  if (raw.roll_off_disposal) t.add('roll_off_disposal_program')
   return [...t]
 }
 
@@ -135,6 +147,8 @@ function deriveSpecialties(
   if (raw.winterized || raw.heated) spec.add('Cold-weather equipment posture')
   if (raw.crane_liftable) spec.add('Vertical / lift-coordinated drops')
   if (raw.septic_service) spec.add('Tank servicing & fluid partners')
+  if (raw.site_support) spec.add('Multi-trade site servicing')
+  if (raw.roll_off_disposal) spec.add('Roll-off & disposal coordination')
   return [...spec]
 }
 
@@ -273,6 +287,12 @@ function applyBlockedFilterCapabilities(
       case 'septic_service':
         core.septic_service = false
         break
+      case 'site_support':
+        core.site_support = false
+        break
+      case 'roll_off_disposal':
+        core.roll_off_disposal = false
+        break
       default:
         break
     }
@@ -358,6 +378,22 @@ export function enrichProvider(raw: ProviderRaw): Provider {
     Boolean(workingRaw.septic_service || Boolean(inferred.septic_service)),
   )
 
+  const listingBlob = [...badges, ...google_categories].join(' ').toLowerCase()
+  let site_support = Boolean(
+    workingRaw.site_support ??
+      (/site service|waste management|sanitation|portable toilet|dumpster|disposal/.test(
+        listingBlob,
+      ) &&
+        !/campervan|rv rental|tent rental only/.test(listingBlob)),
+  )
+  const roll_off_disposal = Boolean(
+    workingRaw.roll_off_disposal ??
+      /roll[\s-]?off|roll off|dumpster|waste disposal|bin rental|garbage bin/.test(listingBlob),
+  )
+  if (septic_service && !roll_off_disposal) {
+    site_support = site_support || /septic|pump|fluid|holding tank/.test(listingBlob)
+  }
+
   const infMerged = applyBlockedInference(manual, {
     winter_service,
     remote_logistics,
@@ -380,6 +416,8 @@ export function enrichProvider(raw: ProviderRaw): Provider {
     luxury_trailers,
     flushing_units,
     septic_service,
+    site_support,
+    roll_off_disposal,
     crane_liftable,
   }
   applyBlockedFilterCapabilities(manual, capCore)
@@ -404,6 +442,8 @@ export function enrichProvider(raw: ProviderRaw): Provider {
     flushing_units: Boolean(capCore.flushing_units),
     crane_liftable: Boolean(capCore.crane_liftable),
     septic_service: Boolean(capCore.septic_service),
+    site_support: Boolean(capCore.site_support),
+    roll_off_disposal: Boolean(capCore.roll_off_disposal),
   })
 
   const operational_tags = mergeOperationalTags(
@@ -446,6 +486,8 @@ export function enrichProvider(raw: ProviderRaw): Provider {
     primary_segment: effectivePrimary,
     crane_liftable: capCore.crane_liftable,
     septic_service: capCore.septic_service,
+    site_support: capCore.site_support,
+    roll_off_disposal: capCore.roll_off_disposal,
     google_categories: workingRaw.google_categories,
     reviews_normalized,
     operational_notes: workingRaw.operational_notes,

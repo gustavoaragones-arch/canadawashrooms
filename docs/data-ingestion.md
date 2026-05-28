@@ -11,7 +11,7 @@ Alberta query planning lives in **`docs/query-stacks.md`**; QA cadence in **`doc
 | `data/raw/` | Drop raw CSV exports (gitignored `*.csv`; keep `.gitkeep`). |
 | `data/processed/providers.normalized.json` | Latest enriched snapshot from the last successful ingest (gitignored). |
 | `data/snapshots/providers.<ISO-stamp>.json` | Timestamped rollback / diff anchors (gitignored). |
-| `data/reports/` | QA, duplicates, weak metadata, review signals, curation sweep (gitignored JSON). |
+| `data/reports/` | QA, organizational overlap review, weak metadata, review signals, curation sweep (gitignored JSON). |
 | `src/data/manual-overrides.json` | Analyst locks — **tracked** in git; merges before enrichment (runtime + ingest). |
 
 ## Commands
@@ -28,7 +28,7 @@ Promotion to production UI data is manual: copy a reviewed snapshot into `src/da
 
 1. **Parse CSV** — `parseOutscraperCsvWithDiagnostics`: RFC4180-style lines; rows whose column count diverges from the header are **skipped**, counted in QA, and fail the process exit code (`1`) so operators notice.
 2. **Normalize** — `normalizeOutscraperRecord`: flexible Outscraper column aliases → `ProviderRaw`-shaped ingest row; rows without a usable business name are skipped with row-index reasons (console + QA counts).
-3. **Dedupe** — `dedupeProviders`: merge order **website → phone → normalized address + business name** (never name-only). Review counts use **`Math.max`**, not sum.
+3. **Dedupe** — `dedupeProviders`: merges **only** when **listing identity** matches (normalized **city + address + business name**). Shared website or phone does **not** merge rows — those overlaps appear in **`organizational-overlap-review.json`** as relationship signals. Review counts use **`Math.max`**, not sum.
 4. **Manual overrides** — shallow merge from `src/data/manual-overrides.json` into each row’s `manual_enrichment_overrides` by **`id`** (slug from normalize step).
 5. **Enrich** — `enrichProvider`: inference + locks; manual booleans and segment locks beat inference; optional blocks for capabilities / inference flags; optional trust / curated specialties (see types).
 6. **Artifacts** — timestamped snapshot + `processed` mirror + reports (latest copies plus stamped copies).
@@ -72,8 +72,8 @@ Patch fields (non-exhaustive):
 
 ## QA outputs
 
-- **`qa-report.json`** — counts: totals, duplicate signals (pre-merge cartesian + post-enrichment pair scan), weak metadata, missing web/phone, low-confidence segments (unlocked), thin enrichment, skipped normalize rows, malformed CSV rows.
-- **`duplicate-review.json`** — `preMergeCandidates` (website / phone / address+name) and `postEnrichmentPairs` (shared phone/web on enriched rows). Human disposition only — **no auto-delete**.
+- **`qa-report.json`** — counts: totals, organizational overlap review totals (bucketed: true duplicate risk vs organizational overlap vs operational ambiguity), weak metadata, missing web/phone, low-confidence segments (unlocked), thin enrichment, skipped normalize rows, malformed CSV rows.
+- **`organizational-overlap-review.json`** — `relatedOperationalNodesPreDedupe` (cartesian scan on raw normalized rows) and `relatedOperationalNodesPostEnrichment` (pair scan on enriched rows). Each record includes `relationship_type`, `overlap_category`, and `overlap_confidence`. Human disposition only — **no auto-merge from shared web/phone alone**.
 - **`weak-metadata-report.json`** — rows from internal completeness / trust / review volume heuristics (`weakProviderRecords`).
 - **`review-signal-summary.json`** — corpus buckets: operational keyword frequencies (weighted corpus), winter / luxury-remote regex tallies, weak-generic review counts.
 - **`curation-sweep.<stamp>.json`** — low-confidence lists, missing websites, thin inference, segment-spread heuristic flags.
@@ -86,7 +86,7 @@ Programmatic helpers live in `src/lib/dataOperations/curationReports.ts` (used b
 
 ## Future hooks (not implemented)
 
-- Province expansion: extra columns → normalize aliases → same dedupe tiers.
+- Province expansion: extra columns → normalize aliases → same listing-identity dedupe + overlap reporting.
 - Scheduled ingestion: wrap `npm run data:ingest` in CI with artifact upload.
 - Automated enrichment: plug models **behind** existing normalization contracts.
 - Lead routing / claiming: consume enriched JSON + manual locks as source of truth.

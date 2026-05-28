@@ -33,7 +33,7 @@ export function ProviderOperationalDetail({
         onClick={() => setOpen((v) => !v)}
         className="flex w-full items-center justify-between gap-3 rounded-xl border border-cwr-border bg-cwr-bg px-4 py-3 text-left text-sm font-semibold text-cwr-ink transition-colors duration-150 hover:border-cwr-steel/35 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cwr-accent min-h-12"
       >
-        <span>Operational intelligence profile</span>
+        <span>At a glance</span>
         <span className="text-cwr-muted" aria-hidden>
           {open ? '−' : '+'}
         </span>

@@ -22,6 +22,8 @@ export function contextualOperationalSuggestions(segment: PrimarySegment): strin
       return ['Heated units', 'Camp support', 'Remote logistics', 'Winter operations']
     case 'general':
       return ['ADA accessible', 'Septic pumping', 'Short-term rental', 'Handwash add-ons']
+    case 'site_services':
+      return ['Septic services', 'Roll-off disposal', 'Site support', 'Construction waste']
     default:
       return [...DEFAULT_OPERATIONAL_SUGGESTIONS]
   }
@@ -50,6 +52,10 @@ export function suggestionToQuery(label: string): string {
     'Septic pumping': 'septic pump fluid',
     'Short-term rental': 'portable rental residential',
     'Handwash add-ons': 'handwash station',
+    'Septic services': 'septic pump fluid',
+    'Roll-off disposal': 'roll off dumpster disposal',
+    'Site support': 'site services waste support',
+    'Construction waste': 'construction waste roll off',
   }
   return map[label] ?? label.toLowerCase()
 }

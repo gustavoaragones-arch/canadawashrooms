@@ -25,6 +25,7 @@ interface LandingSegmentRouteGroup {
  * Slugs are lowercase; URLs use trailing slash in canonicals.
  */
 export const LANDING_ROUTE_GROUPS: readonly LandingSegmentRouteGroup[] = [
+  // ── Alberta ──────────────────────────────────────────────────────────────
   {
     segment: 'construction',
     segmentSlug: SEGMENT_SEO.construction.slug,
@@ -34,6 +35,13 @@ export const LANDING_ROUTE_GROUPS: readonly LandingSegmentRouteGroup[] = [
       { citySlug: 'fort-mcmurray', city: 'Fort McMurray' },
       { citySlug: 'red-deer', city: 'Red Deer' },
       { citySlug: 'canmore', city: 'Canmore' },
+      // Ontario
+      { citySlug: 'toronto', city: 'Toronto' },
+      { citySlug: 'mississauga', city: 'Mississauga' },
+      { citySlug: 'brampton', city: 'Brampton' },
+      { citySlug: 'hamilton', city: 'Hamilton' },
+      { citySlug: 'vaughan', city: 'Vaughan' },
+      { citySlug: 'markham', city: 'Markham' },
     ],
   },
   {
@@ -44,12 +52,19 @@ export const LANDING_ROUTE_GROUPS: readonly LandingSegmentRouteGroup[] = [
       { citySlug: 'edmonton', city: 'Edmonton' },
       { citySlug: 'canmore', city: 'Canmore' },
       { citySlug: 'red-deer', city: 'Red Deer' },
+      // Ontario
+      { citySlug: 'toronto', city: 'Toronto' },
+      { citySlug: 'mississauga', city: 'Mississauga' },
+      { citySlug: 'hamilton', city: 'Hamilton' },
+      { citySlug: 'vaughan', city: 'Vaughan' },
+      { citySlug: 'markham', city: 'Markham' },
     ],
   },
   {
     segment: 'oilfield',
     segmentSlug: SEGMENT_SEO.oilfield.slug,
     cities: [
+      // Oilfield / remote is predominantly AB — Ontario included for completeness
       { citySlug: 'fort-mcmurray', city: 'Fort McMurray' },
       { citySlug: 'calgary', city: 'Calgary' },
       { citySlug: 'edmonton', city: 'Edmonton' },
@@ -65,9 +80,52 @@ export const LANDING_ROUTE_GROUPS: readonly LandingSegmentRouteGroup[] = [
       { citySlug: 'fort-mcmurray', city: 'Fort McMurray' },
       { citySlug: 'red-deer', city: 'Red Deer' },
       { citySlug: 'canmore', city: 'Canmore' },
+      // Ontario
+      { citySlug: 'toronto', city: 'Toronto' },
+      { citySlug: 'mississauga', city: 'Mississauga' },
+      { citySlug: 'brampton', city: 'Brampton' },
+      { citySlug: 'hamilton', city: 'Hamilton' },
+      { citySlug: 'vaughan', city: 'Vaughan' },
+      { citySlug: 'markham', city: 'Markham' },
+    ],
+  },
+  {
+    segment: 'site_services',
+    segmentSlug: SEGMENT_SEO.site_services.slug,
+    cities: [
+      { citySlug: 'calgary', city: 'Calgary' },
+      { citySlug: 'edmonton', city: 'Edmonton' },
+      { citySlug: 'fort-mcmurray', city: 'Fort McMurray' },
+      { citySlug: 'red-deer', city: 'Red Deer' },
+      { citySlug: 'canmore', city: 'Canmore' },
+      // Ontario
+      { citySlug: 'toronto', city: 'Toronto' },
+      { citySlug: 'mississauga', city: 'Mississauga' },
+      { citySlug: 'brampton', city: 'Brampton' },
+      { citySlug: 'hamilton', city: 'Hamilton' },
     ],
   },
 ] as const
+
+/** City slug for editorial / provider breadcrumbs when a priority city is known. */
+export function priorityCitySlug(city: string): string | null {
+  const normalized = city.trim().toLowerCase()
+  for (const group of LANDING_ROUTE_GROUPS) {
+    const hit = group.cities.find((c) => c.city.toLowerCase() === normalized)
+    if (hit) return hit.citySlug
+  }
+  return null
+}
+
+export function segmentLandingPath(segment: PrimarySegment, city: string): string | null {
+  const citySlug = priorityCitySlug(city)
+  if (!citySlug) return null
+  const group = LANDING_ROUTE_GROUPS.find((g) => g.segment === segment)
+  if (!group) return null
+  const servesCity = group.cities.some((c) => c.citySlug === citySlug)
+  if (!servesCity) return null
+  return `/${group.segmentSlug}/${citySlug}/`
+}
 
 export function resolveLandingRoute(
   segmentSlug: string | undefined,

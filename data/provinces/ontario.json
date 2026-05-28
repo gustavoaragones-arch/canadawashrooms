@@ -1,0 +1,2817 @@
+[
+  {
+    "id": "halco-portables-welland-on",
+    "company_name": "Halco Portables",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "Welland",
+    "province": "Ontario",
+    "province_code": "ON",
+    "service_area": "42 Clark St, Welland, ON L3B 5W6",
+    "rating": 4.7,
+    "review_count": 88,
+    "website": "https://www.halcomobile.com",
+    "phone": "+18666958644",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.84,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "small",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "niagara-portable-toilets-niagara-falls-on",
+    "company_name": "Niagara Portable Toilets",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "Niagara Falls",
+    "province": "Ontario",
+    "province_code": "ON",
+    "service_area": "7972 Thorold Townline Rd, Niagara Falls, ON L2H 1X9",
+    "rating": 5,
+    "review_count": 82,
+    "website": "http://www.niagaraportabletoilets.ca",
+    "phone": "+12892739333",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.84,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "small",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "rolling-rentals-ca-on",
+    "company_name": "Rolling Rentals",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "CA",
+    "province": "Ontario",
+    "province_code": "ON",
+    "service_area": "1783 Albion Rd, Etobicoke, ON M9W 5S7",
+    "rating": 5,
+    "review_count": 60,
+    "website": "https://rollingrentalsgta.ca",
+    "phone": "+14168061115",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.84,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "small",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "suite-moves-arnprior-on",
+    "company_name": "Suite Moves",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "Arnprior",
+    "province": "Ontario",
+    "province_code": "ON",
+    "service_area": "569 Robertson Line, Arnprior, ON K7S 3G9",
+    "rating": 5,
+    "review_count": 53,
+    "website": "https://suitemoves.ca",
+    "phone": "+16132969660",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.84,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "small",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "nature-s-call-vaughan-on",
+    "company_name": "Nature's Call",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "Vaughan",
+    "province": "Ontario",
+    "province_code": "ON",
+    "service_area": "177 Creditstone Rd, Vaughan, ON L4K 1N5",
+    "rating": 3.3,
+    "review_count": 52,
+    "website": "http://naturescall.ca",
+    "phone": "+18002673784",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.84,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "small",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "chantler-s-environmental-services-hillsburgh-on",
+    "company_name": "Chantler's Environmental Services",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "Hillsburgh",
+    "province": "Ontario",
+    "province_code": "ON",
+    "service_area": "9426 Wellington 22, Hillsburgh, ON N0B 1Z0",
+    "rating": 3.6,
+    "review_count": 48,
+    "website": "http://www.chantlers.on.ca",
+    "phone": "+15198556096",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.84,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "small",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "willscot-ca-on",
+    "company_name": "WillScot",
+    "primary_segment": "general",
+    "segment_key": "general",
+    "city": "CA",
+    "province": "Ontario",
+    "province_code": "ON",
+    "service_area": "90 N Queen St, Etobicoke, ON M8Z 2C9",
+    "rating": 4.7,
+    "review_count": 47,
+    "website": "https://www.willscot.com/locations/details/toronto-west-on%3Futm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_campaign%3Dgbp-listing",
+    "phone": "+14162319100",
+    "badges": [
+      "Equipment rental agency"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": false,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "equipment rental agency"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": false,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.84,
+    "supported_segments": [
+      "general"
+    ],
+    "capabilities": [],
+    "operational_tags": [
+      "source:badge_alignment"
+    ],
+    "service_types": [],
+    "inferred_specialties": [],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "small",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ]
+  },
+  {
+    "id": "four-seasons-portable-restrooms-mississauga-on",
+    "company_name": "Four Seasons Portable Restrooms",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "Mississauga",
+    "province": "Ontario",
+    "province_code": "ON",
+    "service_area": "2605 Summerville Ct, Mississauga, ON L4X 2W7",
+    "rating": 4.7,
+    "review_count": 42,
+    "website": "https://rent4seasons.com",
+    "phone": "+16478959884",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.84,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "lennex-temporary-fence-pickering-on",
+    "company_name": "Lennex Temporary Fence",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Pickering",
+    "province": "Ontario",
+    "province_code": "ON",
+    "service_area": "1984 Notion Rd L1V 1C9, Pickering, ON L1W 3R3",
+    "rating": 4.7,
+    "review_count": 30,
+    "website": "https://lennex.ca",
+    "phone": "+14169393122",
+    "badges": [
+      "Fence contractor"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "fence contractor"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": false,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "construction"
+    ],
+    "capabilities": [],
+    "operational_tags": [
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "jobsite_programs"
+    ],
+    "inferred_specialties": [],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ]
+  },
+  {
+    "id": "k-winter-sanitation-inc-innisfil-on",
+    "company_name": "K. Winter Sanitation Inc",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "Innisfil",
+    "province": "Ontario",
+    "province_code": "ON",
+    "service_area": "2816 6th Line, Innisfil, ON L9S 4S4",
+    "rating": 3,
+    "review_count": 29,
+    "website": "http://www.winsan.on.ca",
+    "phone": "+18002684729",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "pine-porta-potty-kingston-on",
+    "company_name": "Pine Porta Potty",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "Kingston",
+    "province": "Ontario",
+    "province_code": "ON",
+    "service_area": "50 Grant Timmins Dr Unit 3, Kingston, ON K7M 8N2",
+    "rating": 5,
+    "review_count": 27,
+    "website": "https://www.pinepp.ca",
+    "phone": "+16138177667",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "rental-save-bolton-on",
+    "company_name": "Rental Save",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "Bolton",
+    "province": "Ontario",
+    "province_code": "ON",
+    "service_area": "8100 Mayfield Rd, Bolton, ON L7E 0W2",
+    "rating": 4.5,
+    "review_count": 24,
+    "website": "https://rentalsave.ca",
+    "phone": "+14166713100",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "willscot-ca-on",
+    "company_name": "WillScot",
+    "primary_segment": "general",
+    "segment_key": "general",
+    "city": "CA",
+    "province": "Ontario",
+    "province_code": "ON",
+    "service_area": "73 Browns Line, Etobicoke, ON M8W 3S2",
+    "rating": 4.8,
+    "review_count": 24,
+    "website": "https://www.willscot.com/locations/details/toronto-east-on%3Futm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_campaign%3Dgbp-listing",
+    "phone": "+14162550805",
+    "badges": [
+      "Equipment rental agency"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": false,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "equipment rental agency"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": false,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "general"
+    ],
+    "capabilities": [],
+    "operational_tags": [
+      "source:badge_alignment"
+    ],
+    "service_types": [],
+    "inferred_specialties": [],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ]
+  },
+  {
+    "id": "room-to-go-inc-millgrove-on",
+    "company_name": "Room To Go Inc",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "Millgrove",
+    "province": "Ontario",
+    "province_code": "ON",
+    "service_area": "1031 Hwy 6, Millgrove, ON L8B 1M7",
+    "rating": 4.6,
+    "review_count": 20,
+    "website": "https://roomtogo.ca",
+    "phone": "+19056896389",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "stone-mills-portable-toilet-rentals-centreville-on",
+    "company_name": "Stone Mills Portable Toilet Rentals",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "Centreville",
+    "province": "Ontario",
+    "province_code": "ON",
+    "service_area": "Lennox and Addington County Rd 4, Centreville, ON K0K 1N0",
+    "rating": 4.6,
+    "review_count": 18,
+    "website": "http://www.smportabletoilets.com",
+    "phone": "+16139297773",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "go-to-ready-loo-brampton-on",
+    "company_name": "Go To Ready Loo",
+    "primary_segment": "general",
+    "segment_key": "general",
+    "city": "Brampton",
+    "province": "Ontario",
+    "province_code": "ON",
+    "service_area": "Yately St, Brampton, ON L7A 4R9",
+    "rating": 4.8,
+    "review_count": 16,
+    "website": "http://gotoreadyloo.ca",
+    "phone": "+16477066742",
+    "badges": [
+      "Tool rental service"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": false,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "tool rental service"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": false,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "general"
+    ],
+    "capabilities": [],
+    "operational_tags": [
+      "source:badge_alignment"
+    ],
+    "service_types": [],
+    "inferred_specialties": [],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ]
+  },
+  {
+    "id": "five-stars-portable-toilets-hamilton-on",
+    "company_name": "FIVE STARS PORTABLE TOILETS",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "Hamilton",
+    "province": "Ontario",
+    "province_code": "ON",
+    "service_area": "60 Beach Rd, Hamilton, ON L8L 8K3",
+    "rating": 4.3,
+    "review_count": 13,
+    "website": "https://www.fivestarstoilets.com",
+    "phone": "+19057193795",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "affordable-portables-st-williams-on",
+    "company_name": "Affordable Portables",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "St Williams",
+    "province": "Ontario",
+    "province_code": "ON",
+    "service_area": "1019 Front Rd, St Williams, ON N0E 1P0",
+    "rating": 4.3,
+    "review_count": 12,
+    "website": "https://e360s.ca/solid-waste-management/portable-washrooms",
+    "phone": "+18885863102",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "a-1-toilet-rentals-clarksburg-on",
+    "company_name": "A-1 Toilet Rentals",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "Clarksburg",
+    "province": "Ontario",
+    "province_code": "ON",
+    "service_area": "827464 Grey Rd 40, Clarksburg, ON N0H 1J0",
+    "rating": 4.3,
+    "review_count": 11,
+    "website": "http://www.a1toiletrentals.ca",
+    "phone": "+15195992859",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "centreline-sanitation-milton-on",
+    "company_name": "Centreline Sanitation",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "Milton",
+    "province": "Ontario",
+    "province_code": "ON",
+    "service_area": "104 Bronte St N, Milton, ON L9T 2N5",
+    "rating": 4.3,
+    "review_count": 11,
+    "website": "https://centrelinesanitation.com",
+    "phone": "+18554864538",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "tp-toilets-inc-ennismore-on",
+    "company_name": "TP Toilets Inc.",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "Ennismore",
+    "province": "Ontario",
+    "province_code": "ON",
+    "service_area": "14 Darling Dr, Ennismore, ON K0L 1T0",
+    "rating": 5,
+    "review_count": 11,
+    "website": "http://www.tptoilets.com",
+    "phone": "+17057404214",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "ampot-portable-toilets-gormley-on",
+    "company_name": "Ampot Portable Toilets",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "Gormley",
+    "province": "Ontario",
+    "province_code": "ON",
+    "service_area": "150 Ram Forest Rd, Gormley, ON L4A 2G8",
+    "rating": 2.4,
+    "review_count": 8,
+    "website": "https://ampot.ca",
+    "phone": "+18008241623",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "premium-portable-toilet-rentals-peterborough-on",
+    "company_name": "Premium Portable Toilet Rentals",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "Peterborough",
+    "province": "Ontario",
+    "province_code": "ON",
+    "service_area": "Erskine Ave, Peterborough, ON K9J 5T6",
+    "rating": 5,
+    "review_count": 8,
+    "website": "http://www.premiumtoiletrentals.ca",
+    "phone": "+17059771430",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "xpress-rental-solutions-inc-mississauga-on",
+    "company_name": "Xpress Rental Solutions Inc",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "Mississauga",
+    "province": "Ontario",
+    "province_code": "ON",
+    "service_area": "6660 Ordan Dr, Mississauga, ON L5T 1J7",
+    "rating": 5,
+    "review_count": 8,
+    "website": "https://www.xpressrentals.ca",
+    "phone": "+16479736825",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "nature-s-call-gormley-on",
+    "company_name": "Nature's Call",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "Gormley",
+    "province": "Ontario",
+    "province_code": "ON",
+    "service_area": "36 Cardico Dr, Gormley, ON L4A 2G5",
+    "rating": 3.9,
+    "review_count": 7,
+    "website": "https://naturescall.ca",
+    "phone": "+19057602400",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "the-jackpot-portable-sanitation-services-ca-on",
+    "company_name": "The Jackpot Portable Sanitation Services",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "CA",
+    "province": "Ontario",
+    "province_code": "ON",
+    "service_area": "77 Rivalda Rd, North York, ON M9M 2M6",
+    "rating": 5,
+    "review_count": 7,
+    "website": "http://thejackpot.ca",
+    "phone": "+14165615676",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "black-tie-toilets-ancaster-on",
+    "company_name": "Black Tie Toilets",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "Ancaster",
+    "province": "Ontario",
+    "province_code": "ON",
+    "service_area": "722 Shaver Rd, Ancaster, ON L9G 3K9",
+    "rating": 3.7,
+    "review_count": 6,
+    "website": "http://www.blacktietoilets.com",
+    "phone": "+14166749889",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "portable-toilet-rentals-pefferlaw-on",
+    "company_name": "Portable Toilet Rentals",
+    "primary_segment": "general",
+    "segment_key": "general",
+    "city": "Pefferlaw",
+    "province": "Ontario",
+    "province_code": "ON",
+    "service_area": "6420 Frog St, Pefferlaw, ON L0E 1N0",
+    "rating": 4.2,
+    "review_count": 6,
+    "website": "https://portabletoiletrentals.ca",
+    "phone": "+19057223276",
+    "badges": [
+      "Equipment supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": false,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "equipment supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": false,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "general"
+    ],
+    "capabilities": [],
+    "operational_tags": [
+      "source:badge_alignment"
+    ],
+    "service_types": [],
+    "inferred_specialties": [],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ]
+  },
+  {
+    "id": "throne-porta-potty-inc-ca-on",
+    "company_name": "Throne Porta Potty Inc",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "CA",
+    "province": "Ontario",
+    "province_code": "ON",
+    "service_area": "230 Milvan Dr, North York, ON M9L 2A5",
+    "rating": 5,
+    "review_count": 6,
+    "website": "https://throneportapotties.ca",
+    "phone": "+14168476810",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "black-tie-toilets-ltd-ca-on",
+    "company_name": "Black Tie Toilets Ltd",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "CA",
+    "province": "Ontario",
+    "province_code": "ON",
+    "service_area": "2001 Albion Rd, Etobicoke, ON M9W 6V6",
+    "rating": 3.4,
+    "review_count": 5,
+    "website": "https://www.blacktietoilets.com",
+    "phone": "+14166749889",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "environmental-360-solutions-ca-on",
+    "company_name": "Environmental 360 Solutions",
+    "primary_segment": "site_services",
+    "segment_key": "site_services",
+    "city": "CA",
+    "province": "Ontario",
+    "province_code": "ON",
+    "service_area": "425 Kipling Ave, Etobicoke, ON M8Z 5C7",
+    "rating": 2.6,
+    "review_count": 5,
+    "website": "https://e360s.ca/solid-waste-management/portable-washrooms",
+    "phone": "+14162520033",
+    "badges": [
+      "Waste management service"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": false,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "waste management service"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": true,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "site_services"
+    ],
+    "capabilities": [
+      "septic_service",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:fluid_services",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "fluid_handling_partnership",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Tank servicing & fluid partners",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ]
+  },
+  {
+    "id": "red-star-portable-hagersville-on",
+    "company_name": "Red Star Portable",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "Hagersville",
+    "province": "Ontario",
+    "province_code": "ON",
+    "service_area": "302 Army Camp Rd, Hagersville, ON N0A 1H0",
+    "rating": 5,
+    "review_count": 5,
+    "website": "https://www.facebook.com/redstarportables%3Fmibextid%3DLQQJ4dp",
+    "phone": "+19057683452",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "kaneco-group-premium-portable-washroom-rentals-blacks-on",
+    "company_name": "Kaneco Group - Premium Portable Washroom Rentals",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "Blackstock",
+    "province": "Ontario",
+    "province_code": "ON",
+    "service_area": "14580 Old Scugog Rd, Blackstock, ON L0B 1B0",
+    "rating": 5,
+    "review_count": 4,
+    "website": "http://www.kanecogroup.com",
+    "phone": "+19059143271",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "halco-portable-washrooms-brantford-on",
+    "company_name": "HALCO Portable Washrooms",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "Brantford",
+    "province": "Ontario",
+    "province_code": "ON",
+    "service_area": "47 Ewart Ave, Brantford, ON N3S 0H4",
+    "rating": 5,
+    "review_count": 3,
+    "website": "https://www.halcomobile.com",
+    "phone": "+18666958644",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "markle-s-pumping-service-waterdown-on",
+    "company_name": "Markle's Pumping Service",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "Waterdown",
+    "province": "Ontario",
+    "province_code": "ON",
+    "service_area": "526 Concession 5 W, Waterdown, ON L8B 1L5",
+    "rating": 5,
+    "review_count": 3,
+    "website": "http://www.marklespumpingservice.com",
+    "phone": "+19056893693",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "pitton-plumbing-portable-sanitation-hamilton-on",
+    "company_name": "Pitton Plumbing Portable Sanitation",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "Hamilton",
+    "province": "Ontario",
+    "province_code": "ON",
+    "service_area": "566 Rennie St, Hamilton, ON L8H 3P5",
+    "rating": 3.7,
+    "review_count": 3,
+    "website": "https://www.pittonplumbing.com/portable-toilets",
+    "phone": "+19055440006",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "event-ready-restrooms-st-thomas-on",
+    "company_name": "Event Ready Restrooms",
+    "primary_segment": "event",
+    "segment_key": "event",
+    "city": "St Thomas",
+    "province": "Ontario",
+    "province_code": "ON",
+    "service_area": "42703 Southdale Line, St Thomas, ON N5R 1C1",
+    "rating": 5,
+    "review_count": 2,
+    "website": "http://eventreadyrestrooms.ca",
+    "phone": "+15199330014",
+    "badges": [
+      "Wedding service"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": false,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "wedding service"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": false,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "event"
+    ],
+    "capabilities": [
+      "luxury_trailers"
+    ],
+    "operational_tags": [
+      "badge_signal:event_posture",
+      "category:event_services",
+      "source:badge_alignment"
+    ],
+    "service_types": [],
+    "inferred_specialties": [],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Event-oriented restroom trailer positioning — confirm footprint and pump windows."
+    ]
+  },
+  {
+    "id": "the-jackpot-portable-sanitation-services-courtice-on",
+    "company_name": "The Jackpot Portable Sanitation Services",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "Courtice",
+    "province": "Ontario",
+    "province_code": "ON",
+    "service_area": "9 Courtice Ct, Courtice, ON L1E 2T4",
+    "rating": 5,
+    "review_count": 2,
+    "website": "https://thejackpot.ca",
+    "phone": "+16479157874",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "huron-toilet-rentals-ltd-goderich-on",
+    "company_name": "Huron Toilet Rentals Ltd.",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "Goderich",
+    "province": "Ontario",
+    "province_code": "ON",
+    "service_area": "79905B Pondsview Rd, Goderich, ON N7A 3X8",
+    "rating": 5,
+    "review_count": 1,
+    "website": "https://hurontoiletrentals.com",
+    "phone": "+15194417473",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "m-g-portables-inc-new-hamburg-on",
+    "company_name": "M & G Portables Inc.",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "New Hamburg",
+    "province": "Ontario",
+    "province_code": "ON",
+    "service_area": "2510 Nafziger Rd, New Hamburg, ON N3A 3H1",
+    "rating": 5,
+    "review_count": 1,
+    "website": "http://m-and-g-portable-toilets.com",
+    "phone": "+15196348112",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "gt-portable-toilet-rental-inc-ca-on",
+    "company_name": "GT Portable Toilet Rental Inc",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "CA",
+    "province": "Ontario",
+    "province_code": "ON",
+    "service_area": "38 Metropolitan Rd, Scarborough, ON M1R 2T6",
+    "rating": 0,
+    "review_count": 0,
+    "website": "http://gtportabletoilets.com",
+    "phone": "+18009106452",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "ottawa-luxury-bathroom-trailers-ottawa-on",
+    "company_name": "Ottawa Luxury Bathroom Trailers",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "Ottawa",
+    "province": "Ontario",
+    "province_code": "ON",
+    "service_area": "7827 Jock Trail, Ottawa, ON K0A 2Z0",
+    "rating": 0,
+    "review_count": 0,
+    "website": "https://www.ottawaluxurybathroomtrailers.com",
+    "phone": "+13437004525",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "platinum-vip-portables-wedding-special-event-washroom-on",
+    "company_name": "Platinum VIP Portables - Wedding, Special Event Washroom Rentals",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "Welland",
+    "province": "Ontario",
+    "province_code": "ON",
+    "service_area": "42 Clark St Unit 2, Welland, ON L3B 5W6",
+    "rating": 0,
+    "review_count": 0,
+    "website": "https://platinumvipportables.ca",
+    "phone": "+19055633908",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  }
+]

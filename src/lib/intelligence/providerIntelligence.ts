@@ -60,6 +60,11 @@ export function buildProviderIntelligence(
       'Short-term drops depend on route density — specify access constraints up front.',
     )
   }
+  if (context.activeSegment === 'site_services') {
+    operationalFitNotes.push(
+      'Confirm which trades are in scope — septic, roll-off, disposal hauls, and washrooms may schedule separately.',
+    )
+  }
 
   const legacySubtle: string[] = []
   if (context.activeSegment === 'oilfield' && provider.winter_service) {

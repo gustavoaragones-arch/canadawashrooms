@@ -23,8 +23,8 @@ export function providersInScope(
   )
 }
 
-/** Province-wide tally for landing/editorial copy — primary or corroborated segment signals. */
-export function countAlbertaSegmentCoverage(
+/** Dataset tally for landing/editorial copy — primary or corroborated segment signals. */
+export function countSegmentCoverage(
   providers: Provider[],
   segment: PrimarySegment,
 ): number {
@@ -76,13 +76,19 @@ function inferredAlignmentScore(p: Provider, segment: PrimarySegment): number {
   if (segment === 'construction' && p.capabilities.includes('weekly_service')) s += 28
   if (segment === 'construction' && p.construction_ready) s += 22
   if (segment === 'general' && p.ada_accessible) s += 20
+  if (segment === 'site_services' && p.septic_service) s += 40
+  if (segment === 'site_services' && (p.site_support || p.roll_off_disposal)) s += 32
   if (p.inferred_specialties.length) {
     s += Math.min(p.inferred_specialties.length * 7, 28)
   }
   return s
 }
 
-/** Internal composite ranking — not shown as a numeric score in UI. */
+/**
+ * Internal composite ranking — not shown as a numeric score in UI.
+ * Landing flows pass a **city-scoped** pool (`providersInScope`), so ordering reflects
+ * operational fit in that geography, not consolidation across a parent organization.
+ */
 export function internalRankScore(
   p: Provider,
   segment: PrimarySegment,

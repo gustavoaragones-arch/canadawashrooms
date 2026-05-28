@@ -1,4 +1,5 @@
 import type { NormalizedReview } from './reviews'
+import type { OperationalRelationshipHooks } from './operationalRelationships'
 import type { ProviderListingProvenance } from './providerVerification'
 
 export type PrimarySegment =
@@ -6,6 +7,7 @@ export type PrimarySegment =
   | 'event'
   | 'oilfield'
   | 'general'
+  | 'site_services'
 
 /** Capability keys used by segment-specific filters (boolean on provider). */
 export type FilterCapability =
@@ -21,6 +23,8 @@ export type FilterCapability =
   | 'camp_support'
   | 'ada_accessible'
   | 'septic_service'
+  | 'site_support'
+  | 'roll_off_disposal'
 
 export type OperatorScale = 'solo' | 'small' | 'regional' | 'multi_route'
 
@@ -53,11 +57,20 @@ export interface ManualEnrichmentOverrides extends InferenceOverrideShape {
   curated_specialties?: string[]
 }
 
+/** ISO province codes for Canada. Extend as provinces are added. */
+export type ProvinceCode = 'AB' | 'ON' | 'BC'
+
 export interface ProviderCore {
   id: string
   company_name: string
   primary_segment: PrimarySegment
+  /** Stable internal segment key — same as primary_segment; alias kept for explicit dataset reads. */
+  segment_key?: PrimarySegment
   city: string
+  /** Full province name, e.g. "Alberta". */
+  province?: string
+  /** ISO province code, e.g. "AB". Required in national dataset rows. */
+  province_code?: ProvinceCode
   service_area: string
   rating: number
   review_count: number
@@ -78,9 +91,11 @@ export interface ProviderCore {
   remote_support?: boolean
   camp_support?: boolean
   septic_service?: boolean
+  site_support?: boolean
+  roll_off_disposal?: boolean
 }
 
-export interface ProviderEnrichment {
+export interface ProviderEnrichment extends OperationalRelationshipHooks {
   primary_segment_confidence: number
   supported_segments: PrimarySegment[]
   capabilities: string[]

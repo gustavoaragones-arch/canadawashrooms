@@ -1,5 +1,4 @@
 export {
-  duplicateReviewCandidatePairs,
   providersMissingPhone,
   providersMissingSegmentConfidenceLock,
   providersMissingTrustSignals,
@@ -8,4 +7,4 @@ export {
   providersWithWeakMetadata,
   weakProviderRecords,
 } from './providerDatasetQa'
-export { dedupeKeyParts } from './suspiciousDuplicates'
+export { dedupeKeyParts, operationalNodeKeyParts } from './suspiciousDuplicates'

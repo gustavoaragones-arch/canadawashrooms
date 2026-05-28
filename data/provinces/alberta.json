@@ -1,0 +1,3227 @@
+[
+  {
+    "id": "vibe-event-rentals-calgary-ab",
+    "company_name": "VIBE Event Rentals",
+    "primary_segment": "general",
+    "segment_key": "general",
+    "city": "Calgary",
+    "province": "Alberta",
+    "province_code": "AB",
+    "service_area": "218106 66 St E, Calgary, AB T1S 3V5",
+    "rating": 4.9,
+    "review_count": 320,
+    "website": "https://viberentals.ca/event-sanitation",
+    "phone": "+14037356133",
+    "badges": [
+      "Tent rental service"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": false,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "tent rental service"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": false,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.84,
+    "supported_segments": [
+      "general"
+    ],
+    "capabilities": [],
+    "operational_tags": [
+      "source:badge_alignment"
+    ],
+    "service_types": [],
+    "inferred_specialties": [],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "review_volume_signal",
+      "rating_consistency_signal",
+      "listed_web_presence"
+    ],
+    "response_priority": "priority_field",
+    "operator_scale": "multi_route",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Review volume supports repeat-use validation — still confirm servicing scope directly.",
+      "Rating pattern is steady enough to treat reviews as a meaningful signal.",
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ]
+  },
+  {
+    "id": "super-save-group-calgary-ab",
+    "company_name": "Super Save Group",
+    "primary_segment": "site_services",
+    "segment_key": "site_services",
+    "city": "Calgary",
+    "province": "Alberta",
+    "province_code": "AB",
+    "service_area": "6025 90 Ave SE, Calgary, AB T2C 4Z6",
+    "rating": 2.6,
+    "review_count": 162,
+    "website": "https://supersave.ca/super-save-toilet-rentals/portable-washroom-trailer-rentals",
+    "phone": "+14035904011",
+    "badges": [
+      "Waste management service"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": false,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "waste management service"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": true,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.84,
+    "supported_segments": [
+      "site_services"
+    ],
+    "capabilities": [
+      "septic_service",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:fluid_services",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "fluid_handling_partnership",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Tank servicing & fluid partners",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "regional",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ]
+  },
+  {
+    "id": "avalanche-waste-management-inc-calgary-ab",
+    "company_name": "Avalanche Waste Management Inc.",
+    "primary_segment": "site_services",
+    "segment_key": "site_services",
+    "city": "Calgary",
+    "province": "Alberta",
+    "province_code": "AB",
+    "service_area": "2419 52 Ave SE Unit #1, Calgary, AB T2C 4X7",
+    "rating": 4.9,
+    "review_count": 124,
+    "website": "https://avalanchewm.com/portable-toilets-calgary",
+    "phone": "+14034611677",
+    "badges": [
+      "Waste management service"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": false,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "waste management service"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": true,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.84,
+    "supported_segments": [
+      "site_services"
+    ],
+    "capabilities": [
+      "septic_service",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:fluid_services",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "fluid_handling_partnership",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Tank servicing & fluid partners",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "rating_consistency_signal",
+      "listed_web_presence"
+    ],
+    "response_priority": "elevated",
+    "operator_scale": "small",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Rating pattern is steady enough to treat reviews as a meaningful signal.",
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ]
+  },
+  {
+    "id": "rockbox-structures-nisku-ab",
+    "company_name": "Rockbox Structures",
+    "primary_segment": "general",
+    "segment_key": "general",
+    "city": "Nisku",
+    "province": "Alberta",
+    "province_code": "AB",
+    "service_area": "706 11 Ave, Nisku, AB T9E 7R3",
+    "rating": 4.7,
+    "review_count": 98,
+    "website": "https://www.rockbox.ca/categories/mobile-washrooms",
+    "phone": "+18447625269",
+    "badges": [
+      "Container supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": false,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "container supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": false,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.84,
+    "supported_segments": [
+      "general"
+    ],
+    "capabilities": [],
+    "operational_tags": [
+      "source:badge_alignment"
+    ],
+    "service_types": [],
+    "inferred_specialties": [],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "elevated",
+    "operator_scale": "small",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ]
+  },
+  {
+    "id": "super-save-group-edmonton-ab",
+    "company_name": "Super Save Group",
+    "primary_segment": "site_services",
+    "segment_key": "site_services",
+    "city": "Edmonton",
+    "province": "Alberta",
+    "province_code": "AB",
+    "service_area": "1625 90 Ave, Edmonton, AB T6P 0E2",
+    "rating": 2.7,
+    "review_count": 94,
+    "website": "https://supersave.ca/super-save-toilet-rentals/portable-washroom-trailer-rentals",
+    "phone": "+17804264618",
+    "badges": [
+      "Waste management service"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": false,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "waste management service"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": true,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.84,
+    "supported_segments": [
+      "site_services"
+    ],
+    "capabilities": [
+      "septic_service",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:fluid_services",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "fluid_handling_partnership",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Tank servicing & fluid partners",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "small",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ]
+  },
+  {
+    "id": "rhino-calgary-ab",
+    "company_name": "Rhino",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Calgary",
+    "province": "Alberta",
+    "province_code": "AB",
+    "service_area": "230 40 Ave NE, Calgary, AB T2E 2M7",
+    "rating": 5,
+    "review_count": 64,
+    "website": "https://rhinowaste.ca/calgary-porta-potties",
+    "phone": "+14032416991",
+    "badges": [
+      "Construction equipment supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "construction equipment supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": false,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.84,
+    "supported_segments": [
+      "construction"
+    ],
+    "capabilities": [],
+    "operational_tags": [
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "jobsite_programs"
+    ],
+    "inferred_specialties": [],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "small",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ]
+  },
+  {
+    "id": "fenceline-rentals-ltd-acheson-ab",
+    "company_name": "Fenceline Rentals Ltd.",
+    "primary_segment": "general",
+    "segment_key": "general",
+    "city": "Acheson",
+    "province": "Alberta",
+    "province_code": "AB",
+    "service_area": "9871 279 St #112, Acheson, AB T7X 6J4",
+    "rating": 4.3,
+    "review_count": 63,
+    "website": "https://fenceline.ca",
+    "phone": "+17807206300",
+    "badges": [
+      "Equipment rental agency"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": false,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "equipment rental agency"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": false,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.84,
+    "supported_segments": [
+      "general"
+    ],
+    "capabilities": [],
+    "operational_tags": [
+      "source:badge_alignment"
+    ],
+    "service_types": [],
+    "inferred_specialties": [],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "small",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ]
+  },
+  {
+    "id": "heartland-disposal-recycling-ltd-edmonton-ab",
+    "company_name": "Heartland Disposal & Recycling Ltd",
+    "primary_segment": "site_services",
+    "segment_key": "site_services",
+    "city": "Edmonton",
+    "province": "Alberta",
+    "province_code": "AB",
+    "service_area": "7730 18 St NW, Edmonton, AB T6P 1Y6",
+    "rating": 4.4,
+    "review_count": 49,
+    "website": "https://heartlanddisposal.ca/portable-toilets",
+    "phone": "+17804406613",
+    "badges": [
+      "Waste management service"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": false,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "waste management service"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": true,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.84,
+    "supported_segments": [
+      "site_services"
+    ],
+    "capabilities": [
+      "septic_service",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:fluid_services",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "fluid_handling_partnership",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Tank servicing & fluid partners",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "small",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ]
+  },
+  {
+    "id": "mr-p-potty-ltd-cochrane-ab",
+    "company_name": "Mr. P. Potty Ltd.",
+    "primary_segment": "site_services",
+    "segment_key": "site_services",
+    "city": "Cochrane",
+    "province": "Alberta",
+    "province_code": "AB",
+    "service_area": "131 2 Ave E, Cochrane, AB T4C 2B9",
+    "rating": 4.2,
+    "review_count": 41,
+    "website": "https://mrppotty.com",
+    "phone": "+14039323352",
+    "badges": [
+      "Septic system service"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": false,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "septic system service"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": true,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.84,
+    "supported_segments": [
+      "site_services"
+    ],
+    "capabilities": [
+      "septic_service",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:fluid_services",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "fluid_handling_partnership",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Tank servicing & fluid partners",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ]
+  },
+  {
+    "id": "united-rentals-calgary-ab",
+    "company_name": "United Rentals",
+    "primary_segment": "general",
+    "segment_key": "general",
+    "city": "Calgary",
+    "province": "Alberta",
+    "province_code": "AB",
+    "service_area": "7120 Blackfoot Trl SE, Calgary, AB T2H 2M1",
+    "rating": 3.8,
+    "review_count": 39,
+    "website": "https://www.unitedrentals.com/marketplace/equipment/portable-restrooms-sanitation-equipment",
+    "phone": "+14032303900",
+    "badges": [
+      "Equipment rental agency"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": false,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "equipment rental agency"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": false,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "general"
+    ],
+    "capabilities": [],
+    "operational_tags": [
+      "source:badge_alignment"
+    ],
+    "service_types": [],
+    "inferred_specialties": [],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ]
+  },
+  {
+    "id": "portabins-calgary-ab",
+    "company_name": "PortaBins",
+    "primary_segment": "site_services",
+    "segment_key": "site_services",
+    "city": "Calgary",
+    "province": "Alberta",
+    "province_code": "AB",
+    "service_area": "5115 76 Ave SE #4, Calgary, AB T2C 3C6",
+    "rating": 5,
+    "review_count": 38,
+    "website": "https://www.portabins.com",
+    "phone": "+18666767822",
+    "badges": [
+      "Dumpster rental service"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": false,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "dumpster rental service"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": true,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "site_services"
+    ],
+    "capabilities": [
+      "roll_off_disposal",
+      "site_support"
+    ],
+    "operational_tags": [
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support",
+      "roll_off_disposal_program"
+    ],
+    "inferred_specialties": [
+      "Multi-trade site servicing",
+      "Roll-off & disposal coordination"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ]
+  },
+  {
+    "id": "pit-stop-portable-toilet-services-calgary-ab",
+    "company_name": "Pit Stop Portable Toilet Services",
+    "primary_segment": "site_services",
+    "segment_key": "site_services",
+    "city": "Calgary",
+    "province": "Alberta",
+    "province_code": "AB",
+    "service_area": "4840 90 Ave SE, Calgary, AB T2C 2T1",
+    "rating": 2.8,
+    "review_count": 34,
+    "website": "http://pitstopportables.com",
+    "phone": "+14032736521",
+    "badges": [
+      "Waste management service"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": false,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "waste management service"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": true,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "site_services"
+    ],
+    "capabilities": [
+      "septic_service",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:fluid_services",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "fluid_handling_partnership",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Tank servicing & fluid partners",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ]
+  },
+  {
+    "id": "united-rentals-calgary-ab",
+    "company_name": "United Rentals",
+    "primary_segment": "general",
+    "segment_key": "general",
+    "city": "Calgary",
+    "province": "Alberta",
+    "province_code": "AB",
+    "service_area": "4915 43 St SE, Calgary, AB T2B 3N4",
+    "rating": 4.7,
+    "review_count": 27,
+    "website": "https://www.unitedrentals.com/marketplace/equipment/portable-restrooms-sanitation-equipment",
+    "phone": "+14032473300",
+    "badges": [
+      "Equipment rental agency"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": false,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "equipment rental agency"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": false,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "general"
+    ],
+    "capabilities": [],
+    "operational_tags": [
+      "source:badge_alignment"
+    ],
+    "service_types": [],
+    "inferred_specialties": [],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ]
+  },
+  {
+    "id": "handi-can-2003-ltd-spruce-grove-ab",
+    "company_name": "Handi-Can (2003) Ltd",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "Spruce Grove",
+    "province": "Alberta",
+    "province_code": "AB",
+    "service_area": "327 Saskatchewan Ave, Spruce Grove, AB T7X 3B3",
+    "rating": 4.3,
+    "review_count": 25,
+    "website": "https://handican.ca",
+    "phone": "+17809629400",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "1st-choice-construction-waste-removal-edmonton-ab",
+    "company_name": "1st Choice Construction Waste Removal",
+    "primary_segment": "site_services",
+    "segment_key": "site_services",
+    "city": "Edmonton",
+    "province": "Alberta",
+    "province_code": "AB",
+    "service_area": "11230 228 St NW, Edmonton, AB T5S 2B7",
+    "rating": 4.7,
+    "review_count": 24,
+    "website": "https://www.1stccss.com/services/portable-toilet-services",
+    "phone": "+17802679321",
+    "badges": [
+      "Waste management service"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": false,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "waste management service"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": true,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "site_services"
+    ],
+    "capabilities": [
+      "septic_service",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:fluid_services",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "fluid_handling_partnership",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Tank servicing & fluid partners",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ]
+  },
+  {
+    "id": "go-services-inc-red-deer-ab",
+    "company_name": "Go Services Inc.",
+    "primary_segment": "site_services",
+    "segment_key": "site_services",
+    "city": "Red Deer",
+    "province": "Alberta",
+    "province_code": "AB",
+    "service_area": "8164 Edgar Industrial Close, Red Deer, AB T4P 3R4",
+    "rating": 4.4,
+    "review_count": 24,
+    "website": "https://www.goservicesinc.ca",
+    "phone": "+14033429950",
+    "badges": [
+      "Waste management service"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": false,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "waste management service"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": true,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "site_services"
+    ],
+    "capabilities": [
+      "septic_service",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:fluid_services",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "fluid_handling_partnership",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Tank servicing & fluid partners",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ]
+  },
+  {
+    "id": "little-jon-s-portable-toilet-rentals-red-deer-ab",
+    "company_name": "Little Jon's Portable Toilet Rentals",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "Red Deer",
+    "province": "Alberta",
+    "province_code": "AB",
+    "service_area": "4883 Chiles Industrial Link, Red Deer, AB T4S 2A3",
+    "rating": 3.2,
+    "review_count": 21,
+    "website": "https://littlejons.ca",
+    "phone": "+14033426198",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "willscot-calgary-ab",
+    "company_name": "WillScot",
+    "primary_segment": "general",
+    "segment_key": "general",
+    "city": "Calgary",
+    "province": "Alberta",
+    "province_code": "AB",
+    "service_area": "4000 84 St SE, Calgary, AB T1X 1Y3",
+    "rating": 4.4,
+    "review_count": 21,
+    "website": "https://www.willscot.com/locations/details/calgary-ab-storage%3Futm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_campaign%3Dgbp-listing",
+    "phone": "+14032525996",
+    "badges": [
+      "Equipment rental agency"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": false,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "equipment rental agency"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": false,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "general"
+    ],
+    "capabilities": [],
+    "operational_tags": [
+      "source:badge_alignment"
+    ],
+    "service_types": [],
+    "inferred_specialties": [],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ]
+  },
+  {
+    "id": "the-garbage-good-guys-calgary-ab",
+    "company_name": "The Garbage Good Guys",
+    "primary_segment": "general",
+    "segment_key": "general",
+    "city": "Calgary",
+    "province": "Alberta",
+    "province_code": "AB",
+    "service_area": "5512 5 St NW, Calgary, AB T2K 6J1",
+    "rating": 2.5,
+    "review_count": 20,
+    "website": "http://www.garbagegoodguys.com",
+    "phone": "+14032387274",
+    "badges": [
+      "Garbage collection service"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": false,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "garbage collection service"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": false,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "general"
+    ],
+    "capabilities": [],
+    "operational_tags": [
+      "source:badge_alignment"
+    ],
+    "service_types": [],
+    "inferred_specialties": [],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ]
+  },
+  {
+    "id": "eh-royal-flush-portable-toilets-ardrossan-ab",
+    "company_name": "Eh! Royal Flush Portable Toilets",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "Ardrossan",
+    "province": "Alberta",
+    "province_code": "AB",
+    "service_area": "53479 Range Rd 211, Ardrossan, AB T8G 2B7",
+    "rating": 4.8,
+    "review_count": 19,
+    "website": "http://www.ehroyalflush.ca",
+    "phone": "+17807298333",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "rhino-calgary-ab",
+    "company_name": "Rhino",
+    "primary_segment": "site_services",
+    "segment_key": "site_services",
+    "city": "Calgary",
+    "province": "Alberta",
+    "province_code": "AB",
+    "service_area": "36 Arbour Vista Way NW, Calgary, AB T3G 4R1",
+    "rating": 4.5,
+    "review_count": 17,
+    "website": "https://rhinowaste.ca/calgary-porta-potties",
+    "phone": "+14032416991",
+    "badges": [
+      "Waste management service"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": false,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "waste management service"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": true,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "site_services"
+    ],
+    "capabilities": [
+      "septic_service",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:fluid_services",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "fluid_handling_partnership",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Tank servicing & fluid partners",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ]
+  },
+  {
+    "id": "abc-waste-management-potties-ltd-calgary-ab",
+    "company_name": "ABC Waste Management/Potties Ltd.",
+    "primary_segment": "site_services",
+    "segment_key": "site_services",
+    "city": "Calgary",
+    "province": "Alberta",
+    "province_code": "AB",
+    "service_area": "3020 52 St. SE, Calgary, AB T2B 1N2",
+    "rating": 3.6,
+    "review_count": 14,
+    "website": "http://www.abcwaste.ca",
+    "phone": "+14032176112",
+    "badges": [
+      "Waste management service"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": false,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "waste management service"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": true,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "site_services"
+    ],
+    "capabilities": [
+      "septic_service",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:fluid_services",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "fluid_handling_partnership",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Tank servicing & fluid partners",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ]
+  },
+  {
+    "id": "duty-calls-portables-ltd-okotoks-ab",
+    "company_name": "Duty Calls Portables Ltd.",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "Okotoks",
+    "province": "Alberta",
+    "province_code": "AB",
+    "service_area": "64062 393 Ave E, Okotoks, AB T1S 0L1",
+    "rating": 5,
+    "review_count": 13,
+    "website": "http://www.dutycallsportables.com",
+    "phone": "+14036161089",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "fenceline-rentals-ltd-calgary-calgary-ab",
+    "company_name": "Fenceline Rentals Ltd. Calgary",
+    "primary_segment": "general",
+    "segment_key": "general",
+    "city": "Calgary",
+    "province": "Alberta",
+    "province_code": "AB",
+    "service_area": "9889 54th St SE, Calgary, AB T2C 5J4",
+    "rating": 5,
+    "review_count": 12,
+    "website": "https://fenceline.ca",
+    "phone": "+17807206300",
+    "badges": [
+      "Equipment rental agency"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": false,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "equipment rental agency"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": false,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "general"
+    ],
+    "capabilities": [],
+    "operational_tags": [
+      "source:badge_alignment"
+    ],
+    "service_types": [],
+    "inferred_specialties": [],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ]
+  },
+  {
+    "id": "gallason-industrial-cleaning-services-inc-fort-saskat-ab",
+    "company_name": "Gallason Industrial Cleaning Services Inc",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "Fort Saskatchewan",
+    "province": "Alberta",
+    "province_code": "AB",
+    "service_area": "11212 87 Ave, Fort Saskatchewan, AB T8L 2S4",
+    "rating": 4.2,
+    "review_count": 10,
+    "website": "https://www.gallason.com",
+    "phone": "+17809987773",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "p-cann-edmonton-ab",
+    "company_name": "P-Cann",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "Edmonton",
+    "province": "Alberta",
+    "province_code": "AB",
+    "service_area": "5302 72a Ave NW, Edmonton, AB T6B 2H9",
+    "rating": 4.8,
+    "review_count": 9,
+    "website": "https://pcannservices.ca",
+    "phone": "+17804341924",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "range-services-sherwood-park-ab",
+    "company_name": "RANGE SERVICES",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "Sherwood Park",
+    "province": "Alberta",
+    "province_code": "AB",
+    "service_area": "53113 AB-21, Sherwood Park, AB T8A 4T7",
+    "rating": 5,
+    "review_count": 9,
+    "website": "https://www.rangeservices.ca",
+    "phone": "+17805073333",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "alberta-trailer-rentals-calgary-ab",
+    "company_name": "Alberta Trailer Rentals",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "Calgary",
+    "province": "Alberta",
+    "province_code": "AB",
+    "service_area": "2312 52 Ave SE, Calgary, AB T2V 2R3",
+    "rating": 5,
+    "review_count": 8,
+    "website": "http://www.albertatrailerrentals.com",
+    "phone": "+14032352211",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "go-services-inc-fort-mcmurray-ab",
+    "company_name": "Go Services Inc.",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "Fort McMurray",
+    "province": "Alberta",
+    "province_code": "AB",
+    "service_area": "260 Mackay Crescent, Fort McMurray, AB T9H 4G1",
+    "rating": 2.7,
+    "review_count": 7,
+    "website": "https://goservicesinc.ca",
+    "phone": "+17807919914",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "solv-x-enterprises-inc-edmonton-ab",
+    "company_name": "SOLV.X Enterprises Inc.",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "Edmonton",
+    "province": "Alberta",
+    "province_code": "AB",
+    "service_area": "6805 Whyte Ave NW, Edmonton, AB T6B 0E9",
+    "rating": 4.4,
+    "review_count": 7,
+    "website": "https://www.solvxinc.com",
+    "phone": "+17804387189",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "pioneer-sanitary-solutions-ltd-edmonton-ab",
+    "company_name": "Pioneer Sanitary Solutions Ltd.",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "Edmonton",
+    "province": "Alberta",
+    "province_code": "AB",
+    "service_area": "9520 51 Ave NW, Edmonton, AB T6E 5A6",
+    "rating": 4.3,
+    "review_count": 6,
+    "website": "http://pioneersanitarysolutions.ca",
+    "phone": "+18447487368",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "mcneely-co-rentals-olds-ab",
+    "company_name": "McNeely co. Rentals",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "Olds",
+    "province": "Alberta",
+    "province_code": "AB",
+    "service_area": "5606 51 St, Olds, AB T4H 1H9",
+    "rating": 5,
+    "review_count": 4,
+    "website": "https://www.mcneelycorentals.com",
+    "phone": "+14035598034",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "canmasters-inc-red-deer-ab",
+    "company_name": "Canmasters Inc.",
+    "primary_segment": "general",
+    "segment_key": "general",
+    "city": "Red Deer",
+    "province": "Alberta",
+    "province_code": "AB",
+    "service_area": "4883 Chiles Industrial Link, Red Deer, AB T4P 2B6",
+    "rating": 3.7,
+    "review_count": 3,
+    "website": "http://www.canmasters.ca",
+    "phone": "+14033421582",
+    "badges": [
+      "Equipment supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": false,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "equipment supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": false,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "general"
+    ],
+    "capabilities": [],
+    "operational_tags": [
+      "source:badge_alignment"
+    ],
+    "service_types": [],
+    "inferred_specialties": [],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ]
+  },
+  {
+    "id": "frontline-rentals-div-of-combat-spraying-stettler-ab",
+    "company_name": "Frontline Rentals DIV of Combat Spraying",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "Stettler",
+    "province": "Alberta",
+    "province_code": "AB",
+    "service_area": "4904 44 Ave, Stettler, AB T0C 2L1",
+    "rating": 5,
+    "review_count": 2,
+    "website": "https://combatspraying.com",
+    "phone": "+14037419355",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "rangeland-event-restrooms-rocky-view-county-ab",
+    "company_name": "Rangeland Event Restrooms",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "Rocky View County",
+    "province": "Alberta",
+    "province_code": "AB",
+    "service_area": "292184 Crosspointe Rd, Rocky View County, AB T4A 0W2",
+    "rating": 3,
+    "review_count": 2,
+    "website": "http://rangelandeventrestrooms.com",
+    "phone": "+18775257787",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "remote-group-grande-prairie-county-no-1-ab",
+    "company_name": "Remote Group",
+    "primary_segment": "general",
+    "segment_key": "general",
+    "city": "Grande Prairie County No. 1",
+    "province": "Alberta",
+    "province_code": "AB",
+    "service_area": "60051 HWY 668 #20, Grande Prairie County No. 1, AB T8W 5A8",
+    "rating": 3,
+    "review_count": 2,
+    "website": "https://www.remotegroup.ca",
+    "phone": "+17805373011",
+    "badges": [
+      "Sewage treatment plant"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": false,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "sewage treatment plant"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": false,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "general"
+    ],
+    "capabilities": [],
+    "operational_tags": [
+      "source:badge_alignment"
+    ],
+    "service_types": [],
+    "inferred_specialties": [],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ]
+  },
+  {
+    "id": "alberta-toilets-septic-services-evansburg-ab",
+    "company_name": "Alberta Toilets & Septic Services",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "Evansburg",
+    "province": "Alberta",
+    "province_code": "AB",
+    "service_area": "54510 Range Rd 75, Evansburg, AB T0E 0T0",
+    "rating": 5,
+    "review_count": 1,
+    "website": "https://www.albertatoilets.ca",
+    "phone": "+17808936212",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "bear-creek-rentals-inc-fox-creek-ab",
+    "company_name": "Bear Creek Rentals Inc.",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "Fox Creek",
+    "province": "Alberta",
+    "province_code": "AB",
+    "service_area": "104 1 Ave, Fox Creek, AB T0H 1P0",
+    "rating": 5,
+    "review_count": 1,
+    "website": "http://bearcreekrentals.ca",
+    "phone": "+17806225450",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "big-rock-waste-disposal-and-rentals-rocky-mountain-ho-ab",
+    "company_name": "Big Rock Waste Disposal and Rentals",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "Rocky Mountain House",
+    "province": "Alberta",
+    "province_code": "AB",
+    "service_area": "385050 48 Street, 385050 Rge Rd 6 #1, Rocky Mountain House, AB T4T 1A9",
+    "rating": 5,
+    "review_count": 1,
+    "website": "http://bigrockwastedisposal.ca",
+    "phone": "+14038454612",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "buckaday-toilets-drayton-valley-ab",
+    "company_name": "Buckaday Toilets",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "Drayton Valley",
+    "province": "Alberta",
+    "province_code": "AB",
+    "service_area": "6225 54 Ave, Drayton Valley, AB T7A 1C4",
+    "rating": 5,
+    "review_count": 1,
+    "website": "https://buckadaytoilets.com",
+    "phone": "+17808982210",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "f5-services-hardisty-ab",
+    "company_name": "f5 services",
+    "primary_segment": "site_services",
+    "segment_key": "site_services",
+    "city": "Hardisty",
+    "province": "Alberta",
+    "province_code": "AB",
+    "service_area": "Box 169, Hardisty, AB T0B 1V0",
+    "rating": 5,
+    "review_count": 1,
+    "website": "http://f5services.ca",
+    "phone": "+17808882500",
+    "badges": [
+      "Septic system service"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": false,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "septic system service"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": true,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "site_services"
+    ],
+    "capabilities": [
+      "septic_service",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:fluid_services",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "fluid_handling_partnership",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Tank servicing & fluid partners",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ]
+  },
+  {
+    "id": "p-cann-services-edmonton-ab",
+    "company_name": "P-CANN Services",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "Edmonton",
+    "province": "Alberta",
+    "province_code": "AB",
+    "service_area": "14515 122 Ave NW, Edmonton, AB T5L 2W4",
+    "rating": 1,
+    "review_count": 1,
+    "website": "https://pcannservices.ca",
+    "phone": "+17804341924",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "range-services-leduc-ab",
+    "company_name": "Range Services",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "Leduc",
+    "province": "Alberta",
+    "province_code": "AB",
+    "service_area": "7019 Sparrow Dr, Leduc, AB T9E 7L1",
+    "rating": 4,
+    "review_count": 1,
+    "website": "https://www.rangeservices.ca",
+    "phone": "+17805073333",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "the-garbage-good-guys-calgary-ab",
+    "company_name": "The Garbage Good Guys",
+    "primary_segment": "site_services",
+    "segment_key": "site_services",
+    "city": "Calgary",
+    "province": "Alberta",
+    "province_code": "AB",
+    "service_area": "4115 64 Ave SE #7, Calgary, AB T2C 2B3",
+    "rating": 5,
+    "review_count": 1,
+    "website": "https://garbagegoodguys.com",
+    "phone": "+14032387274",
+    "badges": [
+      "Waste management service"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": false,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "waste management service"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": true,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "site_services"
+    ],
+    "capabilities": [
+      "septic_service",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:fluid_services",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "fluid_handling_partnership",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Tank servicing & fluid partners",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ]
+  },
+  {
+    "id": "zero-spill-oilfield-services-ltd-beaverlodge-ab",
+    "company_name": "Zero Spill Oilfield Services ltd.",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "Beaverlodge",
+    "province": "Alberta",
+    "province_code": "AB",
+    "service_area": "1034 1 Ave #1059, Beaverlodge, AB T0H 0C0",
+    "rating": 5,
+    "review_count": 1,
+    "website": "http://zerospill.ca",
+    "phone": "+17808143401",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "benoit-rentals-ltd-chauvin-ab",
+    "company_name": "Benoit Rentals Ltd",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "Chauvin",
+    "province": "Alberta",
+    "province_code": "AB",
+    "service_area": "108 Main St, Chauvin, AB T0B 0J3",
+    "rating": 0,
+    "review_count": 0,
+    "website": "http://www.benoitrentals.com",
+    "phone": "+17808582212",
+    "badges": [
+      "Oil field equipment supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "oil field equipment supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": false,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "oilfield"
+    ],
+    "capabilities": [
+      "remote_logistics"
+    ],
+    "operational_tags": [
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [],
+    "inferred_specialties": [
+      "Industrial remote corridors"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "canmore-septic-canmore-ab",
+    "company_name": "Canmore Septic",
+    "primary_segment": "general",
+    "segment_key": "general",
+    "city": "Canmore",
+    "province": "Alberta",
+    "province_code": "AB",
+    "service_area": "#3 Cougar Mountain Crescent, Exshaw, Alberta, Canada, T0L 2C0",
+    "rating": 0,
+    "review_count": 0,
+    "website": "https://canmoreseptic.com/index2",
+    "phone": "+14036784511",
+    "badges": [
+      "Equipment rental agency"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": false,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "equipment rental agency"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": false,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "general"
+    ],
+    "capabilities": [],
+    "operational_tags": [
+      "source:badge_alignment"
+    ],
+    "service_types": [],
+    "inferred_specialties": [],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ]
+  },
+  {
+    "id": "oli-s-portable-toilets-rental-rocky-mountain-house-ab",
+    "company_name": "Oli's Portable Toilets Rental",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "Rocky Mountain House",
+    "province": "Alberta",
+    "province_code": "AB",
+    "service_area": "Westward Way, Rocky Mountain House, AB T4T 1E1",
+    "rating": 0,
+    "review_count": 0,
+    "website": "https://sites.google.com/view/olisportabletoilets/home",
+    "phone": "+14038459122",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "p-pots-portable-washrooms-edmonton-ab",
+    "company_name": "P-Pots Portable Washrooms",
+    "primary_segment": "general",
+    "segment_key": "general",
+    "city": "Edmonton",
+    "province": "Alberta",
+    "province_code": "AB",
+    "service_area": "9651 62 Ave NW, Edmonton, AB T6E 0E1",
+    "rating": 0,
+    "review_count": 0,
+    "website": "https://ppots-portable-toilets-edmonton.edmontondirect.ca",
+    "phone": "+17804387300",
+    "badges": [
+      "Equipment rental agency"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": false,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "equipment rental agency"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": false,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "general"
+    ],
+    "capabilities": [],
+    "operational_tags": [
+      "source:badge_alignment"
+    ],
+    "service_types": [],
+    "inferred_specialties": [],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ]
+  },
+  {
+    "id": "steelhead-ventures-ltd-cochrane-ab",
+    "company_name": "Steelhead Ventures Ltd.",
+    "primary_segment": "general",
+    "segment_key": "general",
+    "city": "Cochrane",
+    "province": "Alberta",
+    "province_code": "AB",
+    "service_area": "560 Griffin Rd E, Cochrane, AB, T4C 2B7",
+    "rating": 0,
+    "review_count": 0,
+    "website": "https://www.steelheadventuresltd.com",
+    "phone": "+15874377954",
+    "badges": [
+      "Equipment rental agency"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": false,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "equipment rental agency"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": false,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "general"
+    ],
+    "capabilities": [],
+    "operational_tags": [
+      "source:badge_alignment"
+    ],
+    "service_types": [],
+    "inferred_specialties": [],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ]
+  },
+  {
+    "id": "valleyview-sheet-metal-and-insulating-ltd-valleyview-ab",
+    "company_name": "Valleyview Sheet Metal and Insulating Ltd.",
+    "primary_segment": "oilfield",
+    "segment_key": "oilfield",
+    "city": "Valleyview",
+    "province": "Alberta",
+    "province_code": "AB",
+    "service_area": "Valleyview, AB T0H 3N0",
+    "rating": 0,
+    "review_count": 0,
+    "website": "http://valleyviewsheetmetal.com",
+    "phone": "+17805526141",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "winterized": false,
+    "luxury_units": false,
+    "construction_ready": false,
+    "oilfield_ready": true,
+    "ada_accessible": false,
+    "handwash_available": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "remote_logistics",
+      "site_support"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "alberta_mvp_dataset",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  }
+]

@@ -86,7 +86,7 @@ export function OperationalSearchPanel({
             ? 'rounded-xl border border-cwr-border bg-cwr-bg/80 px-3 py-3'
             : 'rounded-2xl border border-cwr-border bg-cwr-surface px-4 py-5 shadow-card sm:px-6 sm:py-6'
       }
-      aria-label="Operational provider retrieval"
+      aria-label="Search providers"
     >
       <div className="flex flex-wrap items-end justify-between gap-3">
         <div className="min-w-0 flex-1">
@@ -94,7 +94,7 @@ export function OperationalSearchPanel({
             htmlFor={inputId}
             className={`block font-semibold uppercase tracking-[0.18em] text-cwr-muted ${isSticky ? 'text-[9px]' : 'text-[10px]'}`}
           >
-            Operational lookup
+            Search providers
           </label>
           <input
             id={inputId}
@@ -106,8 +106,8 @@ export function OperationalSearchPanel({
             aria-controls={query.trim() ? listId : undefined}
             placeholder={
               variant === 'hero'
-                ? 'Search heated units, weddings, remote support, ADA…'
-                : 'Search operational capabilities, servicing context, city…'
+                ? 'Try heated units, wedding trailers, Fort McMurray, ADA…'
+                : 'Features, city, or project wording…'
             }
             value={query}
             onChange={(e) => setQuery(e.target.value)}
@@ -125,7 +125,7 @@ export function OperationalSearchPanel({
         ) : null}
       </div>
 
-      <div className={`flex flex-wrap gap-2 ${isSticky ? 'mt-2' : 'mt-4'}`} aria-label="Suggested operational queries">
+      <div className={`flex flex-wrap gap-2 ${isSticky ? 'mt-2' : 'mt-4'}`} aria-label="Suggested searches">
         {chips.map((chip) => (
           <button
             key={chip}
@@ -141,18 +141,18 @@ export function OperationalSearchPanel({
       <div
         id={listId}
         role="region"
-        aria-label="Operational search results"
+        aria-label="Search results"
         className={`mt-4 space-y-2 overflow-y-auto ${isSticky ? 'max-h-[9.5rem]' : 'max-h-[22rem]'}`}
       >
         {!query.trim() ? (
           <p className={`text-cwr-muted ${isSticky ? 'text-[11px] leading-snug' : 'text-xs leading-relaxed'}`}>
-            Type operational language — capabilities, servicing, cities — or tap a suggestion chip.
-            Retrieval stays local to this dataset; nothing leaves your browser.
+            Type features, servicing, or a city — or tap a chip. Searches run in your browser on this
+            dataset only.
           </p>
         ) : hits.length === 0 ? (
           <p className={`rounded-lg border border-dashed border-cwr-border bg-cwr-bg/60 px-3 py-3 text-cwr-muted ${isSticky ? 'text-[11px]' : 'text-sm'}`}>
-            No operators in this scope matched that retrieval profile. Try broader capability terms,
-            remove city tokens, or switch segment context — generic praise keywords alone rarely match.
+            No providers in this view matched. Try broader terms, a different city in the query, or
+            another project type — generic praise words rarely match.
           </p>
         ) : (
           hits.map((hit) => (

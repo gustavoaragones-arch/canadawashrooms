@@ -11,7 +11,7 @@ export function FlowSteps({ segment, city }: FlowStepsProps) {
     {
       key: 'intent',
       label: 'Project type',
-      detail: segment ? segmentLabel(segment) : 'Choose context',
+      detail: segment ? segmentLabel(segment) : 'Pick a project type',
       done: Boolean(segment),
     },
     {
@@ -22,8 +22,8 @@ export function FlowSteps({ segment, city }: FlowStepsProps) {
     },
     {
       key: 'filters',
-      label: 'Capabilities',
-      detail: segment && city ? 'Refine matches' : 'Locked',
+      label: 'Features needed',
+      detail: segment && city ? 'Refine your list' : 'Pick type & city first',
       done: Boolean(segment && city),
     },
   ] as const

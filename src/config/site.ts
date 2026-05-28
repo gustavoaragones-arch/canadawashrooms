@@ -5,3 +5,6 @@ export const SITE_ORIGIN =
   'https://canadawashrooms.ca'
 
 export const SITE_NAME = 'Canada Washrooms'
+
+/** Served from `public/logo.svg`. */
+export const SITE_LOGO = '/logo.svg'

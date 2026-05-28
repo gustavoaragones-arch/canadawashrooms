@@ -44,7 +44,7 @@ export function MobileMatchStickyBar({
         <div className="min-w-0 flex-1">
           <p className="truncate text-[11px] font-semibold uppercase tracking-wider text-cwr-muted">
             {city}
-            {isRelaxed ? ' · Relaxed match' : ''}
+            {isRelaxed ? ' · Broader list' : ''}
           </p>
           <p className="truncate text-sm font-semibold text-cwr-ink">{headline}</p>
           <p className="mt-0.5 text-xs text-cwr-muted">
@@ -66,7 +66,7 @@ export function MobileMatchStickyBar({
           }
           className="shrink-0 rounded-xl border border-cwr-border bg-cwr-ink px-3 py-3 text-sm font-semibold text-cwr-surface transition-colors duration-150 hover:bg-cwr-steel focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cwr-accent min-h-11"
         >
-          Inquiry
+          Quote
         </button>
         <button
           type="button"

@@ -16,7 +16,7 @@ Operational intent: pull **overlapping** Google Maps slices so enrichment sees r
 
 ## Overlap rationale
 
-- Same operator often appears under **construction** and **heated** queries → dedupe tiering (website → phone → address+name) collapses duplicates; overlap **raises** review corpus density without inventing operators.
+- Same operator often appears under **construction** and **heated** queries → **listing-identity dedupe** collapses only exact same-address listings; shared brand/web/phone across pulls stays as **relationship signals** in overlap review. Stack overlap **raises** review corpus density without inventing operators.
 - **Event** vs **luxury trailer** queries overlap heavily → review signal weighting must down-rank generic praise (handled in `reviewSignalQuality` + pipeline threshold).
 - **Oilfield** and **remote camp** queries overlap → remote logistics inference benefits from stacked pulls.
 
@@ -32,7 +32,7 @@ Operational intent: pull **overlapping** Google Maps slices so enrichment sees r
 
 1. Export CSV per stack **per city** (or multi-city batch if Outscraper supports it — keep city column trustworthy).
 2. Run `npm run data:ingest -- path/to/export.csv` — never auto-promote to `src/data/providers.json`.
-3. Review `data/reports/qa-report.json`, `duplicate-review.json`, `weak-metadata-report.json`.
+3. Review `data/reports/qa-report.json`, `organizational-overlap-review.json`, `weak-metadata-report.json`.
 4. Merge promoted rows after human disposition; apply locks in `src/data/manual-overrides.json`.
 5. Repeat — Alberta density improves through **iteration**, not one-shot breadth.
 

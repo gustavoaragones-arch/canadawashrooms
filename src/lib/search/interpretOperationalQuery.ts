@@ -1,13 +1,24 @@
-import { PRIORITY_CITIES } from '../segments'
+import { CANADA_PROVINCES, LIVE_CITIES } from '../locations/canadaLocations'
 import type { FilterCapability, PrimarySegment } from '../../types/provider'
 
-/** Known Alberta priority cities — longest phrase first for stripping from queries. */
+/** National city lookup — built from the location model, longest names first. */
 const CITY_LOOKUP: { slug: string; names: string[] }[] = [
+  // Aliases for common shortforms (must come before auto-generated entries)
   { slug: 'fort-mcmurray', names: ['fort mcmurray', 'fortmac', 'ymm'] },
   { slug: 'red-deer', names: ['red deer'] },
   { slug: 'calgary', names: ['calgary', 'yyc'] },
   { slug: 'edmonton', names: ['edmonton', 'yeg'] },
-  { slug: 'canmore', names: ['canmore'] },
+  { slug: 'toronto', names: ['toronto', 'yyz', 'the six'] },
+  { slug: 'mississauga', names: ['mississauga'] },
+  { slug: 'brampton', names: ['brampton'] },
+  { slug: 'hamilton', names: ['hamilton', 'the hammer'] },
+  { slug: 'ottawa', names: ['ottawa', 'yow'] },
+  { slug: 'vancouver', names: ['vancouver', 'yvr'] },
+  { slug: 'kelowna', names: ['kelowna'] },
+  { slug: 'kamloops', names: ['kamloops'] },
+  ...CANADA_PROVINCES.flatMap((p) =>
+    p.cities.map((c) => ({ slug: c.slug, names: [c.name.toLowerCase()] })),
+  ),
 ]
 
 const SPLIT = /[^a-z0-9]+/i
@@ -96,7 +107,7 @@ function stripCityTokens(tokens: string[]): string[] {
   const flat = new Set(cityWordSets.flat())
   flat.add('fort')
   flat.add('mcmurray')
-  for (const c of PRIORITY_CITIES) flat.add(c.toLowerCase())
+  for (const c of LIVE_CITIES) flat.add(c.name.toLowerCase())
   flat.add('yyc')
   flat.add('yeg')
   flat.add('ymm')
@@ -157,7 +168,18 @@ function inferSegmentsAndCapabilities(tokens: Set<string>): {
 
   if (has('septic', 'pump', 'septic_service')) {
     impliedCapabilities.add('septic_service')
+    segmentHints.add('site_services')
     segmentHints.add('general')
+  }
+
+  if (has('roll', 'rolloff', 'roll_off', 'dumpster', 'disposal', 'roll_off_disposal')) {
+    impliedCapabilities.add('roll_off_disposal')
+    segmentHints.add('site_services')
+  }
+
+  if (has('waste', 'site_support', 'sanitation')) {
+    impliedCapabilities.add('site_support')
+    segmentHints.add('site_services')
   }
 
   if (has('weekly', 'weekly_service', 'servicing')) {
@@ -276,14 +298,11 @@ export function relaxOperationalTypos(tokens: string[]): string[] {
   })
 }
 
-export function priorityCityFromSlug(slug: string | null): (typeof PRIORITY_CITIES)[number] | null {
+export function priorityCityFromSlug(slug: string | null): string | null {
   if (!slug) return null
-  const map: Record<string, (typeof PRIORITY_CITIES)[number]> = {
-    calgary: 'Calgary',
-    edmonton: 'Edmonton',
-    'fort-mcmurray': 'Fort McMurray',
-    'red-deer': 'Red Deer',
-    canmore: 'Canmore',
+  for (const p of CANADA_PROVINCES) {
+    const city = p.cities.find((c) => c.slug === slug)
+    if (city) return city.name
   }
-  return map[slug] ?? null
+  return null
 }

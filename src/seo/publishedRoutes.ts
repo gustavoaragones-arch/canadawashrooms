@@ -7,5 +7,5 @@ export const EDITORIAL_STATIC_PATHS = [
   '/about/',
   '/methodology/',
   '/contact/',
-  '/alberta-coverage/',
+  '/coverage/',
 ] as const

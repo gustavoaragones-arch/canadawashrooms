@@ -1,7 +1,12 @@
 import type { FilterCapability, PrimarySegment } from './provider'
 
 /** Surface that opened the inquiry — reserved for future routing / analytics. */
-export type InquirySurfaceOrigin = 'card' | 'landing' | 'mobile_bar' | 'home'
+export type InquirySurfaceOrigin =
+  | 'card'
+  | 'landing'
+  | 'mobile_bar'
+  | 'home'
+  | 'provider_page'
 
 /**
  * In-browser inquiry draft — collected client-side only until mailto handoff.

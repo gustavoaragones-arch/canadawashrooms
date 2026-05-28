@@ -27,6 +27,8 @@ const CAP_KEYS: Array<
   | 'camp_support'
   | 'ada_accessible'
   | 'septic_service'
+  | 'site_support'
+  | 'roll_off_disposal'
 > = [
   'weekly_service',
   'crane_liftable',
@@ -40,6 +42,8 @@ const CAP_KEYS: Array<
   'camp_support',
   'ada_accessible',
   'septic_service',
+  'site_support',
+  'roll_off_disposal',
 ]
 
 function blobForProvider(p: Provider): Set<string> {

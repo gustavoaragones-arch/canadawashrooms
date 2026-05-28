@@ -11,5 +11,7 @@ export function matchHeadline(segment: PrimarySegment, city: string): string {
       return `Wedding and event restroom providers in ${city}`
     case 'general':
       return `Portable washroom operators serving ${city}`
+    case 'site_services':
+      return `Waste & site-service operators in ${city}`
   }
 }

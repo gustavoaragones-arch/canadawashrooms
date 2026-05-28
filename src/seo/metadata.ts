@@ -63,14 +63,14 @@ export function buildStaticDocumentMeta(opts: {
 export function defaultSiteMeta(): LandingDocumentMeta {
   const canonicalUrl = `${SITE_ORIGIN}/`
   return {
-    title: `${SITE_NAME} — Alberta portable sanitation matching`,
+    title: `${SITE_NAME} — Portable toilet & washroom rentals across Canada`,
     description:
-      'Operational matching for portable washrooms in Alberta: construction, events, remote industrial sites, and everyday rentals — filter by city and on-site capabilities without directory clutter.',
+      'Find portable toilet rentals, portable washrooms, and restroom trailers for construction, events, and remote sites. Match by project type, city, and features. Now live in Alberta and Ontario.',
     canonicalUrl,
     canonicalPath: '/',
-    ogTitle: `${SITE_NAME} — Alberta portable sanitation matching`,
+    ogTitle: `${SITE_NAME} — Portable washroom rentals across Canada`,
     ogDescription:
-      'Match portable sanitation to project context across Alberta priority cities — curated operators, capability filters, and quote-ready flows.',
+      'Compare portable washroom providers by project, city, and on-site needs. Live in Alberta and Ontario — filters and quote-ready flow.',
     ogUrl: canonicalUrl,
   }
 }

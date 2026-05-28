@@ -411,7 +411,7 @@ export function OperationalInquirySurface() {
         <div className="flex items-start justify-between gap-3 border-b border-cwr-border px-5 py-4 sm:px-6">
           <div className="min-w-0">
             <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-cwr-accent">
-              Operational inquiry
+              Quote request
             </p>
             <h2 id="operational-inquiry-title" className="mt-1 text-lg font-semibold text-cwr-ink">
               {openArgs.provider ? (
@@ -444,7 +444,7 @@ export function OperationalInquirySurface() {
           {fitLines.length > 0 ? (
             <div className="mb-5 rounded-xl border border-cwr-border bg-cwr-bg/80 px-4 py-3">
               <p className="text-[11px] font-semibold uppercase tracking-wider text-cwr-muted">
-                Operator fit (from listing signals)
+                Why this listing might fit
               </p>
               <ul className="mt-2 space-y-1.5 text-sm leading-snug text-cwr-steel">
                 {fitLines.map((line) => (

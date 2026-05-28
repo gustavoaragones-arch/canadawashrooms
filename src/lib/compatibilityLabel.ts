@@ -52,6 +52,14 @@ export function getCompatibilityLabel(
     if (segment === 'general' && provider.ada_accessible)
       return 'Accessibility Ready'
 
+    if (segment === 'site_services' && provider.septic_service)
+      return 'Septic & fluid fit'
+    if (
+      segment === 'site_services' &&
+      (provider.site_support || provider.roll_off_disposal)
+    )
+      return 'Site services fit'
+
     return 'Operational fit'
   }
 

@@ -11,7 +11,7 @@ import { editorialInternalLinks } from '../seo/internalLinks'
 import { resolveLandingRoute } from '../seo/landingRoutes'
 import { buildLandingDocumentMeta } from '../seo/metadata'
 import { segmentDensityNote } from '../lib/intelligence/operationalTrustCues'
-import { countAlbertaSegmentCoverage, providersInScope } from '../lib/matching'
+import { countSegmentCoverage, providersInScope } from '../lib/matching'
 import { matchHeadline } from '../lib/matchHeadlines'
 import { SEGMENT_FAQS } from '../seo/faqs'
 import { buildLandingJsonLd } from '../seo/schema'
@@ -24,7 +24,8 @@ const SEGMENT_INQUIRY_CTA: Record<PrimarySegment, string> = {
   construction: 'Request winter-ready units',
   event: 'Request event restroom quote',
   oilfield: 'Request remote-site servicing',
-  general: 'Request operational quote',
+  site_services: 'Request site services quote',
+  general: 'Request a quote',
 }
 
 export default function LandingPage() {
@@ -47,7 +48,7 @@ export default function LandingPage() {
     const scoped = providersInScope(PROVIDERS, resolved.segment, resolved.city)
     const primaryFit = scoped.filter((p) => p.primary_segment === resolved.segment).length
     const secondaryFit = scoped.length - primaryFit
-    const segmentAlberta = countAlbertaSegmentCoverage(PROVIDERS, resolved.segment)
+    const segmentAlberta = countSegmentCoverage(PROVIDERS, resolved.segment)
     return {
       matched: scoped.length,
       primaryFit,
@@ -89,7 +90,7 @@ export default function LandingPage() {
         <article className="border-b border-cwr-border bg-cwr-surface">
           <div className="mx-auto max-w-3xl px-4 py-12 sm:px-6 md:py-16 lg:max-w-[42rem] lg:px-8">
             <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-cwr-accent">
-              Alberta · High-intent operational guide
+              Portable washrooms · Alberta (live rollout)
             </p>
             <h1 className="mt-4 text-3xl font-semibold tracking-tight text-cwr-ink sm:text-4xl">
               {h1}
@@ -105,9 +106,9 @@ export default function LandingPage() {
                 to="/methodology"
                 className="font-semibold text-cwr-accent underline-offset-4 hover:underline"
               >
-                Matching methodology
+                How matching works
               </Link>{' '}
-              — how cohorts, enrichment, and review-adjacent inference are applied (no pay-to-rank).
+              — transparent ranking; no pay-to-rank.
             </p>
             <div className="mt-6 rounded-xl border border-cwr-border bg-cwr-bg/70 px-4 py-4 sm:px-5">
               <p className="text-sm leading-relaxed text-cwr-steel">
@@ -134,7 +135,7 @@ export default function LandingPage() {
               <OperationalSearchPanel segment={resolved.segment} city={resolved.city} variant="page" />
             </div>
 
-            <ul className="mt-8 flex flex-wrap gap-2.5" aria-label="Typical capabilities for this context">
+            <ul className="mt-8 flex flex-wrap gap-2.5" aria-label="Typical features for this project type">
               {seo.capabilityBadges.map((badge) => (
                 <li
                   key={badge}
@@ -167,7 +168,7 @@ export default function LandingPage() {
                   id="landing-operational-insights"
                   className="text-lg font-semibold tracking-tight text-cwr-ink"
                 >
-                  Operational signals to verify
+                  What to verify with operators
                 </h2>
                 <ul className="mt-4 list-disc space-y-3 pl-5 text-sm leading-relaxed text-cwr-muted marker:text-cwr-accent">
                   {insightLines.map((line, idx) => (
@@ -200,7 +201,7 @@ export default function LandingPage() {
         <section
           id="operator-matching"
           className="scroll-mt-28"
-          aria-label="Compare operators for this project context"
+          aria-label="Compare providers for this project and city"
         >
           <MatchWorkspace
             segment={resolved.segment}
@@ -210,9 +211,9 @@ export default function LandingPage() {
         </section>
 
         <section className="mx-auto max-w-3xl px-4 py-14 sm:px-6 lg:max-w-[42rem] lg:px-8 lg:py-16">
-          <h2 className="text-xl font-semibold tracking-tight text-cwr-ink">Operational FAQs</h2>
+          <h2 className="text-xl font-semibold tracking-tight text-cwr-ink">FAQs for this project type</h2>
           <p className="mt-2 text-sm text-cwr-muted">
-            Practical answers for site planners — not generic marketing FAQs.
+            Practical answers for planners — not generic marketing copy.
           </p>
           <dl className="mt-10 space-y-10">
             {faqs.map((item) => (
@@ -227,17 +228,17 @@ export default function LandingPage() {
         <section className="border-t border-cwr-border bg-cwr-bg/60">
           <div className="mx-auto max-w-3xl px-4 py-14 sm:px-6 lg:max-w-[42rem] lg:px-8">
             <h2 className="text-xl font-semibold tracking-tight text-cwr-ink">
-              Run the interactive matcher
+              Start from the homepage instead
             </h2>
             <p className="mt-3 text-sm leading-relaxed text-cwr-muted">
-              Prefer stepping through intent, city, and capability filters manually? The homepage flow
-              preserves context switching without jumping between disconnected listings.
+              Pick project type, city, and features step by step — same matching, with room to switch
+              context before you open a shortlist.
             </p>
             <Link
               to="/"
               className="mt-6 inline-flex min-h-12 items-center justify-center rounded-xl bg-cwr-ink px-6 py-3.5 text-sm font-semibold text-cwr-surface transition-colors duration-150 hover:bg-cwr-steel focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cwr-accent"
             >
-              Open full matching flow
+              Go to homepage flow
             </Link>
           </div>
         </section>
@@ -245,7 +246,7 @@ export default function LandingPage() {
         {related.length > 0 ? (
           <section className="mx-auto max-w-3xl px-4 pb-20 pt-4 sm:px-6 lg:max-w-[42rem] lg:px-8 lg:pb-24">
             <h2 className="text-sm font-semibold uppercase tracking-[0.18em] text-cwr-muted">
-              Related operational guides
+              Related guides
             </h2>
             <ul className="mt-5 space-y-3">
               {related.map((item) => (

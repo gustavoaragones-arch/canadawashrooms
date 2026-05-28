@@ -1,14 +1,10 @@
 import type { FilterCapability, PrimarySegment } from '../types/provider'
+import { LIVE_CITIES } from './locations/canadaLocations'
 
-export const PRIORITY_CITIES = [
-  'Calgary',
-  'Edmonton',
-  'Fort McMurray',
-  'Red Deer',
-  'Canmore',
-] as const
+/** All live cities derived from the national location model — auto-expands as provinces are added. */
+export const PRIORITY_CITIES = LIVE_CITIES.map((c) => c.name) as unknown as readonly string[]
 
-export type PriorityCity = (typeof PRIORITY_CITIES)[number]
+export type PriorityCity = string
 
 export interface IntentCardDefinition {
   segment: PrimarySegment
@@ -20,7 +16,7 @@ export interface IntentCardDefinition {
 export const INTENT_CARDS: IntentCardDefinition[] = [
   {
     segment: 'construction',
-    title: 'Construction Sites',
+    title: 'Construction & Jobsites',
     microcopy:
       'Reliable portable washrooms for crews, projects, and long-term worksites.',
     badges: ['Jobsite Ready', 'Long-Term Rental', 'Serviced Units'],
@@ -34,10 +30,17 @@ export const INTENT_CARDS: IntentCardDefinition[] = [
   },
   {
     segment: 'oilfield',
-    title: 'Oilfield & Remote Operations',
+    title: 'Remote & Oilfield Operations',
     microcopy:
-      'Rugged portable sanitation built for Alberta’s remote and industrial operations.',
+      'Rugged portable sanitation built for remote and industrial operations.',
     badges: ['Winterized', 'Remote Ready', 'Camp Support'],
+  },
+  {
+    segment: 'site_services',
+    title: 'Waste & Site Services',
+    microcopy:
+      'Integrated site servicing for construction projects, infrastructure work, waste handling, and temporary site support.',
+    badges: ['Septic Services', 'Site Support', 'Roll-Off & Disposal'],
   },
   {
     segment: 'general',
@@ -83,6 +86,15 @@ export const SEGMENT_FILTERS: Record<PrimarySegment, SegmentFilterDefinition[]> 
         capability: 'remote_support',
       },
       { id: 'camp_support', label: 'Camp Support', capability: 'camp_support' },
+    ],
+    site_services: [
+      { id: 'septic_service', label: 'Septic Services', capability: 'septic_service' },
+      { id: 'site_support', label: 'Site Support', capability: 'site_support' },
+      {
+        id: 'roll_off_disposal',
+        label: 'Roll-Off & Disposal',
+        capability: 'roll_off_disposal',
+      },
     ],
     general: [
       {

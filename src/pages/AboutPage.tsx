@@ -43,8 +43,8 @@ export default function AboutPage() {
               deliberate — not a spray map.
             </p>
             <p>
-              <Link to="/alberta-coverage" className="font-semibold text-cwr-accent underline-offset-4 hover:underline">
-                Alberta coverage
+              <Link to="/coverage" className="font-semibold text-cwr-accent underline-offset-4 hover:underline">
+                Coverage
               </Link>{' '}
               lists the cities and segments currently routed in this release.
             </p>

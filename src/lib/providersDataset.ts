@@ -1,28 +1,8 @@
-import manualOverridesJson from '../data/manual-overrides.json'
 import providersJson from '../data/providers.json'
-import type { Provider, ProviderRaw } from '../types/provider'
-import {
-  applyManualOverridesFile,
-  type ManualOverridesFile,
-} from './dataOperations/manualOverridesFile'
-import { enrichProvider } from './enrichment/enrichProvider'
+import type { Provider } from '../types/provider'
 
-const manualOverrides = manualOverridesJson as ManualOverridesFile
-
-const mergedRaw = applyManualOverridesFile(providersJson as ProviderRaw[], manualOverrides)
-
-function safeEnrich(raw: ProviderRaw, index: number): Provider | null {
-  try {
-    return enrichProvider(raw)
-  } catch (err) {
-    if (import.meta.env.DEV) {
-      console.warn(`[providersDataset] enrich failed at row ${index}`, err)
-    }
-    return null
-  }
-}
-
-/** Defensive: malformed rows are dropped so retrieval never hard-crashes the SPA. */
-export const PROVIDERS: Provider[] = mergedRaw
-  .map((row, index) => safeEnrich(row, index))
-  .filter((p): p is Provider => p != null)
+/**
+ * Pre-enriched national dataset — output of `npm run data:build-production`.
+ * Enrichment and manual overrides are applied at build time; do not re-process here.
+ */
+export const PROVIDERS: Provider[] = providersJson as Provider[]

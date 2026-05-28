@@ -7,6 +7,8 @@
 import { existsSync, mkdirSync, readFileSync, renameSync, writeFileSync } from 'node:fs'
 import { basename, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import type { ProvinceCode } from '../src/types/provider'
+import { inferProvinceCodeFromFilename } from '../src/lib/locations/canadaLocations'
 
 import type { ManualOverridesFile } from '../src/lib/dataOperations/manualOverridesFile'
 import { buildCurationSweepReport } from '../src/lib/dataOperations/curationReports'
@@ -43,7 +45,10 @@ function printConsoleSummary(qa: QaSummaryReport) {
   const lines = [
     '── Ingest QA summary ──',
     `Providers (enriched): ${qa.totalProviders}`,
-    `Duplicate signals (pre-merge + post-scan): ${qa.duplicateCandidates}`,
+    `Organizational overlap pairs (review): ${qa.organizationalOverlapReviewTotal}`,
+    `  · true duplicate risk (listing identity): ${qa.trueDuplicateRiskOverlaps}`,
+    `  · organizational overlap: ${qa.organizationalOverlapSignals}`,
+    `  · operational ambiguity: ${qa.operationalAmbiguityOverlaps}`,
     `Weak metadata rows: ${qa.weakMetadataProviders}`,
     `Missing websites: ${qa.missingWebsites}`,
     `Missing phones: ${qa.missingPhones}`,
@@ -57,8 +62,20 @@ function printConsoleSummary(qa: QaSummaryReport) {
   console.log(lines.join('\n'))
 }
 
+const PROVINCE_FILE_MAP: Record<ProvinceCode, string> = {
+  AB: 'data/provinces/alberta.json',
+  ON: 'data/provinces/ontario.json',
+  BC: 'data/provinces/british-columbia.json',
+}
+
 function ensureDirs(root: string) {
-  for (const rel of ['data/raw', 'data/processed', 'data/snapshots', 'data/reports']) {
+  for (const rel of [
+    'data/raw',
+    'data/processed',
+    'data/snapshots',
+    'data/reports',
+    'data/provinces',
+  ]) {
     mkdirSync(resolve(root, rel), { recursive: true })
   }
 }
@@ -80,10 +97,15 @@ function main() {
 
   const csvText = readFileSync(csvPath, 'utf8')
   const manual = loadManualOverrides(REPO_ROOT)
+  const sourceName = basename(csvPath)
 
   let ingest
   try {
-    ingest = runOutscraperIngestPipeline({ csvText, manualOverrides: manual })
+    ingest = runOutscraperIngestPipeline({
+      csvText,
+      manualOverrides: manual,
+      sourceFilename: sourceName,
+    })
   } catch (e) {
     console.error('[ingest] Pipeline failed — no snapshot written.')
     console.error(e)
@@ -93,15 +115,19 @@ function main() {
   const stamp = snapshotStamp(new Date(ingest.generatedAt))
   const artifacts = buildIngestArtifacts({
     ingest,
-    sourceCsv: basename(csvPath),
+    sourceCsv: sourceName,
   })
+
+  const provinceCode: ProvinceCode =
+    ingest.inferredProvinceCode ?? inferProvinceCodeFromFilename(sourceName) ?? 'AB'
+  const provinceFile = PROVINCE_FILE_MAP[provinceCode]
 
   const snapPath = resolve(REPO_ROOT, `data/snapshots/providers.${stamp}.json`)
   const processedPath = resolve(REPO_ROOT, 'data/processed/providers.normalized.json')
   const qaPath = resolve(REPO_ROOT, 'data/reports/qa-report.json')
   const qaStamped = resolve(REPO_ROOT, `data/reports/qa-report.${stamp}.json`)
-  const dupPath = resolve(REPO_ROOT, 'data/reports/duplicate-review.json')
-  const dupStamped = resolve(REPO_ROOT, `data/reports/duplicate-review.${stamp}.json`)
+  const overlapPath = resolve(REPO_ROOT, 'data/reports/organizational-overlap-review.json')
+  const overlapStamped = resolve(REPO_ROOT, `data/reports/organizational-overlap-review.${stamp}.json`)
   const weakPath = resolve(REPO_ROOT, 'data/reports/weak-metadata-report.json')
   const weakStamped = resolve(REPO_ROOT, `data/reports/weak-metadata-report.${stamp}.json`)
   const revPath = resolve(REPO_ROOT, 'data/reports/review-signal-summary.json')
@@ -110,10 +136,12 @@ function main() {
 
   writeJson(snapPath, ingest.enriched)
   writeJson(processedPath, ingest.enriched)
+  writeJson(resolve(REPO_ROOT, provinceFile), ingest.enriched)
+  console.log(`[ingest] Province dataset: ${provinceFile} (${provinceCode} — ${ingest.enriched.length} providers)`)
   writeJson(qaPath, artifacts.qa)
   writeJson(qaStamped, artifacts.qa)
-  writeJson(dupPath, artifacts.duplicateReview)
-  writeJson(dupStamped, artifacts.duplicateReview)
+  writeJson(overlapPath, artifacts.organizationalOverlapReview)
+  writeJson(overlapStamped, artifacts.organizationalOverlapReview)
   writeJson(weakPath, artifacts.weakMetadata)
   writeJson(weakStamped, artifacts.weakMetadata)
   writeJson(revPath, artifacts.reviewSignals)

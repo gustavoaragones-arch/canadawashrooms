@@ -72,6 +72,17 @@ export default function MethodologyPage() {
             </p>
           </EditorialSection>
 
+          <EditorialSection title="Operational nodes vs corporate rollup">
+            <p>
+              Canada Washrooms treats each listing as an{' '}
+              <strong className="font-semibold text-cwr-steel">operational service node</strong> — scoped by
+              geography (city and coverage reality), not folded into a single national brand record. A company
+              may operate under one website or dispatch number in multiple cities; those locations stay
+              distinct for matching and enrichment QA unless they are the same normalized address and listing
+              identity.
+            </p>
+          </EditorialSection>
+
           <EditorialSection title="Source attribution (foundation)">
             <p>
               Internally we track provenance kinds such as Google reviews, business categories, declared

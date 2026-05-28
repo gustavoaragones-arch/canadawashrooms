@@ -39,11 +39,10 @@ export function ProviderResults({
           providerCount={0}
         />
         <div className="mt-8 rounded-2xl border border-dashed border-cwr-border bg-cwr-surface px-6 py-12 text-center shadow-card">
-          <p className="text-lg font-semibold text-cwr-ink">No operators in this cohort yet</p>
+          <p className="text-lg font-semibold text-cwr-ink">No listings for this mix yet</p>
           <p className="mt-3 text-sm leading-relaxed text-cwr-muted">
-            The Alberta MVP dataset does not list a provider for this project type in {city}. Try a
-            nearby priority city or switch project context — coverage expands as we validate field
-            data.
+            We do not have a provider for this project type in {city} in the current Alberta dataset. Try
+            another priority city or a different project type — coverage grows as we add listings.
           </p>
         </div>
       </section>
@@ -53,7 +52,7 @@ export function ProviderResults({
   return (
     <section
       className="mx-auto max-w-3xl px-4 pb-12 pt-2 sm:px-6 md:pb-20 lg:max-w-4xl lg:px-8"
-      aria-label={`Compatibility-ranked operators for ${headline}`}
+      aria-label={`Portable washroom providers for ${headline}`}
     >
       <MatchSummaryPanel
         headline={headline}
@@ -65,14 +64,13 @@ export function ProviderResults({
 
       {!isRelaxed ? (
         <p className="mt-8 text-sm leading-relaxed text-cwr-muted">
-          Ranked for{' '}
-          <span className="font-medium text-cwr-steel">compatibility signals</span> in your segment,
-          capability overlap, and field reputation — not an alphabetical directory.
+          Ranked for fit to your project type, selected features, and local signals — not an alphabetical
+          list.
         </p>
       ) : (
         <p className="mt-8 text-sm leading-relaxed text-cwr-muted">
-          Showing the closest operational fits in {city}. Confirm heating, pump cadence, and access
-          constraints directly with the operator before mobilization.
+          Showing the closest matches in {city}. Confirm heating, pump schedule, and site access with the
+          operator before work starts.
         </p>
       )}
 

@@ -57,6 +57,23 @@ export const SEGMENT_FAQS: Record<PrimarySegment, FaqItem[]> = {
         'It’s occupancy schedules, hookup compatibility, greywater assumptions, and coordination with catering or lodging modules — not only dropping singles near a fence line. Strong camp vendors ask about peak shifts, gender splits, and servicing windows that avoid conflict with other truck traffic.',
     },
   ],
+  site_services: [
+    {
+      question: 'What is included in waste & site services vs portable toilet rental?',
+      answer:
+        'Site-service operators may bundle septic pumping, roll-off bins, disposal hauls, and broader construction support — not only washroom units. Clarify which trades you need before comparing quotes.',
+    },
+    {
+      question: 'How do roll-off and septic programs coordinate on Alberta jobsites?',
+      answer:
+        'They often run on different schedules and truck types. Confirm lane access, swap windows, and who owns contamination response if a line or bin overflows.',
+    },
+    {
+      question: 'Can one operator cover restrooms and disposal for infrastructure work?',
+      answer:
+        'Some integrated firms do; others partner out disposal. Ask for written scope — especially when civil or pipeline work shares a single access road.',
+    },
+  ],
   general: [
     {
       question: 'How fast can portable washrooms be delivered in Calgary?',

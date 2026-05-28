@@ -1,17 +1,24 @@
+import {
+  probeFromProvider,
+  strictListingIdentityMergeKeyFromProbe,
+} from '../ingestion/organizationalOverlap'
 import { normalizeAddress } from '../normalize/address'
 import { normalizeBusinessName } from '../normalize/businessName'
 import { normalizePhone } from '../normalize/phone'
 import { normalizeWebsite } from '../normalize/website'
 import type { Provider } from '../../types/provider'
 
-export interface DedupeKeyPartsExport {
+/** QA sweep keys — relationship-aware; shared web/phone are signals, not merge triggers. */
+export interface OperationalNodeKeyPartsExport {
   websiteKey: string | null
   phoneKey: string | null
   addressNameKey: string | null
+  /** City + normalized address + name — matches ingestion destructive-merge tier when present. */
+  listingIdentityMergeKey: string | null
 }
 
-/** Expose same tier logic as ingestion dedupe for QA sweeps on enriched providers. */
-export function dedupeKeyParts(provider: Provider): DedupeKeyPartsExport {
+export function operationalNodeKeyParts(provider: Provider): OperationalNodeKeyPartsExport {
+  const probe = probeFromProvider(provider)
   const websiteKey = provider.website
     ? (normalizeWebsite(provider.website)?.toLowerCase() ?? null)
     : null
@@ -24,5 +31,15 @@ export function dedupeKeyParts(provider: Provider): DedupeKeyPartsExport {
       ? `${normalizeAddress(addr)}|${normalizeBusinessName(provider.company_name)}`
       : null
 
-  return { websiteKey, phoneKey, addressNameKey }
+  return {
+    websiteKey,
+    phoneKey,
+    addressNameKey,
+    listingIdentityMergeKey: strictListingIdentityMergeKeyFromProbe(probe),
+  }
+}
+
+/** Alias retained for internal tooling — prefer `operationalNodeKeyParts`. */
+export function dedupeKeyParts(provider: Provider): OperationalNodeKeyPartsExport {
+  return operationalNodeKeyParts(provider)
 }

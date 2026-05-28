@@ -1,4 +1,3 @@
-import { dedupeKeyParts } from './suspiciousDuplicates'
 import { internalCompletenessScore } from '../intelligence/providerCompleteness'
 import type { Provider } from '../../types/provider'
 
@@ -69,29 +68,3 @@ export function providersMissingTrustSignals(providers: Provider[]): Provider[] 
   return providers.filter((p) => (p.trust_signals?.length ?? 0) < 2)
 }
 
-export function duplicateReviewCandidatePairs(
-  providers: Provider[],
-): { a: string; b: string; reason: string }[] {
-  const pairs: { a: string; b: string; reason: string }[] = []
-  for (let i = 0; i < providers.length; i++) {
-    for (let j = i + 1; j < providers.length; j++) {
-      const ka = dedupeKeyParts(providers[i])
-      const kb = dedupeKeyParts(providers[j])
-      if (ka.phoneKey && ka.phoneKey === kb.phoneKey) {
-        pairs.push({
-          a: providers[i].id,
-          b: providers[j].id,
-          reason: 'shared_normalized_phone',
-        })
-      }
-      if (ka.websiteKey && ka.websiteKey === kb.websiteKey) {
-        pairs.push({
-          a: providers[i].id,
-          b: providers[j].id,
-          reason: 'shared_normalized_website',
-        })
-      }
-    }
-  }
-  return pairs
-}

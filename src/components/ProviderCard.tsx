@@ -1,4 +1,5 @@
 import { useMemo } from 'react'
+import { Link } from 'react-router-dom'
 import { getCompatibilityLabel } from '../lib/compatibilityLabel'
 import { buildProviderIntelligence } from '../lib/intelligence/providerIntelligence'
 import { deriveTrustTierLabels } from '../lib/intelligence/trustTiers'
@@ -17,6 +18,8 @@ interface ProviderCardProps {
   activeCapabilities: FilterCapability[]
   activeFilterLabels: string[]
   isRelaxedFallback: boolean
+  /** Compact layout for related-provider lists on detail pages. */
+  variant?: 'default' | 'compact'
 }
 
 function telHref(phone: string): string {
@@ -31,8 +34,11 @@ export function ProviderCard({
   activeCapabilities,
   activeFilterLabels,
   isRelaxedFallback,
+  variant = 'default',
 }: ProviderCardProps) {
   const { openInquiry } = useOperationalInquiry()
+  const compact = variant === 'compact'
+  const detailPath = `/provider/${provider.id}`
   const segmentTitle = segmentLabel(provider.primary_segment)
   const matchLabel = getCompatibilityLabel(
     provider,
@@ -42,8 +48,8 @@ export function ProviderCard({
   )
 
   const headerTrust = useMemo(
-    () => deriveTrustTierLabels(provider).slice(0, 2),
-    [provider],
+    () => deriveTrustTierLabels(provider).slice(0, compact ? 1 : 2),
+    [provider, compact],
   )
 
   const intelligence = useMemo(
@@ -54,11 +60,18 @@ export function ProviderCard({
   return (
     <article
       id={`provider-anchor-${provider.id}`}
-      className="group flex scroll-mt-32 flex-col rounded-2xl border border-cwr-border bg-cwr-surface shadow-card transition-[box-shadow,border-color] duration-200 ease-out hover:border-cwr-steel/25 hover:shadow-[0_16px_40px_-12px_rgb(20_20_19/0.18)] focus-within:border-cwr-steel/30 focus-within:shadow-[0_16px_40px_-12px_rgb(20_20_19/0.18)]"
+      className="group relative flex scroll-mt-32 flex-col rounded-2xl border border-cwr-border bg-cwr-surface shadow-card transition-[box-shadow,border-color] duration-200 ease-out hover:border-cwr-steel/25 hover:shadow-[0_16px_40px_-12px_rgb(20_20_19/0.18)] focus-within:border-cwr-steel/30 focus-within:shadow-[0_16px_40px_-12px_rgb(20_20_19/0.18)]"
     >
-      <div className="flex flex-col gap-6 px-5 py-6 sm:px-7 sm:py-8">
+      <Link
+        to={detailPath}
+        className="absolute inset-0 z-0 rounded-2xl focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cwr-accent"
+        aria-label={`View ${provider.company_name} profile`}
+      />
+      <div
+        className={`relative z-10 flex flex-col gap-6 pointer-events-none ${compact ? 'px-4 py-4 sm:px-5 sm:py-5' : 'px-5 py-6 sm:px-7 sm:py-8'}`}
+      >
         <div className="flex items-start justify-between gap-4">
-          <div className="min-w-0 flex-1 space-y-4">
+          <div className="min-w-0 flex-1 space-y-3">
             <div className="flex flex-wrap gap-2">
               {headerTrust.map((label) => (
                 <span
@@ -70,7 +83,13 @@ export function ProviderCard({
               ))}
             </div>
             <div>
-              <h3 className="text-xl font-semibold tracking-tight text-cwr-ink sm:text-[1.35rem]">
+              <h3
+                className={
+                  compact
+                    ? 'text-lg font-semibold tracking-tight text-cwr-ink group-hover:text-cwr-accent'
+                    : 'text-xl font-semibold tracking-tight text-cwr-ink sm:text-[1.35rem] group-hover:text-cwr-accent'
+                }
+              >
                 {provider.company_name}
               </h3>
               <p className="mt-2 text-xs font-semibold uppercase tracking-[0.16em] text-cwr-accent">
@@ -85,43 +104,49 @@ export function ProviderCard({
           </div>
         </div>
 
-        <div>
-          <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-cwr-muted">
-            On-site positioning
-          </p>
-          <ul className="mt-4 flex flex-wrap gap-2.5" aria-label="Operator capabilities">
-            {provider.badges.map((badge) => (
-              <li
-                key={badge}
-                className="rounded-lg border border-cwr-border bg-cwr-bg px-3 py-2 text-xs font-semibold leading-snug text-cwr-ink shadow-[inset_0_1px_0_rgb(255_255_255/0.65)]"
-              >
-                {badge}
-              </li>
-            ))}
-          </ul>
-        </div>
+        {!compact ? (
+          <>
+            <div>
+              <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-cwr-muted">
+                On-site positioning
+              </p>
+              <ul className="mt-4 flex flex-wrap gap-2.5" aria-label="Operator capabilities">
+                {provider.badges.map((badge) => (
+                  <li
+                    key={badge}
+                    className="rounded-lg border border-cwr-border bg-cwr-bg px-3 py-2 text-xs font-semibold leading-snug text-cwr-ink shadow-[inset_0_1px_0_rgb(255_255_255/0.65)]"
+                  >
+                    {badge}
+                  </li>
+                ))}
+              </ul>
+            </div>
 
-        {intelligence.subtleUiCues.length > 0 ? (
-          <div className="rounded-xl border border-dashed border-cwr-border bg-cwr-bg/60 px-4 py-3">
-            <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-cwr-muted">
-              Signal cues
-            </p>
-            <ul className="mt-2 space-y-1.5 text-sm leading-snug text-cwr-steel">
-              {intelligence.subtleUiCues.map((cue) => (
-                <li key={cue}>· {cue}</li>
-              ))}
-            </ul>
-          </div>
+            {intelligence.subtleUiCues.length > 0 ? (
+              <div className="rounded-xl border border-dashed border-cwr-border bg-cwr-bg/60 px-4 py-3">
+                <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-cwr-muted">
+                  Signal cues
+                </p>
+                <ul className="mt-2 space-y-1.5 text-sm leading-snug text-cwr-steel">
+                  {intelligence.subtleUiCues.map((cue) => (
+                    <li key={cue}>· {cue}</li>
+                  ))}
+                </ul>
+              </div>
+            ) : null}
+          </>
         ) : null}
 
         <div className="rounded-xl border border-dashed border-cwr-border bg-cwr-bg/80 px-4 py-3">
           <p className="text-[11px] font-semibold uppercase tracking-[0.16em] text-cwr-muted">
             Service area
           </p>
-          <p className="mt-2 text-sm leading-relaxed text-cwr-steel">{provider.service_area}</p>
+          <p className="mt-2 text-sm leading-relaxed text-cwr-steel line-clamp-2">
+            {provider.service_area}
+          </p>
         </div>
 
-        <div className="flex flex-wrap items-end justify-between gap-4 border-t border-cwr-border pt-6">
+        <div className="flex flex-wrap items-end justify-between gap-4 border-t border-cwr-border pt-4">
           <div>
             <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-cwr-muted">
               Field reputation
@@ -136,18 +161,25 @@ export function ProviderCard({
               </span>
             </p>
           </div>
+          {compact ? (
+            <span className="text-xs font-semibold text-cwr-accent">View profile →</span>
+          ) : null}
         </div>
 
-        <ProviderOperationalDetail
-          provider={provider}
-          activeSegment={segment}
-          activeCapabilities={activeCapabilities}
-        />
+        {!compact ? (
+          <ProviderOperationalDetail
+            provider={provider}
+            activeSegment={segment}
+            activeCapabilities={activeCapabilities}
+          />
+        ) : null}
       </div>
 
-      <div className="flex flex-col gap-3 border-t border-cwr-border bg-cwr-bg/50 px-5 py-5 sm:px-7">
-        <p className="text-center text-[10px] leading-snug text-cwr-muted">{TRANSPARENCY.availability}</p>
-        {!provider.website ? (
+      <div className="relative z-20 flex flex-col gap-3 border-t border-cwr-border bg-cwr-bg/50 px-5 py-5 sm:px-7">
+        {!compact ? (
+          <p className="text-center text-[10px] leading-snug text-cwr-muted">{TRANSPARENCY.availability}</p>
+        ) : null}
+        {!provider.website && !compact ? (
           <p className="text-center text-[11px] font-semibold uppercase tracking-wider text-cwr-muted">
             Phone-only provider
           </p>
@@ -164,16 +196,16 @@ export function ProviderCard({
                 ctaOrigin: 'card',
               })
             }
-            className="inline-flex min-h-12 flex-1 cursor-pointer items-center justify-center rounded-xl bg-cwr-ink px-4 py-3.5 text-center text-sm font-semibold text-cwr-surface transition-colors duration-150 hover:bg-cwr-steel focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cwr-accent sm:min-w-[10.5rem]"
+            className="pointer-events-auto inline-flex min-h-12 flex-1 cursor-pointer items-center justify-center rounded-xl bg-cwr-ink px-4 py-3.5 text-center text-sm font-semibold text-cwr-surface transition-colors duration-150 hover:bg-cwr-steel focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cwr-accent sm:min-w-[10.5rem]"
           >
-            Operational inquiry
+            Request a quote
           </button>
           <a
             href={telHref(provider.phone)}
             onClick={() =>
               emitProductionAnalytics('provider_phone_click', { provider_id: provider.id })
             }
-            className="inline-flex min-h-12 flex-1 items-center justify-center rounded-xl border border-cwr-border bg-cwr-surface px-4 py-3.5 text-center text-sm font-semibold text-cwr-ink transition-colors duration-150 hover:border-cwr-steel/45 hover:bg-cwr-surface focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cwr-accent sm:min-w-[10.5rem]"
+            className="pointer-events-auto inline-flex min-h-12 flex-1 items-center justify-center rounded-xl border border-cwr-border bg-cwr-surface px-4 py-3.5 text-center text-sm font-semibold text-cwr-ink transition-colors duration-150 hover:border-cwr-steel/45 hover:bg-cwr-surface focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cwr-accent sm:min-w-[10.5rem]"
           >
             Call now
           </a>
@@ -185,7 +217,7 @@ export function ProviderCard({
               onClick={() =>
                 emitProductionAnalytics('provider_website_click', { provider_id: provider.id })
               }
-              className="inline-flex min-h-12 flex-1 items-center justify-center rounded-xl border border-transparent px-4 py-3.5 text-center text-sm font-semibold text-cwr-accent underline-offset-4 transition-colors duration-150 hover:underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cwr-accent sm:flex-none"
+              className="pointer-events-auto inline-flex min-h-12 flex-1 items-center justify-center rounded-xl border border-transparent px-4 py-3.5 text-center text-sm font-semibold text-cwr-accent underline-offset-4 transition-colors duration-150 hover:underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cwr-accent sm:flex-none"
             >
               Website
             </a>

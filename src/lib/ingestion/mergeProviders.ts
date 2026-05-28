@@ -6,7 +6,9 @@ function uniqStrings(list: string[]): string[] {
 }
 
 /**
- * Merge two ingest records — prefer higher review mass, non-null website, richer categories.
+ * Merge two ingest records that already matched `strictListingIdentityMergeKey` (same city,
+ * address, name). Prefers higher review mass, non-null website, richer categories. Not used for
+ * website/phone-only overlap — those remain distinct operational nodes.
  */
 export function mergeProviders(a: ProviderIngestRecord, b: ProviderIngestRecord): ProviderIngestRecord {
   const primary = a.review_count >= b.review_count ? a : b

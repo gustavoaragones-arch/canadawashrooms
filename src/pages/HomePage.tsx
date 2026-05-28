@@ -84,10 +84,11 @@ export default function HomePage() {
                 className="w-full rounded-2xl border border-cwr-border bg-cwr-surface px-5 py-4 text-left shadow-card transition-colors duration-150 hover:border-cwr-steel/30 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cwr-accent"
               >
                 <span className="text-[11px] font-semibold uppercase tracking-[0.18em] text-cwr-muted">
-                  Operational inquiry
+                  Request a quote
                 </span>
                 <span className="mt-1 block text-sm font-semibold text-cwr-ink">
-                  Capture site conditions in structured form — opens your email client.
+                  Describe your site and needs — we open your email with a draft you can send to
+                  operators.
                 </span>
               </button>
             </div>
@@ -97,10 +98,10 @@ export default function HomePage() {
           </>
         ) : (
           <section className="mx-auto max-w-6xl px-4 pb-16 text-center sm:px-6 lg:px-8">
-            <p className="rounded-2xl border border-dashed border-cwr-border bg-cwr-surface px-6 py-10 text-sm text-cwr-muted shadow-card">
+            <p className="rounded-2xl border border-dashed border-cwr-border bg-cwr-surface px-5 py-8 text-sm leading-relaxed text-cwr-muted shadow-card sm:px-6 sm:py-10">
               {!segment
-                ? 'Choose a project type above to unlock city selection, capability filters, and matched operators.'
-                : 'Select a priority city to load segment-specific filters and surface operators that serve that area.'}
+                ? 'Pick a project type above, then a city — you will get filters and a shortlist of portable washroom providers for that area.'
+                : 'Choose a city to load filters and provider matches for that location.'}
             </p>
           </section>
         )}

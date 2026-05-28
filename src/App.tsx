@@ -4,11 +4,12 @@ import { OperationalInquiryProvider } from './components/inquiry/OperationalInqu
 import { OperationalInquirySurface } from './components/inquiry/OperationalInquirySurface'
 import HomePage from './pages/HomePage'
 import LandingPage from './pages/LandingPage'
+import ProviderPage from './pages/ProviderPage'
 
 const AboutPage = lazy(() => import('./pages/AboutPage.tsx'))
 const MethodologyPage = lazy(() => import('./pages/MethodologyPage.tsx'))
 const ContactPage = lazy(() => import('./pages/ContactPage.tsx'))
-const AlbertaCoveragePage = lazy(() => import('./pages/AlbertaCoveragePage.tsx'))
+const CoveragePage = lazy(() => import('./pages/CoveragePage.tsx'))
 
 function RouteFallback() {
   return (
@@ -32,7 +33,9 @@ export default function App() {
             <Route path="/about" element={<AboutPage />} />
             <Route path="/methodology" element={<MethodologyPage />} />
             <Route path="/contact" element={<ContactPage />} />
-            <Route path="/alberta-coverage" element={<AlbertaCoveragePage />} />
+            <Route path="/coverage" element={<CoveragePage />} />
+            <Route path="/alberta-coverage" element={<Navigate to="/coverage" replace />} />
+            <Route path="/provider/:providerSlug" element={<ProviderPage />} />
             <Route path="/:segmentSlug/:citySlug" element={<LandingPage />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>

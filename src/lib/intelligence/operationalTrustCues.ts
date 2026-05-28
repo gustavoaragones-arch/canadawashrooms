@@ -84,6 +84,7 @@ export function segmentDensityNote(totalInProvince: number, segment: PrimarySegm
     event: 'event / trailer-postured operators',
     oilfield: 'industrial-remote-postured operators',
     general: 'general portable rental operators',
+    site_services: 'waste & site-service operators',
   }
-  return `Alberta-wide we currently model ${totalInProvince} ${labels[segment]} with corroborated signals — totals climb as query-stack CSVs are merged and QA’d.`
+  return `We currently model ${totalInProvince} ${labels[segment]} with corroborated signals in the live dataset — totals climb as province CSVs are merged and QA'd.`
 }

@@ -1,5 +1,4 @@
 import {
-  duplicateReviewCandidatePairs,
   providersMissingPhone,
   providersMissingSegmentConfidenceLock,
   providersMissingWebsite,
@@ -7,15 +6,40 @@ import {
   providersWithWeakMetadata,
   weakProviderRecords,
 } from '../qa/providerDatasetQa'
-import { collectPreDedupeDuplicateCandidates } from '../ingestion/dedupeDiagnostics'
+import {
+  collectEnrichedOrganizationalOverlaps,
+  collectPreDedupeOrganizationalOverlaps,
+  type OrganizationalOverlapReviewRecord,
+} from '../ingestion/organizationalOverlap'
 import type { Provider } from '../../types/provider'
 import type { ProviderIngestRecord } from '../ingestion/types'
+
+function bucketOverlapCounts(records: OrganizationalOverlapReviewRecord[]): {
+  trueDuplicateRisk: number
+  organizationalOverlap: number
+  operationalAmbiguity: number
+} {
+  let trueDuplicateRisk = 0
+  let organizationalOverlap = 0
+  let operationalAmbiguity = 0
+  for (const r of records) {
+    if (r.overlap_category === 'true_duplicate_risk') trueDuplicateRisk++
+    else if (r.overlap_category === 'organizational_overlap') organizationalOverlap++
+    else operationalAmbiguity++
+  }
+  return { trueDuplicateRisk, organizationalOverlap, operationalAmbiguity }
+}
 
 export interface QaSummaryReport {
   generatedAt: string
   sourceCsv: string | null
   totalProviders: number
-  duplicateCandidates: number
+  /** Total overlap pairs surfaced for human review (pre-dedupe scan + post-enrichment scan). */
+  organizationalOverlapReviewTotal: number
+  /** Subset eligible for destructive merge verification only (listing identity match). */
+  trueDuplicateRiskOverlaps: number
+  organizationalOverlapSignals: number
+  operationalAmbiguityOverlaps: number
   weakMetadataProviders: number
   missingWebsites: number
   lowConfidenceSegments: number
@@ -35,15 +59,21 @@ export function buildQaSummaryReport(input: {
   malformedCsvRows: number
 }): QaSummaryReport {
   const { enriched, preDedupeRecords } = input
-  const prePairs = collectPreDedupeDuplicateCandidates(preDedupeRecords)
-  const postDupScan = duplicateReviewCandidatePairs(enriched)
+  const preOverlaps = collectPreDedupeOrganizationalOverlaps(preDedupeRecords)
+  const postOverlaps = collectEnrichedOrganizationalOverlaps(enriched)
+  const combined = [...preOverlaps, ...postOverlaps]
+  const buckets = bucketOverlapCounts(combined)
+
   const weakMeta = providersWithWeakMetadata(enriched)
 
   return {
     generatedAt: input.generatedAt,
     sourceCsv: input.sourceCsv,
     totalProviders: enriched.length,
-    duplicateCandidates: prePairs.length + postDupScan.length,
+    organizationalOverlapReviewTotal: combined.length,
+    trueDuplicateRiskOverlaps: buckets.trueDuplicateRisk,
+    organizationalOverlapSignals: buckets.organizationalOverlap,
+    operationalAmbiguityOverlaps: buckets.operationalAmbiguity,
     weakMetadataProviders: weakMeta.length,
     missingWebsites: providersMissingWebsite(enriched).length,
     lowConfidenceSegments: providersMissingSegmentConfidenceLock(enriched).length,
@@ -57,8 +87,4 @@ export function buildQaSummaryReport(input: {
 
 export function weakMetadataDetail(enriched: Provider[]) {
   return weakProviderRecords(enriched)
-}
-
-export function enrichedDuplicatePairs(enriched: Provider[]) {
-  return duplicateReviewCandidatePairs(enriched)
 }

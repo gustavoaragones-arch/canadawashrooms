@@ -1,5 +1,6 @@
 import type { ReactNode } from 'react'
 import { Link } from 'react-router-dom'
+import { SITE_LOGO, SITE_NAME } from '../config/site'
 import { TRANSPARENCY } from '../lib/transparencyCopy'
 import { SiteHeader } from './SiteHeader'
 
@@ -23,9 +24,18 @@ export function AppShell({ children, mainClassName }: AppShellProps) {
         <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6 lg:px-8">
           <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4 lg:gap-8">
             <div className="lg:col-span-1">
-              <p className="text-sm font-semibold text-cwr-ink">Canada Washrooms</p>
-              <p className="mt-2 text-sm leading-relaxed text-cwr-muted">
-                Alberta-first portable sanitation discovery — structured matching, not a marketplace.
+              <img
+                src={SITE_LOGO}
+                alt={SITE_NAME}
+                width={280}
+                height={124}
+                className="h-16 w-auto"
+                loading="lazy"
+                decoding="async"
+              />
+              <p className="mt-3 text-sm leading-relaxed text-cwr-muted">
+                Find and compare portable washroom rentals across Canada. Now live in Alberta and
+                Ontario — curated matching, not a marketplace.
               </p>
             </div>
             <div>
@@ -46,9 +56,9 @@ export function AppShell({ children, mainClassName }: AppShellProps) {
                 <li>
                   <Link
                     className="text-cwr-accent underline-offset-4 hover:underline"
-                    to="/alberta-coverage"
+                    to="/coverage"
                   >
-                    Alberta coverage
+                    Coverage
                   </Link>
                 </li>
               </ul>

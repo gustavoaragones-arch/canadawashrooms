@@ -1,13 +1,13 @@
 /** Shared transparency strings — calm, factual; avoid disclaimer walls. */
 export const TRANSPARENCY = {
   capabilityInference:
-    'Capabilities and operational tags may be inferred from public reviews, Google Business categories, and listing metadata — not from on-site audits.',
+    'Some capability labels may be inferred from public reviews, Google Business categories, and listing metadata — not from on-site audits.',
   operationalTags:
-    'Operational tags are derived from public business data and structured enrichment — treat them as retrieval hints.',
+    'Tags on listings come from public business data and enrichment — use them as hints when comparing providers.',
   availability:
     'Provider availability, fleet depth, and pricing should be confirmed directly with the operator before you rely on them.',
   informationalPositioning:
-    'Canada Washrooms is informational matching infrastructure — not certification, guaranteed capability, or availability.',
+    'Canada Washrooms helps you compare providers for research — not certification, guaranteed equipment, or live availability.',
   shortFooter:
-    'Operational signals are inferred from public data where noted. Confirm servicing and availability with operators.',
+    'Some labels are inferred from public listings and reviews where noted. Always confirm servicing and availability with operators.',
 } as const

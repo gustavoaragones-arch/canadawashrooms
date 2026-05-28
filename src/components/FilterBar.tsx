@@ -24,7 +24,7 @@ export function FilterBar({ segment, city, active, onToggle, onClear }: FilterBa
       <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
         <div>
           <h2 id="filters-heading" className="text-xl font-semibold tracking-tight text-cwr-ink">
-            Narrow by on-site requirements
+            Narrow by what you need on site
           </h2>
           <p className="mt-1 flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-cwr-muted">
             <span>
@@ -58,12 +58,12 @@ export function FilterBar({ segment, city, active, onToggle, onClear }: FilterBa
       </div>
 
       <p className="mt-6 text-sm leading-relaxed text-cwr-muted">
-        Filters adapt to your project type. Multiple selections require an operator to satisfy{' '}
-        <span className="font-medium text-cwr-steel">every</span> active capability — or we surface
-        the closest operational alternatives automatically.
+        Filters match your project type. With several selected, a provider must meet{' '}
+        <span className="font-medium text-cwr-steel">all</span> of them — or we show the closest matches
+        and label the list accordingly.
       </p>
 
-      <div className="mt-6 flex flex-wrap gap-2.5" role="group" aria-label="Capability filters">
+      <div className="mt-6 flex flex-wrap gap-2.5" role="group" aria-label="Feature filters">
         {defs.map((def) => {
           const isOn = active.has(def.capability)
           return (

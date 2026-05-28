@@ -17,7 +17,7 @@ function localBusinessFromProvider(p: Provider): Record<string, unknown> | null 
     address: {
       '@type': 'PostalAddress',
       addressLocality: city,
-      addressRegion: 'AB',
+      addressRegion: p.province_code ?? 'AB',
       addressCountry: 'CA',
     },
     areaServed: p.service_area ?? '',
@@ -97,8 +97,8 @@ export function buildLandingJsonLd(params: {
     '@type': 'ItemList',
     '@id': `${meta.canonicalUrl}#operators`,
     name: `${pageName} — matched operators`,
-    description:
-      'Portable sanitation operators compatible with this project context (Alberta MVP dataset).',
+      description:
+      `Portable washroom operators matched for ${pageName} — verify availability and capabilities with each operator.`,
     numberOfItems: providers.length,
     itemListElement: itemListElements,
   }

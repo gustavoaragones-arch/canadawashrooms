@@ -1,4 +1,5 @@
-import type { PrimarySegment } from '../../types/provider'
+import type { PrimarySegment, ProvinceCode } from '../../types/provider'
+import { inferProvinceCodeFromFilename, provinceNameFromCode } from '../locations/canadaLocations'
 import { normalizeCategory } from '../normalize'
 import { normalizeCity } from '../normalize/city'
 import { normalizePhone } from '../normalize/phone'
@@ -19,27 +20,33 @@ function cell(row: Record<string, string>, ...aliases: string[]): string {
 
 function inferSegmentHint(categoryBlob: string): PrimarySegment {
   const b = categoryBlob.toLowerCase()
+  if (/waste|disposal|roll[\s-]?off|dumpster|septic|sanitation service|garbage bin/.test(b)) {
+    return 'site_services'
+  }
   if (/oil|industrial|rental.*equipment|pipeline/.test(b)) return 'oilfield'
   if (/wedding|event|party/.test(b)) return 'event'
   if (/construction|contractor|excavat/.test(b)) return 'construction'
   return 'general'
 }
 
-function slugId(seed: string): string {
+function slugId(seed: string, provinceCode?: ProvinceCode): string {
+  const suffix = provinceCode ? `-${provinceCode.toLowerCase()}` : ''
   const s = seed
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-|-$/g, '')
-    .slice(0, 56)
-  return s || 'provider-unknown'
+    .slice(0, 56 - suffix.length)
+  return (s || 'provider-unknown') + suffix
 }
 
 /**
  * Map a flexible Outscraper row → ingest-shaped provider (still needs QA before production).
  * Column aliases cover common export variants.
+ * @param sourceFilename - optional originating CSV filename used to infer province.
  */
 export function normalizeOutscraperRecord(
   row: Record<string, string>,
+  sourceFilename?: string,
 ): ProviderIngestRecord | null {
   const name = cell(row, 'name', 'title', 'business_name')
   if (!name) return null
@@ -61,14 +68,25 @@ export function normalizeOutscraperRecord(
   const catNorm = category ? normalizeCategory(category) : ''
   const primary_segment = inferSegmentHint(catNorm)
 
-  const id = slugId(`${name}-${city}`)
+  // Province inference: try row column first, then source filename, fallback AB
+  const VALID_CODES = new Set<string>(['AB', 'ON', 'BC'])
+  const rowProvinceRaw = cell(row, 'province', 'province_code', 'state').toUpperCase()
+  const province_code: ProvinceCode = VALID_CODES.has(rowProvinceRaw)
+    ? (rowProvinceRaw as ProvinceCode)
+    : (sourceFilename ? (inferProvinceCodeFromFilename(sourceFilename) ?? 'AB') : 'AB')
+  const province = provinceNameFromCode(province_code)
+
+  const id = slugId(`${name}-${city}`, province_code)
 
   return {
     id,
     company_name: name,
     primary_segment,
+    segment_key: primary_segment,
     city,
-    service_area: normalizeServiceArea(address || `${city}, AB`),
+    province,
+    province_code,
+    service_area: normalizeServiceArea(address || `${city}, ${province_code}`),
     rating,
     review_count: reviewCount,
     website,

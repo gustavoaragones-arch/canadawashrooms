@@ -1,5 +1,6 @@
 import { emitProductionAnalytics } from '../lib/analytics/productionAnalytics'
-import { PRIORITY_CITIES, type PriorityCity } from '../lib/segments'
+import { LIVE_PROVINCES } from '../lib/locations/canadaLocations'
+import type { PriorityCity } from '../lib/segments'
 
 interface CitySelectorProps {
   disabled: boolean
@@ -21,8 +22,7 @@ export function CitySelector({ disabled, selected, onSelect }: CitySelectorProps
               Where is the project?
             </h2>
             <p className="mt-2 max-w-xl text-sm leading-relaxed text-cwr-muted">
-              Alberta-first rollout. Priority cities ship with curated matching data for MVP
-              validation.
+              Now live in Alberta and Ontario. Select the city closest to your project.
             </p>
           </div>
           {disabled ? (
@@ -30,33 +30,51 @@ export function CitySelector({ disabled, selected, onSelect }: CitySelectorProps
           ) : null}
         </div>
 
-        <div className="mt-8 flex flex-wrap gap-3" role="group" aria-label="Alberta priority cities">
-          {PRIORITY_CITIES.map((city) => {
-            const isSelected = selected === city
-            return (
-              <button
-                key={city}
-                type="button"
-                disabled={disabled}
-                onClick={() => {
-                  emitProductionAnalytics('city_selected', { city })
-                  onSelect(city)
-                }}
-                aria-pressed={isSelected}
-                className={[
-                  'min-h-11 rounded-full border px-5 py-2.5 text-sm font-semibold transition-[border-color,background-color,color] duration-150 ease-out',
-                  'focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cwr-accent active:scale-[0.99]',
-                  disabled
-                    ? 'cursor-not-allowed border-cwr-border bg-cwr-bg text-cwr-muted'
-                    : isSelected
-                      ? 'border-cwr-accent bg-cwr-accent-muted text-cwr-ink'
-                      : 'border-cwr-border bg-cwr-bg text-cwr-ink hover:border-cwr-steel/40',
-                ].join(' ')}
+        <div className="mt-8 space-y-6">
+          {LIVE_PROVINCES.map((province) => (
+            <div key={province.code}>
+              <p className="mb-3 text-[11px] font-semibold uppercase tracking-[0.18em] text-cwr-muted">
+                {province.name}
+              </p>
+              <div
+                className="flex flex-wrap gap-3"
+                role="group"
+                aria-label={`${province.name} cities`}
               >
-                {city}
-              </button>
-            )
-          })}
+                {province.cities
+                  .filter((c) => c.live)
+                  .map((city) => {
+                    const isSelected = selected === city.name
+                    return (
+                      <button
+                        key={city.name}
+                        type="button"
+                        disabled={disabled}
+                        onClick={() => {
+                          emitProductionAnalytics('city_selected', {
+                            city: city.name,
+                            province: province.code,
+                          })
+                          onSelect(city.name)
+                        }}
+                        aria-pressed={isSelected}
+                        className={[
+                          'min-h-11 rounded-full border px-5 py-2.5 text-sm font-semibold transition-[border-color,background-color,color] duration-150 ease-out',
+                          'focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cwr-accent active:scale-[0.99]',
+                          disabled
+                            ? 'cursor-not-allowed border-cwr-border bg-cwr-bg text-cwr-muted'
+                            : isSelected
+                              ? 'border-cwr-accent bg-cwr-accent-muted text-cwr-ink'
+                              : 'border-cwr-border bg-cwr-bg text-cwr-ink hover:border-cwr-steel/40',
+                        ].join(' ')}
+                      >
+                        {city.name}
+                      </button>
+                    )
+                  })}
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </section>

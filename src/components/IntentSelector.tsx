@@ -16,15 +16,15 @@ export function IntentSelector({ selected, onSelect }: IntentSelectorProps) {
     >
       <div className="max-w-2xl">
         <h2 id="intent-heading" className="text-2xl font-semibold tracking-tight text-cwr-ink sm:text-3xl">
-          What are you provisioning for?
+          What kind of project?
         </h2>
         <p className="mt-3 text-base leading-relaxed text-cwr-muted">
-          Pick the dominant operational profile. We route filters, trust signals, and provider
-          segmentation from here — not from generic business categories.
+          Choose the closest fit — construction jobsites, events, remote operations, waste & site
+          services, or general portable rentals. Your choice sets the filters and ranking below.
         </p>
       </div>
 
-      <div className="mt-10 grid gap-5 md:grid-cols-2">
+      <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {INTENT_CARDS.map((card) => {
           const isSelected = selected === card.segment
           return (
@@ -55,7 +55,7 @@ export function IntentSelector({ selected, onSelect }: IntentSelectorProps) {
                 ) : null}
               </div>
               <p className="mt-3 flex-1 text-sm leading-relaxed text-cwr-muted">{card.microcopy}</p>
-              <ul className="mt-6 flex flex-wrap gap-2" aria-label="Typical capabilities">
+              <ul className="mt-6 flex flex-wrap gap-2" aria-label="Typical features">
                 {card.badges.map((badge) => (
                   <li
                     key={badge}

@@ -1,19 +1,24 @@
 import { Link } from 'react-router-dom'
+import { SITE_LOGO, SITE_NAME } from '../config/site'
 
 export function SiteHeader() {
   return (
     <header className="border-b border-cwr-border bg-cwr-surface/90 backdrop-blur-sm sticky top-0 z-50">
-      <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-4 sm:px-6 lg:px-8">
-        <Link to="/" className="group flex flex-col leading-tight">
-          <span className="text-xs font-semibold uppercase tracking-[0.18em] text-cwr-muted">
-            Canada Washrooms
-          </span>
-          <span className="text-lg font-semibold text-cwr-ink transition-colors group-hover:text-cwr-accent">
-            Alberta matching
-          </span>
+      <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3 sm:py-4 sm:px-6 lg:px-8">
+        <Link to="/" className="group shrink-0" aria-label={SITE_NAME}>
+          <img
+            src={SITE_LOGO}
+            alt={SITE_NAME}
+            width={320}
+            height={142}
+            className="h-[4.5rem] w-auto transition-opacity duration-150 group-hover:opacity-90 sm:h-20"
+            decoding="async"
+          />
         </Link>
-        <div className="hidden items-center gap-6 text-sm text-cwr-muted sm:flex">
-          <nav aria-label="Platform pages" className="flex gap-4">
+        <div className="hidden shrink-0 flex-col items-end gap-1 text-right text-sm sm:flex">
+          <span className="font-medium text-cwr-ink">Construction · Events · Remote sites</span>
+          <span className="text-xs text-cwr-muted">Live in Alberta &amp; Ontario.</span>
+          <nav aria-label="Platform pages" className="mt-2 flex gap-4 text-cwr-muted">
             <Link className="font-medium text-cwr-steel underline-offset-4 hover:text-cwr-ink hover:underline" to="/about">
               About
             </Link>
@@ -24,11 +29,21 @@ export function SiteHeader() {
               Contact
             </Link>
           </nav>
-          <div className="hidden text-right md:block">
-            <div className="font-medium text-cwr-ink">Operational sanitation matching</div>
-            <div className="text-xs uppercase tracking-wider">Portable • Serviced • Jobsite-ready</div>
-          </div>
         </div>
+        <nav
+          aria-label="Platform pages"
+          className="flex max-w-[42%] shrink-0 flex-wrap justify-end gap-x-2 gap-y-1 text-[11px] font-medium text-cwr-steel sm:hidden"
+        >
+          <Link className="underline-offset-4 hover:text-cwr-ink hover:underline" to="/about">
+            About
+          </Link>
+          <Link className="underline-offset-4 hover:text-cwr-ink hover:underline" to="/methodology">
+            Methodology
+          </Link>
+          <Link className="underline-offset-4 hover:text-cwr-ink hover:underline" to="/contact">
+            Contact
+          </Link>
+        </nav>
       </div>
     </header>
   )
