@@ -8,4 +8,7 @@ export const EDITORIAL_STATIC_PATHS = [
   '/methodology/',
   '/contact/',
   '/coverage/',
+  '/alberta/',
+  '/ontario/',
+  '/british-columbia/',
 ] as const

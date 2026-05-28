@@ -21,7 +21,16 @@ const SITE_ORIGIN = 'https://www.canadawashrooms.ca'
 
 // ── Static editorial paths ────────────────────────────────────────────────────
 
-const EDITORIAL_PATHS: string[] = ['/', '/about/', '/methodology/', '/contact/', '/coverage/']
+const EDITORIAL_PATHS: string[] = [
+  '/',
+  '/about/',
+  '/methodology/',
+  '/contact/',
+  '/coverage/',
+  '/alberta/',
+  '/ontario/',
+  '/british-columbia/',
+]
 
 // ── Landing routes (self-contained mirror of LANDING_ROUTE_GROUPS) ────────────
 // Keep in sync with src/seo/landingRoutes.ts

@@ -136,10 +136,14 @@ function main(): void {
   // Apply manual overrides, then enrich
   const withManual = applyManualOverridesFile(allRaw, manual)
 
+  const BUILD_TIMESTAMP = new Date().toISOString()
+
   // Re-stamp national slugs (province_code may have changed via manual override)
   const withNationalSlugs = withManual.map((r) => ({
     ...r,
     id: nationalSlug(r as ProviderRaw & { province_code?: ProvinceCode }),
+    // Stamp build timestamp if not already curator-set
+    last_verified_at: (r as { last_verified_at?: string }).last_verified_at ?? BUILD_TIMESTAMP,
   }))
 
   const enriched: Provider[] = []

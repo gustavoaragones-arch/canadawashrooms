@@ -25,6 +25,14 @@ function telHref(phone: string): string {
   return digits.startsWith('+') ? `tel:${digits}` : `tel:+${digits}`
 }
 
+function formatVerifiedAt(iso: string): string {
+  try {
+    return new Date(iso).toLocaleString('en-CA', { month: 'long', year: 'numeric' })
+  } catch {
+    return ''
+  }
+}
+
 export default function ProviderPage() {
   const { providerSlug } = useParams()
   const { openInquiry } = useOperationalInquiry()
@@ -42,10 +50,15 @@ export default function ProviderPage() {
   })
   const trustLabels = deriveTrustTierLabels(provider)
   const capabilityChips = providerCapabilityChips(provider)
+  const activeChips = capabilityChips.filter((c) => c.active)
   const suitedFor = bestSuitedForLines(provider)
   const related = relatedProviders(provider, { limit: 5 })
   const segmentGuidePath = segmentLandingPath(provider.primary_segment, provider.city)
   const segmentTitle = segmentDisplayLabel(provider.primary_segment)
+  const verifiedLabel = provider.last_verified_at
+    ? formatVerifiedAt(provider.last_verified_at)
+    : null
+  const hasLowReviewData = (provider.review_count ?? 0) < 5
 
   return (
     <>
@@ -54,6 +67,7 @@ export default function ProviderPage() {
 
       <AppShell>
         <div className="mx-auto max-w-3xl px-4 py-8 sm:px-6 lg:max-w-4xl lg:px-8 lg:py-12">
+          {/* Breadcrumb */}
           <nav aria-label="Breadcrumb" className="text-sm text-cwr-muted">
             <ol className="flex flex-wrap items-center gap-x-2 gap-y-1">
               <li>
@@ -79,6 +93,7 @@ export default function ProviderPage() {
             </ol>
           </nav>
 
+          {/* Header */}
           <header className="mt-8 border-b border-cwr-border pb-8">
             <div className="flex flex-wrap gap-2">
               {trustLabels.map((label) => (
@@ -94,6 +109,11 @@ export default function ProviderPage() {
                   Phone-only provider
                 </span>
               ) : null}
+              {hasLowReviewData ? (
+                <span className="rounded-md border border-cwr-border/60 bg-cwr-bg px-2 py-1 text-[10px] font-medium text-cwr-muted">
+                  Limited review data
+                </span>
+              ) : null}
             </div>
 
             <h1 className="mt-5 text-3xl font-semibold tracking-tight text-cwr-ink sm:text-4xl">
@@ -103,7 +123,7 @@ export default function ProviderPage() {
             <dl className="mt-5 grid gap-3 text-sm sm:grid-cols-2">
               <div>
                 <dt className="text-[11px] font-semibold uppercase tracking-wider text-cwr-muted">
-                  Primary segment
+                  Category
                 </dt>
                 <dd className="mt-1 font-medium text-cwr-ink">{segmentTitle}</dd>
               </div>
@@ -113,30 +133,42 @@ export default function ProviderPage() {
                 </dt>
                 <dd className="mt-1 text-cwr-steel">
                   {provider.city}
-                  {provider.province ? `, ${provider.province}` : provider.province_code ? `, ${provider.province_code}` : ''}
+                  {provider.province
+                    ? `, ${provider.province}`
+                    : provider.province_code
+                      ? `, ${provider.province_code}`
+                      : ''}
                 </dd>
               </div>
-              <div>
-                <dt className="text-[11px] font-semibold uppercase tracking-wider text-cwr-muted">
-                  Service area
-                </dt>
-                <dd className="mt-1 text-cwr-steel">{provider.service_area}</dd>
-              </div>
+              {provider.service_area ? (
+                <div>
+                  <dt className="text-[11px] font-semibold uppercase tracking-wider text-cwr-muted">
+                    Service area
+                  </dt>
+                  <dd className="mt-1 text-cwr-steel">{provider.service_area}</dd>
+                </div>
+              ) : null}
               <div>
                 <dt className="text-[11px] font-semibold uppercase tracking-wider text-cwr-muted">
                   Google rating
                 </dt>
                 <dd className="mt-1 font-semibold text-cwr-ink">
-                  <span className="text-amber-600">★</span> {provider.rating.toFixed(1)}
-                  <span className="ml-2 font-medium text-cwr-muted">
-                    ({provider.review_count} reviews)
-                  </span>
+                  {provider.rating > 0 ? (
+                    <>
+                      <span className="text-amber-600">★</span> {provider.rating.toFixed(1)}
+                      <span className="ml-2 font-medium text-cwr-muted">
+                        ({provider.review_count} review{provider.review_count === 1 ? '' : 's'})
+                      </span>
+                    </>
+                  ) : (
+                    <span className="font-normal text-cwr-muted">No rating data</span>
+                  )}
                 </dd>
               </div>
               {provider.supported_segments.length > 1 ? (
                 <div>
                   <dt className="text-[11px] font-semibold uppercase tracking-wider text-cwr-muted">
-                    Also supports
+                    Also serves
                   </dt>
                   <dd className="mt-1 text-cwr-steel">
                     {provider.supported_segments
@@ -146,8 +178,17 @@ export default function ProviderPage() {
                   </dd>
                 </div>
               ) : null}
+              {verifiedLabel ? (
+                <div>
+                  <dt className="text-[11px] font-semibold uppercase tracking-wider text-cwr-muted">
+                    Listing updated
+                  </dt>
+                  <dd className="mt-1 text-cwr-muted">{verifiedLabel}</dd>
+                </div>
+              ) : null}
             </dl>
 
+            {/* CTAs */}
             <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
               <button
                 type="button"
@@ -188,18 +229,35 @@ export default function ProviderPage() {
                   }
                   className="inline-flex min-h-12 flex-1 items-center justify-center rounded-xl border border-transparent px-5 py-3 text-sm font-semibold text-cwr-accent underline-offset-4 hover:underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cwr-accent sm:flex-none"
                 >
-                  Website
+                  Website ↗
+                </a>
+              ) : null}
+              {provider.google_maps_url ? (
+                <a
+                  href={provider.google_maps_url}
+                  target="_blank"
+                  rel="noreferrer"
+                  onClick={() =>
+                    emitProductionAnalytics('provider_maps_click', {
+                      provider_id: provider.id,
+                      surface: 'provider_page',
+                    })
+                  }
+                  className="inline-flex min-h-12 flex-1 items-center justify-center rounded-xl border border-transparent px-5 py-3 text-sm font-semibold text-cwr-accent underline-offset-4 hover:underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cwr-accent sm:flex-none"
+                >
+                  View on Google Maps ↗
                 </a>
               ) : null}
             </div>
           </header>
 
+          {/* Operational fit */}
           <section className="mt-10" aria-labelledby="provider-fit-heading">
             <h2 id="provider-fit-heading" className="text-lg font-semibold text-cwr-ink">
-              Operational fit
+              Best suited for
             </h2>
             <p className="mt-2 text-sm text-cwr-muted">
-              Best suited for (from listing signals and enrichment — verify on your site):
+              Inferred from listing signals and enrichment — confirm directly with the operator.
             </p>
             <ul className="mt-4 list-disc space-y-2 pl-5 text-sm leading-relaxed text-cwr-steel">
               {suitedFor.map((line) => (
@@ -215,25 +273,34 @@ export default function ProviderPage() {
             ) : null}
           </section>
 
+          {/* Capabilities */}
           <section className="mt-10" aria-labelledby="provider-capabilities-heading">
             <h2 id="provider-capabilities-heading" className="text-lg font-semibold text-cwr-ink">
               Capabilities
             </h2>
-            <ul className="mt-4 flex flex-wrap gap-2" aria-label="Declared and inferred capabilities">
-              {capabilityChips.map((chip) => (
-                <li
-                  key={chip.key}
-                  className={[
-                    'rounded-lg border px-3 py-2 text-xs font-semibold',
-                    chip.active
-                      ? 'border-cwr-accent/35 bg-cwr-accent-muted text-cwr-ink'
-                      : 'border-cwr-border bg-cwr-bg/60 text-cwr-muted line-through decoration-cwr-muted/50',
-                  ].join(' ')}
-                >
-                  {chip.label}
-                </li>
-              ))}
-            </ul>
+            {activeChips.length >= 2 ? (
+              <>
+                <ul className="mt-4 flex flex-wrap gap-2" aria-label="Active capabilities">
+                  {capabilityChips.map((chip) => (
+                    <li
+                      key={chip.key}
+                      className={[
+                        'rounded-lg border px-3 py-2 text-xs font-semibold',
+                        chip.active
+                          ? 'border-cwr-accent/35 bg-cwr-accent-muted text-cwr-ink'
+                          : 'border-cwr-border bg-cwr-bg/60 text-cwr-muted line-through decoration-cwr-muted/50',
+                      ].join(' ')}
+                    >
+                      {chip.label}
+                    </li>
+                  ))}
+                </ul>
+              </>
+            ) : (
+              <p className="mt-4 text-sm text-cwr-muted">
+                Operational capabilities have not yet been fully categorized for this provider.
+              </p>
+            )}
             {provider.operational_tags.length > 0 ? (
               <div className="mt-6">
                 <p className="text-[11px] font-semibold uppercase tracking-wider text-cwr-muted">
@@ -253,6 +320,7 @@ export default function ProviderPage() {
             ) : null}
           </section>
 
+          {/* Operational notes */}
           <section className="mt-10" aria-labelledby="provider-notes-heading">
             <h2 id="provider-notes-heading" className="text-lg font-semibold text-cwr-ink">
               Operational notes
@@ -261,7 +329,11 @@ export default function ProviderPage() {
               {provider.operational_notes ? (
                 <p>{provider.operational_notes}</p>
               ) : (
-                <p className="text-cwr-muted">No free-text operational notes on this listing.</p>
+                <p className="text-cwr-muted">
+                  This provider is listed in the Canada Washrooms operational directory. Contact the
+                  operator directly to confirm equipment availability, servicing range, and project
+                  compatibility.
+                </p>
               )}
               {provider.inferred_specialties.length > 0 ? (
                 <div>
@@ -308,14 +380,17 @@ export default function ProviderPage() {
             <p className="mt-6 text-xs text-cwr-muted">{TRANSPARENCY.capabilityInference}</p>
           </section>
 
+          {/* Related providers */}
           {related.length > 0 ? (
-            <section className="mt-14 border-t border-cwr-border pt-12" aria-labelledby="related-providers-heading">
+            <section
+              className="mt-14 border-t border-cwr-border pt-12"
+              aria-labelledby="related-providers-heading"
+            >
               <h2 id="related-providers-heading" className="text-lg font-semibold text-cwr-ink">
-                Related providers
+                Similar operators
               </h2>
               <p className="mt-2 text-sm text-cwr-muted">
-                Similar operators in {provider.city} and adjacent segment fits — for comparison during
-                curation.
+                Other {segmentTitle.toLowerCase()} providers in {provider.city} and nearby areas.
               </p>
               <div className="mt-8 flex flex-col gap-6">
                 {related.map((p) => (

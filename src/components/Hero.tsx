@@ -17,7 +17,7 @@ export function Hero() {
       />
       <div className="relative z-10 mx-auto max-w-6xl px-4 py-12 sm:px-6 sm:py-16 lg:px-8 lg:py-20">
         <p className="text-xs font-semibold uppercase tracking-[0.22em] text-cwr-accent">
-          Portable washroom matching across Canada
+          CanadaWashrooms.ca
         </p>
         <p className="mt-2 text-sm font-medium text-cwr-steel">
           Now live in Alberta and Ontario. British Columbia coming next.
@@ -26,42 +26,40 @@ export function Hero() {
           id="hero-heading"
           className="cwr-hero-headline-glow mt-5 max-w-3xl text-3xl font-semibold tracking-tight text-cwr-ink sm:mt-6 sm:text-4xl lg:text-[2.75rem] lg:leading-[1.1]"
         >
-          Find the right portable toilet rental for your project.
+          Portable Washroom Rentals Across Canada
         </h1>
         <p className="cwr-hero-intro-panel mt-4 max-w-2xl rounded-xl border border-cwr-border/70 px-4 py-3.5 text-base leading-relaxed text-cwr-steel backdrop-blur-[2px] sm:mt-5 sm:px-5 sm:py-4 sm:text-lg">
-          Compare portable toilets, washrooms, and restroom trailers for construction, weddings and events,
-          and remote sites — by city and what you need on site.{' '}
-          <span className="font-medium text-cwr-ink">Live in Alberta and Ontario;</span> confirm
-          servicing and pricing with operators before you book.
+          Compare portable toilet, restroom trailer, construction site, and event washroom providers
+          across Alberta and Ontario.{' '}
+          <span className="font-medium text-cwr-ink">Confirm availability and pricing directly with each operator</span>{' '}
+          before you book.
         </p>
         <dl className="mt-8 grid gap-4 sm:mt-10 sm:grid-cols-3 sm:gap-6">
           <div className="rounded-2xl border border-cwr-border bg-cwr-bg px-5 py-4 shadow-card">
             <dt className="text-xs font-semibold uppercase tracking-wider text-cwr-muted">
-              Where we are today
+              5 categories
             </dt>
-            <dd className="mt-1 text-base font-semibold text-cwr-ink">Canada-wide focus</dd>
+            <dd className="mt-1 text-base font-semibold text-cwr-ink">Construction to events</dd>
             <dd className="mt-1 text-sm text-cwr-muted">
-              Alberta cities first — portable toilets, washrooms, and oilfield-friendly options in the
-              live dataset
+              Jobsites, weddings, remote operations, waste services, and everyday rentals — all in one place
             </dd>
           </div>
           <div className="rounded-2xl border border-cwr-border bg-cwr-bg px-5 py-4 shadow-card">
             <dt className="text-xs font-semibold uppercase tracking-wider text-cwr-muted">
-              How matching works
+              How it works
             </dt>
-            <dd className="mt-1 text-base font-semibold text-cwr-ink">Project-based matching</dd>
+            <dd className="mt-1 text-base font-semibold text-cwr-ink">Pick type, then city</dd>
             <dd className="mt-1 text-sm text-cwr-muted">
-              Pick project type and location, then narrow by features — ranked for fit, not a generic
-              directory
+              Choose your project type and location, filter by features, and see operators matched for that context
             </dd>
           </div>
           <div className="rounded-2xl border border-cwr-border bg-cwr-bg px-5 py-4 shadow-card">
             <dt className="text-xs font-semibold uppercase tracking-wider text-cwr-muted">
               Listings
             </dt>
-            <dd className="mt-1 text-base font-semibold text-cwr-ink">Phone &amp; web</dd>
+            <dd className="mt-1 text-base font-semibold text-cwr-ink">Phone &amp; web operators</dd>
             <dd className="mt-1 text-sm text-cwr-muted">
-              Includes operators with and without websites — call or email to verify availability
+              Includes operators with and without websites — call or email to verify availability before you commit
             </dd>
           </div>
         </dl>

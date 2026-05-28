@@ -10,6 +10,7 @@ const AboutPage = lazy(() => import('./pages/AboutPage.tsx'))
 const MethodologyPage = lazy(() => import('./pages/MethodologyPage.tsx'))
 const ContactPage = lazy(() => import('./pages/ContactPage.tsx'))
 const CoveragePage = lazy(() => import('./pages/CoveragePage.tsx'))
+const ProvincePage = lazy(() => import('./pages/ProvincePage.tsx'))
 
 function RouteFallback() {
   return (
@@ -35,6 +36,7 @@ export default function App() {
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/coverage" element={<CoveragePage />} />
             <Route path="/alberta-coverage" element={<Navigate to="/coverage" replace />} />
+            <Route path="/:provinceSlug" element={<ProvincePage />} />
             <Route path="/provider/:providerSlug" element={<ProviderPage />} />
             <Route path="/:segmentSlug/:citySlug" element={<LandingPage />} />
             <Route path="*" element={<Navigate to="/" replace />} />

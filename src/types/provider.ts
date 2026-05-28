@@ -93,6 +93,10 @@ export interface ProviderCore {
   septic_service?: boolean
   site_support?: boolean
   roll_off_disposal?: boolean
+  /** ISO date string — stamped at build time, displayed as "Updated May 2026". */
+  last_verified_at?: string
+  /** Direct Google Maps URL for this listing — improves trust and verification. */
+  google_maps_url?: string
 }
 
 export interface ProviderEnrichment extends OperationalRelationshipHooks {

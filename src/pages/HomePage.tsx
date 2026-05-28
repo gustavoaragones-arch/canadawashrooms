@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
+import { Link } from 'react-router-dom'
 import { AppShell } from '../components/AppShell'
 import { useOperationalInquiry } from '../components/inquiry/OperationalInquiryContext'
 import { CitySelector } from '../components/CitySelector'
@@ -11,8 +12,76 @@ import { DocumentMeta } from '../components/seo/DocumentMeta'
 import { JsonLd } from '../components/seo/JsonLd'
 import { defaultSiteMeta } from '../seo/metadata'
 import { buildHomeJsonLd } from '../seo/schema'
+import { CANADA_PROVINCES } from '../lib/locations/canadaLocations'
+import { PROVIDERS } from '../lib/providersDataset'
 import type { PriorityCity } from '../lib/segments'
 import type { PrimarySegment } from '../types/provider'
+
+const PROVINCE_SLUGS: Record<string, string> = {
+  AB: 'alberta',
+  ON: 'ontario',
+  BC: 'british-columbia',
+}
+
+function ProvinceSection() {
+  const provinceCounts = useMemo(
+    () =>
+      CANADA_PROVINCES.map((p) => ({
+        ...p,
+        count: PROVIDERS.filter((pr) => pr.province_code === p.code).length,
+        slug: PROVINCE_SLUGS[p.code] ?? p.code.toLowerCase(),
+      })),
+    [],
+  )
+
+  return (
+    <section
+      className="mx-auto max-w-6xl px-4 pb-16 sm:px-6 lg:px-8"
+      aria-labelledby="province-browse-heading"
+    >
+      <h2
+        id="province-browse-heading"
+        className="text-xs font-semibold uppercase tracking-[0.18em] text-cwr-muted"
+      >
+        Browse by province
+      </h2>
+      <div className="mt-4 grid gap-4 sm:grid-cols-3">
+        {provinceCounts.map((p) => (
+          <Link
+            key={p.code}
+            to={`/${p.slug}`}
+            className="group block rounded-2xl border border-cwr-border bg-cwr-bg px-5 py-5 shadow-card transition-colors hover:border-cwr-steel/40 hover:bg-cwr-surface"
+          >
+            <div className="flex items-center justify-between">
+              <span className="text-base font-semibold text-cwr-ink group-hover:text-cwr-accent">
+                {p.name}
+              </span>
+              {!p.live && (
+                <span className="rounded-full border border-cwr-border px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider text-cwr-muted">
+                  Coming soon
+                </span>
+              )}
+            </div>
+            {p.live ? (
+              <>
+                <p className="mt-1.5 text-sm text-cwr-muted">
+                  {p.count > 0 ? `${p.count} operator${p.count === 1 ? '' : 's'} listed` : 'Dataset in progress'}
+                </p>
+                <p className="mt-1 text-xs text-cwr-muted">
+                  {p.cities.filter((c) => c.live).map((c) => c.name).join(', ')}
+                </p>
+              </>
+            ) : (
+              <p className="mt-1.5 text-sm text-cwr-muted">
+                {p.cities.map((c) => c.name).slice(0, 4).join(', ')} &amp; more
+              </p>
+            )}
+          </Link>
+        ))}
+      </div>
+    </section>
+  )
+}
 
 export default function HomePage() {
   const { openInquiry } = useOperationalInquiry()
@@ -97,13 +166,16 @@ export default function HomePage() {
             </section>
           </>
         ) : (
-          <section className="mx-auto max-w-6xl px-4 pb-16 text-center sm:px-6 lg:px-8">
-            <p className="rounded-2xl border border-dashed border-cwr-border bg-cwr-surface px-5 py-8 text-sm leading-relaxed text-cwr-muted shadow-card sm:px-6 sm:py-10">
-              {!segment
-                ? 'Pick a project type above, then a city — you will get filters and a shortlist of portable washroom providers for that area.'
-                : 'Choose a city to load filters and provider matches for that location.'}
-            </p>
-          </section>
+          <>
+            <section className="mx-auto max-w-6xl px-4 pb-10 text-center sm:px-6 lg:px-8">
+              <p className="rounded-2xl border border-dashed border-cwr-border bg-cwr-surface px-5 py-8 text-sm leading-relaxed text-cwr-muted shadow-card sm:px-6 sm:py-10">
+                {!segment
+                  ? 'Pick a project type above, then a city — you will get filters and a shortlist of portable washroom operators for that area.'
+                  : 'Choose a city to see available portable washroom operators.'}
+              </p>
+            </section>
+            <ProvinceSection />
+          </>
         )}
       </AppShell>
     </>
