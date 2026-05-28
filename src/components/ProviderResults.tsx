@@ -9,6 +9,11 @@ interface ProviderResultsProps {
   activeCapabilities: FilterCapability[]
   activeFilterLabels: string[]
   isRelaxed: boolean
+  /**
+   * True when there were no segment-specific providers in the city — results are
+   * all providers in that city ranked by fit instead.
+   */
+  isCityFallback?: boolean
   providers: Provider[]
   /** When set, replaces the operational summary headline (e.g. editorial landing H1 context). */
   summaryHeadline?: string
@@ -20,6 +25,7 @@ export function ProviderResults({
   activeCapabilities,
   activeFilterLabels,
   isRelaxed,
+  isCityFallback = false,
   providers,
   summaryHeadline,
 }: ProviderResultsProps) {
@@ -39,10 +45,10 @@ export function ProviderResults({
           providerCount={0}
         />
         <div className="mt-8 rounded-2xl border border-dashed border-cwr-border bg-cwr-surface px-6 py-12 text-center shadow-card">
-          <p className="text-lg font-semibold text-cwr-ink">No listings for this mix yet</p>
+          <p className="text-lg font-semibold text-cwr-ink">No listings for this area yet</p>
           <p className="mt-3 text-sm leading-relaxed text-cwr-muted">
-            We do not have a provider for this project type in {city} in the current Alberta dataset. Try
-            another priority city or a different project type — coverage grows as we add listings.
+            We don&apos;t yet have providers listed for {city} in this category. Try another city or
+            a different project type — coverage grows as we add listings.
           </p>
         </div>
       </section>
@@ -62,15 +68,21 @@ export function ProviderResults({
         providerCount={providers.length}
       />
 
-      {!isRelaxed ? (
+      {isCityFallback ? (
+        <p className="mt-8 rounded-xl border border-cwr-border bg-cwr-bg px-4 py-3 text-sm leading-relaxed text-cwr-muted">
+          No providers in our dataset are specifically listed for {city} in this category yet.
+          Showing nearby operators who may serve your area — confirm availability and travel range
+          directly with each operator.
+        </p>
+      ) : !isRelaxed ? (
         <p className="mt-8 text-sm leading-relaxed text-cwr-muted">
           Ranked for fit to your project type, selected features, and local signals — not an alphabetical
           list.
         </p>
       ) : (
         <p className="mt-8 text-sm leading-relaxed text-cwr-muted">
-          Showing the closest matches in {city}. Confirm heating, pump schedule, and site access with the
-          operator before work starts.
+          Showing the closest matches in {city}. Confirm servicing, equipment, and site access with each
+          operator before you commit.
         </p>
       )}
 

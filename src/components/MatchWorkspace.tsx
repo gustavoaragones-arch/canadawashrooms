@@ -20,7 +20,7 @@ export function MatchWorkspace({ segment, city, summaryHeadline }: MatchWorkspac
   const [activeFilters, setActiveFilters] = useState<FilterCapability[]>([])
   const activeSet = useMemo(() => new Set(activeFilters), [activeFilters])
 
-  const { providers: matched, isRelaxed } = useMemo(() => {
+  const { providers: matched, isRelaxed, isCityFallback } = useMemo(() => {
     return resolveMatches(PROVIDERS, segment, city, activeSet)
   }, [segment, city, activeSet])
 
@@ -55,6 +55,7 @@ export function MatchWorkspace({ segment, city, summaryHeadline }: MatchWorkspac
         activeCapabilities={activeFilters}
         activeFilterLabels={activeFilterLabels}
         isRelaxed={isRelaxed}
+        isCityFallback={isCityFallback}
         providers={matched}
         summaryHeadline={summaryHeadline}
       />

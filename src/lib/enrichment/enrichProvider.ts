@@ -35,7 +35,16 @@ function deriveSupportedSegments(
   const s = new Set<PrimarySegment>([raw.primary_segment])
 
   if (raw.primary_segment !== 'event') {
-    if (raw.luxury_units || raw.wedding_friendly || flags.luxury_trailers) {
+    // Explicit luxury/event signals
+    const hasExplicitEventSignal =
+      raw.luxury_units || raw.wedding_friendly || flags.luxury_trailers
+    // General portable toilet providers can serve standard outdoor events —
+    // they are a secondary fit unless they explicitly specialize in oilfield/waste.
+    const isGeneralEventCapable =
+      raw.primary_segment === 'general' ||
+      (raw.primary_segment === 'construction' &&
+        (raw.handwash_available || raw.ada_accessible))
+    if (hasExplicitEventSignal || isGeneralEventCapable) {
       s.add('event')
     }
   }

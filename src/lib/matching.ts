@@ -18,9 +18,73 @@ export function providersInScope(
 ): Provider[] {
   return providers.filter(
     (p) =>
-      p.city === city &&
+      p.city.toLowerCase() === city.toLowerCase() &&
       (p.primary_segment === segment || p.supported_segments.includes(segment)),
   )
+}
+
+/**
+ * All providers in the same city regardless of segment — used as a fallback
+ * when the city has no segment-scoped providers.
+ */
+function allProvidersInCity(providers: Provider[], city: string): Provider[] {
+  return providers.filter((p) => p.city.toLowerCase() === city.toLowerCase())
+}
+
+/**
+ * Infer province code from a city name by checking providers that share that city.
+ * Returns null when the city isn't present in the dataset at all.
+ */
+function inferProvinceFromCity(providers: Provider[], city: string): string | null {
+  return (
+    providers.find((p) => p.city.toLowerCase() === city.toLowerCase())?.province_code ?? null
+  )
+}
+
+/**
+ * Providers in the same province — used when a city name has no direct matches
+ * (e.g. "Toronto" query hitting GTA providers listed under Brampton/Mississauga).
+ * We use a known province lookup table for cities in the location model.
+ */
+function providersInProvince(
+  providers: Provider[],
+  provinceCode: string,
+  segment: PrimarySegment,
+): Provider[] {
+  return providers.filter(
+    (p) =>
+      p.province_code === provinceCode &&
+      (p.primary_segment === segment || p.supported_segments.includes(segment)),
+  )
+}
+
+/** Province code from a city slug using a static lookup of the live cities. */
+const CITY_TO_PROVINCE: Record<string, string> = {
+  calgary: 'AB',
+  edmonton: 'AB',
+  'fort mcmurray': 'AB',
+  'fort-mcmurray': 'AB',
+  'red deer': 'AB',
+  'red-deer': 'AB',
+  canmore: 'AB',
+  lethbridge: 'AB',
+  'medicine hat': 'AB',
+  toronto: 'ON',
+  mississauga: 'ON',
+  brampton: 'ON',
+  hamilton: 'ON',
+  ottawa: 'ON',
+  london: 'ON',
+  vaughan: 'ON',
+  markham: 'ON',
+  welland: 'ON',
+  kitchener: 'ON',
+  vancouver: 'BC',
+  kelowna: 'BC',
+  kamloops: 'BC',
+  surrey: 'BC',
+  abbotsford: 'BC',
+  victoria: 'BC',
 }
 
 /** Dataset tally for landing/editorial copy — primary or corroborated segment signals. */
@@ -132,6 +196,11 @@ export function sortProvidersByRelevance(
 export interface ResolvedMatches {
   /** True when user had filters but no operator matched every selected capability. */
   isRelaxed: boolean
+  /**
+   * True when the city had no segment-specific providers — results are all providers
+   * in that city ranked by segment fit instead.
+   */
+  isCityFallback: boolean
   /** Sorted list for display (exact pool or full scope fallback). */
   providers: Provider[]
 }
@@ -145,9 +214,38 @@ export function resolveMatches(
   const scope = providersInScope(providers, segment, city)
   const activeList = [...active]
 
+  // No segment-specific providers in this city — try city-all, then province
+  if (scope.length === 0) {
+    const cityPool = allProvidersInCity(providers, city)
+
+    if (cityPool.length > 0) {
+      // City has providers but none match the segment
+      return {
+        isRelaxed: true,
+        isCityFallback: true,
+        providers: sortProvidersByRelevance(cityPool, segment, activeList),
+      }
+    }
+
+    // City has no providers at all — look up province and fall back to province-level results
+    const provinceCode =
+      CITY_TO_PROVINCE[city.toLowerCase()] ?? inferProvinceFromCity(providers, city)
+    if (provinceCode) {
+      const provincePool = providersInProvince(providers, provinceCode, segment)
+      return {
+        isRelaxed: true,
+        isCityFallback: true,
+        providers: sortProvidersByRelevance(provincePool, segment, activeList),
+      }
+    }
+
+    return { isRelaxed: true, isCityFallback: true, providers: [] }
+  }
+
   if (activeList.length === 0) {
     return {
       isRelaxed: false,
+      isCityFallback: false,
       providers: sortProvidersByRelevance(scope, segment, activeList),
     }
   }
@@ -159,12 +257,14 @@ export function resolveMatches(
   if (exact.length > 0) {
     return {
       isRelaxed: false,
+      isCityFallback: false,
       providers: sortProvidersByRelevance(exact, segment, activeList),
     }
   }
 
   return {
     isRelaxed: true,
+    isCityFallback: false,
     providers: sortProvidersByRelevance(scope, segment, activeList),
   }
 }

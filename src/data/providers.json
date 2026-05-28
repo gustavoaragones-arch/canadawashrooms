@@ -35,7 +35,8 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.84,
     "supported_segments": [
-      "general"
+      "general",
+      "event"
     ],
     "capabilities": [],
     "operational_tags": [
@@ -53,7 +54,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "eh-royal-flush-portable-toilets-ardrossan-ab",
@@ -121,7 +122,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "zero-spill-oilfield-services-ltd-beaverlodge-ab",
@@ -189,7 +190,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "abc-waste-management-potties-ltd-calgary-ab",
@@ -255,7 +256,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "alberta-trailer-rentals-calgary-ab",
@@ -323,7 +324,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "avalanche-waste-management-inc-calgary-ab",
@@ -391,7 +392,7 @@
       "Rating pattern is steady enough to treat reviews as a meaningful signal.",
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "fenceline-rentals-ltd-calgary-calgary-ab",
@@ -429,7 +430,8 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
-      "general"
+      "general",
+      "event"
     ],
     "capabilities": [],
     "operational_tags": [
@@ -447,7 +449,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "pit-stop-portable-toilet-services-calgary-ab",
@@ -513,7 +515,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "portabins-calgary-ab",
@@ -578,7 +580,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "rhino-calgary-ab",
@@ -637,7 +639,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "super-save-group-calgary-ab",
@@ -703,7 +705,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "the-garbage-good-guys-calgary-ab",
@@ -741,7 +743,8 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
-      "general"
+      "general",
+      "event"
     ],
     "capabilities": [],
     "operational_tags": [
@@ -759,7 +762,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "united-rentals-calgary-ab",
@@ -797,7 +800,8 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
-      "general"
+      "general",
+      "event"
     ],
     "capabilities": [],
     "operational_tags": [
@@ -815,7 +819,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "vibe-event-rentals-calgary-ab",
@@ -853,7 +857,8 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.84,
     "supported_segments": [
-      "general"
+      "general",
+      "event"
     ],
     "capabilities": [],
     "operational_tags": [
@@ -875,7 +880,7 @@
       "Rating pattern is steady enough to treat reviews as a meaningful signal.",
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "willscot-calgary-ab",
@@ -913,7 +918,8 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
-      "general"
+      "general",
+      "event"
     ],
     "capabilities": [],
     "operational_tags": [
@@ -931,7 +937,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "canmore-septic-canmore-ab",
@@ -969,7 +975,8 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
-      "general"
+      "general",
+      "event"
     ],
     "capabilities": [],
     "operational_tags": [
@@ -987,7 +994,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "benoit-rentals-ltd-chauvin-ab",
@@ -1049,7 +1056,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "mr-p-potty-ltd-cochrane-ab",
@@ -1115,7 +1122,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "steelhead-ventures-ltd-cochrane-ab",
@@ -1153,7 +1160,8 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
-      "general"
+      "general",
+      "event"
     ],
     "capabilities": [],
     "operational_tags": [
@@ -1171,7 +1179,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "buckaday-toilets-drayton-valley-ab",
@@ -1239,7 +1247,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "1st-choice-construction-waste-removal-edmonton-ab",
@@ -1305,7 +1313,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "heartland-disposal-recycling-ltd-edmonton-ab",
@@ -1371,7 +1379,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "p-cann-edmonton-ab",
@@ -1439,7 +1447,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "p-cann-services-edmonton-ab",
@@ -1507,7 +1515,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "p-pots-portable-washrooms-edmonton-ab",
@@ -1545,7 +1553,8 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
-      "general"
+      "general",
+      "event"
     ],
     "capabilities": [],
     "operational_tags": [
@@ -1563,7 +1572,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "pioneer-sanitary-solutions-ltd-edmonton-ab",
@@ -1631,7 +1640,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "solv-x-enterprises-inc-edmonton-ab",
@@ -1699,7 +1708,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "super-save-group-edmonton-ab",
@@ -1765,7 +1774,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "alberta-toilets-septic-services-evansburg-ab",
@@ -1833,7 +1842,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "go-services-inc-fort-mcmurray-ab",
@@ -1901,7 +1910,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "gallason-industrial-cleaning-services-inc-fort-saskatchewan-ab",
@@ -1969,7 +1978,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "bear-creek-rentals-inc-fox-creek-ab",
@@ -2037,7 +2046,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "remote-group-grande-prairie-county-no-1-ab",
@@ -2075,7 +2084,8 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
-      "general"
+      "general",
+      "event"
     ],
     "capabilities": [],
     "operational_tags": [
@@ -2093,7 +2103,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "f5-services-hardisty-ab",
@@ -2159,7 +2169,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "range-services-leduc-ab",
@@ -2227,7 +2237,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "rockbox-structures-nisku-ab",
@@ -2265,7 +2275,8 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.84,
     "supported_segments": [
-      "general"
+      "general",
+      "event"
     ],
     "capabilities": [],
     "operational_tags": [
@@ -2283,7 +2294,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "duty-calls-portables-ltd-okotoks-ab",
@@ -2351,7 +2362,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "mcneely-co-rentals-olds-ab",
@@ -2419,7 +2430,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "canmasters-inc-red-deer-ab",
@@ -2457,7 +2468,8 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
-      "general"
+      "general",
+      "event"
     ],
     "capabilities": [],
     "operational_tags": [
@@ -2475,7 +2487,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "go-services-inc-red-deer-ab",
@@ -2541,7 +2553,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "little-jon-s-portable-toilet-rentals-red-deer-ab",
@@ -2609,7 +2621,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "big-rock-waste-disposal-and-rentals-rocky-mountain-house-ab",
@@ -2677,7 +2689,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "oli-s-portable-toilets-rental-rocky-mountain-house-ab",
@@ -2745,7 +2757,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "rangeland-event-restrooms-rocky-view-county-ab",
@@ -2813,7 +2825,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "range-services-sherwood-park-ab",
@@ -2881,7 +2893,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "handi-can-2003-ltd-spruce-grove-ab",
@@ -2949,7 +2961,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "frontline-rentals-div-of-combat-spraying-stettler-ab",
@@ -3017,7 +3029,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "valleyview-sheet-metal-and-insulating-ltd-valleyview-ab",
@@ -3085,7 +3097,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "black-tie-toilets-ancaster-on",
@@ -3153,7 +3165,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "suite-moves-arnprior-on",
@@ -3221,7 +3233,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "kaneco-group-premium-portable-washroom-rentals-blackstock-on",
@@ -3289,7 +3301,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "rental-save-bolton-on",
@@ -3357,7 +3369,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "go-to-ready-loo-brampton-on",
@@ -3395,7 +3407,8 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
-      "general"
+      "general",
+      "event"
     ],
     "capabilities": [],
     "operational_tags": [
@@ -3413,7 +3426,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "halco-portable-washrooms-brantford-on",
@@ -3481,7 +3494,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "black-tie-toilets-ltd-ca-on",
@@ -3549,7 +3562,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "environmental-360-solutions-ca-on",
@@ -3615,7 +3628,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "gt-portable-toilet-rental-inc-ca-on",
@@ -3683,7 +3696,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "rolling-rentals-ca-on",
@@ -3751,7 +3764,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "the-jackpot-portable-sanitation-services-ca-on",
@@ -3819,7 +3832,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "throne-porta-potty-inc-ca-on",
@@ -3887,7 +3900,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "willscot-ca-on",
@@ -3925,7 +3938,8 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.84,
     "supported_segments": [
-      "general"
+      "general",
+      "event"
     ],
     "capabilities": [],
     "operational_tags": [
@@ -3943,7 +3957,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "stone-mills-portable-toilet-rentals-centreville-on",
@@ -4011,7 +4025,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "a-1-toilet-rentals-clarksburg-on",
@@ -4079,7 +4093,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "the-jackpot-portable-sanitation-services-courtice-on",
@@ -4147,7 +4161,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "tp-toilets-inc-ennismore-on",
@@ -4215,7 +4229,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "huron-toilet-rentals-ltd-goderich-on",
@@ -4283,7 +4297,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "ampot-portable-toilets-gormley-on",
@@ -4351,7 +4365,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "nature-s-call-gormley-on",
@@ -4419,7 +4433,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "red-star-portable-hagersville-on",
@@ -4487,7 +4501,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "five-stars-portable-toilets-hamilton-on",
@@ -4555,7 +4569,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "pitton-plumbing-portable-sanitation-hamilton-on",
@@ -4623,7 +4637,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "chantler-s-environmental-services-hillsburgh-on",
@@ -4691,7 +4705,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "k-winter-sanitation-inc-innisfil-on",
@@ -4759,7 +4773,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "pine-porta-potty-kingston-on",
@@ -4827,7 +4841,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "room-to-go-inc-millgrove-on",
@@ -4895,7 +4909,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "centreline-sanitation-milton-on",
@@ -4963,7 +4977,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "four-seasons-portable-restrooms-mississauga-on",
@@ -5031,7 +5045,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "xpress-rental-solutions-inc-mississauga-on",
@@ -5099,7 +5113,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "m-g-portables-inc-new-hamburg-on",
@@ -5167,7 +5181,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "niagara-portable-toilets-niagara-falls-on",
@@ -5235,7 +5249,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "ottawa-luxury-bathroom-trailers-ottawa-on",
@@ -5303,7 +5317,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "portable-toilet-rentals-pefferlaw-on",
@@ -5341,7 +5355,8 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
-      "general"
+      "general",
+      "event"
     ],
     "capabilities": [],
     "operational_tags": [
@@ -5359,7 +5374,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "premium-portable-toilet-rentals-peterborough-on",
@@ -5427,7 +5442,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "lennex-temporary-fence-pickering-on",
@@ -5486,7 +5501,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "event-ready-restrooms-st-thomas-on",
@@ -5547,7 +5562,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Event-oriented restroom trailer positioning — confirm footprint and pump windows."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "affordable-portables-st-williams-on",
@@ -5615,7 +5630,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "nature-s-call-vaughan-on",
@@ -5683,7 +5698,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "markle-s-pumping-service-waterdown-on",
@@ -5751,7 +5766,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "halco-portables-welland-on",
@@ -5819,7 +5834,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   },
   {
     "id": "platinum-vip-portables-wedding-special-event-washroom-rentals-welland-on",
@@ -5887,6 +5902,6 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-05-28T02:39:45.038Z"
+    "last_verified_at": "2026-05-28T03:15:57.128Z"
   }
 ]
