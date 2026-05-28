@@ -2,8 +2,8 @@
   {
     "id": "halco-portables-welland-on",
     "company_name": "Halco Portables",
-    "primary_segment": "oilfield",
-    "segment_key": "oilfield",
+    "primary_segment": "construction",
+    "segment_key": "construction",
     "city": "Welland",
     "province": "Ontario",
     "province_code": "ON",
@@ -13,20 +13,23 @@
     "website": "https://www.halcomobile.com",
     "phone": "+18666958644",
     "badges": [
-      "Portable toilet supplier"
+      "Portable toilet supplier",
+      "Portable toilet supplier, Portable building manufacturer, Sewage disposal service"
     ],
-    "winterized": false,
-    "luxury_units": false,
-    "construction_ready": false,
-    "oilfield_ready": true,
+    "heated": true,
+    "handwash_available": true,
     "ada_accessible": false,
-    "handwash_available": false,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
     "google_categories": [
       "portable toilet supplier"
     ],
-    "winter_service": false,
-    "remote_logistics": true,
-    "luxury_trailers": false,
+    "winter_service": true,
+    "remote_logistics": false,
+    "luxury_trailers": true,
     "flushing_units": false,
     "septic_service": false,
     "site_support": true,
@@ -35,42 +38,57 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.84,
     "supported_segments": [
-      "oilfield",
+      "construction",
+      "event",
       "site_services"
     ],
     "capabilities": [
-      "remote_logistics",
-      "site_support"
+      "handwash_available",
+      "heated",
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
     ],
     "operational_tags": [
       "category:portable_sanitation",
-      "declared:industrial_remote",
+      "declared:jobsite_ready",
       "source:badge_alignment"
     ],
     "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
       "integrated_site_support"
     ],
     "inferred_specialties": [
-      "Industrial remote corridors",
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
       "Multi-trade site servicing"
     ],
     "trust_signals": [
-      "alberta_mvp_dataset",
       "listed_web_presence"
     ],
     "response_priority": "standard",
     "operator_scale": "small",
     "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "oilfield",
+      "site_services"
+    ],
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions.",
-      "Remote logistics signals present — validate lease-road access and SLAs."
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ]
   },
   {
     "id": "niagara-portable-toilets-niagara-falls-on",
     "company_name": "Niagara Portable Toilets",
-    "primary_segment": "oilfield",
-    "segment_key": "oilfield",
+    "primary_segment": "construction",
+    "segment_key": "construction",
     "city": "Niagara Falls",
     "province": "Ontario",
     "province_code": "ON",
@@ -82,62 +100,81 @@
     "badges": [
       "Portable toilet supplier"
     ],
-    "winterized": false,
+    "heated": true,
+    "handwash_available": true,
+    "ada_accessible": true,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
     "luxury_units": false,
-    "construction_ready": false,
-    "oilfield_ready": true,
-    "ada_accessible": false,
-    "handwash_available": false,
     "google_categories": [
       "portable toilet supplier"
     ],
-    "winter_service": false,
-    "remote_logistics": true,
-    "luxury_trailers": false,
+    "winter_service": true,
+    "remote_logistics": false,
+    "luxury_trailers": true,
     "flushing_units": false,
     "septic_service": false,
     "site_support": true,
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.84,
+    "primary_segment_confidence": 0.78,
     "supported_segments": [
-      "oilfield",
+      "construction",
+      "event",
+      "general",
       "site_services"
     ],
     "capabilities": [
-      "remote_logistics",
-      "site_support"
+      "ada_accessible",
+      "handwash_available",
+      "heated",
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
     ],
     "operational_tags": [
       "category:portable_sanitation",
-      "declared:industrial_remote",
+      "declared:jobsite_ready",
       "source:badge_alignment"
     ],
     "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
       "integrated_site_support"
     ],
     "inferred_specialties": [
-      "Industrial remote corridors",
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
       "Multi-trade site servicing"
     ],
     "trust_signals": [
-      "alberta_mvp_dataset",
       "listed_web_presence"
     ],
     "response_priority": "standard",
     "operator_scale": "small",
     "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "oilfield",
+      "site_services"
+    ],
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions.",
-      "Remote logistics signals present — validate lease-road access and SLAs."
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ]
   },
   {
     "id": "rolling-rentals-ca-on",
     "company_name": "Rolling Rentals",
-    "primary_segment": "oilfield",
-    "segment_key": "oilfield",
+    "primary_segment": "event",
+    "segment_key": "event",
     "city": "CA",
     "province": "Ontario",
     "province_code": "ON",
@@ -149,18 +186,20 @@
     "badges": [
       "Portable toilet supplier"
     ],
-    "winterized": false,
-    "luxury_units": false,
-    "construction_ready": false,
-    "oilfield_ready": true,
+    "heated": true,
+    "handwash_available": true,
     "ada_accessible": false,
-    "handwash_available": false,
+    "winterized": true,
+    "construction_ready": false,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
     "google_categories": [
       "portable toilet supplier"
     ],
-    "winter_service": false,
-    "remote_logistics": true,
-    "luxury_trailers": false,
+    "winter_service": true,
+    "remote_logistics": false,
+    "luxury_trailers": true,
     "flushing_units": false,
     "septic_service": false,
     "site_support": true,
@@ -169,42 +208,55 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.84,
     "supported_segments": [
-      "oilfield",
+      "event",
       "site_services"
     ],
     "capabilities": [
-      "remote_logistics",
-      "site_support"
+      "handwash_available",
+      "heated",
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
     ],
     "operational_tags": [
       "category:portable_sanitation",
-      "declared:industrial_remote",
       "source:badge_alignment"
     ],
     "service_types": [
+      "event_trailer_operations",
       "integrated_site_support"
     ],
     "inferred_specialties": [
-      "Industrial remote corridors",
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
       "Multi-trade site servicing"
     ],
     "trust_signals": [
-      "alberta_mvp_dataset",
       "listed_web_presence"
     ],
     "response_priority": "standard",
     "operator_scale": "small",
     "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "oilfield",
+      "site_services"
+    ],
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions.",
-      "Remote logistics signals present — validate lease-road access and SLAs."
+      "Winter-capable equipment posture corroborated by listing or weighted reviews.",
+      "Event-oriented restroom trailer positioning — confirm footprint and pump windows."
     ]
   },
   {
     "id": "suite-moves-arnprior-on",
     "company_name": "Suite Moves",
-    "primary_segment": "oilfield",
-    "segment_key": "oilfield",
+    "primary_segment": "event",
+    "segment_key": "event",
     "city": "Arnprior",
     "province": "Ontario",
     "province_code": "ON",
@@ -216,18 +268,20 @@
     "badges": [
       "Portable toilet supplier"
     ],
-    "winterized": false,
-    "luxury_units": false,
-    "construction_ready": false,
-    "oilfield_ready": true,
-    "ada_accessible": false,
+    "heated": true,
     "handwash_available": false,
+    "ada_accessible": false,
+    "winterized": true,
+    "construction_ready": false,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
     "google_categories": [
       "portable toilet supplier"
     ],
-    "winter_service": false,
-    "remote_logistics": true,
-    "luxury_trailers": false,
+    "winter_service": true,
+    "remote_logistics": false,
+    "luxury_trailers": true,
     "flushing_units": false,
     "septic_service": false,
     "site_support": true,
@@ -236,42 +290,54 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.84,
     "supported_segments": [
-      "oilfield",
+      "event",
       "site_services"
     ],
     "capabilities": [
-      "remote_logistics",
-      "site_support"
+      "heated",
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
     ],
     "operational_tags": [
       "category:portable_sanitation",
-      "declared:industrial_remote",
       "source:badge_alignment"
     ],
     "service_types": [
+      "event_trailer_operations",
       "integrated_site_support"
     ],
     "inferred_specialties": [
-      "Industrial remote corridors",
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
       "Multi-trade site servicing"
     ],
     "trust_signals": [
-      "alberta_mvp_dataset",
       "listed_web_presence"
     ],
     "response_priority": "standard",
     "operator_scale": "small",
     "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "oilfield",
+      "site_services"
+    ],
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions.",
-      "Remote logistics signals present — validate lease-road access and SLAs."
+      "Winter-capable equipment posture corroborated by listing or weighted reviews.",
+      "Event-oriented restroom trailer positioning — confirm footprint and pump windows."
     ]
   },
   {
     "id": "nature-s-call-vaughan-on",
     "company_name": "Nature's Call",
-    "primary_segment": "oilfield",
-    "segment_key": "oilfield",
+    "primary_segment": "construction",
+    "segment_key": "construction",
     "city": "Vaughan",
     "province": "Ontario",
     "province_code": "ON",
@@ -283,62 +349,81 @@
     "badges": [
       "Portable toilet supplier"
     ],
-    "winterized": false,
+    "heated": true,
+    "handwash_available": true,
+    "ada_accessible": true,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
     "luxury_units": false,
-    "construction_ready": false,
-    "oilfield_ready": true,
-    "ada_accessible": false,
-    "handwash_available": false,
     "google_categories": [
       "portable toilet supplier"
     ],
-    "winter_service": false,
-    "remote_logistics": true,
-    "luxury_trailers": false,
+    "winter_service": true,
+    "remote_logistics": false,
+    "luxury_trailers": true,
     "flushing_units": false,
     "septic_service": false,
     "site_support": true,
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.84,
+    "primary_segment_confidence": 0.78,
     "supported_segments": [
-      "oilfield",
+      "construction",
+      "event",
+      "general",
       "site_services"
     ],
     "capabilities": [
-      "remote_logistics",
-      "site_support"
+      "ada_accessible",
+      "handwash_available",
+      "heated",
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
     ],
     "operational_tags": [
       "category:portable_sanitation",
-      "declared:industrial_remote",
+      "declared:jobsite_ready",
       "source:badge_alignment"
     ],
     "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
       "integrated_site_support"
     ],
     "inferred_specialties": [
-      "Industrial remote corridors",
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
       "Multi-trade site servicing"
     ],
     "trust_signals": [
-      "alberta_mvp_dataset",
       "listed_web_presence"
     ],
     "response_priority": "standard",
     "operator_scale": "small",
     "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "oilfield",
+      "site_services"
+    ],
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions.",
-      "Remote logistics signals present — validate lease-road access and SLAs."
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ]
   },
   {
     "id": "chantler-s-environmental-services-hillsburgh-on",
     "company_name": "Chantler's Environmental Services",
-    "primary_segment": "oilfield",
-    "segment_key": "oilfield",
+    "primary_segment": "construction",
+    "segment_key": "construction",
     "city": "Hillsburgh",
     "province": "Ontario",
     "province_code": "ON",
@@ -350,18 +435,20 @@
     "badges": [
       "Portable toilet supplier"
     ],
-    "winterized": false,
-    "luxury_units": false,
-    "construction_ready": false,
-    "oilfield_ready": true,
+    "heated": true,
+    "handwash_available": true,
     "ada_accessible": false,
-    "handwash_available": false,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
     "google_categories": [
       "portable toilet supplier"
     ],
-    "winter_service": false,
-    "remote_logistics": true,
-    "luxury_trailers": false,
+    "winter_service": true,
+    "remote_logistics": false,
+    "luxury_trailers": true,
     "flushing_units": false,
     "septic_service": false,
     "site_support": true,
@@ -370,42 +457,57 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.84,
     "supported_segments": [
-      "oilfield",
+      "construction",
+      "event",
       "site_services"
     ],
     "capabilities": [
-      "remote_logistics",
-      "site_support"
+      "handwash_available",
+      "heated",
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
     ],
     "operational_tags": [
       "category:portable_sanitation",
-      "declared:industrial_remote",
+      "declared:jobsite_ready",
       "source:badge_alignment"
     ],
     "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
       "integrated_site_support"
     ],
     "inferred_specialties": [
-      "Industrial remote corridors",
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
       "Multi-trade site servicing"
     ],
     "trust_signals": [
-      "alberta_mvp_dataset",
       "listed_web_presence"
     ],
     "response_priority": "standard",
     "operator_scale": "small",
     "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "oilfield",
+      "site_services"
+    ],
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions.",
-      "Remote logistics signals present — validate lease-road access and SLAs."
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ]
   },
   {
     "id": "willscot-ca-on",
     "company_name": "WillScot",
-    "primary_segment": "general",
-    "segment_key": "general",
+    "primary_segment": "construction",
+    "segment_key": "construction",
     "city": "CA",
     "province": "Ontario",
     "province_code": "ON",
@@ -415,20 +517,23 @@
     "website": "https://www.willscot.com/locations/details/toronto-west-on%3Futm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_campaign%3Dgbp-listing",
     "phone": "+14162319100",
     "badges": [
-      "Equipment rental agency"
+      "Equipment rental agency",
+      "Equipment rental agency, Container terminal"
     ],
-    "winterized": false,
-    "luxury_units": false,
-    "construction_ready": false,
-    "oilfield_ready": false,
-    "ada_accessible": false,
+    "heated": true,
     "handwash_available": false,
+    "ada_accessible": true,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
     "google_categories": [
       "equipment rental agency"
     ],
-    "winter_service": false,
+    "winter_service": true,
     "remote_logistics": false,
-    "luxury_trailers": false,
+    "luxury_trailers": true,
     "flushing_units": false,
     "septic_service": false,
     "site_support": false,
@@ -437,30 +542,51 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.84,
     "supported_segments": [
-      "general"
+      "construction",
+      "event"
     ],
-    "capabilities": [],
+    "capabilities": [
+      "ada_accessible",
+      "heated",
+      "luxury_trailers",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
+    ],
     "operational_tags": [
+      "declared:jobsite_ready",
       "source:badge_alignment"
     ],
-    "service_types": [],
-    "inferred_specialties": [],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Cold-weather equipment posture"
+    ],
     "trust_signals": [
-      "alberta_mvp_dataset",
       "listed_web_presence"
     ],
     "response_priority": "standard",
     "operator_scale": "small",
     "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "oilfield"
+    ],
     "operational_trust_cues": [
-      "Listed web presence — faster verification of inventory and route assumptions."
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ]
   },
   {
     "id": "four-seasons-portable-restrooms-mississauga-on",
     "company_name": "Four Seasons Portable Restrooms",
-    "primary_segment": "oilfield",
-    "segment_key": "oilfield",
+    "primary_segment": "construction",
+    "segment_key": "construction",
     "city": "Mississauga",
     "province": "Ontario",
     "province_code": "ON",
@@ -472,55 +598,74 @@
     "badges": [
       "Portable toilet supplier"
     ],
-    "winterized": false,
+    "heated": true,
+    "handwash_available": true,
+    "ada_accessible": true,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
     "luxury_units": false,
-    "construction_ready": false,
-    "oilfield_ready": true,
-    "ada_accessible": false,
-    "handwash_available": false,
     "google_categories": [
       "portable toilet supplier"
     ],
-    "winter_service": false,
-    "remote_logistics": true,
-    "luxury_trailers": false,
+    "winter_service": true,
+    "remote_logistics": false,
+    "luxury_trailers": true,
     "flushing_units": false,
     "septic_service": false,
     "site_support": true,
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.84,
+    "primary_segment_confidence": 0.78,
     "supported_segments": [
-      "oilfield",
+      "construction",
+      "event",
+      "general",
       "site_services"
     ],
     "capabilities": [
-      "remote_logistics",
-      "site_support"
+      "ada_accessible",
+      "handwash_available",
+      "heated",
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
     ],
     "operational_tags": [
       "category:portable_sanitation",
-      "declared:industrial_remote",
+      "declared:jobsite_ready",
       "source:badge_alignment"
     ],
     "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
       "integrated_site_support"
     ],
     "inferred_specialties": [
-      "Industrial remote corridors",
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
       "Multi-trade site servicing"
     ],
     "trust_signals": [
-      "alberta_mvp_dataset",
       "listed_web_presence"
     ],
     "response_priority": "standard",
     "operator_scale": "solo",
     "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "oilfield",
+      "site_services"
+    ],
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions.",
-      "Remote logistics signals present — validate lease-road access and SLAs."
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ]
   },
   {
@@ -537,55 +682,80 @@
     "website": "https://lennex.ca",
     "phone": "+14169393122",
     "badges": [
-      "Fence contractor"
+      "Fence contractor",
+      "Fence contractor, Fence supply store, Portable toilet supplier"
     ],
-    "winterized": false,
-    "luxury_units": false,
+    "heated": true,
+    "handwash_available": false,
+    "ada_accessible": false,
+    "winterized": true,
     "construction_ready": true,
     "oilfield_ready": false,
-    "ada_accessible": false,
-    "handwash_available": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
     "google_categories": [
       "fence contractor"
     ],
-    "winter_service": false,
+    "winter_service": true,
     "remote_logistics": false,
-    "luxury_trailers": false,
+    "luxury_trailers": true,
     "flushing_units": false,
     "septic_service": false,
-    "site_support": false,
+    "site_support": true,
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
     "primary_segment_confidence": 0.7999999999999999,
     "supported_segments": [
-      "construction"
+      "construction",
+      "event",
+      "site_services"
     ],
-    "capabilities": [],
+    "capabilities": [
+      "heated",
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
+    ],
     "operational_tags": [
       "declared:jobsite_ready",
       "source:badge_alignment"
     ],
     "service_types": [
-      "jobsite_programs"
+      "event_trailer_operations",
+      "jobsite_programs",
+      "integrated_site_support"
     ],
-    "inferred_specialties": [],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
+      "Multi-trade site servicing"
+    ],
     "trust_signals": [
-      "alberta_mvp_dataset",
       "listed_web_presence"
     ],
     "response_priority": "standard",
     "operator_scale": "solo",
     "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "oilfield",
+      "site_services"
+    ],
     "operational_trust_cues": [
-      "Listed web presence — faster verification of inventory and route assumptions."
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ]
   },
   {
     "id": "k-winter-sanitation-inc-innisfil-on",
     "company_name": "K. Winter Sanitation Inc",
-    "primary_segment": "oilfield",
-    "segment_key": "oilfield",
+    "primary_segment": "construction",
+    "segment_key": "construction",
     "city": "Innisfil",
     "province": "Ontario",
     "province_code": "ON",
@@ -597,17 +767,19 @@
     "badges": [
       "Portable toilet supplier"
     ],
-    "winterized": false,
+    "heated": true,
+    "handwash_available": true,
+    "ada_accessible": true,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": false,
     "luxury_units": false,
-    "construction_ready": false,
-    "oilfield_ready": true,
-    "ada_accessible": false,
-    "handwash_available": false,
     "google_categories": [
       "portable toilet supplier"
     ],
-    "winter_service": false,
-    "remote_logistics": true,
+    "winter_service": true,
+    "remote_logistics": false,
     "luxury_trailers": false,
     "flushing_units": false,
     "septic_service": false,
@@ -615,44 +787,57 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7999999999999999,
+    "primary_segment_confidence": 0.74,
     "supported_segments": [
-      "oilfield",
+      "construction",
+      "event",
+      "general",
       "site_services"
     ],
     "capabilities": [
-      "remote_logistics",
-      "site_support"
+      "ada_accessible",
+      "handwash_available",
+      "heated",
+      "site_support",
+      "winter_service",
+      "winterized"
     ],
     "operational_tags": [
       "category:portable_sanitation",
-      "declared:industrial_remote",
+      "declared:jobsite_ready",
       "source:badge_alignment"
     ],
     "service_types": [
+      "jobsite_programs",
       "integrated_site_support"
     ],
     "inferred_specialties": [
-      "Industrial remote corridors",
+      "Cold-weather equipment posture",
       "Multi-trade site servicing"
     ],
     "trust_signals": [
-      "alberta_mvp_dataset",
       "listed_web_presence"
     ],
     "response_priority": "standard",
     "operator_scale": "solo",
     "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "oilfield",
+      "site_services"
+    ],
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions.",
-      "Remote logistics signals present — validate lease-road access and SLAs."
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ]
   },
   {
     "id": "pine-porta-potty-kingston-on",
     "company_name": "Pine Porta Potty",
-    "primary_segment": "oilfield",
-    "segment_key": "oilfield",
+    "primary_segment": "construction",
+    "segment_key": "construction",
     "city": "Kingston",
     "province": "Ontario",
     "province_code": "ON",
@@ -664,62 +849,81 @@
     "badges": [
       "Portable toilet supplier"
     ],
-    "winterized": false,
+    "heated": true,
+    "handwash_available": true,
+    "ada_accessible": true,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
     "luxury_units": false,
-    "construction_ready": false,
-    "oilfield_ready": true,
-    "ada_accessible": false,
-    "handwash_available": false,
     "google_categories": [
       "portable toilet supplier"
     ],
-    "winter_service": false,
-    "remote_logistics": true,
-    "luxury_trailers": false,
+    "winter_service": true,
+    "remote_logistics": false,
+    "luxury_trailers": true,
     "flushing_units": false,
     "septic_service": false,
     "site_support": true,
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7999999999999999,
+    "primary_segment_confidence": 0.74,
     "supported_segments": [
-      "oilfield",
+      "construction",
+      "event",
+      "general",
       "site_services"
     ],
     "capabilities": [
-      "remote_logistics",
-      "site_support"
+      "ada_accessible",
+      "handwash_available",
+      "heated",
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
     ],
     "operational_tags": [
       "category:portable_sanitation",
-      "declared:industrial_remote",
+      "declared:jobsite_ready",
       "source:badge_alignment"
     ],
     "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
       "integrated_site_support"
     ],
     "inferred_specialties": [
-      "Industrial remote corridors",
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
       "Multi-trade site servicing"
     ],
     "trust_signals": [
-      "alberta_mvp_dataset",
       "listed_web_presence"
     ],
     "response_priority": "standard",
     "operator_scale": "solo",
     "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "oilfield",
+      "site_services"
+    ],
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions.",
-      "Remote logistics signals present — validate lease-road access and SLAs."
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ]
   },
   {
     "id": "rental-save-bolton-on",
     "company_name": "Rental Save",
-    "primary_segment": "oilfield",
-    "segment_key": "oilfield",
+    "primary_segment": "construction",
+    "segment_key": "construction",
     "city": "Bolton",
     "province": "Ontario",
     "province_code": "ON",
@@ -731,18 +935,20 @@
     "badges": [
       "Portable toilet supplier"
     ],
-    "winterized": false,
-    "luxury_units": false,
-    "construction_ready": false,
-    "oilfield_ready": true,
-    "ada_accessible": false,
+    "heated": true,
     "handwash_available": false,
+    "ada_accessible": false,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
     "google_categories": [
       "portable toilet supplier"
     ],
-    "winter_service": false,
-    "remote_logistics": true,
-    "luxury_trailers": false,
+    "winter_service": true,
+    "remote_logistics": false,
+    "luxury_trailers": true,
     "flushing_units": false,
     "septic_service": false,
     "site_support": true,
@@ -751,42 +957,56 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.7999999999999999,
     "supported_segments": [
-      "oilfield",
+      "construction",
+      "event",
       "site_services"
     ],
     "capabilities": [
-      "remote_logistics",
-      "site_support"
+      "heated",
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
     ],
     "operational_tags": [
       "category:portable_sanitation",
-      "declared:industrial_remote",
+      "declared:jobsite_ready",
       "source:badge_alignment"
     ],
     "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
       "integrated_site_support"
     ],
     "inferred_specialties": [
-      "Industrial remote corridors",
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
       "Multi-trade site servicing"
     ],
     "trust_signals": [
-      "alberta_mvp_dataset",
       "listed_web_presence"
     ],
     "response_priority": "standard",
     "operator_scale": "solo",
     "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "oilfield",
+      "site_services"
+    ],
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions.",
-      "Remote logistics signals present — validate lease-road access and SLAs."
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ]
   },
   {
     "id": "willscot-ca-on",
     "company_name": "WillScot",
-    "primary_segment": "general",
-    "segment_key": "general",
+    "primary_segment": "construction",
+    "segment_key": "construction",
     "city": "CA",
     "province": "Ontario",
     "province_code": "ON",
@@ -796,52 +1016,85 @@
     "website": "https://www.willscot.com/locations/details/toronto-east-on%3Futm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_campaign%3Dgbp-listing",
     "phone": "+14162550805",
     "badges": [
-      "Equipment rental agency"
+      "Equipment rental agency",
+      "Equipment rental agency, Construction equipment supplier, Container service, Container supplier, Containers supplier, Forklift rental service, Industrial equipment supplier, Portable toilet supplier, Records storage facility"
     ],
-    "winterized": false,
-    "luxury_units": false,
-    "construction_ready": false,
-    "oilfield_ready": false,
-    "ada_accessible": false,
+    "heated": true,
     "handwash_available": false,
+    "ada_accessible": true,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
     "google_categories": [
       "equipment rental agency"
     ],
-    "winter_service": false,
-    "remote_logistics": false,
-    "luxury_trailers": false,
+    "winter_service": true,
+    "remote_logistics": true,
+    "luxury_trailers": true,
     "flushing_units": false,
     "septic_service": false,
-    "site_support": false,
+    "site_support": true,
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7999999999999999,
+    "primary_segment_confidence": 0.74,
     "supported_segments": [
-      "general"
+      "construction",
+      "event",
+      "oilfield",
+      "site_services"
     ],
-    "capabilities": [],
+    "capabilities": [
+      "ada_accessible",
+      "heated",
+      "luxury_trailers",
+      "remote_logistics",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
+    ],
     "operational_tags": [
+      "badge_signal:remote_posture",
+      "declared:jobsite_ready",
       "source:badge_alignment"
     ],
-    "service_types": [],
-    "inferred_specialties": [],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
+      "Multi-trade site servicing"
+    ],
     "trust_signals": [
-      "alberta_mvp_dataset",
       "listed_web_presence"
     ],
     "response_priority": "standard",
     "operator_scale": "solo",
     "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "oilfield",
+      "site_services"
+    ],
     "operational_trust_cues": [
-      "Listed web presence — faster verification of inventory and route assumptions."
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ]
   },
   {
     "id": "room-to-go-inc-millgrove-on",
     "company_name": "Room To Go Inc",
-    "primary_segment": "oilfield",
-    "segment_key": "oilfield",
+    "primary_segment": "construction",
+    "segment_key": "construction",
     "city": "Millgrove",
     "province": "Ontario",
     "province_code": "ON",
@@ -853,62 +1106,81 @@
     "badges": [
       "Portable toilet supplier"
     ],
-    "winterized": false,
+    "heated": true,
+    "handwash_available": true,
+    "ada_accessible": true,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
     "luxury_units": false,
-    "construction_ready": false,
-    "oilfield_ready": true,
-    "ada_accessible": false,
-    "handwash_available": false,
     "google_categories": [
       "portable toilet supplier"
     ],
-    "winter_service": false,
-    "remote_logistics": true,
-    "luxury_trailers": false,
+    "winter_service": true,
+    "remote_logistics": false,
+    "luxury_trailers": true,
     "flushing_units": false,
     "septic_service": false,
     "site_support": true,
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7999999999999999,
+    "primary_segment_confidence": 0.74,
     "supported_segments": [
-      "oilfield",
+      "construction",
+      "event",
+      "general",
       "site_services"
     ],
     "capabilities": [
-      "remote_logistics",
-      "site_support"
+      "ada_accessible",
+      "handwash_available",
+      "heated",
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
     ],
     "operational_tags": [
       "category:portable_sanitation",
-      "declared:industrial_remote",
+      "declared:jobsite_ready",
       "source:badge_alignment"
     ],
     "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
       "integrated_site_support"
     ],
     "inferred_specialties": [
-      "Industrial remote corridors",
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
       "Multi-trade site servicing"
     ],
     "trust_signals": [
-      "alberta_mvp_dataset",
       "listed_web_presence"
     ],
     "response_priority": "standard",
     "operator_scale": "solo",
     "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "oilfield",
+      "site_services"
+    ],
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions.",
-      "Remote logistics signals present — validate lease-road access and SLAs."
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ]
   },
   {
     "id": "stone-mills-portable-toilet-rentals-centreville-on",
     "company_name": "Stone Mills Portable Toilet Rentals",
-    "primary_segment": "oilfield",
-    "segment_key": "oilfield",
+    "primary_segment": "construction",
+    "segment_key": "construction",
     "city": "Centreville",
     "province": "Ontario",
     "province_code": "ON",
@@ -920,18 +1192,20 @@
     "badges": [
       "Portable toilet supplier"
     ],
-    "winterized": false,
-    "luxury_units": false,
-    "construction_ready": false,
-    "oilfield_ready": true,
-    "ada_accessible": false,
+    "heated": true,
     "handwash_available": false,
+    "ada_accessible": true,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
     "google_categories": [
       "portable toilet supplier"
     ],
-    "winter_service": false,
-    "remote_logistics": true,
-    "luxury_trailers": false,
+    "winter_service": true,
+    "remote_logistics": false,
+    "luxury_trailers": true,
     "flushing_units": false,
     "septic_service": false,
     "site_support": true,
@@ -940,42 +1214,57 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.7999999999999999,
     "supported_segments": [
-      "oilfield",
+      "construction",
+      "event",
       "site_services"
     ],
     "capabilities": [
-      "remote_logistics",
-      "site_support"
+      "ada_accessible",
+      "heated",
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
     ],
     "operational_tags": [
       "category:portable_sanitation",
-      "declared:industrial_remote",
+      "declared:jobsite_ready",
       "source:badge_alignment"
     ],
     "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
       "integrated_site_support"
     ],
     "inferred_specialties": [
-      "Industrial remote corridors",
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
       "Multi-trade site servicing"
     ],
     "trust_signals": [
-      "alberta_mvp_dataset",
       "listed_web_presence"
     ],
     "response_priority": "standard",
     "operator_scale": "solo",
     "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "oilfield",
+      "site_services"
+    ],
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions.",
-      "Remote logistics signals present — validate lease-road access and SLAs."
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ]
   },
   {
     "id": "go-to-ready-loo-brampton-on",
     "company_name": "Go To Ready Loo",
-    "primary_segment": "general",
-    "segment_key": "general",
+    "primary_segment": "construction",
+    "segment_key": "construction",
     "city": "Brampton",
     "province": "Ontario",
     "province_code": "ON",
@@ -987,18 +1276,20 @@
     "badges": [
       "Tool rental service"
     ],
-    "winterized": false,
-    "luxury_units": false,
-    "construction_ready": false,
-    "oilfield_ready": false,
-    "ada_accessible": false,
+    "heated": true,
     "handwash_available": false,
+    "ada_accessible": false,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
     "google_categories": [
       "tool rental service"
     ],
-    "winter_service": false,
+    "winter_service": true,
     "remote_logistics": false,
-    "luxury_trailers": false,
+    "luxury_trailers": true,
     "flushing_units": false,
     "septic_service": false,
     "site_support": false,
@@ -1007,30 +1298,50 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.7999999999999999,
     "supported_segments": [
-      "general"
+      "construction",
+      "event"
     ],
-    "capabilities": [],
+    "capabilities": [
+      "heated",
+      "luxury_trailers",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
+    ],
     "operational_tags": [
+      "declared:jobsite_ready",
       "source:badge_alignment"
     ],
-    "service_types": [],
-    "inferred_specialties": [],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Cold-weather equipment posture"
+    ],
     "trust_signals": [
-      "alberta_mvp_dataset",
       "listed_web_presence"
     ],
     "response_priority": "standard",
     "operator_scale": "solo",
     "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "oilfield"
+    ],
     "operational_trust_cues": [
-      "Listed web presence — faster verification of inventory and route assumptions."
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ]
   },
   {
     "id": "five-stars-portable-toilets-hamilton-on",
     "company_name": "FIVE STARS PORTABLE TOILETS",
-    "primary_segment": "oilfield",
-    "segment_key": "oilfield",
+    "primary_segment": "construction",
+    "segment_key": "construction",
     "city": "Hamilton",
     "province": "Ontario",
     "province_code": "ON",
@@ -1042,17 +1353,19 @@
     "badges": [
       "Portable toilet supplier"
     ],
-    "winterized": false,
-    "luxury_units": false,
-    "construction_ready": false,
-    "oilfield_ready": true,
-    "ada_accessible": false,
+    "heated": false,
     "handwash_available": false,
+    "ada_accessible": false,
+    "winterized": false,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": false,
+    "luxury_units": false,
     "google_categories": [
       "portable toilet supplier"
     ],
     "winter_service": false,
-    "remote_logistics": true,
+    "remote_logistics": false,
     "luxury_trailers": false,
     "flushing_units": false,
     "septic_service": false,
@@ -1062,35 +1375,38 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.7999999999999999,
     "supported_segments": [
-      "oilfield",
+      "construction",
       "site_services"
     ],
     "capabilities": [
-      "remote_logistics",
       "site_support"
     ],
     "operational_tags": [
       "category:portable_sanitation",
-      "declared:industrial_remote",
+      "declared:jobsite_ready",
       "source:badge_alignment"
     ],
     "service_types": [
+      "jobsite_programs",
       "integrated_site_support"
     ],
     "inferred_specialties": [
-      "Industrial remote corridors",
       "Multi-trade site servicing"
     ],
     "trust_signals": [
-      "alberta_mvp_dataset",
       "listed_web_presence"
     ],
     "response_priority": "standard",
     "operator_scale": "solo",
     "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "site_services"
+    ],
     "operational_trust_cues": [
-      "Listed web presence — faster verification of inventory and route assumptions.",
-      "Remote logistics signals present — validate lease-road access and SLAs."
+      "Listed web presence — faster verification of inventory and route assumptions."
     ]
   },
   {
@@ -1109,17 +1425,19 @@
     "badges": [
       "Portable toilet supplier"
     ],
-    "winterized": false,
-    "luxury_units": false,
-    "construction_ready": false,
-    "oilfield_ready": true,
-    "ada_accessible": false,
+    "heated": false,
     "handwash_available": false,
+    "ada_accessible": true,
+    "winterized": false,
+    "construction_ready": false,
+    "oilfield_ready": false,
+    "wedding_friendly": false,
+    "luxury_units": false,
     "google_categories": [
       "portable toilet supplier"
     ],
     "winter_service": false,
-    "remote_logistics": true,
+    "remote_logistics": false,
     "luxury_trailers": false,
     "flushing_units": false,
     "septic_service": false,
@@ -1133,38 +1451,41 @@
       "site_services"
     ],
     "capabilities": [
-      "remote_logistics",
+      "ada_accessible",
       "site_support"
     ],
     "operational_tags": [
       "category:portable_sanitation",
-      "declared:industrial_remote",
       "source:badge_alignment"
     ],
     "service_types": [
       "integrated_site_support"
     ],
     "inferred_specialties": [
-      "Industrial remote corridors",
       "Multi-trade site servicing"
     ],
     "trust_signals": [
-      "alberta_mvp_dataset",
       "listed_web_presence"
     ],
     "response_priority": "standard",
     "operator_scale": "solo",
     "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "oilfield",
+      "site_services"
+    ],
     "operational_trust_cues": [
-      "Listed web presence — faster verification of inventory and route assumptions.",
-      "Remote logistics signals present — validate lease-road access and SLAs."
+      "Listed web presence — faster verification of inventory and route assumptions."
     ]
   },
   {
     "id": "a-1-toilet-rentals-clarksburg-on",
     "company_name": "A-1 Toilet Rentals",
-    "primary_segment": "oilfield",
-    "segment_key": "oilfield",
+    "primary_segment": "construction",
+    "segment_key": "construction",
     "city": "Clarksburg",
     "province": "Ontario",
     "province_code": "ON",
@@ -1176,62 +1497,81 @@
     "badges": [
       "Portable toilet supplier"
     ],
-    "winterized": false,
+    "heated": true,
+    "handwash_available": true,
+    "ada_accessible": true,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
     "luxury_units": false,
-    "construction_ready": false,
-    "oilfield_ready": true,
-    "ada_accessible": false,
-    "handwash_available": false,
     "google_categories": [
       "portable toilet supplier"
     ],
-    "winter_service": false,
-    "remote_logistics": true,
-    "luxury_trailers": false,
+    "winter_service": true,
+    "remote_logistics": false,
+    "luxury_trailers": true,
     "flushing_units": false,
     "septic_service": false,
     "site_support": true,
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7999999999999999,
+    "primary_segment_confidence": 0.74,
     "supported_segments": [
-      "oilfield",
+      "construction",
+      "event",
+      "general",
       "site_services"
     ],
     "capabilities": [
-      "remote_logistics",
-      "site_support"
+      "ada_accessible",
+      "handwash_available",
+      "heated",
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
     ],
     "operational_tags": [
       "category:portable_sanitation",
-      "declared:industrial_remote",
+      "declared:jobsite_ready",
       "source:badge_alignment"
     ],
     "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
       "integrated_site_support"
     ],
     "inferred_specialties": [
-      "Industrial remote corridors",
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
       "Multi-trade site servicing"
     ],
     "trust_signals": [
-      "alberta_mvp_dataset",
       "listed_web_presence"
     ],
     "response_priority": "standard",
     "operator_scale": "solo",
     "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "oilfield",
+      "site_services"
+    ],
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions.",
-      "Remote logistics signals present — validate lease-road access and SLAs."
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ]
   },
   {
     "id": "centreline-sanitation-milton-on",
     "company_name": "Centreline Sanitation",
-    "primary_segment": "oilfield",
-    "segment_key": "oilfield",
+    "primary_segment": "construction",
+    "segment_key": "construction",
     "city": "Milton",
     "province": "Ontario",
     "province_code": "ON",
@@ -1243,17 +1583,19 @@
     "badges": [
       "Portable toilet supplier"
     ],
+    "heated": false,
+    "handwash_available": true,
+    "ada_accessible": true,
     "winterized": false,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": false,
     "luxury_units": false,
-    "construction_ready": false,
-    "oilfield_ready": true,
-    "ada_accessible": false,
-    "handwash_available": false,
     "google_categories": [
       "portable toilet supplier"
     ],
     "winter_service": false,
-    "remote_logistics": true,
+    "remote_logistics": false,
     "luxury_trailers": false,
     "flushing_units": false,
     "septic_service": false,
@@ -1261,44 +1603,51 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7999999999999999,
+    "primary_segment_confidence": 0.74,
     "supported_segments": [
-      "oilfield",
+      "construction",
+      "event",
+      "general",
       "site_services"
     ],
     "capabilities": [
-      "remote_logistics",
+      "ada_accessible",
+      "handwash_available",
       "site_support"
     ],
     "operational_tags": [
       "category:portable_sanitation",
-      "declared:industrial_remote",
+      "declared:jobsite_ready",
       "source:badge_alignment"
     ],
     "service_types": [
+      "jobsite_programs",
       "integrated_site_support"
     ],
     "inferred_specialties": [
-      "Industrial remote corridors",
       "Multi-trade site servicing"
     ],
     "trust_signals": [
-      "alberta_mvp_dataset",
       "listed_web_presence"
     ],
     "response_priority": "standard",
     "operator_scale": "solo",
     "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "site_services"
+    ],
     "operational_trust_cues": [
-      "Listed web presence — faster verification of inventory and route assumptions.",
-      "Remote logistics signals present — validate lease-road access and SLAs."
+      "Listed web presence — faster verification of inventory and route assumptions."
     ]
   },
   {
     "id": "tp-toilets-inc-ennismore-on",
     "company_name": "TP Toilets Inc.",
-    "primary_segment": "oilfield",
-    "segment_key": "oilfield",
+    "primary_segment": "construction",
+    "segment_key": "construction",
     "city": "Ennismore",
     "province": "Ontario",
     "province_code": "ON",
@@ -1310,18 +1659,20 @@
     "badges": [
       "Portable toilet supplier"
     ],
-    "winterized": false,
-    "luxury_units": false,
-    "construction_ready": false,
-    "oilfield_ready": true,
-    "ada_accessible": false,
+    "heated": false,
     "handwash_available": false,
+    "ada_accessible": false,
+    "winterized": false,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
     "google_categories": [
       "portable toilet supplier"
     ],
     "winter_service": false,
-    "remote_logistics": true,
-    "luxury_trailers": false,
+    "remote_logistics": false,
+    "luxury_trailers": true,
     "flushing_units": false,
     "septic_service": false,
     "site_support": true,
@@ -1330,42 +1681,50 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.7999999999999999,
     "supported_segments": [
-      "oilfield",
+      "construction",
+      "event",
       "site_services"
     ],
     "capabilities": [
-      "remote_logistics",
-      "site_support"
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly"
     ],
     "operational_tags": [
       "category:portable_sanitation",
-      "declared:industrial_remote",
+      "declared:jobsite_ready",
       "source:badge_alignment"
     ],
     "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
       "integrated_site_support"
     ],
     "inferred_specialties": [
-      "Industrial remote corridors",
+      "Guest-density event layouts",
       "Multi-trade site servicing"
     ],
     "trust_signals": [
-      "alberta_mvp_dataset",
       "listed_web_presence"
     ],
     "response_priority": "standard",
     "operator_scale": "solo",
     "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "site_services"
+    ],
     "operational_trust_cues": [
-      "Listed web presence — faster verification of inventory and route assumptions.",
-      "Remote logistics signals present — validate lease-road access and SLAs."
+      "Listed web presence — faster verification of inventory and route assumptions."
     ]
   },
   {
     "id": "ampot-portable-toilets-gormley-on",
     "company_name": "Ampot Portable Toilets",
-    "primary_segment": "oilfield",
-    "segment_key": "oilfield",
+    "primary_segment": "construction",
+    "segment_key": "construction",
     "city": "Gormley",
     "province": "Ontario",
     "province_code": "ON",
@@ -1377,62 +1736,81 @@
     "badges": [
       "Portable toilet supplier"
     ],
-    "winterized": false,
+    "heated": true,
+    "handwash_available": true,
+    "ada_accessible": true,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
     "luxury_units": false,
-    "construction_ready": false,
-    "oilfield_ready": true,
-    "ada_accessible": false,
-    "handwash_available": false,
     "google_categories": [
       "portable toilet supplier"
     ],
-    "winter_service": false,
-    "remote_logistics": true,
-    "luxury_trailers": false,
+    "winter_service": true,
+    "remote_logistics": false,
+    "luxury_trailers": true,
     "flushing_units": false,
     "septic_service": false,
     "site_support": true,
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7999999999999999,
+    "primary_segment_confidence": 0.74,
     "supported_segments": [
-      "oilfield",
+      "construction",
+      "event",
+      "general",
       "site_services"
     ],
     "capabilities": [
-      "remote_logistics",
-      "site_support"
+      "ada_accessible",
+      "handwash_available",
+      "heated",
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
     ],
     "operational_tags": [
       "category:portable_sanitation",
-      "declared:industrial_remote",
+      "declared:jobsite_ready",
       "source:badge_alignment"
     ],
     "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
       "integrated_site_support"
     ],
     "inferred_specialties": [
-      "Industrial remote corridors",
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
       "Multi-trade site servicing"
     ],
     "trust_signals": [
-      "alberta_mvp_dataset",
       "listed_web_presence"
     ],
     "response_priority": "standard",
     "operator_scale": "solo",
     "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "oilfield",
+      "site_services"
+    ],
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions.",
-      "Remote logistics signals present — validate lease-road access and SLAs."
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ]
   },
   {
     "id": "premium-portable-toilet-rentals-peterborough-on",
     "company_name": "Premium Portable Toilet Rentals",
-    "primary_segment": "oilfield",
-    "segment_key": "oilfield",
+    "primary_segment": "construction",
+    "segment_key": "construction",
     "city": "Peterborough",
     "province": "Ontario",
     "province_code": "ON",
@@ -1444,18 +1822,20 @@
     "badges": [
       "Portable toilet supplier"
     ],
-    "winterized": false,
-    "luxury_units": false,
-    "construction_ready": false,
-    "oilfield_ready": true,
-    "ada_accessible": false,
+    "heated": true,
     "handwash_available": false,
+    "ada_accessible": false,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
     "google_categories": [
       "portable toilet supplier"
     ],
-    "winter_service": false,
-    "remote_logistics": true,
-    "luxury_trailers": false,
+    "winter_service": true,
+    "remote_logistics": false,
+    "luxury_trailers": true,
     "flushing_units": false,
     "septic_service": false,
     "site_support": true,
@@ -1464,42 +1844,56 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.7999999999999999,
     "supported_segments": [
-      "oilfield",
+      "construction",
+      "event",
       "site_services"
     ],
     "capabilities": [
-      "remote_logistics",
-      "site_support"
+      "heated",
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
     ],
     "operational_tags": [
       "category:portable_sanitation",
-      "declared:industrial_remote",
+      "declared:jobsite_ready",
       "source:badge_alignment"
     ],
     "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
       "integrated_site_support"
     ],
     "inferred_specialties": [
-      "Industrial remote corridors",
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
       "Multi-trade site servicing"
     ],
     "trust_signals": [
-      "alberta_mvp_dataset",
       "listed_web_presence"
     ],
     "response_priority": "standard",
     "operator_scale": "solo",
     "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "oilfield",
+      "site_services"
+    ],
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions.",
-      "Remote logistics signals present — validate lease-road access and SLAs."
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ]
   },
   {
     "id": "xpress-rental-solutions-inc-mississauga-on",
     "company_name": "Xpress Rental Solutions Inc",
-    "primary_segment": "oilfield",
-    "segment_key": "oilfield",
+    "primary_segment": "construction",
+    "segment_key": "construction",
     "city": "Mississauga",
     "province": "Ontario",
     "province_code": "ON",
@@ -1511,62 +1905,81 @@
     "badges": [
       "Portable toilet supplier"
     ],
-    "winterized": false,
+    "heated": true,
+    "handwash_available": true,
+    "ada_accessible": true,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
     "luxury_units": false,
-    "construction_ready": false,
-    "oilfield_ready": true,
-    "ada_accessible": false,
-    "handwash_available": false,
     "google_categories": [
       "portable toilet supplier"
     ],
-    "winter_service": false,
-    "remote_logistics": true,
-    "luxury_trailers": false,
+    "winter_service": true,
+    "remote_logistics": false,
+    "luxury_trailers": true,
     "flushing_units": false,
     "septic_service": false,
     "site_support": true,
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7999999999999999,
+    "primary_segment_confidence": 0.74,
     "supported_segments": [
-      "oilfield",
+      "construction",
+      "event",
+      "general",
       "site_services"
     ],
     "capabilities": [
-      "remote_logistics",
-      "site_support"
+      "ada_accessible",
+      "handwash_available",
+      "heated",
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
     ],
     "operational_tags": [
       "category:portable_sanitation",
-      "declared:industrial_remote",
+      "declared:jobsite_ready",
       "source:badge_alignment"
     ],
     "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
       "integrated_site_support"
     ],
     "inferred_specialties": [
-      "Industrial remote corridors",
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
       "Multi-trade site servicing"
     ],
     "trust_signals": [
-      "alberta_mvp_dataset",
       "listed_web_presence"
     ],
     "response_priority": "standard",
     "operator_scale": "solo",
     "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "oilfield",
+      "site_services"
+    ],
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions.",
-      "Remote logistics signals present — validate lease-road access and SLAs."
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ]
   },
   {
     "id": "nature-s-call-gormley-on",
     "company_name": "Nature's Call",
-    "primary_segment": "oilfield",
-    "segment_key": "oilfield",
+    "primary_segment": "construction",
+    "segment_key": "construction",
     "city": "Gormley",
     "province": "Ontario",
     "province_code": "ON",
@@ -1578,62 +1991,81 @@
     "badges": [
       "Portable toilet supplier"
     ],
-    "winterized": false,
+    "heated": true,
+    "handwash_available": true,
+    "ada_accessible": true,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
     "luxury_units": false,
-    "construction_ready": false,
-    "oilfield_ready": true,
-    "ada_accessible": false,
-    "handwash_available": false,
     "google_categories": [
       "portable toilet supplier"
     ],
-    "winter_service": false,
-    "remote_logistics": true,
-    "luxury_trailers": false,
+    "winter_service": true,
+    "remote_logistics": false,
+    "luxury_trailers": true,
     "flushing_units": false,
     "septic_service": false,
     "site_support": true,
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7999999999999999,
+    "primary_segment_confidence": 0.74,
     "supported_segments": [
-      "oilfield",
+      "construction",
+      "event",
+      "general",
       "site_services"
     ],
     "capabilities": [
-      "remote_logistics",
-      "site_support"
+      "ada_accessible",
+      "handwash_available",
+      "heated",
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
     ],
     "operational_tags": [
       "category:portable_sanitation",
-      "declared:industrial_remote",
+      "declared:jobsite_ready",
       "source:badge_alignment"
     ],
     "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
       "integrated_site_support"
     ],
     "inferred_specialties": [
-      "Industrial remote corridors",
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
       "Multi-trade site servicing"
     ],
     "trust_signals": [
-      "alberta_mvp_dataset",
       "listed_web_presence"
     ],
     "response_priority": "standard",
     "operator_scale": "solo",
     "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "oilfield",
+      "site_services"
+    ],
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions.",
-      "Remote logistics signals present — validate lease-road access and SLAs."
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ]
   },
   {
     "id": "the-jackpot-portable-sanitation-services-ca-on",
     "company_name": "The Jackpot Portable Sanitation Services",
-    "primary_segment": "oilfield",
-    "segment_key": "oilfield",
+    "primary_segment": "construction",
+    "segment_key": "construction",
     "city": "CA",
     "province": "Ontario",
     "province_code": "ON",
@@ -1645,18 +2077,20 @@
     "badges": [
       "Portable toilet supplier"
     ],
-    "winterized": false,
-    "luxury_units": false,
-    "construction_ready": false,
-    "oilfield_ready": true,
+    "heated": false,
+    "handwash_available": true,
     "ada_accessible": false,
-    "handwash_available": false,
+    "winterized": false,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
     "google_categories": [
       "portable toilet supplier"
     ],
     "winter_service": false,
-    "remote_logistics": true,
-    "luxury_trailers": false,
+    "remote_logistics": false,
+    "luxury_trailers": true,
     "flushing_units": false,
     "septic_service": false,
     "site_support": true,
@@ -1665,42 +2099,51 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.7999999999999999,
     "supported_segments": [
-      "oilfield",
+      "construction",
+      "event",
       "site_services"
     ],
     "capabilities": [
-      "remote_logistics",
-      "site_support"
+      "handwash_available",
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly"
     ],
     "operational_tags": [
       "category:portable_sanitation",
-      "declared:industrial_remote",
+      "declared:jobsite_ready",
       "source:badge_alignment"
     ],
     "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
       "integrated_site_support"
     ],
     "inferred_specialties": [
-      "Industrial remote corridors",
+      "Guest-density event layouts",
       "Multi-trade site servicing"
     ],
     "trust_signals": [
-      "alberta_mvp_dataset",
       "listed_web_presence"
     ],
     "response_priority": "standard",
     "operator_scale": "solo",
     "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "site_services"
+    ],
     "operational_trust_cues": [
-      "Listed web presence — faster verification of inventory and route assumptions.",
-      "Remote logistics signals present — validate lease-road access and SLAs."
+      "Listed web presence — faster verification of inventory and route assumptions."
     ]
   },
   {
     "id": "black-tie-toilets-ancaster-on",
     "company_name": "Black Tie Toilets",
-    "primary_segment": "oilfield",
-    "segment_key": "oilfield",
+    "primary_segment": "construction",
+    "segment_key": "construction",
     "city": "Ancaster",
     "province": "Ontario",
     "province_code": "ON",
@@ -1710,64 +2153,79 @@
     "website": "http://www.blacktietoilets.com",
     "phone": "+14166749889",
     "badges": [
-      "Portable toilet supplier"
+      "Portable toilet supplier",
+      "Portable toilet supplier, Septic system service"
     ],
-    "winterized": false,
-    "luxury_units": false,
-    "construction_ready": false,
-    "oilfield_ready": true,
-    "ada_accessible": false,
+    "heated": true,
     "handwash_available": false,
+    "ada_accessible": false,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": false,
+    "luxury_units": false,
     "google_categories": [
       "portable toilet supplier"
     ],
-    "winter_service": false,
-    "remote_logistics": true,
+    "winter_service": true,
+    "remote_logistics": false,
     "luxury_trailers": false,
     "flushing_units": false,
-    "septic_service": false,
+    "septic_service": true,
     "site_support": true,
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
     "primary_segment_confidence": 0.7999999999999999,
     "supported_segments": [
-      "oilfield",
+      "construction",
       "site_services"
     ],
     "capabilities": [
-      "remote_logistics",
-      "site_support"
+      "heated",
+      "septic_service",
+      "site_support",
+      "winter_service",
+      "winterized"
     ],
     "operational_tags": [
       "category:portable_sanitation",
-      "declared:industrial_remote",
+      "declared:jobsite_ready",
       "source:badge_alignment"
     ],
     "service_types": [
+      "jobsite_programs",
+      "fluid_handling_partnership",
       "integrated_site_support"
     ],
     "inferred_specialties": [
-      "Industrial remote corridors",
+      "Cold-weather equipment posture",
+      "Tank servicing & fluid partners",
       "Multi-trade site servicing"
     ],
     "trust_signals": [
-      "alberta_mvp_dataset",
       "listed_web_presence"
     ],
     "response_priority": "standard",
     "operator_scale": "solo",
     "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "oilfield",
+      "site_services"
+    ],
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions.",
-      "Remote logistics signals present — validate lease-road access and SLAs."
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ]
   },
   {
     "id": "portable-toilet-rentals-pefferlaw-on",
     "company_name": "Portable Toilet Rentals",
-    "primary_segment": "general",
-    "segment_key": "general",
+    "primary_segment": "construction",
+    "segment_key": "construction",
     "city": "Pefferlaw",
     "province": "Ontario",
     "province_code": "ON",
@@ -1779,18 +2237,20 @@
     "badges": [
       "Equipment supplier"
     ],
-    "winterized": false,
-    "luxury_units": false,
-    "construction_ready": false,
-    "oilfield_ready": false,
+    "heated": true,
+    "handwash_available": true,
     "ada_accessible": false,
-    "handwash_available": false,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
     "google_categories": [
       "equipment supplier"
     ],
-    "winter_service": false,
+    "winter_service": true,
     "remote_logistics": false,
-    "luxury_trailers": false,
+    "luxury_trailers": true,
     "flushing_units": false,
     "septic_service": false,
     "site_support": false,
@@ -1799,30 +2259,51 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.7999999999999999,
     "supported_segments": [
-      "general"
+      "construction",
+      "event"
     ],
-    "capabilities": [],
+    "capabilities": [
+      "handwash_available",
+      "heated",
+      "luxury_trailers",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
+    ],
     "operational_tags": [
+      "declared:jobsite_ready",
       "source:badge_alignment"
     ],
-    "service_types": [],
-    "inferred_specialties": [],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Cold-weather equipment posture"
+    ],
     "trust_signals": [
-      "alberta_mvp_dataset",
       "listed_web_presence"
     ],
     "response_priority": "standard",
     "operator_scale": "solo",
     "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "oilfield"
+    ],
     "operational_trust_cues": [
-      "Listed web presence — faster verification of inventory and route assumptions."
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ]
   },
   {
     "id": "throne-porta-potty-inc-ca-on",
     "company_name": "Throne Porta Potty Inc",
-    "primary_segment": "oilfield",
-    "segment_key": "oilfield",
+    "primary_segment": "construction",
+    "segment_key": "construction",
     "city": "CA",
     "province": "Ontario",
     "province_code": "ON",
@@ -1834,62 +2315,81 @@
     "badges": [
       "Portable toilet supplier"
     ],
-    "winterized": false,
+    "heated": true,
+    "handwash_available": true,
+    "ada_accessible": true,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
     "luxury_units": false,
-    "construction_ready": false,
-    "oilfield_ready": true,
-    "ada_accessible": false,
-    "handwash_available": false,
     "google_categories": [
       "portable toilet supplier"
     ],
-    "winter_service": false,
-    "remote_logistics": true,
-    "luxury_trailers": false,
+    "winter_service": true,
+    "remote_logistics": false,
+    "luxury_trailers": true,
     "flushing_units": false,
     "septic_service": false,
     "site_support": true,
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7999999999999999,
+    "primary_segment_confidence": 0.74,
     "supported_segments": [
-      "oilfield",
+      "construction",
+      "event",
+      "general",
       "site_services"
     ],
     "capabilities": [
-      "remote_logistics",
-      "site_support"
+      "ada_accessible",
+      "handwash_available",
+      "heated",
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
     ],
     "operational_tags": [
       "category:portable_sanitation",
-      "declared:industrial_remote",
+      "declared:jobsite_ready",
       "source:badge_alignment"
     ],
     "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
       "integrated_site_support"
     ],
     "inferred_specialties": [
-      "Industrial remote corridors",
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
       "Multi-trade site servicing"
     ],
     "trust_signals": [
-      "alberta_mvp_dataset",
       "listed_web_presence"
     ],
     "response_priority": "standard",
     "operator_scale": "solo",
     "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "oilfield",
+      "site_services"
+    ],
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions.",
-      "Remote logistics signals present — validate lease-road access and SLAs."
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ]
   },
   {
     "id": "black-tie-toilets-ltd-ca-on",
     "company_name": "Black Tie Toilets Ltd",
-    "primary_segment": "oilfield",
-    "segment_key": "oilfield",
+    "primary_segment": "construction",
+    "segment_key": "construction",
     "city": "CA",
     "province": "Ontario",
     "province_code": "ON",
@@ -1901,17 +2401,19 @@
     "badges": [
       "Portable toilet supplier"
     ],
-    "winterized": false,
-    "luxury_units": false,
-    "construction_ready": false,
-    "oilfield_ready": true,
-    "ada_accessible": false,
+    "heated": true,
     "handwash_available": false,
+    "ada_accessible": false,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": false,
+    "luxury_units": false,
     "google_categories": [
       "portable toilet supplier"
     ],
-    "winter_service": false,
-    "remote_logistics": true,
+    "winter_service": true,
+    "remote_logistics": false,
     "luxury_trailers": false,
     "flushing_units": false,
     "septic_service": false,
@@ -1921,42 +2423,51 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.7999999999999999,
     "supported_segments": [
-      "oilfield",
+      "construction",
       "site_services"
     ],
     "capabilities": [
-      "remote_logistics",
-      "site_support"
+      "heated",
+      "site_support",
+      "winter_service",
+      "winterized"
     ],
     "operational_tags": [
       "category:portable_sanitation",
-      "declared:industrial_remote",
+      "declared:jobsite_ready",
       "source:badge_alignment"
     ],
     "service_types": [
+      "jobsite_programs",
       "integrated_site_support"
     ],
     "inferred_specialties": [
-      "Industrial remote corridors",
+      "Cold-weather equipment posture",
       "Multi-trade site servicing"
     ],
     "trust_signals": [
-      "alberta_mvp_dataset",
       "listed_web_presence"
     ],
     "response_priority": "standard",
     "operator_scale": "solo",
     "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "oilfield",
+      "site_services"
+    ],
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions.",
-      "Remote logistics signals present — validate lease-road access and SLAs."
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ]
   },
   {
     "id": "environmental-360-solutions-ca-on",
     "company_name": "Environmental 360 Solutions",
-    "primary_segment": "site_services",
-    "segment_key": "site_services",
+    "primary_segment": "construction",
+    "segment_key": "construction",
     "city": "CA",
     "province": "Ontario",
     "province_code": "ON",
@@ -1968,16 +2479,18 @@
     "badges": [
       "Waste management service"
     ],
-    "winterized": false,
-    "luxury_units": false,
-    "construction_ready": false,
+    "heated": true,
+    "handwash_available": true,
+    "ada_accessible": true,
+    "winterized": true,
+    "construction_ready": true,
     "oilfield_ready": false,
-    "ada_accessible": false,
-    "handwash_available": false,
+    "wedding_friendly": false,
+    "luxury_units": false,
     "google_categories": [
       "waste management service"
     ],
-    "winter_service": false,
+    "winter_service": true,
     "remote_logistics": false,
     "luxury_trailers": false,
     "flushing_units": false,
@@ -1986,35 +2499,53 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7999999999999999,
+    "primary_segment_confidence": 0.74,
     "supported_segments": [
+      "construction",
+      "event",
+      "general",
       "site_services"
     ],
     "capabilities": [
+      "ada_accessible",
+      "handwash_available",
+      "heated",
       "septic_service",
-      "site_support"
+      "site_support",
+      "winter_service",
+      "winterized"
     ],
     "operational_tags": [
       "category:fluid_services",
+      "declared:jobsite_ready",
       "source:badge_alignment"
     ],
     "service_types": [
+      "jobsite_programs",
       "fluid_handling_partnership",
       "integrated_site_support"
     ],
     "inferred_specialties": [
+      "Cold-weather equipment posture",
       "Tank servicing & fluid partners",
       "Multi-trade site servicing"
     ],
     "trust_signals": [
-      "alberta_mvp_dataset",
       "listed_web_presence"
     ],
     "response_priority": "standard",
     "operator_scale": "solo",
     "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "oilfield",
+      "site_services"
+    ],
     "operational_trust_cues": [
-      "Listed web presence — faster verification of inventory and route assumptions."
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ]
   },
   {
@@ -2033,17 +2564,19 @@
     "badges": [
       "Portable toilet supplier"
     ],
-    "winterized": false,
-    "luxury_units": false,
-    "construction_ready": false,
-    "oilfield_ready": true,
-    "ada_accessible": false,
+    "heated": false,
     "handwash_available": false,
+    "ada_accessible": false,
+    "winterized": false,
+    "construction_ready": false,
+    "oilfield_ready": false,
+    "wedding_friendly": false,
+    "luxury_units": false,
     "google_categories": [
       "portable toilet supplier"
     ],
     "winter_service": false,
-    "remote_logistics": true,
+    "remote_logistics": false,
     "luxury_trailers": false,
     "flushing_units": false,
     "septic_service": false,
@@ -2057,38 +2590,40 @@
       "site_services"
     ],
     "capabilities": [
-      "remote_logistics",
       "site_support"
     ],
     "operational_tags": [
       "category:portable_sanitation",
-      "declared:industrial_remote",
       "source:badge_alignment"
     ],
     "service_types": [
       "integrated_site_support"
     ],
     "inferred_specialties": [
-      "Industrial remote corridors",
       "Multi-trade site servicing"
     ],
     "trust_signals": [
-      "alberta_mvp_dataset",
       "listed_web_presence"
     ],
     "response_priority": "standard",
     "operator_scale": "solo",
     "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "oilfield",
+      "site_services"
+    ],
     "operational_trust_cues": [
-      "Listed web presence — faster verification of inventory and route assumptions.",
-      "Remote logistics signals present — validate lease-road access and SLAs."
+      "Listed web presence — faster verification of inventory and route assumptions."
     ]
   },
   {
     "id": "kaneco-group-premium-portable-washroom-rentals-blacks-on",
     "company_name": "Kaneco Group - Premium Portable Washroom Rentals",
-    "primary_segment": "oilfield",
-    "segment_key": "oilfield",
+    "primary_segment": "event",
+    "segment_key": "event",
     "city": "Blackstock",
     "province": "Ontario",
     "province_code": "ON",
@@ -2100,18 +2635,20 @@
     "badges": [
       "Portable toilet supplier"
     ],
-    "winterized": false,
-    "luxury_units": false,
-    "construction_ready": false,
-    "oilfield_ready": true,
-    "ada_accessible": false,
+    "heated": true,
     "handwash_available": false,
+    "ada_accessible": false,
+    "winterized": true,
+    "construction_ready": false,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
     "google_categories": [
       "portable toilet supplier"
     ],
-    "winter_service": false,
-    "remote_logistics": true,
-    "luxury_trailers": false,
+    "winter_service": true,
+    "remote_logistics": false,
+    "luxury_trailers": true,
     "flushing_units": false,
     "septic_service": false,
     "site_support": true,
@@ -2120,42 +2657,54 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.7999999999999999,
     "supported_segments": [
-      "oilfield",
+      "event",
       "site_services"
     ],
     "capabilities": [
-      "remote_logistics",
-      "site_support"
+      "heated",
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
     ],
     "operational_tags": [
       "category:portable_sanitation",
-      "declared:industrial_remote",
       "source:badge_alignment"
     ],
     "service_types": [
+      "event_trailer_operations",
       "integrated_site_support"
     ],
     "inferred_specialties": [
-      "Industrial remote corridors",
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
       "Multi-trade site servicing"
     ],
     "trust_signals": [
-      "alberta_mvp_dataset",
       "listed_web_presence"
     ],
     "response_priority": "standard",
     "operator_scale": "solo",
     "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "oilfield",
+      "site_services"
+    ],
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions.",
-      "Remote logistics signals present — validate lease-road access and SLAs."
+      "Winter-capable equipment posture corroborated by listing or weighted reviews.",
+      "Event-oriented restroom trailer positioning — confirm footprint and pump windows."
     ]
   },
   {
     "id": "halco-portable-washrooms-brantford-on",
     "company_name": "HALCO Portable Washrooms",
-    "primary_segment": "oilfield",
-    "segment_key": "oilfield",
+    "primary_segment": "construction",
+    "segment_key": "construction",
     "city": "Brantford",
     "province": "Ontario",
     "province_code": "ON",
@@ -2165,64 +2714,86 @@
     "website": "https://www.halcomobile.com",
     "phone": "+18666958644",
     "badges": [
-      "Portable toilet supplier"
+      "Portable toilet supplier",
+      "Portable toilet supplier, Bathroom supply store, Septic system service"
     ],
-    "winterized": false,
-    "luxury_units": false,
-    "construction_ready": false,
-    "oilfield_ready": true,
+    "heated": true,
+    "handwash_available": true,
     "ada_accessible": false,
-    "handwash_available": false,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
     "google_categories": [
       "portable toilet supplier"
     ],
-    "winter_service": false,
-    "remote_logistics": true,
-    "luxury_trailers": false,
+    "winter_service": true,
+    "remote_logistics": false,
+    "luxury_trailers": true,
     "flushing_units": false,
-    "septic_service": false,
+    "septic_service": true,
     "site_support": true,
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7999999999999999,
+    "primary_segment_confidence": 0.74,
     "supported_segments": [
-      "oilfield",
+      "construction",
+      "event",
+      "general",
       "site_services"
     ],
     "capabilities": [
-      "remote_logistics",
-      "site_support"
+      "handwash_available",
+      "heated",
+      "luxury_trailers",
+      "septic_service",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
     ],
     "operational_tags": [
       "category:portable_sanitation",
-      "declared:industrial_remote",
+      "declared:jobsite_ready",
       "source:badge_alignment"
     ],
     "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "fluid_handling_partnership",
       "integrated_site_support"
     ],
     "inferred_specialties": [
-      "Industrial remote corridors",
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
+      "Tank servicing & fluid partners",
       "Multi-trade site servicing"
     ],
     "trust_signals": [
-      "alberta_mvp_dataset",
       "listed_web_presence"
     ],
     "response_priority": "standard",
     "operator_scale": "solo",
     "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "oilfield",
+      "site_services"
+    ],
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions.",
-      "Remote logistics signals present — validate lease-road access and SLAs."
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ]
   },
   {
     "id": "markle-s-pumping-service-waterdown-on",
     "company_name": "Markle's Pumping Service",
-    "primary_segment": "oilfield",
-    "segment_key": "oilfield",
+    "primary_segment": "construction",
+    "segment_key": "construction",
     "city": "Waterdown",
     "province": "Ontario",
     "province_code": "ON",
@@ -2234,18 +2805,20 @@
     "badges": [
       "Portable toilet supplier"
     ],
-    "winterized": false,
-    "luxury_units": false,
-    "construction_ready": false,
-    "oilfield_ready": true,
-    "ada_accessible": false,
+    "heated": true,
     "handwash_available": false,
+    "ada_accessible": true,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
     "google_categories": [
       "portable toilet supplier"
     ],
-    "winter_service": false,
-    "remote_logistics": true,
-    "luxury_trailers": false,
+    "winter_service": true,
+    "remote_logistics": false,
+    "luxury_trailers": true,
     "flushing_units": false,
     "septic_service": false,
     "site_support": true,
@@ -2254,42 +2827,57 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.7999999999999999,
     "supported_segments": [
-      "oilfield",
+      "construction",
+      "event",
       "site_services"
     ],
     "capabilities": [
-      "remote_logistics",
-      "site_support"
+      "ada_accessible",
+      "heated",
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
     ],
     "operational_tags": [
       "category:portable_sanitation",
-      "declared:industrial_remote",
+      "declared:jobsite_ready",
       "source:badge_alignment"
     ],
     "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
       "integrated_site_support"
     ],
     "inferred_specialties": [
-      "Industrial remote corridors",
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
       "Multi-trade site servicing"
     ],
     "trust_signals": [
-      "alberta_mvp_dataset",
       "listed_web_presence"
     ],
     "response_priority": "standard",
     "operator_scale": "solo",
     "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "oilfield",
+      "site_services"
+    ],
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions.",
-      "Remote logistics signals present — validate lease-road access and SLAs."
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ]
   },
   {
     "id": "pitton-plumbing-portable-sanitation-hamilton-on",
     "company_name": "Pitton Plumbing Portable Sanitation",
-    "primary_segment": "oilfield",
-    "segment_key": "oilfield",
+    "primary_segment": "construction",
+    "segment_key": "construction",
     "city": "Hamilton",
     "province": "Ontario",
     "province_code": "ON",
@@ -2301,55 +2889,74 @@
     "badges": [
       "Portable toilet supplier"
     ],
-    "winterized": false,
+    "heated": true,
+    "handwash_available": true,
+    "ada_accessible": true,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
     "luxury_units": false,
-    "construction_ready": false,
-    "oilfield_ready": true,
-    "ada_accessible": false,
-    "handwash_available": false,
     "google_categories": [
       "portable toilet supplier"
     ],
-    "winter_service": false,
-    "remote_logistics": true,
-    "luxury_trailers": false,
+    "winter_service": true,
+    "remote_logistics": false,
+    "luxury_trailers": true,
     "flushing_units": false,
     "septic_service": false,
     "site_support": true,
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7999999999999999,
+    "primary_segment_confidence": 0.74,
     "supported_segments": [
-      "oilfield",
+      "construction",
+      "event",
+      "general",
       "site_services"
     ],
     "capabilities": [
-      "remote_logistics",
-      "site_support"
+      "ada_accessible",
+      "handwash_available",
+      "heated",
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
     ],
     "operational_tags": [
       "category:portable_sanitation",
-      "declared:industrial_remote",
+      "declared:jobsite_ready",
       "source:badge_alignment"
     ],
     "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
       "integrated_site_support"
     ],
     "inferred_specialties": [
-      "Industrial remote corridors",
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
       "Multi-trade site servicing"
     ],
     "trust_signals": [
-      "alberta_mvp_dataset",
       "listed_web_presence"
     ],
     "response_priority": "standard",
     "operator_scale": "solo",
     "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "oilfield",
+      "site_services"
+    ],
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions.",
-      "Remote logistics signals present — validate lease-road access and SLAs."
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ]
   },
   {
@@ -2368,16 +2975,18 @@
     "badges": [
       "Wedding service"
     ],
-    "winterized": false,
-    "luxury_units": false,
+    "heated": true,
+    "handwash_available": false,
+    "ada_accessible": false,
+    "winterized": true,
     "construction_ready": false,
     "oilfield_ready": false,
-    "ada_accessible": false,
-    "handwash_available": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
     "google_categories": [
       "wedding service"
     ],
-    "winter_service": false,
+    "winter_service": true,
     "remote_logistics": false,
     "luxury_trailers": true,
     "flushing_units": false,
@@ -2391,32 +3000,47 @@
       "event"
     ],
     "capabilities": [
-      "luxury_trailers"
+      "heated",
+      "luxury_trailers",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
     ],
     "operational_tags": [
       "badge_signal:event_posture",
       "category:event_services",
       "source:badge_alignment"
     ],
-    "service_types": [],
-    "inferred_specialties": [],
+    "service_types": [
+      "event_trailer_operations"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Cold-weather equipment posture"
+    ],
     "trust_signals": [
-      "alberta_mvp_dataset",
       "listed_web_presence"
     ],
     "response_priority": "standard",
     "operator_scale": "solo",
     "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "oilfield"
+    ],
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions.",
+      "Winter-capable equipment posture corroborated by listing or weighted reviews.",
       "Event-oriented restroom trailer positioning — confirm footprint and pump windows."
     ]
   },
   {
     "id": "the-jackpot-portable-sanitation-services-courtice-on",
     "company_name": "The Jackpot Portable Sanitation Services",
-    "primary_segment": "oilfield",
-    "segment_key": "oilfield",
+    "primary_segment": "construction",
+    "segment_key": "construction",
     "city": "Courtice",
     "province": "Ontario",
     "province_code": "ON",
@@ -2428,18 +3052,20 @@
     "badges": [
       "Portable toilet supplier"
     ],
-    "winterized": false,
-    "luxury_units": false,
-    "construction_ready": false,
-    "oilfield_ready": true,
+    "heated": false,
+    "handwash_available": true,
     "ada_accessible": false,
-    "handwash_available": false,
+    "winterized": false,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
     "google_categories": [
       "portable toilet supplier"
     ],
     "winter_service": false,
-    "remote_logistics": true,
-    "luxury_trailers": false,
+    "remote_logistics": false,
+    "luxury_trailers": true,
     "flushing_units": false,
     "septic_service": false,
     "site_support": true,
@@ -2448,42 +3074,51 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.7999999999999999,
     "supported_segments": [
-      "oilfield",
+      "construction",
+      "event",
       "site_services"
     ],
     "capabilities": [
-      "remote_logistics",
-      "site_support"
+      "handwash_available",
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly"
     ],
     "operational_tags": [
       "category:portable_sanitation",
-      "declared:industrial_remote",
+      "declared:jobsite_ready",
       "source:badge_alignment"
     ],
     "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
       "integrated_site_support"
     ],
     "inferred_specialties": [
-      "Industrial remote corridors",
+      "Guest-density event layouts",
       "Multi-trade site servicing"
     ],
     "trust_signals": [
-      "alberta_mvp_dataset",
       "listed_web_presence"
     ],
     "response_priority": "standard",
     "operator_scale": "solo",
     "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "site_services"
+    ],
     "operational_trust_cues": [
-      "Listed web presence — faster verification of inventory and route assumptions.",
-      "Remote logistics signals present — validate lease-road access and SLAs."
+      "Listed web presence — faster verification of inventory and route assumptions."
     ]
   },
   {
     "id": "huron-toilet-rentals-ltd-goderich-on",
     "company_name": "Huron Toilet Rentals Ltd.",
-    "primary_segment": "oilfield",
-    "segment_key": "oilfield",
+    "primary_segment": "construction",
+    "segment_key": "construction",
     "city": "Goderich",
     "province": "Ontario",
     "province_code": "ON",
@@ -2495,17 +3130,19 @@
     "badges": [
       "Portable toilet supplier"
     ],
-    "winterized": false,
-    "luxury_units": false,
-    "construction_ready": false,
-    "oilfield_ready": true,
+    "heated": true,
+    "handwash_available": true,
     "ada_accessible": false,
-    "handwash_available": false,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": false,
+    "luxury_units": false,
     "google_categories": [
       "portable toilet supplier"
     ],
-    "winter_service": false,
-    "remote_logistics": true,
+    "winter_service": true,
+    "remote_logistics": false,
     "luxury_trailers": false,
     "flushing_units": false,
     "septic_service": false,
@@ -2515,42 +3152,53 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.7999999999999999,
     "supported_segments": [
-      "oilfield",
+      "construction",
+      "event",
       "site_services"
     ],
     "capabilities": [
-      "remote_logistics",
-      "site_support"
+      "handwash_available",
+      "heated",
+      "site_support",
+      "winter_service",
+      "winterized"
     ],
     "operational_tags": [
       "category:portable_sanitation",
-      "declared:industrial_remote",
+      "declared:jobsite_ready",
       "source:badge_alignment"
     ],
     "service_types": [
+      "jobsite_programs",
       "integrated_site_support"
     ],
     "inferred_specialties": [
-      "Industrial remote corridors",
+      "Cold-weather equipment posture",
       "Multi-trade site servicing"
     ],
     "trust_signals": [
-      "alberta_mvp_dataset",
       "listed_web_presence"
     ],
     "response_priority": "standard",
     "operator_scale": "solo",
     "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "oilfield",
+      "site_services"
+    ],
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions.",
-      "Remote logistics signals present — validate lease-road access and SLAs."
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ]
   },
   {
     "id": "m-g-portables-inc-new-hamburg-on",
     "company_name": "M & G Portables Inc.",
-    "primary_segment": "oilfield",
-    "segment_key": "oilfield",
+    "primary_segment": "construction",
+    "segment_key": "construction",
     "city": "New Hamburg",
     "province": "Ontario",
     "province_code": "ON",
@@ -2562,17 +3210,19 @@
     "badges": [
       "Portable toilet supplier"
     ],
-    "winterized": false,
-    "luxury_units": false,
-    "construction_ready": false,
-    "oilfield_ready": true,
+    "heated": true,
+    "handwash_available": true,
     "ada_accessible": false,
-    "handwash_available": false,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": false,
+    "luxury_units": false,
     "google_categories": [
       "portable toilet supplier"
     ],
-    "winter_service": false,
-    "remote_logistics": true,
+    "winter_service": true,
+    "remote_logistics": false,
     "luxury_trailers": false,
     "flushing_units": false,
     "septic_service": false,
@@ -2582,42 +3232,53 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.7999999999999999,
     "supported_segments": [
-      "oilfield",
+      "construction",
+      "event",
       "site_services"
     ],
     "capabilities": [
-      "remote_logistics",
-      "site_support"
+      "handwash_available",
+      "heated",
+      "site_support",
+      "winter_service",
+      "winterized"
     ],
     "operational_tags": [
       "category:portable_sanitation",
-      "declared:industrial_remote",
+      "declared:jobsite_ready",
       "source:badge_alignment"
     ],
     "service_types": [
+      "jobsite_programs",
       "integrated_site_support"
     ],
     "inferred_specialties": [
-      "Industrial remote corridors",
+      "Cold-weather equipment posture",
       "Multi-trade site servicing"
     ],
     "trust_signals": [
-      "alberta_mvp_dataset",
       "listed_web_presence"
     ],
     "response_priority": "standard",
     "operator_scale": "solo",
     "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "oilfield",
+      "site_services"
+    ],
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions.",
-      "Remote logistics signals present — validate lease-road access and SLAs."
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ]
   },
   {
     "id": "gt-portable-toilet-rental-inc-ca-on",
     "company_name": "GT Portable Toilet Rental Inc",
-    "primary_segment": "oilfield",
-    "segment_key": "oilfield",
+    "primary_segment": "construction",
+    "segment_key": "construction",
     "city": "CA",
     "province": "Ontario",
     "province_code": "ON",
@@ -2629,62 +3290,81 @@
     "badges": [
       "Portable toilet supplier"
     ],
-    "winterized": false,
+    "heated": true,
+    "handwash_available": true,
+    "ada_accessible": true,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
     "luxury_units": false,
-    "construction_ready": false,
-    "oilfield_ready": true,
-    "ada_accessible": false,
-    "handwash_available": false,
     "google_categories": [
       "portable toilet supplier"
     ],
-    "winter_service": false,
-    "remote_logistics": true,
-    "luxury_trailers": false,
+    "winter_service": true,
+    "remote_logistics": false,
+    "luxury_trailers": true,
     "flushing_units": false,
     "septic_service": false,
     "site_support": true,
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7999999999999999,
+    "primary_segment_confidence": 0.74,
     "supported_segments": [
-      "oilfield",
+      "construction",
+      "event",
+      "general",
       "site_services"
     ],
     "capabilities": [
-      "remote_logistics",
-      "site_support"
+      "ada_accessible",
+      "handwash_available",
+      "heated",
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
     ],
     "operational_tags": [
       "category:portable_sanitation",
-      "declared:industrial_remote",
+      "declared:jobsite_ready",
       "source:badge_alignment"
     ],
     "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
       "integrated_site_support"
     ],
     "inferred_specialties": [
-      "Industrial remote corridors",
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
       "Multi-trade site servicing"
     ],
     "trust_signals": [
-      "alberta_mvp_dataset",
       "listed_web_presence"
     ],
     "response_priority": "standard",
     "operator_scale": "solo",
     "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "oilfield",
+      "site_services"
+    ],
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions.",
-      "Remote logistics signals present — validate lease-road access and SLAs."
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ]
   },
   {
     "id": "ottawa-luxury-bathroom-trailers-ottawa-on",
     "company_name": "Ottawa Luxury Bathroom Trailers",
-    "primary_segment": "oilfield",
-    "segment_key": "oilfield",
+    "primary_segment": "event",
+    "segment_key": "event",
     "city": "Ottawa",
     "province": "Ontario",
     "province_code": "ON",
@@ -2696,18 +3376,20 @@
     "badges": [
       "Portable toilet supplier"
     ],
-    "winterized": false,
-    "luxury_units": false,
-    "construction_ready": false,
-    "oilfield_ready": true,
-    "ada_accessible": false,
+    "heated": true,
     "handwash_available": false,
+    "ada_accessible": false,
+    "winterized": true,
+    "construction_ready": false,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
     "google_categories": [
       "portable toilet supplier"
     ],
-    "winter_service": false,
-    "remote_logistics": true,
-    "luxury_trailers": false,
+    "winter_service": true,
+    "remote_logistics": false,
+    "luxury_trailers": true,
     "flushing_units": false,
     "septic_service": false,
     "site_support": true,
@@ -2716,42 +3398,54 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.7999999999999999,
     "supported_segments": [
-      "oilfield",
+      "event",
       "site_services"
     ],
     "capabilities": [
-      "remote_logistics",
-      "site_support"
+      "heated",
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
     ],
     "operational_tags": [
       "category:portable_sanitation",
-      "declared:industrial_remote",
       "source:badge_alignment"
     ],
     "service_types": [
+      "event_trailer_operations",
       "integrated_site_support"
     ],
     "inferred_specialties": [
-      "Industrial remote corridors",
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
       "Multi-trade site servicing"
     ],
     "trust_signals": [
-      "alberta_mvp_dataset",
       "listed_web_presence"
     ],
     "response_priority": "standard",
     "operator_scale": "solo",
     "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "oilfield",
+      "site_services"
+    ],
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions.",
-      "Remote logistics signals present — validate lease-road access and SLAs."
+      "Winter-capable equipment posture corroborated by listing or weighted reviews.",
+      "Event-oriented restroom trailer positioning — confirm footprint and pump windows."
     ]
   },
   {
     "id": "platinum-vip-portables-wedding-special-event-washroom-on",
     "company_name": "Platinum VIP Portables - Wedding, Special Event Washroom Rentals",
-    "primary_segment": "oilfield",
-    "segment_key": "oilfield",
+    "primary_segment": "construction",
+    "segment_key": "construction",
     "city": "Welland",
     "province": "Ontario",
     "province_code": "ON",
@@ -2761,57 +3455,79 @@
     "website": "https://platinumvipportables.ca",
     "phone": "+19055633908",
     "badges": [
-      "Portable toilet supplier"
+      "Portable toilet supplier",
+      "Portable toilet supplier, Pump supplier"
     ],
-    "winterized": false,
-    "luxury_units": false,
-    "construction_ready": false,
-    "oilfield_ready": true,
+    "heated": true,
+    "handwash_available": true,
     "ada_accessible": false,
-    "handwash_available": false,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
     "google_categories": [
       "portable toilet supplier"
     ],
-    "winter_service": false,
-    "remote_logistics": true,
-    "luxury_trailers": false,
+    "winter_service": true,
+    "remote_logistics": false,
+    "luxury_trailers": true,
     "flushing_units": false,
-    "septic_service": false,
+    "septic_service": true,
     "site_support": true,
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7999999999999999,
+    "primary_segment_confidence": 0.74,
     "supported_segments": [
-      "oilfield",
+      "construction",
+      "event",
+      "general",
       "site_services"
     ],
     "capabilities": [
-      "remote_logistics",
-      "site_support"
+      "handwash_available",
+      "heated",
+      "luxury_trailers",
+      "septic_service",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
     ],
     "operational_tags": [
       "category:portable_sanitation",
-      "declared:industrial_remote",
+      "declared:jobsite_ready",
       "source:badge_alignment"
     ],
     "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "fluid_handling_partnership",
       "integrated_site_support"
     ],
     "inferred_specialties": [
-      "Industrial remote corridors",
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
+      "Tank servicing & fluid partners",
       "Multi-trade site servicing"
     ],
     "trust_signals": [
-      "alberta_mvp_dataset",
       "listed_web_presence"
     ],
     "response_priority": "standard",
     "operator_scale": "solo",
     "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "oilfield",
+      "site_services"
+    ],
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions.",
-      "Remote logistics signals present — validate lease-road access and SLAs."
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ]
   }
 ]

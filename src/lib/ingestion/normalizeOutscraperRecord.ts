@@ -39,6 +39,30 @@ function slugId(seed: string, provinceCode?: ProvinceCode): string {
   return (s || 'provider-unknown') + suffix
 }
 
+/** Returns true if a CSV cell is "yes" (case-insensitive). */
+function isYes(row: Record<string, string>, colName: string): boolean {
+  return cell(row, colName).toLowerCase() === 'yes'
+}
+
+/**
+ * Extract deduplicated badge strings from the primary category + subtypes columns.
+ * Subtypes are pipe-separated (e.g. "Portable toilet supplier|Portable shower supplier").
+ */
+function extractBadges(row: Record<string, string>): string[] {
+  const seen = new Set<string>()
+  const add = (s: string) => {
+    const v = s.replace(/^["']+|["']+$/g, '').trim()
+    if (v) seen.add(v)
+  }
+  const category = cell(row, 'category', 'categories', 'type')
+  if (category) add(category)
+  const subtypes = cell(row, 'subtypes')
+  if (subtypes) {
+    for (const s of subtypes.split('|')) add(s)
+  }
+  return [...seen]
+}
+
 /**
  * Map a flexible Outscraper row → ingest-shaped provider (still needs QA before production).
  * Column aliases cover common export variants.
@@ -65,8 +89,29 @@ export function normalizeOutscraperRecord(
   const phoneNorm = phoneRaw ? normalizePhone(phoneRaw) : ''
   const website = siteRaw ? normalizeWebsite(siteRaw) : null
 
+  // ── Explicit feature columns (curator-filled in CSV) ──────────────────────────
+  // These take priority over inferred signals — they are human-confirmed.
+  const csv_construction   = isYes(row, 'Construction & Jobsites')
+  const csv_oilfield       = isYes(row, 'Remote & Oilfield Operations')
+  const csv_events         = isYes(row, 'Events & Weddings')
+  const csv_waste_services = isYes(row, 'Waste & Site Services')
+  const csv_heated         = isYes(row, 'Heated Restroom')
+  const csv_handwash       = isYes(row, 'Handwashing Stations')
+  const csv_accessible     = isYes(row, 'wheelchair accessible')
+
+  // ── Segment: prefer explicit CSV columns, fall back to category inference ─────
   const catNorm = category ? normalizeCategory(category) : ''
-  const primary_segment = inferSegmentHint(catNorm)
+  const inferredSegment = inferSegmentHint(catNorm)
+  let primary_segment: PrimarySegment = inferredSegment
+  if (csv_waste_services && !csv_construction && !csv_oilfield && !csv_events) {
+    primary_segment = 'site_services'
+  } else if (csv_oilfield && !csv_construction) {
+    primary_segment = 'oilfield'
+  } else if (csv_construction) {
+    primary_segment = 'construction'
+  } else if (csv_events && !csv_construction && !csv_oilfield) {
+    primary_segment = 'event'
+  }
 
   // Province inference: try row column first, then source filename, fallback AB
   const VALID_CODES = new Set<string>(['AB', 'ON', 'BC'])
@@ -77,6 +122,7 @@ export function normalizeOutscraperRecord(
   const province = provinceNameFromCode(province_code)
 
   const id = slugId(`${name}-${city}`, province_code)
+  const badges = extractBadges(row)
 
   return {
     id,
@@ -91,13 +137,16 @@ export function normalizeOutscraperRecord(
     review_count: reviewCount,
     website,
     phone: phoneNorm,
-    badges: category ? [category] : [],
-    winterized: false,
-    luxury_units: false,
-    construction_ready: primary_segment === 'construction',
-    oilfield_ready: primary_segment === 'oilfield',
-    ada_accessible: false,
-    handwash_available: false,
+    badges: badges.length ? badges : (category ? [category] : []),
+    // ── Feature capabilities from explicit CSV columns ──────────────────────────
+    heated:            csv_heated,
+    handwash_available: csv_handwash,
+    ada_accessible:    csv_accessible,
+    winterized:        csv_heated,         // heated units are also winterized
+    construction_ready: csv_construction,
+    oilfield_ready:    csv_oilfield,
+    wedding_friendly:  csv_events,
+    luxury_units:      false,              // needs manual curation
     google_categories: category ? [normalizeCategory(category)] : [],
     address_full: address || undefined,
   }

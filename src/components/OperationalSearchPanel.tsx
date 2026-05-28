@@ -166,7 +166,7 @@ export function OperationalSearchPanel({
                     {hit.provider.company_name}
                   </p>
                   <p className={`mt-0.5 text-cwr-muted ${isSticky ? 'text-[10px]' : 'text-xs'}`}>
-                    {hit.provider.city} · Primary {hit.provider.primary_segment}
+                    {hit.provider.city}
                   </p>
                 </div>
                 <button

@@ -8,18 +8,17 @@ export interface ProviderCapabilityChip {
 }
 
 const CAPABILITY_DISPLAY: { key: string; label: string; test: (p: Provider) => boolean }[] = [
-  { key: 'winterized', label: 'Winterized', test: (p) => p.winterized || p.winter_service },
-  { key: 'luxury_trailers', label: 'Luxury trailers', test: (p) => p.luxury_trailers || p.luxury_units },
-  { key: 'remote_support', label: 'Remote support', test: (p) => p.remote_support || p.remote_logistics },
-  { key: 'crane_liftable', label: 'Crane liftable', test: (p) => Boolean(p.crane_liftable) },
-  { key: 'camp_support', label: 'Camp support', test: (p) => Boolean(p.camp_support) },
-  { key: 'ada_accessible', label: 'ADA', test: (p) => p.ada_accessible },
-  { key: 'handwash_available', label: 'Handwash', test: (p) => p.handwash_available },
-  { key: 'septic_service', label: 'Septic services', test: (p) => Boolean(p.septic_service) },
-  { key: 'site_support', label: 'Site support', test: (p) => Boolean(p.site_support) },
-  { key: 'roll_off_disposal', label: 'Roll-off & disposal', test: (p) => Boolean(p.roll_off_disposal) },
-  { key: 'flush_toilets', label: 'Flush toilets', test: (p) => p.flush_toilets || p.flushing_units },
-  { key: 'weekly_service', label: 'Weekly service', test: (p) => Boolean(p.weekly_service) },
+  { key: 'heated',             label: 'Heated Restrooms',       test: (p) => Boolean(p.heated) || p.winterized || p.winter_service },
+  { key: 'handwash_available', label: 'Handwashing Stations',   test: (p) => p.handwash_available },
+  { key: 'ada_accessible',     label: 'Wheelchair Accessible',  test: (p) => p.ada_accessible },
+  { key: 'luxury_trailers',    label: 'Luxury Trailer Units',   test: (p) => p.luxury_trailers || p.luxury_units },
+  { key: 'flush_toilets',      label: 'Flush Toilets',          test: (p) => Boolean(p.flush_toilets) || p.flushing_units },
+  { key: 'crane_liftable',     label: 'Crane Liftable',         test: (p) => Boolean(p.crane_liftable) },
+  { key: 'weekly_service',     label: 'Weekly Servicing',       test: (p) => Boolean(p.weekly_service) },
+  { key: 'remote_support',     label: 'Remote Site Support',    test: (p) => Boolean(p.remote_support) || p.remote_logistics },
+  { key: 'camp_support',       label: 'Camp Support',           test: (p) => Boolean(p.camp_support) },
+  { key: 'septic_service',     label: 'Septic Services',        test: (p) => Boolean(p.septic_service) },
+  { key: 'roll_off_disposal',  label: 'Roll-Off & Disposal',    test: (p) => Boolean(p.roll_off_disposal) },
 ]
 
 export function providerCapabilityChips(provider: Provider): ProviderCapabilityChip[] {

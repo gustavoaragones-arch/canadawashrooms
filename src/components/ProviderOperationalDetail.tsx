@@ -101,15 +101,15 @@ export function ProviderOperationalDetail({
 
             <section>
               <h4 className="text-[11px] font-semibold uppercase tracking-[0.18em] text-cwr-muted">
-                Supported project contexts
+                Service categories
               </h4>
               <ul className="mt-3 flex flex-wrap gap-2">
-                {provider.supported_segments.map((seg) => (
+                {(provider.public_categories ?? provider.supported_segments).map((cat) => (
                   <li
-                    key={seg}
+                    key={cat}
                     className="rounded-full border border-cwr-border bg-cwr-surface px-3 py-1 text-xs font-semibold text-cwr-steel"
                   >
-                    {segmentLabel(seg)}
+                    {segmentLabel(cat as import('../types/provider').PrimarySegment)}
                   </li>
                 ))}
               </ul>

@@ -97,6 +97,13 @@ export interface ProviderCore {
   last_verified_at?: string
   /** Direct Google Maps URL for this listing — improves trust and verification. */
   google_maps_url?: string
+  /**
+   * Multi-category public classification — used for UI filtering and discovery.
+   * A provider can appear in multiple categories (e.g. construction + general + waste_site).
+   * Derived at build time; replaces primary_segment + supported_segments as the FILTERING layer.
+   * primary_segment is kept for internal ranking only.
+   */
+  public_categories?: PrimarySegment[]
 }
 
 export interface ProviderEnrichment extends OperationalRelationshipHooks {

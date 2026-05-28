@@ -10,17 +10,22 @@ export function capabilityMet(
   return typeof v === 'boolean' ? v : false
 }
 
-/** Providers in city whose primary OR supported segment matches (secondary fits rank lower). */
+/**
+ * Providers in city whose public_categories includes the selected segment.
+ * Falls back to primary_segment + supported_segments if public_categories is absent
+ * (pre-migration data or manual overrides without rebuild).
+ */
 export function providersInScope(
   providers: Provider[],
   segment: PrimarySegment,
   city: string,
 ): Provider[] {
-  return providers.filter(
-    (p) =>
-      p.city.toLowerCase() === city.toLowerCase() &&
-      (p.primary_segment === segment || p.supported_segments.includes(segment)),
-  )
+  return providers.filter((p) => {
+    if (p.city.toLowerCase() !== city.toLowerCase()) return false
+    if (p.public_categories?.length) return p.public_categories.includes(segment)
+    // Fallback for providers without public_categories
+    return p.primary_segment === segment || p.supported_segments.includes(segment)
+  })
 }
 
 /**
@@ -44,18 +49,17 @@ function inferProvinceFromCity(providers: Provider[], city: string): string | nu
 /**
  * Providers in the same province — used when a city name has no direct matches
  * (e.g. "Toronto" query hitting GTA providers listed under Brampton/Mississauga).
- * We use a known province lookup table for cities in the location model.
  */
 function providersInProvince(
   providers: Provider[],
   provinceCode: string,
   segment: PrimarySegment,
 ): Provider[] {
-  return providers.filter(
-    (p) =>
-      p.province_code === provinceCode &&
-      (p.primary_segment === segment || p.supported_segments.includes(segment)),
-  )
+  return providers.filter((p) => {
+    if (p.province_code !== provinceCode) return false
+    if (p.public_categories?.length) return p.public_categories.includes(segment)
+    return p.primary_segment === segment || p.supported_segments.includes(segment)
+  })
 }
 
 /** Province code from a city slug using a static lookup of the live cities. */

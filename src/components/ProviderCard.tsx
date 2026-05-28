@@ -1,14 +1,52 @@
 import { useMemo } from 'react'
 import { Link } from 'react-router-dom'
 import { getCompatibilityLabel } from '../lib/compatibilityLabel'
-import { buildProviderIntelligence } from '../lib/intelligence/providerIntelligence'
 import { deriveTrustTierLabels } from '../lib/intelligence/trustTiers'
-import { segmentLabel } from '../lib/segments'
 import { emitProductionAnalytics } from '../lib/analytics/productionAnalytics'
 import { TRANSPARENCY } from '../lib/transparencyCopy'
+import { publicCategoryLabel } from '../lib/taxonomy/publicCategoryMapper'
 import type { FilterCapability, PrimarySegment, Provider } from '../types/provider'
 import { useOperationalInquiry } from './inquiry/OperationalInquiryContext'
 import { ProviderOperationalDetail } from './ProviderOperationalDetail'
+
+/**
+ * Feature flags rendered on cards — user-friendly labels for real CSV-sourced signals.
+ * Only fields that are actually truthy in the dataset are shown.
+ * Uses `winterized` as a fallback for `heated` to cover old enrichment flags.
+ */
+const FEATURE_MAP: { key: keyof Provider; label: string; alt?: keyof Provider }[] = [
+  { key: 'heated',             label: 'Heated Restrooms',       alt: 'winterized' },
+  { key: 'handwash_available', label: 'Handwashing Stations' },
+  { key: 'ada_accessible',     label: 'Wheelchair Accessible' },
+  { key: 'luxury_units',       label: 'Luxury Trailer Units' },
+  { key: 'flushing_units',     label: 'Flush Toilets',          alt: 'flush_toilets' },
+  { key: 'crane_liftable',     label: 'Crane Liftable' },
+  { key: 'weekly_service',     label: 'Weekly Servicing' },
+]
+
+function FeatureBadges({ provider }: { provider: Provider }) {
+  const active = FEATURE_MAP.filter(
+    (f) => provider[f.key] || (f.alt && provider[f.alt as keyof Provider]),
+  )
+  if (!active.length) return null
+  return (
+    <div>
+      <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-cwr-muted">
+        Available features
+      </p>
+      <ul className="mt-3 flex flex-wrap gap-2" aria-label="Provider features">
+        {active.map((f) => (
+          <li
+            key={f.key}
+            className="rounded-lg border border-cwr-border bg-cwr-bg px-3 py-1.5 text-xs font-semibold text-cwr-ink shadow-[inset_0_1px_0_rgb(255_255_255/0.65)]"
+          >
+            {f.label}
+          </li>
+        ))}
+      </ul>
+    </div>
+  )
+}
 
 interface ProviderCardProps {
   provider: Provider
@@ -39,7 +77,10 @@ export function ProviderCard({
   const { openInquiry } = useOperationalInquiry()
   const compact = variant === 'compact'
   const detailPath = `/provider/${provider.id}`
-  const segmentTitle = segmentLabel(provider.primary_segment)
+  // Show public_categories if present; fall back to primary_segment label
+  const categoryLabels: string[] = provider.public_categories?.length
+    ? provider.public_categories.map(publicCategoryLabel)
+    : [publicCategoryLabel(provider.primary_segment)]
   const matchLabel = getCompatibilityLabel(
     provider,
     segment,
@@ -50,11 +91,6 @@ export function ProviderCard({
   const headerTrust = useMemo(
     () => deriveTrustTierLabels(provider).slice(0, compact ? 1 : 2),
     [provider, compact],
-  )
-
-  const intelligence = useMemo(
-    () => buildProviderIntelligence(provider, { activeSegment: segment }),
-    [provider, segment],
   )
 
   return (
@@ -92,9 +128,16 @@ export function ProviderCard({
               >
                 {provider.company_name}
               </h3>
-              <p className="mt-2 text-xs font-semibold uppercase tracking-[0.16em] text-cwr-accent">
-                Primary segment · {segmentTitle}
-              </p>
+              <div className="mt-2 flex flex-wrap gap-1.5">
+                {categoryLabels.map((label) => (
+                  <span
+                    key={label}
+                    className="inline-block rounded-md border border-cwr-accent/25 bg-cwr-accent-muted px-2 py-0.5 text-[10px] font-semibold uppercase tracking-[0.14em] text-cwr-accent"
+                  >
+                    {label}
+                  </span>
+                ))}
+              </div>
             </div>
           </div>
           <div className="shrink-0 pt-1 text-right">
@@ -104,38 +147,7 @@ export function ProviderCard({
           </div>
         </div>
 
-        {!compact ? (
-          <>
-            <div>
-              <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-cwr-muted">
-                On-site positioning
-              </p>
-              <ul className="mt-4 flex flex-wrap gap-2.5" aria-label="Operator capabilities">
-                {provider.badges.map((badge) => (
-                  <li
-                    key={badge}
-                    className="rounded-lg border border-cwr-border bg-cwr-bg px-3 py-2 text-xs font-semibold leading-snug text-cwr-ink shadow-[inset_0_1px_0_rgb(255_255_255/0.65)]"
-                  >
-                    {badge}
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            {intelligence.subtleUiCues.length > 0 ? (
-              <div className="rounded-xl border border-dashed border-cwr-border bg-cwr-bg/60 px-4 py-3">
-                <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-cwr-muted">
-                  Signal cues
-                </p>
-                <ul className="mt-2 space-y-1.5 text-sm leading-snug text-cwr-steel">
-                  {intelligence.subtleUiCues.map((cue) => (
-                    <li key={cue}>· {cue}</li>
-                  ))}
-                </ul>
-              </div>
-            ) : null}
-          </>
-        ) : null}
+        {!compact ? <FeatureBadges provider={provider} /> : null}
 
         <div className="rounded-xl border border-dashed border-cwr-border bg-cwr-bg/80 px-4 py-3">
           <p className="text-[11px] font-semibold uppercase tracking-[0.16em] text-cwr-muted">

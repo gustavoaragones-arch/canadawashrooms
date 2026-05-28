@@ -9,6 +9,7 @@ import {
 } from '../normalize'
 import { runInferredCapabilityPipeline } from '../inference/inferredCapabilityPipeline'
 import { normalizeReviewRecord } from '../inference/reviewPipeline'
+import { derivePublicCategories } from '../taxonomy/publicCategoryMapper'
 import type {
   FilterCapability,
   InferenceOverrideShape,
@@ -165,7 +166,7 @@ function buildTrustSignals(
   raw: ProviderRaw,
   hasWebsite: boolean,
 ): string[] {
-  const s: string[] = ['alberta_mvp_dataset']
+  const s: string[] = []
   if (raw.review_count >= 180) s.push('review_volume_signal')
   if (raw.review_count >= 120 && raw.rating >= 4.5) s.push('rating_consistency_signal')
   if (hasWebsite) s.push('listed_web_presence')
@@ -516,6 +517,11 @@ export function enrichProvider(raw: ProviderRaw): Provider {
     flushing_units,
     operator_scale,
     years_in_business_estimate: workingRaw.years_in_business_estimate ?? null,
+    public_categories: derivePublicCategories({
+      ...capCore,
+      luxury_trailers,
+      remote_logistics,
+    }),
   }
 
   const operational_trust_cues = deriveOperationalTrustCues(sansTrustCues)

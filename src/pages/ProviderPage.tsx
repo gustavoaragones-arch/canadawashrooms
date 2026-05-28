@@ -13,11 +13,11 @@ import {
   providerCapabilityChips,
   segmentDisplayLabel,
 } from '../lib/providerDetail'
+import { publicCategoryLabel } from '../lib/taxonomy/publicCategoryMapper'
 import { getProviderBySlug, relatedProviders } from '../lib/providersLookup'
 import { segmentLandingPath } from '../seo/landingRoutes'
 import { buildProviderDocumentMeta } from '../seo/providerPageMeta'
 import { buildProviderLocalBusinessJsonLd } from '../seo/providerSchema'
-import { segmentLabel } from '../lib/segments'
 import { TRANSPARENCY } from '../lib/transparencyCopy'
 
 function telHref(phone: string): string {
@@ -123,9 +123,21 @@ export default function ProviderPage() {
             <dl className="mt-5 grid gap-3 text-sm sm:grid-cols-2">
               <div>
                 <dt className="text-[11px] font-semibold uppercase tracking-wider text-cwr-muted">
-                  Category
+                  Categories
                 </dt>
-                <dd className="mt-1 font-medium text-cwr-ink">{segmentTitle}</dd>
+                <dd className="mt-2 flex flex-wrap gap-1.5">
+                  {(provider.public_categories?.length
+                    ? provider.public_categories
+                    : [provider.primary_segment]
+                  ).map((cat) => (
+                    <span
+                      key={cat}
+                      className="inline-block rounded-md border border-cwr-accent/25 bg-cwr-accent-muted px-2 py-0.5 text-[10px] font-semibold uppercase tracking-[0.14em] text-cwr-accent"
+                    >
+                      {publicCategoryLabel(cat)}
+                    </span>
+                  ))}
+                </dd>
               </div>
               <div>
                 <dt className="text-[11px] font-semibold uppercase tracking-wider text-cwr-muted">
@@ -165,19 +177,6 @@ export default function ProviderPage() {
                   )}
                 </dd>
               </div>
-              {provider.supported_segments.length > 1 ? (
-                <div>
-                  <dt className="text-[11px] font-semibold uppercase tracking-wider text-cwr-muted">
-                    Also serves
-                  </dt>
-                  <dd className="mt-1 text-cwr-steel">
-                    {provider.supported_segments
-                      .filter((s) => s !== provider.primary_segment)
-                      .map((s) => segmentLabel(s))
-                      .join(' · ')}
-                  </dd>
-                </div>
-              ) : null}
               {verifiedLabel ? (
                 <div>
                   <dt className="text-[11px] font-semibold uppercase tracking-wider text-cwr-muted">
