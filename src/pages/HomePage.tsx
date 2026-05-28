@@ -125,21 +125,23 @@ export default function HomePage() {
       <JsonLd data={buildHomeJsonLd(homeMeta)} />
 
       <AppShell mainClassName={segment && city ? 'pb-44 md:pb-0' : undefined}>
+        {/* 1 — Hero */}
         <Hero />
-        <div className="mx-auto max-w-6xl px-4 pb-6 pt-4 sm:px-6 lg:px-8">
-          <OperationalSearchPanel
-            segment={segment}
-            city={city}
-            variant={segment && city ? 'page' : 'hero'}
-          />
-        </div>
-        <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8">
+
+        {/* 2 — Step progress indicator */}
+        <div className="py-6">
           <FlowSteps segment={segment} city={city} />
         </div>
+
+        {/* 3 — Project type (primary entry point) */}
         <IntentSelector selected={segment} onSelect={handleIntent} />
+
+        {/* 4 — Location (only makes sense after a category is chosen) */}
         <CitySelector disabled={!segment} selected={city} onSelect={handleCity} />
+
         {segment && city ? (
           <>
+            {/* 5 — Quote CTA */}
             <div className="mx-auto max-w-6xl px-4 pb-3 sm:px-6 lg:px-8">
               <button
                 type="button"
@@ -161,12 +163,23 @@ export default function HomePage() {
                 </span>
               </button>
             </div>
-            <section id="operator-matching" aria-label="Operator matching workspace">
+
+            {/* 6 — Results */}
+            <section id="operator-matching" aria-label="Operator results">
               <MatchWorkspace segment={segment} city={city} />
             </section>
+
+            {/* 7 — Advanced search (below results — power user tool) */}
+            <div className="mx-auto max-w-6xl px-4 pb-16 pt-6 sm:px-6 lg:px-8">
+              <p className="mb-4 text-xs font-semibold uppercase tracking-[0.18em] text-cwr-muted">
+                Advanced search by feature or city
+              </p>
+              <OperationalSearchPanel segment={segment} city={city} variant="page" />
+            </div>
           </>
         ) : (
           <>
+            {/* No context yet — prompt and browse-by-province */}
             <section className="mx-auto max-w-6xl px-4 pb-10 text-center sm:px-6 lg:px-8">
               <p className="rounded-2xl border border-dashed border-cwr-border bg-cwr-surface px-5 py-8 text-sm leading-relaxed text-cwr-muted shadow-card sm:px-6 sm:py-10">
                 {!segment
