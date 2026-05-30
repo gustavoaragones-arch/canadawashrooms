@@ -11,4 +11,7 @@ export const EDITORIAL_STATIC_PATHS = [
   '/alberta/',
   '/ontario/',
   '/british-columbia/',
+  '/privacy/',
+  '/terms/',
+  '/disclaimer/',
 ] as const

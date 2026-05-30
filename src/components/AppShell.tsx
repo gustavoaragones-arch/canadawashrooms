@@ -1,6 +1,7 @@
 import type { ReactNode } from 'react'
 import { Link } from 'react-router-dom'
 import { SITE_LOGO, SITE_NAME } from '../config/site'
+import { OWNER } from '../config/owner'
 import { TRANSPARENCY } from '../lib/transparencyCopy'
 import { SiteHeader } from './SiteHeader'
 
@@ -65,12 +66,27 @@ export function AppShell({ children, mainClassName }: AppShellProps) {
             </div>
             <div>
               <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-cwr-muted">
-                Contact
+                Contact & legal
               </p>
               <ul className="mt-3 space-y-2 text-sm">
                 <li>
                   <Link className="text-cwr-accent underline-offset-4 hover:underline" to="/contact">
                     Contact
+                  </Link>
+                </li>
+                <li>
+                  <Link className="text-cwr-accent underline-offset-4 hover:underline" to="/privacy">
+                    Privacy Policy
+                  </Link>
+                </li>
+                <li>
+                  <Link className="text-cwr-accent underline-offset-4 hover:underline" to="/terms">
+                    Terms of Use
+                  </Link>
+                </li>
+                <li>
+                  <Link className="text-cwr-accent underline-offset-4 hover:underline" to="/disclaimer">
+                    Disclaimer
                   </Link>
                 </li>
               </ul>
@@ -84,6 +100,9 @@ export function AppShell({ children, mainClassName }: AppShellProps) {
           </div>
           <div className="mt-10 border-t border-cwr-border pt-6 text-xs leading-relaxed text-cwr-muted">
             <p>{TRANSPARENCY.informationalPositioning}</p>
+            <p className="mt-3">
+              © {new Date().getFullYear()} {OWNER.shortLabel}. {OWNER.ownershipStatement}
+            </p>
           </div>
         </div>
       </footer>

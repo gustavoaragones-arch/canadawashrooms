@@ -1,4 +1,5 @@
 import { SITE_NAME, SITE_ORIGIN } from '../config/site'
+import { OWNER } from '../config/owner'
 import type { Provider } from '../types/provider'
 import type { ResolvedLanding } from './landingRoutes'
 import type { FaqItem } from './faqs'
@@ -124,16 +125,28 @@ export function buildLandingJsonLd(params: {
   }
 }
 
-/** JSON-LD for homepage — minimal WebSite + WebPage (no ItemList). */
+/** JSON-LD for homepage — WebSite + WebPage + Organization. */
 export function buildHomeJsonLd(meta: LandingDocumentMeta): Record<string, unknown> {
   return {
     '@context': 'https://schema.org',
     '@graph': [
       {
+        '@type': 'Organization',
+        '@id': `${SITE_ORIGIN}/#organization`,
+        name: OWNER.name,
+        description: OWNER.businessDescription,
+        address: {
+          '@type': 'PostalAddress',
+          addressRegion: 'AB',
+          addressCountry: 'CA',
+        },
+      },
+      {
         '@type': 'WebSite',
         '@id': `${SITE_ORIGIN}/#website`,
         name: SITE_NAME,
         url: SITE_ORIGIN,
+        publisher: { '@id': `${SITE_ORIGIN}/#organization` },
       },
       {
         '@type': 'WebPage',

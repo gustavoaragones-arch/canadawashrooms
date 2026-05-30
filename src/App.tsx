@@ -11,6 +11,9 @@ const MethodologyPage = lazy(() => import('./pages/MethodologyPage.tsx'))
 const ContactPage = lazy(() => import('./pages/ContactPage.tsx'))
 const CoveragePage = lazy(() => import('./pages/CoveragePage.tsx'))
 const ProvincePage = lazy(() => import('./pages/ProvincePage.tsx'))
+const PrivacyPolicyPage = lazy(() => import('./pages/PrivacyPolicyPage.tsx'))
+const TermsPage = lazy(() => import('./pages/TermsPage.tsx'))
+const DisclaimerPage = lazy(() => import('./pages/DisclaimerPage.tsx'))
 
 function RouteFallback() {
   return (
@@ -36,6 +39,9 @@ export default function App() {
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/coverage" element={<CoveragePage />} />
             <Route path="/alberta-coverage" element={<Navigate to="/coverage" replace />} />
+            <Route path="/privacy" element={<PrivacyPolicyPage />} />
+            <Route path="/terms" element={<TermsPage />} />
+            <Route path="/disclaimer" element={<DisclaimerPage />} />
             <Route path="/:provinceSlug" element={<ProvincePage />} />
             <Route path="/provider/:providerSlug" element={<ProviderPage />} />
             <Route path="/:segmentSlug/:citySlug" element={<LandingPage />} />
