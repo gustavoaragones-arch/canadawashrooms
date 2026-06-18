@@ -44,17 +44,23 @@ export function IntentSelector({ selected, onSelect }: IntentSelectorProps) {
                   : 'border-cwr-border hover:border-cwr-steel/35',
               ].join(' ')}
             >
-              <div className="flex items-start justify-between gap-3">
-                <h3 className="text-lg font-semibold text-cwr-ink group-hover:text-cwr-steel">
-                  {card.title}
-                </h3>
-                {isSelected ? (
-                  <span className="shrink-0 rounded-full bg-cwr-accent-muted px-2.5 py-0.5 text-[11px] font-semibold uppercase tracking-wider text-cwr-accent">
-                    Selected
-                  </span>
+              <div className="flex gap-4">
+                {card.icon ? (
+                  <img
+                    src={card.icon}
+                    alt=""
+                    aria-hidden
+                    className="h-28 w-28 shrink-0 object-contain sm:h-32 sm:w-32"
+                    decoding="async"
+                  />
                 ) : null}
+                <div className="min-w-0 flex-1">
+                  <h3 className="text-lg font-semibold text-cwr-ink group-hover:text-cwr-steel">
+                    {card.title}
+                  </h3>
+                  <p className="mt-3 flex-1 text-sm leading-relaxed text-cwr-muted">{card.microcopy}</p>
+                </div>
               </div>
-              <p className="mt-3 flex-1 text-sm leading-relaxed text-cwr-muted">{card.microcopy}</p>
               <ul className="mt-6 flex flex-wrap gap-2" aria-label="Typical features">
                 {card.badges.map((badge) => (
                   <li
@@ -65,6 +71,13 @@ export function IntentSelector({ selected, onSelect }: IntentSelectorProps) {
                   </li>
                 ))}
               </ul>
+              {isSelected ? (
+                <div className="mt-auto flex justify-end pt-4">
+                  <span className="inline-flex shrink-0 rounded-full bg-cwr-accent-muted px-2.5 py-0.5 text-[11px] font-semibold uppercase tracking-wider text-cwr-accent">
+                    Selected
+                  </span>
+                </div>
+              ) : null}
             </button>
           )
         })}

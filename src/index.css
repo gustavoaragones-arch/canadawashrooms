@@ -56,27 +56,6 @@
     border: 0;
   }
 
-  .cwr-hero-headline-glow {
-    text-shadow:
-      0 0 20px rgb(253 253 252 / 0.95),
-      0 0 44px rgb(253 253 252 / 0.78),
-      0 0 72px rgb(253 253 252 / 0.5),
-      0 1px 3px rgb(20 20 19 / 0.35);
-  }
-
-  .cwr-hero-intro-panel {
-    background-color: rgb(253 253 252 / 0.92);
-    box-shadow:
-      0 1px 2px rgb(20 20 19 / 0.06),
-      0 8px 24px -6px rgb(20 20 19 / 0.12);
-  }
-
-  @media (prefers-reduced-motion: reduce) {
-    .cwr-hero-headline-glow {
-      text-shadow: 0 1px 3px rgb(20 20 19 / 0.35);
-    }
-  }
-
   .cwr-skip-link:focus {
     position: fixed;
     left: 1rem;

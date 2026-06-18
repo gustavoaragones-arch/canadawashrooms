@@ -3,17 +3,18 @@ import { Link } from 'react-router-dom'
 import { AppShell } from '../components/AppShell'
 import { useOperationalInquiry } from '../components/inquiry/OperationalInquiryContext'
 import { CitySelector } from '../components/CitySelector'
-import { FlowSteps } from '../components/FlowSteps'
 import { Hero } from '../components/Hero'
 import { OperationalSearchPanel } from '../components/OperationalSearchPanel'
 import { IntentSelector } from '../components/IntentSelector'
 import { MatchWorkspace } from '../components/MatchWorkspace'
+import { ProviderCard } from '../components/ProviderCard'
 import { DocumentMeta } from '../components/seo/DocumentMeta'
 import { JsonLd } from '../components/seo/JsonLd'
 import { defaultSiteMeta } from '../seo/metadata'
 import { buildHomeJsonLd } from '../seo/schema'
 import { CANADA_PROVINCES } from '../lib/locations/canadaLocations'
 import { PROVIDERS } from '../lib/providersDataset'
+import { getFeaturedProviders } from '../lib/getFeaturedProviders'
 import type { PriorityCity } from '../lib/segments'
 import type { PrimarySegment } from '../types/provider'
 
@@ -21,6 +22,48 @@ const PROVINCE_SLUGS: Record<string, string> = {
   AB: 'alberta',
   ON: 'ontario',
   BC: 'british-columbia',
+}
+
+// Pre-compute: top 8 quality-scored providers across Canada for the homepage preview
+const FEATURED_PROVIDERS = getFeaturedProviders(PROVIDERS, { limit: 8 })
+
+function FeaturedProviders() {
+  if (FEATURED_PROVIDERS.length === 0) return null
+  return (
+    <section
+      className="mx-auto max-w-6xl px-4 pb-20 sm:px-6 lg:px-8"
+      aria-labelledby="featured-providers-heading"
+    >
+      <div className="mb-4 flex items-baseline justify-between">
+        <h2
+          id="featured-providers-heading"
+          className="text-xs font-semibold uppercase tracking-[0.18em] text-cwr-muted"
+        >
+          Top-rated providers across Canada
+        </h2>
+        <Link
+          to="/alberta"
+          className="text-xs font-semibold text-cwr-accent underline-offset-4 hover:underline"
+        >
+          Browse all →
+        </Link>
+      </div>
+      <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-2">
+        {FEATURED_PROVIDERS.map((provider) => (
+          <ProviderCard
+            key={provider.id}
+            provider={provider}
+            segment="general"
+            city={provider.city}
+            activeCapabilities={[]}
+            activeFilterLabels={[]}
+            isRelaxedFallback={false}
+            variant="compact"
+          />
+        ))}
+      </div>
+    </section>
+  )
 }
 
 function ProvinceSection() {
@@ -125,15 +168,10 @@ export default function HomePage() {
       <JsonLd data={buildHomeJsonLd(homeMeta)} />
 
       <AppShell mainClassName={segment && city ? 'pb-44 md:pb-0' : undefined}>
-        {/* 1 — Hero */}
-        <Hero />
+        {/* 1 — Hero (includes step rail) */}
+        <Hero segment={segment} city={city} />
 
-        {/* 2 — Step progress indicator */}
-        <div className="py-6">
-          <FlowSteps segment={segment} city={city} />
-        </div>
-
-        {/* 3 — Project type (primary entry point) */}
+        {/* 2 — Project type (primary entry point) */}
         <IntentSelector selected={segment} onSelect={handleIntent} />
 
         {/* 4 — Location (only makes sense after a category is chosen) */}
@@ -188,6 +226,7 @@ export default function HomePage() {
               </p>
             </section>
             <ProvinceSection />
+            <FeaturedProviders />
           </>
         )}
       </AppShell>

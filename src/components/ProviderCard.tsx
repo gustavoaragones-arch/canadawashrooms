@@ -1,7 +1,5 @@
-import { useMemo } from 'react'
 import { Link } from 'react-router-dom'
 import { getCompatibilityLabel } from '../lib/compatibilityLabel'
-import { deriveTrustTierLabels } from '../lib/intelligence/trustTiers'
 import { emitProductionAnalytics } from '../lib/analytics/productionAnalytics'
 import { TRANSPARENCY } from '../lib/transparencyCopy'
 import { publicCategoryLabel } from '../lib/taxonomy/publicCategoryMapper'
@@ -88,11 +86,6 @@ export function ProviderCard({
     isRelaxedFallback,
   )
 
-  const headerTrust = useMemo(
-    () => deriveTrustTierLabels(provider).slice(0, compact ? 1 : 2),
-    [provider, compact],
-  )
-
   return (
     <article
       id={`provider-anchor-${provider.id}`}
@@ -107,44 +100,38 @@ export function ProviderCard({
         className={`relative z-10 flex flex-col gap-6 pointer-events-none ${compact ? 'px-4 py-4 sm:px-5 sm:py-5' : 'px-5 py-6 sm:px-7 sm:py-8'}`}
       >
         <div className="flex items-start justify-between gap-4">
-          <div className="min-w-0 flex-1 space-y-3">
-            <div className="flex flex-wrap gap-2">
-              {headerTrust.map((label) => (
+          <div className="min-w-0 flex-1">
+            <h3
+              className={
+                compact
+                  ? 'text-lg font-semibold tracking-tight text-cwr-ink group-hover:text-cwr-accent'
+                  : 'text-xl font-semibold tracking-tight text-cwr-ink sm:text-[1.35rem] group-hover:text-cwr-accent'
+              }
+            >
+              {provider.company_name}
+            </h3>
+            <p className="mt-1 text-sm text-cwr-steel">
+              {provider.city}
+              {provider.province_code ? `, ${provider.province_code}` : ''}
+            </p>
+            <div className="mt-2.5 flex flex-wrap gap-1.5">
+              {categoryLabels.map((label) => (
                 <span
                   key={label}
-                  className="rounded-md border border-cwr-border bg-cwr-bg px-2 py-1 text-[10px] font-semibold uppercase tracking-wider text-cwr-steel"
+                  className="inline-block rounded-md border border-cwr-accent/25 bg-cwr-accent-muted px-2 py-0.5 text-[10px] font-semibold uppercase tracking-[0.14em] text-cwr-accent"
                 >
                   {label}
                 </span>
               ))}
             </div>
-            <div>
-              <h3
-                className={
-                  compact
-                    ? 'text-lg font-semibold tracking-tight text-cwr-ink group-hover:text-cwr-accent'
-                    : 'text-xl font-semibold tracking-tight text-cwr-ink sm:text-[1.35rem] group-hover:text-cwr-accent'
-                }
-              >
-                {provider.company_name}
-              </h3>
-              <div className="mt-2 flex flex-wrap gap-1.5">
-                {categoryLabels.map((label) => (
-                  <span
-                    key={label}
-                    className="inline-block rounded-md border border-cwr-accent/25 bg-cwr-accent-muted px-2 py-0.5 text-[10px] font-semibold uppercase tracking-[0.14em] text-cwr-accent"
-                  >
-                    {label}
-                  </span>
-                ))}
-              </div>
+          </div>
+          {!compact ? (
+            <div className="shrink-0 pt-1 text-right">
+              <span className="inline-block rounded-md border border-cwr-border bg-cwr-bg px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wider text-cwr-steel">
+                {matchLabel}
+              </span>
             </div>
-          </div>
-          <div className="shrink-0 pt-1 text-right">
-            <span className="inline-block rounded-md border border-cwr-border bg-cwr-bg px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wider text-cwr-steel">
-              {matchLabel}
-            </span>
-          </div>
+          ) : null}
         </div>
 
         {!compact ? <FeatureBadges provider={provider} /> : null}
@@ -160,14 +147,11 @@ export function ProviderCard({
 
         <div className="flex flex-wrap items-end justify-between gap-4 border-t border-cwr-border pt-4">
           <div>
-            <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-cwr-muted">
-              Field reputation
-            </p>
             <p
-              className="mt-2 text-base font-semibold text-cwr-ink"
+              className="text-base font-semibold text-cwr-ink"
               aria-label={`Google rating ${provider.rating} out of 5, ${provider.review_count} reviews`}
             >
-              Google <span className="text-amber-600">★</span> {provider.rating.toFixed(1)}
+              <span className="text-amber-500">★</span> {provider.rating.toFixed(1)}
               <span className="ml-2 text-sm font-medium text-cwr-muted">
                 ({provider.review_count} reviews)
               </span>

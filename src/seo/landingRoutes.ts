@@ -30,6 +30,7 @@ export const LANDING_ROUTE_GROUPS: readonly LandingSegmentRouteGroup[] = [
     segment: 'construction',
     segmentSlug: SEGMENT_SEO.construction.slug,
     cities: [
+      // Alberta
       { citySlug: 'calgary', city: 'Calgary' },
       { citySlug: 'edmonton', city: 'Edmonton' },
       { citySlug: 'fort-mcmurray', city: 'Fort McMurray' },
@@ -42,12 +43,19 @@ export const LANDING_ROUTE_GROUPS: readonly LandingSegmentRouteGroup[] = [
       { citySlug: 'hamilton', city: 'Hamilton' },
       { citySlug: 'vaughan', city: 'Vaughan' },
       { citySlug: 'markham', city: 'Markham' },
+      // British Columbia
+      { citySlug: 'surrey', city: 'Surrey' },
+      { citySlug: 'vancouver', city: 'Vancouver' },
+      { citySlug: 'abbotsford', city: 'Abbotsford' },
+      { citySlug: 'kelowna', city: 'Kelowna' },
+      { citySlug: 'nanaimo', city: 'Nanaimo' },
     ],
   },
   {
     segment: 'event',
     segmentSlug: SEGMENT_SEO.event.slug,
     cities: [
+      // Alberta
       { citySlug: 'calgary', city: 'Calgary' },
       { citySlug: 'edmonton', city: 'Edmonton' },
       { citySlug: 'canmore', city: 'Canmore' },
@@ -58,13 +66,19 @@ export const LANDING_ROUTE_GROUPS: readonly LandingSegmentRouteGroup[] = [
       { citySlug: 'hamilton', city: 'Hamilton' },
       { citySlug: 'vaughan', city: 'Vaughan' },
       { citySlug: 'markham', city: 'Markham' },
+      // British Columbia
+      { citySlug: 'surrey', city: 'Surrey' },
+      { citySlug: 'vancouver', city: 'Vancouver' },
+      { citySlug: 'kelowna', city: 'Kelowna' },
+      { citySlug: 'abbotsford', city: 'Abbotsford' },
+      { citySlug: 'victoria', city: 'Victoria' },
     ],
   },
   {
     segment: 'oilfield',
     segmentSlug: SEGMENT_SEO.oilfield.slug,
     cities: [
-      // Oilfield / remote is predominantly AB — Ontario included for completeness
+      // Oilfield / remote predominantly AB
       { citySlug: 'fort-mcmurray', city: 'Fort McMurray' },
       { citySlug: 'calgary', city: 'Calgary' },
       { citySlug: 'edmonton', city: 'Edmonton' },
@@ -75,6 +89,7 @@ export const LANDING_ROUTE_GROUPS: readonly LandingSegmentRouteGroup[] = [
     segment: 'general',
     segmentSlug: SEGMENT_SEO.general.slug,
     cities: [
+      // Alberta
       { citySlug: 'calgary', city: 'Calgary' },
       { citySlug: 'edmonton', city: 'Edmonton' },
       { citySlug: 'fort-mcmurray', city: 'Fort McMurray' },
@@ -87,12 +102,21 @@ export const LANDING_ROUTE_GROUPS: readonly LandingSegmentRouteGroup[] = [
       { citySlug: 'hamilton', city: 'Hamilton' },
       { citySlug: 'vaughan', city: 'Vaughan' },
       { citySlug: 'markham', city: 'Markham' },
+      // British Columbia
+      { citySlug: 'surrey', city: 'Surrey' },
+      { citySlug: 'vancouver', city: 'Vancouver' },
+      { citySlug: 'abbotsford', city: 'Abbotsford' },
+      { citySlug: 'kelowna', city: 'Kelowna' },
+      { citySlug: 'nanaimo', city: 'Nanaimo' },
+      { citySlug: 'coquitlam', city: 'Coquitlam' },
+      { citySlug: 'victoria', city: 'Victoria' },
     ],
   },
   {
     segment: 'site_services',
     segmentSlug: SEGMENT_SEO.site_services.slug,
     cities: [
+      // Alberta
       { citySlug: 'calgary', city: 'Calgary' },
       { citySlug: 'edmonton', city: 'Edmonton' },
       { citySlug: 'fort-mcmurray', city: 'Fort McMurray' },
@@ -103,6 +127,10 @@ export const LANDING_ROUTE_GROUPS: readonly LandingSegmentRouteGroup[] = [
       { citySlug: 'mississauga', city: 'Mississauga' },
       { citySlug: 'brampton', city: 'Brampton' },
       { citySlug: 'hamilton', city: 'Hamilton' },
+      // British Columbia
+      { citySlug: 'surrey', city: 'Surrey' },
+      { citySlug: 'vancouver', city: 'Vancouver' },
+      { citySlug: 'abbotsford', city: 'Abbotsford' },
     ],
   },
 ] as const

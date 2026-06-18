@@ -47,9 +47,9 @@ export default function AboutPage() {
           <EditorialSection title="Coverage">
             <p>
               The directory is currently live in{' '}
-              <strong className="font-semibold text-cwr-steel">Alberta and Ontario</strong>,
-              with British Columbia planned as the next expansion. Coverage is intentional —
-              curated operators with verified contact information, not a bulk-scraped map.
+              <strong className="font-semibold text-cwr-steel">Alberta, Ontario, and British Columbia</strong>.
+              Coverage is intentional — curated operators with verified contact information,
+              not a bulk-scraped map.
             </p>
             <p>
               <Link to="/coverage" className="font-semibold text-cwr-accent underline-offset-4 hover:underline">

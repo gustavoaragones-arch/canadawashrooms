@@ -1,11 +1,13 @@
 import { Link, useParams, Navigate } from 'react-router-dom'
 import { AppShell } from '../components/AppShell'
 import { DocumentMeta } from '../components/seo/DocumentMeta'
+import { ProviderCard } from '../components/ProviderCard'
 import { buildStaticDocumentMeta } from '../seo/metadata'
 import { CANADA_PROVINCES, type ProvinceCode } from '../lib/locations/canadaLocations'
 import { PROVIDERS } from '../lib/providersDataset'
 import { LANDING_ROUTE_GROUPS, listingPath } from '../seo/landingRoutes'
 import { segmentLabel } from '../lib/segments'
+import { getFeaturedProviders } from '../lib/getFeaturedProviders'
 import type { PrimarySegment } from '../types/provider'
 
 const PROVINCE_SLUG_MAP: Record<string, ProvinceCode> = {
@@ -26,9 +28,9 @@ const PROVINCE_META: Record<ProvinceCode, { title: string; description: string }
       'Compare portable washroom providers across Ontario — Toronto, Mississauga, Hamilton, Vaughan, and more. Construction sites, events, and everyday portable toilet rentals.',
   },
   BC: {
-    title: 'Portable Washroom Rentals in British Columbia — Coming Soon',
+    title: 'Portable Washroom Rentals in British Columbia',
     description:
-      'BC coverage coming to CanadaWashrooms.ca. Vancouver, Kelowna, Kamloops, and more will be added in the next expansion.',
+      'Find portable toilet and washroom rental providers across British Columbia — Surrey, Vancouver, Kelowna, Nanaimo, and more. Construction sites, events, and everyday portable washroom rentals.',
   },
 }
 
@@ -41,7 +43,11 @@ export default function ProvincePage() {
 
   const liveCities = province.cities.filter((c) => c.live)
   const comingSoonCities = province.cities.filter((c) => !c.live)
-  const providerCount = PROVIDERS.filter((p) => p.province_code === provinceCode).length
+  const provinceProviders = PROVIDERS.filter((p) => p.province_code === provinceCode)
+  const providerCount = provinceProviders.length
+
+  // Top 6 quality-scored providers for the featured section
+  const topProviders = getFeaturedProviders(provinceProviders, { limit: 6 })
 
   const segmentLinks: PrimarySegment[] = (() => {
     if (!province.live) return []
@@ -142,30 +148,59 @@ export default function ProvincePage() {
               {liveCities.length > 0 ? (
                 <section className="mt-10" aria-labelledby="cities-heading">
                   <h2 id="cities-heading" className="text-base font-semibold text-cwr-ink">
-                    Cities with published guides
+                    Cities with listings
                   </h2>
                   <ul className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
                     {liveCities.map((city) => {
-                      const cityProviders = PROVIDERS.filter(
+                      const count = PROVIDERS.filter(
                         (p) => p.province_code === provinceCode && p.city.toLowerCase() === city.name.toLowerCase(),
                       ).length
                       return (
                         <li key={city.slug}>
                           <Link
-                            to={`/?city=${city.slug}`}
+                            to={`/city/${city.slug}`}
                             className="block rounded-xl border border-cwr-border bg-cwr-bg px-4 py-4 transition-colors hover:border-cwr-steel/40 hover:bg-cwr-surface"
                           >
-                            <span className="block text-sm font-semibold text-cwr-ink">{city.name}</span>
-                            {cityProviders > 0 ? (
-                              <span className="mt-1 block text-xs text-cwr-muted">
-                                {cityProviders} provider{cityProviders === 1 ? '' : 's'}
-                              </span>
-                            ) : null}
+                            <span className="block text-sm font-semibold text-cwr-ink group-hover:text-cwr-accent">{city.name}</span>
+                            <span className="mt-1 block text-xs text-cwr-muted">
+                              {count > 0 ? `${count} provider${count === 1 ? '' : 's'}` : 'Browse providers'}
+                            </span>
                           </Link>
                         </li>
                       )
                     })}
                   </ul>
+                </section>
+              ) : null}
+
+              {/* Top-rated providers */}
+              {topProviders.length > 0 ? (
+                <section className="mt-12" aria-labelledby="top-providers-heading">
+                  <h2 id="top-providers-heading" className="text-base font-semibold text-cwr-ink">
+                    Top-rated providers in {province.name}
+                  </h2>
+                  <div className="mt-5 grid gap-5 sm:grid-cols-2">
+                    {topProviders.map((provider) => (
+                      <ProviderCard
+                        key={provider.id}
+                        provider={provider}
+                        segment="general"
+                        city={provider.city}
+                        activeCapabilities={[]}
+                        activeFilterLabels={[]}
+                        isRelaxedFallback={false}
+                        variant="compact"
+                      />
+                    ))}
+                  </div>
+                  {providerCount > 6 ? (
+                    <p className="mt-5 text-sm text-cwr-muted">
+                      Showing {topProviders.length} of {providerCount} providers.{' '}
+                      <Link to="/" className="font-semibold text-cwr-accent underline-offset-4 hover:underline">
+                        Search all {province.name} operators →
+                      </Link>
+                    </p>
+                  ) : null}
                 </section>
               ) : null}
 

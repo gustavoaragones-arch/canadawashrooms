@@ -11,6 +11,9 @@ const MethodologyPage = lazy(() => import('./pages/MethodologyPage.tsx'))
 const ContactPage = lazy(() => import('./pages/ContactPage.tsx'))
 const CoveragePage = lazy(() => import('./pages/CoveragePage.tsx'))
 const ProvincePage = lazy(() => import('./pages/ProvincePage.tsx'))
+const CityPage = lazy(() => import('./pages/CityPage.tsx'))
+const ProvidersPage = lazy(() => import('./pages/ProvidersPage.tsx'))
+const CategoryPage = lazy(() => import('./pages/CategoryPage.tsx'))
 const PrivacyPolicyPage = lazy(() => import('./pages/PrivacyPolicyPage.tsx'))
 const TermsPage = lazy(() => import('./pages/TermsPage.tsx'))
 const DisclaimerPage = lazy(() => import('./pages/DisclaimerPage.tsx'))
@@ -42,9 +45,16 @@ export default function App() {
             <Route path="/privacy" element={<PrivacyPolicyPage />} />
             <Route path="/terms" element={<TermsPage />} />
             <Route path="/disclaimer" element={<DisclaimerPage />} />
-            <Route path="/:provinceSlug" element={<ProvincePage />} />
+            <Route path="/providers" element={<ProvidersPage />} />
+            <Route path="/construction-jobsites" element={<CategoryPage />} />
+            <Route path="/events-weddings" element={<CategoryPage />} />
+            <Route path="/general-portable-washrooms" element={<CategoryPage />} />
+            <Route path="/remote-oilfield-operations" element={<CategoryPage />} />
+            <Route path="/waste-site-services" element={<CategoryPage />} />
+            <Route path="/city/:citySlug" element={<CityPage />} />
             <Route path="/provider/:providerSlug" element={<ProviderPage />} />
             <Route path="/:segmentSlug/:citySlug" element={<LandingPage />} />
+            <Route path="/:provinceSlug" element={<ProvincePage />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </Suspense>

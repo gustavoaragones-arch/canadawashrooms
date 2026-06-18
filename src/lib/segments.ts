@@ -11,12 +11,15 @@ export interface IntentCardDefinition {
   title: string
   microcopy: string
   badges: string[]
+  /** Optional icon path under `public/` (e.g. `/1.svg`). */
+  icon?: string
 }
 
 export const INTENT_CARDS: IntentCardDefinition[] = [
   {
     segment: 'construction',
     title: 'Construction & Jobsites',
+    icon: '/1.svg',
     microcopy:
       'Reliable portable washrooms for crews, projects, and long-term worksites.',
     badges: ['Jobsite Ready', 'Long-Term Rental', 'Serviced Units'],
@@ -24,6 +27,7 @@ export const INTENT_CARDS: IntentCardDefinition[] = [
   {
     segment: 'event',
     title: 'Weddings & Events',
+    icon: '/2.svg',
     microcopy:
       'Clean, upscale restroom solutions for weddings, festivals, and private events.',
     badges: ['Luxury Trailers', 'Flush Toilets', 'Wedding Friendly'],
@@ -31,6 +35,7 @@ export const INTENT_CARDS: IntentCardDefinition[] = [
   {
     segment: 'oilfield',
     title: 'Remote & Oilfield Operations',
+    icon: '/4.svg',
     microcopy:
       'Rugged portable sanitation built for remote and industrial operations.',
     badges: ['Winterized', 'Remote Ready', 'Camp Support'],
@@ -38,6 +43,7 @@ export const INTENT_CARDS: IntentCardDefinition[] = [
   {
     segment: 'site_services',
     title: 'Waste & Site Services',
+    icon: '/3.svg',
     microcopy:
       'Integrated site servicing for construction projects, infrastructure work, waste handling, and temporary site support.',
     badges: ['Septic Services', 'Site Support', 'Roll-Off & Disposal'],
@@ -45,6 +51,7 @@ export const INTENT_CARDS: IntentCardDefinition[] = [
   {
     segment: 'general',
     title: 'General Portable Washrooms',
+    icon: '/5.svg',
     microcopy:
       'Simple short-term portable restroom rentals for everyday needs.',
     badges: ['ADA Accessible', 'Handwash Stations', 'Fast Rentals'],

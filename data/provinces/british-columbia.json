@@ -1,1 +1,3187 @@
-[]
+[
+  {
+    "id": "super-save-group-head-office-surrey-bc",
+    "company_name": "Super Save Group (Head Office)",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Surrey",
+    "province": "British Columbia",
+    "province_code": "BC",
+    "service_area": "19395 Langley Bypass, Surrey, BC V3S 6K1",
+    "rating": 3.3,
+    "review_count": 449,
+    "website": "https://supersave.ca/location/vancouver",
+    "phone": "+16045334423",
+    "badges": [
+      "Waste management service",
+      "Waste management service, Excavating contractor, Fence supply store, Fuel supplier, Gas company, Portable toilet supplier, Propane supplier, Shredding service, Tool rental service"
+    ],
+    "heated": false,
+    "handwash_available": true,
+    "ada_accessible": true,
+    "winterized": false,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "waste management service"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": true,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.78,
+    "supported_segments": [
+      "construction",
+      "event",
+      "general",
+      "site_services"
+    ],
+    "capabilities": [
+      "ada_accessible",
+      "handwash_available",
+      "luxury_trailers",
+      "septic_service",
+      "site_support",
+      "wedding_friendly"
+    ],
+    "operational_tags": [
+      "category:fluid_services",
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "fluid_handling_partnership",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Tank servicing & fluid partners",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "review_volume_signal",
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "multi_route",
+    "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "site_services"
+    ],
+    "operational_trust_cues": [
+      "Review volume supports repeat-use validation — still confirm servicing scope directly.",
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ]
+  },
+  {
+    "id": "pit-stop-portable-toilet-services-coquitlam-bc",
+    "company_name": "Pit Stop Portable Toilet Services",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Coquitlam",
+    "province": "British Columbia",
+    "province_code": "BC",
+    "service_area": "32 Fawcett Rd, Coquitlam, BC V3K 6X9",
+    "rating": 3.6,
+    "review_count": 61,
+    "website": "http://www.pitstopportables.com",
+    "phone": "+16045408180",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "heated": true,
+    "handwash_available": true,
+    "ada_accessible": true,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": true,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.78,
+    "supported_segments": [
+      "construction",
+      "event",
+      "general",
+      "site_services"
+    ],
+    "capabilities": [
+      "ada_accessible",
+      "handwash_available",
+      "heated",
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "small",
+    "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "oilfield",
+      "site_services"
+    ],
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
+    ]
+  },
+  {
+    "id": "all-haul-septic-quesnel-quesnel-bc",
+    "company_name": "All Haul Septic Quesnel",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Quesnel",
+    "province": "British Columbia",
+    "province_code": "BC",
+    "service_area": "1565 Cariboo Hwy, Quesnel, BC V2J 3K1",
+    "rating": 4.5,
+    "review_count": 54,
+    "website": "http://www.allhaul.ca",
+    "phone": "+12502554285",
+    "badges": [
+      "Septic system service",
+      "Septic system service, Containers supplier, Demolition contractor, Excavating contractor, Portable toilet supplier, Pump supplier, Water jet cutting service"
+    ],
+    "heated": false,
+    "handwash_available": false,
+    "ada_accessible": false,
+    "winterized": false,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "septic system service"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": true,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.84,
+    "supported_segments": [
+      "construction",
+      "event",
+      "site_services"
+    ],
+    "capabilities": [
+      "luxury_trailers",
+      "septic_service",
+      "site_support",
+      "wedding_friendly"
+    ],
+    "operational_tags": [
+      "category:fluid_services",
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "fluid_handling_partnership",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Tank servicing & fluid partners",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "small",
+    "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "site_services"
+    ],
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ]
+  },
+  {
+    "id": "blue-jay-rentals-washroom-trailer-rentals-vancouver-bc",
+    "company_name": "Blue Jay Rentals - Washroom Trailer Rentals",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Vancouver",
+    "province": "British Columbia",
+    "province_code": "BC",
+    "service_area": "3228 Tupper St, Vancouver, BC V5Z 4S7",
+    "rating": 4.9,
+    "review_count": 48,
+    "website": "https://www.bluejayrentals.ca",
+    "phone": "+17789395444",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "heated": true,
+    "handwash_available": false,
+    "ada_accessible": true,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": true,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.84,
+    "supported_segments": [
+      "construction",
+      "event",
+      "site_services"
+    ],
+    "capabilities": [
+      "ada_accessible",
+      "heated",
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "small",
+    "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "oilfield",
+      "site_services"
+    ],
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
+    ]
+  },
+  {
+    "id": "bold-portable-rentals-kelowna-bc",
+    "company_name": "Bold Portable Rentals",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Kelowna",
+    "province": "British Columbia",
+    "province_code": "BC",
+    "service_area": "8860 Jim Bailey Crescent #6, Kelowna, BC V4V 2N4",
+    "rating": 5,
+    "review_count": 43,
+    "website": "https://boldsiterentals.com",
+    "phone": "+12507188996",
+    "badges": [
+      "Portable toilet supplier",
+      "Portable toilet supplier, Septic system service, Waste management service"
+    ],
+    "heated": false,
+    "handwash_available": false,
+    "ada_accessible": true,
+    "winterized": false,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": true,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.84,
+    "supported_segments": [
+      "construction",
+      "event",
+      "site_services"
+    ],
+    "capabilities": [
+      "ada_accessible",
+      "luxury_trailers",
+      "septic_service",
+      "site_support",
+      "wedding_friendly"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "fluid_handling_partnership",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Tank servicing & fluid partners",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "site_services"
+    ],
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ]
+  },
+  {
+    "id": "absolute-septic-service-qualicum-beach-bc",
+    "company_name": "Absolute Septic Service",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Qualicum Beach",
+    "province": "British Columbia",
+    "province_code": "BC",
+    "service_area": "940 View Rd, Qualicum Beach, BC V9K 1N3",
+    "rating": 4.6,
+    "review_count": 40,
+    "website": "http://www.absolutesepticservice.ca",
+    "phone": "+12509376047",
+    "badges": [
+      "Septic system service"
+    ],
+    "heated": false,
+    "handwash_available": false,
+    "ada_accessible": false,
+    "winterized": false,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "septic system service"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": true,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.84,
+    "supported_segments": [
+      "construction",
+      "event",
+      "site_services"
+    ],
+    "capabilities": [
+      "luxury_trailers",
+      "septic_service",
+      "site_support",
+      "wedding_friendly"
+    ],
+    "operational_tags": [
+      "category:fluid_services",
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "fluid_handling_partnership",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Tank servicing & fluid partners",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "site_services"
+    ],
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ]
+  },
+  {
+    "id": "sunrise-washroom-rentals-langley-twp-bc",
+    "company_name": "Sunrise Washroom Rentals",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Langley Twp",
+    "province": "British Columbia",
+    "province_code": "BC",
+    "service_area": "3350 260 St #200, Langley Twp, BC V4W 2B1",
+    "rating": 4.2,
+    "review_count": 39,
+    "website": "http://www.sunrisewashroomrentals.com",
+    "phone": "+16048571166",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "heated": true,
+    "handwash_available": true,
+    "ada_accessible": true,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": true,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.74,
+    "supported_segments": [
+      "construction",
+      "event",
+      "general",
+      "site_services"
+    ],
+    "capabilities": [
+      "ada_accessible",
+      "handwash_available",
+      "heated",
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "oilfield",
+      "site_services"
+    ],
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
+    ]
+  },
+  {
+    "id": "super-save-group-victoria-bc",
+    "company_name": "Super Save Group",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Victoria",
+    "province": "British Columbia",
+    "province_code": "BC",
+    "service_area": "2895 W Shr Pkwy, Victoria, BC V9B 0B2",
+    "rating": 3.1,
+    "review_count": 36,
+    "website": "https://supersave.ca/location/victoria",
+    "phone": "+12503802477",
+    "badges": [
+      "Portable toilet supplier",
+      "Portable toilet supplier, Fence supply store, Fuel supplier, Gas company, Propane supplier, Tool rental service, Waste management service"
+    ],
+    "heated": false,
+    "handwash_available": true,
+    "ada_accessible": true,
+    "winterized": false,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.74,
+    "supported_segments": [
+      "construction",
+      "event",
+      "general",
+      "site_services"
+    ],
+    "capabilities": [
+      "ada_accessible",
+      "handwash_available",
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "site_services"
+    ],
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ]
+  },
+  {
+    "id": "primetime-washroom-rentals-surrey-bc",
+    "company_name": "Primetime Washroom Rentals",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Surrey",
+    "province": "British Columbia",
+    "province_code": "BC",
+    "service_area": "15086 48 Ave, Surrey, BC V3Z 1G6",
+    "rating": 5,
+    "review_count": 32,
+    "website": "http://primetimerentals.ca",
+    "phone": "+16048258105",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "heated": true,
+    "handwash_available": false,
+    "ada_accessible": false,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": true,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "construction",
+      "event",
+      "site_services"
+    ],
+    "capabilities": [
+      "heated",
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "oilfield",
+      "site_services"
+    ],
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
+    ]
+  },
+  {
+    "id": "premier-site-services-bin-rentals-fence-rentals-toile-bc",
+    "company_name": "Premier Site Services - Bin Rentals, Fence Rentals, Toilet Rentals",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Surrey",
+    "province": "British Columbia",
+    "province_code": "BC",
+    "service_area": "5945 176a St, Surrey, BC V3S 1V2",
+    "rating": 5,
+    "review_count": 31,
+    "website": "https://premiersiteservices.ca",
+    "phone": "+16042107357",
+    "badges": [
+      "Waste management service",
+      "Waste management service, Debris removal service, Dumpster rental service, Garbage collection service, Portable toilet supplier"
+    ],
+    "heated": false,
+    "handwash_available": false,
+    "ada_accessible": false,
+    "winterized": false,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "waste management service"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": true,
+    "site_support": true,
+    "roll_off_disposal": true,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "construction",
+      "event",
+      "site_services"
+    ],
+    "capabilities": [
+      "luxury_trailers",
+      "roll_off_disposal",
+      "septic_service",
+      "site_support",
+      "wedding_friendly"
+    ],
+    "operational_tags": [
+      "category:fluid_services",
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "fluid_handling_partnership",
+      "integrated_site_support",
+      "roll_off_disposal_program"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Tank servicing & fluid partners",
+      "Multi-trade site servicing",
+      "Roll-off & disposal coordination"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "site_services"
+    ],
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ]
+  },
+  {
+    "id": "full-moon-rentals-coquitlam-bc",
+    "company_name": "Full Moon Rentals",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Coquitlam",
+    "province": "British Columbia",
+    "province_code": "BC",
+    "service_area": "175 Schoolhouse St Unit 20, Coquitlam, BC V3K 4X8",
+    "rating": 4.3,
+    "review_count": 27,
+    "website": "https://fullmoonrentals.com",
+    "phone": "+16044721101",
+    "badges": [
+      "Portable toilet supplier",
+      "Portable toilet supplier, Event planner, Pump supplier, Septic system service, Wedding service"
+    ],
+    "heated": true,
+    "handwash_available": true,
+    "ada_accessible": false,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": true,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": true,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.74,
+    "supported_segments": [
+      "construction",
+      "event",
+      "general",
+      "site_services"
+    ],
+    "capabilities": [
+      "handwash_available",
+      "heated",
+      "luxury_trailers",
+      "septic_service",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
+    ],
+    "operational_tags": [
+      "badge_signal:event_posture",
+      "category:portable_sanitation",
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "fluid_handling_partnership",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
+      "Tank servicing & fluid partners",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "oilfield",
+      "site_services"
+    ],
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
+    ]
+  },
+  {
+    "id": "west-coast-disposal-portable-toilet-rental-vancouver-bc",
+    "company_name": "West Coast Disposal Portable Toilet Rental",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Vancouver",
+    "province": "British Columbia",
+    "province_code": "BC",
+    "service_area": "1533 E Kent Avenue N, Vancouver, BC V5P 2R3",
+    "rating": 3.5,
+    "review_count": 26,
+    "website": "http://www.wcdisposal.com",
+    "phone": "+16043247667",
+    "badges": [
+      "Portable toilet supplier",
+      "Portable toilet supplier, Waste management service"
+    ],
+    "heated": false,
+    "handwash_available": true,
+    "ada_accessible": true,
+    "winterized": false,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.74,
+    "supported_segments": [
+      "construction",
+      "event",
+      "general",
+      "site_services"
+    ],
+    "capabilities": [
+      "ada_accessible",
+      "handwash_available",
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "site_services"
+    ],
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ]
+  },
+  {
+    "id": "total-site-services-ltd-burnaby-bc",
+    "company_name": "Total Site Services Ltd",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Burnaby",
+    "province": "British Columbia",
+    "province_code": "BC",
+    "service_area": "5489 Byrne Rd #277, Burnaby, BC V5J 3J1",
+    "rating": 4,
+    "review_count": 25,
+    "website": "https://www.totalsiteservice.ca",
+    "phone": "+17788816070",
+    "badges": [
+      "Fence contractor"
+    ],
+    "heated": false,
+    "handwash_available": true,
+    "ada_accessible": false,
+    "winterized": false,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": false,
+    "luxury_units": false,
+    "google_categories": [
+      "fence contractor"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": false,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "construction",
+      "event"
+    ],
+    "capabilities": [
+      "handwash_available"
+    ],
+    "operational_tags": [
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "jobsite_programs"
+    ],
+    "inferred_specialties": [],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event"
+    ],
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ]
+  },
+  {
+    "id": "d-b-l-disposal-services-ltd-nanaimo-bc",
+    "company_name": "D B L Disposal Services Ltd",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Nanaimo",
+    "province": "British Columbia",
+    "province_code": "BC",
+    "service_area": "4145 Jingle Pot Rd, Nanaimo, BC V9T 5P5",
+    "rating": 4.3,
+    "review_count": 23,
+    "website": "http://www.dbldisposalservices.com",
+    "phone": "+12507518923",
+    "badges": [
+      "Garbage collection service",
+      "Garbage collection service, Portable toilet supplier, Recycling center, Waste management service"
+    ],
+    "heated": false,
+    "handwash_available": false,
+    "ada_accessible": false,
+    "winterized": false,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "garbage collection service"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "construction",
+      "event",
+      "site_services"
+    ],
+    "capabilities": [
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly"
+    ],
+    "operational_tags": [
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "site_services"
+    ],
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ]
+  },
+  {
+    "id": "prestige-event-services-inc-surrey-bc",
+    "company_name": "Prestige Event Services Inc.",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Surrey",
+    "province": "British Columbia",
+    "province_code": "BC",
+    "service_area": "3211 152 St, Surrey, BC V3Z 1H8",
+    "rating": 5,
+    "review_count": 23,
+    "website": "https://www.prestigeeventservices.ca",
+    "phone": "+17786527131",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "heated": false,
+    "handwash_available": true,
+    "ada_accessible": true,
+    "winterized": false,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.74,
+    "supported_segments": [
+      "construction",
+      "event",
+      "general",
+      "site_services"
+    ],
+    "capabilities": [
+      "ada_accessible",
+      "handwash_available",
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "site_services"
+    ],
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ]
+  },
+  {
+    "id": "daylight-equipment-whistler-bc",
+    "company_name": "Daylight Equipment",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Whistler",
+    "province": "British Columbia",
+    "province_code": "BC",
+    "service_area": "2230 Eva Lake Rd B2, Whistler, BC V8E 0M5",
+    "rating": 5,
+    "review_count": 22,
+    "website": "http://daylightequipment.com",
+    "phone": "+17788352868",
+    "badges": [
+      "Excavating contractor",
+      "Excavating contractor, Portable toilet supplier"
+    ],
+    "heated": false,
+    "handwash_available": false,
+    "ada_accessible": true,
+    "winterized": false,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "excavating contractor"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "construction",
+      "event",
+      "site_services"
+    ],
+    "capabilities": [
+      "ada_accessible",
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly"
+    ],
+    "operational_tags": [
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "site_services"
+    ],
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ]
+  },
+  {
+    "id": "interior-portable-toilet-rentals-kelowna-bc",
+    "company_name": "Interior Portable Toilet Rentals",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Kelowna",
+    "province": "British Columbia",
+    "province_code": "BC",
+    "service_area": "235 Neave Rd, Kelowna, BC V1V 2L9",
+    "rating": 4.2,
+    "review_count": 20,
+    "website": "http://www.interiorportablerentals.com",
+    "phone": "+12507651198",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "heated": false,
+    "handwash_available": false,
+    "ada_accessible": false,
+    "winterized": false,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "construction",
+      "event",
+      "site_services"
+    ],
+    "capabilities": [
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "site_services"
+    ],
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ]
+  },
+  {
+    "id": "jiffy-john-rentals-ltd-maple-ridge-bc",
+    "company_name": "Jiffy John Rentals Ltd",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Maple Ridge",
+    "province": "British Columbia",
+    "province_code": "BC",
+    "service_area": "23338 Fisherman Rd, Maple Ridge, BC V2W 1B9",
+    "rating": 3.1,
+    "review_count": 19,
+    "website": "http://jiffyjohn.ca",
+    "phone": "+16044630707",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "heated": true,
+    "handwash_available": true,
+    "ada_accessible": true,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": true,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.74,
+    "supported_segments": [
+      "construction",
+      "event",
+      "general",
+      "site_services"
+    ],
+    "capabilities": [
+      "ada_accessible",
+      "handwash_available",
+      "heated",
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "oilfield",
+      "site_services"
+    ],
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
+    ]
+  },
+  {
+    "id": "scv-waste-management-septic-bins-armstrong-bc-armstro-bc",
+    "company_name": "SCV: Waste Management, Septic & Bins | Armstrong, BC",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Armstrong",
+    "province": "British Columbia",
+    "province_code": "BC",
+    "service_area": "869 Otter Lake Cross Rd, Armstrong, BC V4Y 0N7",
+    "rating": 4.8,
+    "review_count": 19,
+    "website": "https://scvwaste.ca",
+    "phone": "+12505409300",
+    "badges": [
+      "Garbage collection service",
+      "Garbage collection service, Portable toilet supplier, Septic system service, Waste management service"
+    ],
+    "heated": false,
+    "handwash_available": false,
+    "ada_accessible": false,
+    "winterized": false,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "garbage collection service"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": true,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "construction",
+      "event",
+      "site_services"
+    ],
+    "capabilities": [
+      "luxury_trailers",
+      "septic_service",
+      "site_support",
+      "wedding_friendly"
+    ],
+    "operational_tags": [
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "fluid_handling_partnership",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Tank servicing & fluid partners",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "site_services"
+    ],
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ]
+  },
+  {
+    "id": "west-coast-disposal-portable-toilet-rental-surrey-bc",
+    "company_name": "West Coast Disposal Portable Toilet Rental",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Surrey",
+    "province": "British Columbia",
+    "province_code": "BC",
+    "service_area": "10601 Span Rd, Surrey, BC V3V 3V5",
+    "rating": 3.4,
+    "review_count": 17,
+    "website": "http://wcdisposal.com",
+    "phone": "+16043777736",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "heated": false,
+    "handwash_available": true,
+    "ada_accessible": true,
+    "winterized": false,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.74,
+    "supported_segments": [
+      "construction",
+      "event",
+      "general",
+      "site_services"
+    ],
+    "capabilities": [
+      "ada_accessible",
+      "handwash_available",
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "site_services"
+    ],
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ]
+  },
+  {
+    "id": "equinox-rentals-portable-trailer-washrooms-fences-sep-bc",
+    "company_name": "Equinox Rentals - Portable & Trailer Washrooms, Fences, Septic Service - Delta",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Delta",
+    "province": "British Columbia",
+    "province_code": "BC",
+    "service_area": "8679 Sunbury Pl, Delta, BC V4C 3Y9",
+    "rating": 5,
+    "review_count": 13,
+    "website": "https://equinoxrentals.ca",
+    "phone": "+18443797368",
+    "badges": [
+      "Portable toilet supplier",
+      "Portable toilet supplier, Fence contractor, Septic system service"
+    ],
+    "heated": true,
+    "handwash_available": false,
+    "ada_accessible": false,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": true,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": true,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "construction",
+      "event",
+      "site_services"
+    ],
+    "capabilities": [
+      "heated",
+      "luxury_trailers",
+      "septic_service",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "fluid_handling_partnership",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
+      "Tank servicing & fluid partners",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "oilfield",
+      "site_services"
+    ],
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
+    ]
+  },
+  {
+    "id": "prince-george-portable-toilet-services-ltd-prince-geo-bc",
+    "company_name": "Prince George Portable Toilet Services Ltd",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Prince George",
+    "province": "British Columbia",
+    "province_code": "BC",
+    "service_area": "1301 Kelliher Rd, Prince George, BC V2L 5S8",
+    "rating": 4.8,
+    "review_count": 13,
+    "website": "https://www.pgtoilet.ca",
+    "phone": "+12509638820",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "heated": false,
+    "handwash_available": false,
+    "ada_accessible": false,
+    "winterized": false,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "construction",
+      "event",
+      "site_services"
+    ],
+    "capabilities": [
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "site_services"
+    ],
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ]
+  },
+  {
+    "id": "pioneer-sanitary-solutions-ltd-charlie-lake-bc",
+    "company_name": "Pioneer Sanitary Solutions Ltd.",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Charlie Lake",
+    "province": "British Columbia",
+    "province_code": "BC",
+    "service_area": "10395 Spruce St, Charlie Lake, BC V1J 8A9",
+    "rating": 5,
+    "review_count": 12,
+    "website": "http://pioneersanitarysolutions.ca",
+    "phone": "+12503297368",
+    "badges": [
+      "Portable toilet supplier",
+      "Portable toilet supplier, Oil field equipment supplier"
+    ],
+    "heated": true,
+    "handwash_available": true,
+    "ada_accessible": false,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": true,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": true,
+    "remote_logistics": true,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.74,
+    "supported_segments": [
+      "construction",
+      "event",
+      "oilfield",
+      "site_services"
+    ],
+    "capabilities": [
+      "handwash_available",
+      "heated",
+      "luxury_trailers",
+      "remote_logistics",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "oilfield",
+      "site_services"
+    ],
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Winter-capable equipment posture corroborated by listing or weighted reviews.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "sj-luxury-toilet-rental-surrey-bc",
+    "company_name": "SJ Luxury Toilet Rental",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Surrey",
+    "province": "British Columbia",
+    "province_code": "BC",
+    "service_area": "9177 138 St, Surrey, BC V3V 7Y5",
+    "rating": 3.9,
+    "review_count": 12,
+    "website": "https://www.sjtoiletrentals.ca",
+    "phone": "+17785582025",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "heated": false,
+    "handwash_available": false,
+    "ada_accessible": false,
+    "winterized": false,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "construction",
+      "event",
+      "site_services"
+    ],
+    "capabilities": [
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "site_services"
+    ],
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ]
+  },
+  {
+    "id": "primetime-washroom-rentals-langley-langley-bc",
+    "company_name": "Primetime Washroom Rentals Langley",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Langley",
+    "province": "British Columbia",
+    "province_code": "BC",
+    "service_area": "20763 68 Ave, Langley, BC V2Y 1R1",
+    "rating": 5,
+    "review_count": 10,
+    "website": "http://primetimerentals.ca",
+    "phone": "+16048258105",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "heated": true,
+    "handwash_available": false,
+    "ada_accessible": false,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": true,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "construction",
+      "event",
+      "site_services"
+    ],
+    "capabilities": [
+      "heated",
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "oilfield",
+      "site_services"
+    ],
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
+    ]
+  },
+  {
+    "id": "budget-toilet-rentals-ltd-trailer-washroom-surrey-bc",
+    "company_name": "Budget Toilet Rentals Ltd & trailer washroom",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Surrey",
+    "province": "British Columbia",
+    "province_code": "BC",
+    "service_area": "7276 129a St, Surrey, BC V3W 6Z4",
+    "rating": 2.3,
+    "review_count": 9,
+    "website": "https://www.facebook.com/p/Budget-Toilet-Rentals-100063653615121",
+    "phone": "+17788839141",
+    "badges": [
+      "Equipment supplier"
+    ],
+    "heated": true,
+    "handwash_available": true,
+    "ada_accessible": false,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "equipment supplier"
+    ],
+    "winter_service": true,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": false,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "construction",
+      "event"
+    ],
+    "capabilities": [
+      "handwash_available",
+      "heated",
+      "luxury_trailers",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
+    ],
+    "operational_tags": [
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Cold-weather equipment posture"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "oilfield"
+    ],
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
+    ]
+  },
+  {
+    "id": "exclusive-washroom-trailer-rentals-surrey-bc",
+    "company_name": "Exclusive Washroom Trailer Rentals",
+    "primary_segment": "event",
+    "segment_key": "event",
+    "city": "Surrey",
+    "province": "British Columbia",
+    "province_code": "BC",
+    "service_area": "12956 67a Ave, Surrey, BC V3W 8M7",
+    "rating": 4.9,
+    "review_count": 8,
+    "website": null,
+    "phone": "+16042404457",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "heated": false,
+    "handwash_available": false,
+    "ada_accessible": false,
+    "winterized": false,
+    "construction_ready": false,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "event",
+      "site_services"
+    ],
+    "capabilities": [
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "phone_forward_operations"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "site_services"
+    ],
+    "operational_trust_cues": [
+      "Phone-forward operator — expect to confirm inventory and cadence by voice.",
+      "Event-oriented restroom trailer positioning — confirm footprint and pump windows."
+    ]
+  },
+  {
+    "id": "equinox-rentals-portable-trailer-washrooms-fences-sep-bc",
+    "company_name": "Equinox Rentals - Portable & Trailer Washrooms, Fences, Septic Service - North Vancouver",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "North Vancouver",
+    "province": "British Columbia",
+    "province_code": "BC",
+    "service_area": "145 Chadwick Ct Suite 220, North Vancouver, BC V7M 3K2",
+    "rating": 5,
+    "review_count": 5,
+    "website": "https://equinoxrentals.ca",
+    "phone": "+18443797368",
+    "badges": [
+      "Portable toilet supplier",
+      "Portable toilet supplier, Fence contractor, Septic system service"
+    ],
+    "heated": true,
+    "handwash_available": false,
+    "ada_accessible": false,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": true,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": true,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "construction",
+      "event",
+      "site_services"
+    ],
+    "capabilities": [
+      "heated",
+      "luxury_trailers",
+      "septic_service",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "fluid_handling_partnership",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
+      "Tank servicing & fluid partners",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "oilfield",
+      "site_services"
+    ],
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
+    ]
+  },
+  {
+    "id": "equinox-rentals-portable-trailer-washrooms-fences-sep-bc",
+    "company_name": "Equinox Rentals - Portable & Trailer Washrooms, Fences, Septic Service - Abbotsford",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Abbotsford",
+    "province": "British Columbia",
+    "province_code": "BC",
+    "service_area": "32274 Atwater Crescent, Abbotsford, BC V2T 4L2",
+    "rating": 5,
+    "review_count": 5,
+    "website": "https://equinoxrentals.ca",
+    "phone": "+18443797368",
+    "badges": [
+      "Portable toilet supplier",
+      "Portable toilet supplier, Fence contractor, Septic system service"
+    ],
+    "heated": true,
+    "handwash_available": false,
+    "ada_accessible": false,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": true,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": true,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "construction",
+      "event",
+      "site_services"
+    ],
+    "capabilities": [
+      "heated",
+      "luxury_trailers",
+      "septic_service",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "fluid_handling_partnership",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
+      "Tank servicing & fluid partners",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "oilfield",
+      "site_services"
+    ],
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
+    ]
+  },
+  {
+    "id": "topstall-restroom-rentals-surrey-bc",
+    "company_name": "Topstall Restroom Rentals",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Surrey",
+    "province": "British Columbia",
+    "province_code": "BC",
+    "service_area": "12611 90a Ave, Surrey, BC V3V 1C6",
+    "rating": 5,
+    "review_count": 5,
+    "website": "https://topstallrentals.netlify.app",
+    "phone": "+17787988609",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "heated": true,
+    "handwash_available": false,
+    "ada_accessible": false,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": true,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "construction",
+      "event",
+      "site_services"
+    ],
+    "capabilities": [
+      "heated",
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "oilfield",
+      "site_services"
+    ],
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
+    ]
+  },
+  {
+    "id": "diamond-washroom-trailer-rentals-surrey-bc",
+    "company_name": "Diamond Washroom Trailer Rentals",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Surrey",
+    "province": "British Columbia",
+    "province_code": "BC",
+    "service_area": "10601 Span Rd, Surrey, BC V3V 8A1",
+    "rating": 5,
+    "review_count": 5,
+    "website": "https://www.diamondwashroomtrailers.com",
+    "phone": "+16043247667",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "heated": true,
+    "handwash_available": true,
+    "ada_accessible": true,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": true,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.74,
+    "supported_segments": [
+      "construction",
+      "event",
+      "general",
+      "site_services"
+    ],
+    "capabilities": [
+      "ada_accessible",
+      "handwash_available",
+      "heated",
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "oilfield",
+      "site_services"
+    ],
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
+    ]
+  },
+  {
+    "id": "vancouver-luxury-restrooms-pitt-meadows-bc",
+    "company_name": "Vancouver Luxury Restrooms",
+    "primary_segment": "event",
+    "segment_key": "event",
+    "city": "Pitt Meadows",
+    "province": "British Columbia",
+    "province_code": "BC",
+    "service_area": "13411 Sharpe Rd, Pitt Meadows, BC V3Y 1Z1",
+    "rating": 5,
+    "review_count": 5,
+    "website": "https://www.instagram.com/vancouverluxuryrestrooms",
+    "phone": "+16043748211",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "heated": true,
+    "handwash_available": false,
+    "ada_accessible": false,
+    "winterized": true,
+    "construction_ready": false,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": true,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "event",
+      "site_services"
+    ],
+    "capabilities": [
+      "heated",
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "oilfield",
+      "site_services"
+    ],
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Winter-capable equipment posture corroborated by listing or weighted reviews.",
+      "Event-oriented restroom trailer positioning — confirm footprint and pump windows."
+    ]
+  },
+  {
+    "id": "aikam-rental-ltd-abbotsford-bc",
+    "company_name": "AIKAM RENTAL LTD",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Abbotsford",
+    "province": "British Columbia",
+    "province_code": "BC",
+    "service_area": "31048 Heron Ave, Abbotsford, BC V2T 5K5",
+    "rating": 5,
+    "review_count": 4,
+    "website": "http://www.aikamrental.com",
+    "phone": "+17782452809",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "heated": false,
+    "handwash_available": true,
+    "ada_accessible": true,
+    "winterized": false,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.74,
+    "supported_segments": [
+      "construction",
+      "event",
+      "general",
+      "site_services"
+    ],
+    "capabilities": [
+      "ada_accessible",
+      "handwash_available",
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "site_services"
+    ],
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ]
+  },
+  {
+    "id": "equinox-rentals-equinox-rentals-portable-trailer-wash-bc",
+    "company_name": "Equinox Rentals- Equinox Rentals- Portable & Trailer Washrooms, Fences, Septic Service - Surrey",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Surrey",
+    "province": "British Columbia",
+    "province_code": "BC",
+    "service_area": "8850 132 St, Surrey, BC V3V 5P2",
+    "rating": 5,
+    "review_count": 4,
+    "website": "https://equinoxrentals.ca",
+    "phone": "+18443797368",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "heated": true,
+    "handwash_available": false,
+    "ada_accessible": false,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": true,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "construction",
+      "event",
+      "site_services"
+    ],
+    "capabilities": [
+      "heated",
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "oilfield",
+      "site_services"
+    ],
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
+    ]
+  },
+  {
+    "id": "coast-portable-toilet-rentals-chemainus-bc",
+    "company_name": "Coast Portable Toilet Rentals",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Chemainus",
+    "province": "British Columbia",
+    "province_code": "BC",
+    "service_area": "9401 Trans-Canada Hwy, Chemainus, BC V0R 1K0",
+    "rating": 3.7,
+    "review_count": 3,
+    "website": null,
+    "phone": "+12503801166",
+    "badges": [
+      "Equipment supplier"
+    ],
+    "heated": false,
+    "handwash_available": true,
+    "ada_accessible": true,
+    "winterized": false,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "equipment supplier"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": false,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "construction",
+      "event",
+      "general"
+    ],
+    "capabilities": [
+      "ada_accessible",
+      "handwash_available",
+      "luxury_trailers",
+      "wedding_friendly"
+    ],
+    "operational_tags": [
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts"
+    ],
+    "trust_signals": [
+      "phone_forward_operations"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event"
+    ],
+    "operational_trust_cues": [
+      "Phone-forward operator — expect to confirm inventory and cadence by voice."
+    ]
+  },
+  {
+    "id": "christina-porta-potty-rv-pumpout-service-christina-la-bc",
+    "company_name": "Christina Porta Potty & RV Pumpout Service",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Christina Lake",
+    "province": "British Columbia",
+    "province_code": "BC",
+    "service_area": "Christina Lake, BC V0H 1E0",
+    "rating": 5,
+    "review_count": 2,
+    "website": "http://christinalakeseptic.com",
+    "phone": "+12504439211",
+    "badges": [
+      "Septic system service"
+    ],
+    "heated": false,
+    "handwash_available": true,
+    "ada_accessible": false,
+    "winterized": false,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "septic system service"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": true,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.74,
+    "supported_segments": [
+      "construction",
+      "event",
+      "general",
+      "site_services"
+    ],
+    "capabilities": [
+      "handwash_available",
+      "luxury_trailers",
+      "septic_service",
+      "site_support",
+      "wedding_friendly"
+    ],
+    "operational_tags": [
+      "category:fluid_services",
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "fluid_handling_partnership",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Tank servicing & fluid partners",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "site_services"
+    ],
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ]
+  },
+  {
+    "id": "constance-portable-washroom-rentals-nanaimo-bc",
+    "company_name": "Constance Portable Washroom Rentals",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Nanaimo",
+    "province": "British Columbia",
+    "province_code": "BC",
+    "service_area": "717 Dogwood Rd, Nanaimo, BC V9R 3C2",
+    "rating": 5,
+    "review_count": 1,
+    "website": "https://constanceportablewashroomrentals.ca",
+    "phone": "+12508023440",
+    "badges": [
+      "Trailer rental service",
+      "Trailer rental service, Sanitation service"
+    ],
+    "heated": false,
+    "handwash_available": false,
+    "ada_accessible": false,
+    "winterized": false,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "trailer rental service"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "construction",
+      "event",
+      "site_services"
+    ],
+    "capabilities": [
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly"
+    ],
+    "operational_tags": [
+      "badge_signal:event_posture",
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "site_services"
+    ],
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ]
+  },
+  {
+    "id": "western-luxury-trailer-washrooms-surrey-bc",
+    "company_name": "Western Luxury Trailer Washrooms",
+    "primary_segment": "event",
+    "segment_key": "event",
+    "city": "Surrey",
+    "province": "British Columbia",
+    "province_code": "BC",
+    "service_area": "14747 Upland Rd #104, Surrey, BC V3S 3C5",
+    "rating": 5,
+    "review_count": 1,
+    "website": null,
+    "phone": "+17783842004",
+    "badges": [
+      "Portable toilet supplier",
+      "Portable toilet supplier, Sanitation service, Trailer rental service"
+    ],
+    "heated": true,
+    "handwash_available": false,
+    "ada_accessible": false,
+    "winterized": true,
+    "construction_ready": false,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": true,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "event",
+      "site_services"
+    ],
+    "capabilities": [
+      "heated",
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
+    ],
+    "operational_tags": [
+      "badge_signal:event_posture",
+      "category:portable_sanitation",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "phone_forward_operations"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "oilfield",
+      "site_services"
+    ],
+    "operational_trust_cues": [
+      "Phone-forward operator — expect to confirm inventory and cadence by voice.",
+      "Winter-capable equipment posture corroborated by listing or weighted reviews.",
+      "Event-oriented restroom trailer positioning — confirm footprint and pump windows."
+    ]
+  },
+  {
+    "id": "vogue-luxury-restrooms-calgary-bc",
+    "company_name": "Vogue Luxury Restrooms",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Calgary",
+    "province": "British Columbia",
+    "province_code": "BC",
+    "service_area": "Calgary, BC",
+    "rating": 0,
+    "review_count": 0,
+    "website": "https://www.vogueluxuryrestrooms.com",
+    "phone": "+12366325646",
+    "badges": [
+      "Portable toilet supplier",
+      "Portable toilet supplier, Sanitation service, Trailer rental service"
+    ],
+    "heated": true,
+    "handwash_available": false,
+    "ada_accessible": false,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "winter_service": true,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "construction",
+      "event",
+      "site_services"
+    ],
+    "capabilities": [
+      "heated",
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
+    ],
+    "operational_tags": [
+      "badge_signal:event_posture",
+      "category:portable_sanitation",
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "public_categories": [
+      "general",
+      "construction",
+      "event",
+      "oilfield",
+      "site_services"
+    ],
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
+    ]
+  }
+]

@@ -4,9 +4,11 @@ import { segmentLabel, type PriorityCity } from '../lib/segments'
 interface FlowStepsProps {
   segment: PrimarySegment | null
   city: PriorityCity | null
+  /** When true, omit outer page container — for use inside Hero. */
+  embedded?: boolean
 }
 
-export function FlowSteps({ segment, city }: FlowStepsProps) {
+export function FlowSteps({ segment, city, embedded = false }: FlowStepsProps) {
   const steps = [
     {
       key: 'intent',
@@ -29,7 +31,10 @@ export function FlowSteps({ segment, city }: FlowStepsProps) {
   ] as const
 
   return (
-    <nav aria-label="Matching steps" className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+    <nav
+      aria-label="Matching steps"
+      className={embedded ? undefined : 'mx-auto max-w-6xl px-4 sm:px-6 lg:px-8'}
+    >
       <ol className="flex flex-col gap-3 rounded-2xl border border-cwr-border bg-cwr-surface p-4 shadow-card sm:flex-row sm:items-stretch sm:gap-0 sm:divide-x sm:divide-cwr-border sm:p-0">
         {steps.map((step, index) => (
           <li key={step.key} className="flex flex-1 flex-col gap-1 sm:px-6 sm:py-4">

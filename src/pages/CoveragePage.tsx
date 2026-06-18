@@ -11,49 +11,52 @@ import { buildStaticDocumentMeta } from '../seo/metadata'
 const meta = buildStaticDocumentMeta({
   title: 'Coverage',
   description:
-    'Provinces and cities with published portable washroom guides on Canada Washrooms. Live in Alberta and Ontario.',
+    'Provinces and cities with published portable washroom guides on Canada Washrooms. Live in Alberta, Ontario, and British Columbia.',
   canonicalPath: '/coverage',
 })
+
+const AB_CITIES = new Set(['calgary', 'edmonton', 'fort-mcmurray', 'red-deer', 'canmore'])
+const ON_CITIES = new Set(['toronto', 'mississauga', 'brampton', 'hamilton', 'ottawa', 'london', 'vaughan', 'markham'])
+const BC_CITIES = new Set(['surrey', 'vancouver', 'abbotsford', 'kelowna', 'nanaimo', 'coquitlam', 'victoria', 'whistler'])
 
 export default function CoveragePage() {
   const routes = useMemo(() => allResolvedLandings(), [])
 
-  const routesByProvince = useMemo(() => {
-    const abRoutes = routes.filter((r) =>
-      ['calgary', 'edmonton', 'fort-mcmurray', 'red-deer', 'canmore'].includes(r.citySlug),
-    )
-    const onRoutes = routes.filter((r) =>
-      ['toronto', 'mississauga', 'brampton', 'hamilton', 'ottawa', 'london', 'vaughan', 'markham'].includes(r.citySlug),
-    )
-    const other = routes.filter((r) => !abRoutes.includes(r) && !onRoutes.includes(r))
-    return { AB: abRoutes, ON: onRoutes, other }
-  }, [routes])
+  const routesByProvince = useMemo(() => ({
+    AB: routes.filter((r) => AB_CITIES.has(r.citySlug)),
+    ON: routes.filter((r) => ON_CITIES.has(r.citySlug)),
+    BC: routes.filter((r) => BC_CITIES.has(r.citySlug)),
+  }), [routes])
 
   return (
     <>
       <DocumentMeta meta={meta} />
       <AppShell>
         <EditorialChrome kicker="Coverage" title="National portable washroom coverage">
+
           <EditorialSection title="Live provinces">
             <p>
-              Canada Washrooms is live in{' '}
-              <strong className="font-semibold text-cwr-steel">Alberta</strong> and{' '}
-              <strong className="font-semibold text-cwr-steel">Ontario</strong>, with British Columbia
-              coming next. Coverage expands as province datasets are ingested and curated.
+              Canada Washrooms is now live in{' '}
+              <strong className="font-semibold text-cwr-steel">Alberta</strong>,{' '}
+              <strong className="font-semibold text-cwr-steel">Ontario</strong>, and{' '}
+              <strong className="font-semibold text-cwr-steel">British Columbia</strong>.
+              Coverage expands as province datasets are curated.
             </p>
             <p>
-              Presence on this site means a listing is in the curated cohort for the routed city and
-              segment. It does not imply guaranteed availability, verified certification, or province-wide
-              dispatch — confirm all details directly with the operator.
+              Presence on this site means a listing is in the curated cohort for the routed
+              city and category. It does not imply guaranteed availability, verified
+              certification, or province-wide dispatch — confirm all details directly with
+              the operator.
             </p>
             <div className="mt-4 flex flex-wrap gap-3">
               {LIVE_PROVINCES.map((p) => (
-                <span
+                <Link
                   key={p.code}
-                  className="rounded-lg border border-cwr-border bg-cwr-bg px-3 py-1.5 text-xs font-semibold text-cwr-ink"
+                  to={`/${p.name.toLowerCase().replace(/\s+/g, '-')}/`}
+                  className="rounded-lg border border-cwr-border bg-cwr-bg px-3 py-1.5 text-xs font-semibold text-cwr-accent underline-offset-4 hover:underline"
                 >
                   {p.name} · {p.cities.filter((c) => c.live).length} cities live
-                </span>
+                </Link>
               ))}
             </div>
           </EditorialSection>
@@ -92,10 +95,10 @@ export default function CoveragePage() {
             </EditorialSection>
           ) : null}
 
-          {routesByProvince.other.length > 0 ? (
-            <EditorialSection title="Other routes">
+          {routesByProvince.BC.length > 0 ? (
+            <EditorialSection title="British Columbia — published routes">
               <ul className="mt-4 space-y-2 border-t border-cwr-border pt-4">
-                {routesByProvince.other.map((r) => (
+                {routesByProvince.BC.map((r) => (
                   <li key={`${r.segmentSlug}-${r.citySlug}`}>
                     <Link
                       to={listingPath(r)}
@@ -113,13 +116,14 @@ export default function CoveragePage() {
             <p>
               <Link to="/methodology" className="font-semibold text-cwr-accent underline-offset-4 hover:underline">
                 Methodology
-              </Link>{' '}
-              ·{' '}
+              </Link>
+              {' · '}
               <Link to="/about" className="font-semibold text-cwr-accent underline-offset-4 hover:underline">
                 About
               </Link>
             </p>
           </EditorialSection>
+
         </EditorialChrome>
       </AppShell>
     </>

@@ -23,8 +23,8 @@ export function AppShell({ children, mainClassName }: AppShellProps) {
       </main>
       <footer className="mt-auto border-t border-cwr-border bg-cwr-surface">
         <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6 lg:px-8">
-          <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4 lg:gap-8">
-            <div className="lg:col-span-1">
+          <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-5 lg:gap-6">
+            <div className="lg:col-span-2">
               <img
                 src={SITE_LOGO}
                 alt={SITE_NAME}
@@ -35,9 +35,41 @@ export function AppShell({ children, mainClassName }: AppShellProps) {
                 decoding="async"
               />
               <p className="mt-3 text-sm leading-relaxed text-cwr-muted">
-                Find and compare portable washroom rentals across Canada. Now live in Alberta and
-                Ontario — curated matching, not a marketplace.
+                Find and compare portable washroom rentals across Canada. Live in Alberta, Ontario,
+                and British Columbia — curated directory, not a marketplace.
               </p>
+            </div>
+            <div>
+              <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-cwr-muted">
+                Directory
+              </p>
+              <ul className="mt-3 space-y-2 text-sm">
+                <li>
+                  <Link className="text-cwr-accent underline-offset-4 hover:underline" to="/providers">
+                    All Providers
+                  </Link>
+                </li>
+                <li>
+                  <Link className="text-cwr-accent underline-offset-4 hover:underline" to="/alberta">
+                    Alberta
+                  </Link>
+                </li>
+                <li>
+                  <Link className="text-cwr-accent underline-offset-4 hover:underline" to="/ontario">
+                    Ontario
+                  </Link>
+                </li>
+                <li>
+                  <Link className="text-cwr-accent underline-offset-4 hover:underline" to="/british-columbia">
+                    British Columbia
+                  </Link>
+                </li>
+                <li>
+                  <Link className="text-cwr-accent underline-offset-4 hover:underline" to="/coverage">
+                    Coverage map
+                  </Link>
+                </li>
+              </ul>
             </div>
             <div>
               <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-cwr-muted">
@@ -52,14 +84,6 @@ export function AppShell({ children, mainClassName }: AppShellProps) {
                 <li>
                   <Link className="text-cwr-accent underline-offset-4 hover:underline" to="/methodology">
                     Methodology
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    className="text-cwr-accent underline-offset-4 hover:underline"
-                    to="/coverage"
-                  >
-                    Coverage
                   </Link>
                 </li>
               </ul>

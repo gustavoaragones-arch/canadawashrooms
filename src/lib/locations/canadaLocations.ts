@@ -58,13 +58,18 @@ export const CANADA_PROVINCES: CanadaProvince[] = [
   {
     name: 'British Columbia',
     code: 'BC',
-    live: false,
+    live: true,
     cities: [
-      { name: 'Vancouver', provinceCode: 'BC', slug: 'vancouver', live: false },
-      { name: 'Kelowna', provinceCode: 'BC', slug: 'kelowna', live: false },
+      { name: 'Surrey', provinceCode: 'BC', slug: 'surrey', live: true },
+      { name: 'Vancouver', provinceCode: 'BC', slug: 'vancouver', live: true },
+      { name: 'Abbotsford', provinceCode: 'BC', slug: 'abbotsford', live: true },
+      { name: 'Kelowna', provinceCode: 'BC', slug: 'kelowna', live: true },
+      { name: 'Nanaimo', provinceCode: 'BC', slug: 'nanaimo', live: true },
+      { name: 'Coquitlam', provinceCode: 'BC', slug: 'coquitlam', live: true },
+      { name: 'Victoria', provinceCode: 'BC', slug: 'victoria', live: true },
+      { name: 'Whistler', provinceCode: 'BC', slug: 'whistler', live: false },
       { name: 'Kamloops', provinceCode: 'BC', slug: 'kamloops', live: false },
-      { name: 'Surrey', provinceCode: 'BC', slug: 'surrey', live: false },
-      { name: 'Abbotsford', provinceCode: 'BC', slug: 'abbotsford', live: false },
+      { name: 'Prince George', provinceCode: 'BC', slug: 'prince-george', live: false },
     ],
   },
 ]

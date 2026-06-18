@@ -16,14 +16,19 @@ export function SiteHeader() {
           />
         </Link>
         <div className="hidden shrink-0 flex-col items-end gap-1 text-right text-sm sm:flex">
-          <span className="font-medium text-cwr-ink">Construction · Events · Remote sites</span>
-          <span className="text-xs text-cwr-muted">Live in Alberta &amp; Ontario.</span>
-          <nav aria-label="Platform pages" className="mt-2 flex gap-4 text-cwr-muted">
+          <span className="text-xs text-cwr-muted">Live in Alberta, Ontario &amp; BC</span>
+          <nav aria-label="Platform pages" className="mt-1.5 flex gap-4">
+            <Link
+              className="font-semibold text-cwr-ink underline-offset-4 hover:text-cwr-accent hover:underline"
+              to="/providers"
+            >
+              Browse Providers
+            </Link>
             <Link className="font-medium text-cwr-steel underline-offset-4 hover:text-cwr-ink hover:underline" to="/about">
               About
             </Link>
-            <Link className="font-medium text-cwr-steel underline-offset-4 hover:text-cwr-ink hover:underline" to="/methodology">
-              Methodology
+            <Link className="font-medium text-cwr-steel underline-offset-4 hover:text-cwr-ink hover:underline" to="/coverage">
+              Coverage
             </Link>
             <Link className="font-medium text-cwr-steel underline-offset-4 hover:text-cwr-ink hover:underline" to="/contact">
               Contact
@@ -32,13 +37,19 @@ export function SiteHeader() {
         </div>
         <nav
           aria-label="Platform pages"
-          className="flex max-w-[42%] shrink-0 flex-wrap justify-end gap-x-2 gap-y-1 text-[11px] font-medium text-cwr-steel sm:hidden"
+          className="flex max-w-[50%] shrink-0 flex-wrap justify-end gap-x-2 gap-y-1 text-[11px] font-medium text-cwr-steel sm:hidden"
         >
+          <Link
+            className="font-semibold text-cwr-ink underline-offset-4 hover:text-cwr-accent hover:underline"
+            to="/providers"
+          >
+            Browse
+          </Link>
           <Link className="underline-offset-4 hover:text-cwr-ink hover:underline" to="/about">
             About
           </Link>
-          <Link className="underline-offset-4 hover:text-cwr-ink hover:underline" to="/methodology">
-            Methodology
+          <Link className="underline-offset-4 hover:text-cwr-ink hover:underline" to="/coverage">
+            Coverage
           </Link>
           <Link className="underline-offset-4 hover:text-cwr-ink hover:underline" to="/contact">
             Contact
