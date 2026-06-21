@@ -5,12 +5,13 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && vite build && npm run sitemap && npm run audit:sitemap",
     "lint": "eslint .",
     "preview": "vite preview",
     "data:ingest": "tsx scripts/ingest-outscraper.ts",
     "data:build-production": "tsx scripts/build-production-dataset.ts",
     "sitemap": "tsx scripts/generate-sitemap.ts",
+    "audit:sitemap": "tsx scripts/audit-sitemap.ts",
     "data:curation": "tsx scripts/curation-sweep.ts",
     "typecheck:scripts": "tsc --noEmit -p scripts/tsconfig.json"
   },

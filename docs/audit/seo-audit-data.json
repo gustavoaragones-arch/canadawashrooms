@@ -1,0 +1,2058 @@
+{
+  "generatedAt": "2026-06-21T02:52:39.508Z",
+  "auditOrigin": "https://www.canadawashrooms.ca",
+  "canonicalOrigin": "https://canadawashrooms.ca",
+  "sitemapExists": true,
+  "counts": {
+    "sitemapTotal": 181,
+    "expectedTotal": 230,
+    "editorial": 17,
+    "province": 0,
+    "city": 20,
+    "category": 0,
+    "landing": 64,
+    "provider": 129
+  },
+  "sitemapPaths": [
+    "/",
+    "/about/",
+    "/methodology/",
+    "/contact/",
+    "/coverage/",
+    "/alberta/",
+    "/ontario/",
+    "/british-columbia/",
+    "/construction-portable-washrooms/calgary/",
+    "/construction-portable-washrooms/edmonton/",
+    "/construction-portable-washrooms/fort-mcmurray/",
+    "/construction-portable-washrooms/red-deer/",
+    "/construction-portable-washrooms/canmore/",
+    "/construction-portable-washrooms/toronto/",
+    "/construction-portable-washrooms/mississauga/",
+    "/construction-portable-washrooms/brampton/",
+    "/construction-portable-washrooms/hamilton/",
+    "/construction-portable-washrooms/vaughan/",
+    "/construction-portable-washrooms/markham/",
+    "/luxury-restroom-trailers/calgary/",
+    "/luxury-restroom-trailers/edmonton/",
+    "/luxury-restroom-trailers/canmore/",
+    "/luxury-restroom-trailers/red-deer/",
+    "/luxury-restroom-trailers/toronto/",
+    "/luxury-restroom-trailers/mississauga/",
+    "/luxury-restroom-trailers/hamilton/",
+    "/luxury-restroom-trailers/vaughan/",
+    "/luxury-restroom-trailers/markham/",
+    "/remote-site-sanitation/fort-mcmurray/",
+    "/remote-site-sanitation/calgary/",
+    "/remote-site-sanitation/edmonton/",
+    "/remote-site-sanitation/red-deer/",
+    "/portable-washroom-rentals/calgary/",
+    "/portable-washroom-rentals/edmonton/",
+    "/portable-washroom-rentals/fort-mcmurray/",
+    "/portable-washroom-rentals/red-deer/",
+    "/portable-washroom-rentals/canmore/",
+    "/portable-washroom-rentals/toronto/",
+    "/portable-washroom-rentals/mississauga/",
+    "/portable-washroom-rentals/brampton/",
+    "/portable-washroom-rentals/hamilton/",
+    "/portable-washroom-rentals/vaughan/",
+    "/portable-washroom-rentals/markham/",
+    "/waste-site-services/calgary/",
+    "/waste-site-services/edmonton/",
+    "/waste-site-services/fort-mcmurray/",
+    "/waste-site-services/red-deer/",
+    "/waste-site-services/canmore/",
+    "/waste-site-services/toronto/",
+    "/waste-site-services/mississauga/",
+    "/waste-site-services/brampton/",
+    "/waste-site-services/hamilton/",
+    "/provider/fenceline-rentals-ltd-acheson-ab/",
+    "/provider/eh-royal-flush-portable-toilets-ardrossan-ab/",
+    "/provider/zero-spill-oilfield-services-ltd-beaverlodge-ab/",
+    "/provider/abc-waste-management-potties-ltd-calgary-ab/",
+    "/provider/alberta-trailer-rentals-calgary-ab/",
+    "/provider/avalanche-waste-management-inc-calgary-ab/",
+    "/provider/fenceline-rentals-ltd-calgary-calgary-ab/",
+    "/provider/pit-stop-portable-toilet-services-calgary-ab/",
+    "/provider/portabins-calgary-ab/",
+    "/provider/rhino-calgary-ab/",
+    "/provider/super-save-group-calgary-ab/",
+    "/provider/the-garbage-good-guys-calgary-ab/",
+    "/provider/united-rentals-calgary-ab/",
+    "/provider/vibe-event-rentals-calgary-ab/",
+    "/provider/willscot-calgary-ab/",
+    "/provider/canmore-septic-canmore-ab/",
+    "/provider/benoit-rentals-ltd-chauvin-ab/",
+    "/provider/mr-p-potty-ltd-cochrane-ab/",
+    "/provider/steelhead-ventures-ltd-cochrane-ab/",
+    "/provider/buckaday-toilets-drayton-valley-ab/",
+    "/provider/1st-choice-construction-waste-removal-edmonton-ab/",
+    "/provider/heartland-disposal-recycling-ltd-edmonton-ab/",
+    "/provider/p-cann-edmonton-ab/",
+    "/provider/p-cann-services-edmonton-ab/",
+    "/provider/p-pots-portable-washrooms-edmonton-ab/",
+    "/provider/pioneer-sanitary-solutions-ltd-edmonton-ab/",
+    "/provider/solv-x-enterprises-inc-edmonton-ab/",
+    "/provider/super-save-group-edmonton-ab/",
+    "/provider/alberta-toilets-septic-services-evansburg-ab/",
+    "/provider/go-services-inc-fort-mcmurray-ab/",
+    "/provider/gallason-industrial-cleaning-services-inc-fort-saskatchewan-ab/",
+    "/provider/bear-creek-rentals-inc-fox-creek-ab/",
+    "/provider/remote-group-grande-prairie-county-no-1-ab/",
+    "/provider/f5-services-hardisty-ab/",
+    "/provider/range-services-leduc-ab/",
+    "/provider/rockbox-structures-nisku-ab/",
+    "/provider/duty-calls-portables-ltd-okotoks-ab/",
+    "/provider/mcneely-co-rentals-olds-ab/",
+    "/provider/canmasters-inc-red-deer-ab/",
+    "/provider/go-services-inc-red-deer-ab/",
+    "/provider/little-jon-s-portable-toilet-rentals-red-deer-ab/",
+    "/provider/big-rock-waste-disposal-and-rentals-rocky-mountain-house-ab/",
+    "/provider/oli-s-portable-toilets-rental-rocky-mountain-house-ab/",
+    "/provider/rangeland-event-restrooms-rocky-view-county-ab/",
+    "/provider/range-services-sherwood-park-ab/",
+    "/provider/handi-can-2003-ltd-spruce-grove-ab/",
+    "/provider/frontline-rentals-div-of-combat-spraying-stettler-ab/",
+    "/provider/valleyview-sheet-metal-and-insulating-ltd-valleyview-ab/",
+    "/provider/aikam-rental-ltd-abbotsford-bc/",
+    "/provider/equinox-rentals-portable-trailer-washrooms-fences-septic-service-abbotsf/",
+    "/provider/scv-waste-management-septic-bins-armstrong-bc-armstrong-bc/",
+    "/provider/total-site-services-ltd-burnaby-bc/",
+    "/provider/vogue-luxury-restrooms-calgary-bc/",
+    "/provider/pioneer-sanitary-solutions-ltd-charlie-lake-bc/",
+    "/provider/coast-portable-toilet-rentals-chemainus-bc/",
+    "/provider/christina-porta-potty-rv-pumpout-service-christina-lake-bc/",
+    "/provider/full-moon-rentals-coquitlam-bc/",
+    "/provider/pit-stop-portable-toilet-services-coquitlam-bc/",
+    "/provider/equinox-rentals-portable-trailer-washrooms-fences-septic-service-delta-d/",
+    "/provider/bold-portable-rentals-kelowna-bc/",
+    "/provider/interior-portable-toilet-rentals-kelowna-bc/",
+    "/provider/primetime-washroom-rentals-langley-langley-bc/",
+    "/provider/sunrise-washroom-rentals-langley-twp-bc/",
+    "/provider/jiffy-john-rentals-ltd-maple-ridge-bc/",
+    "/provider/constance-portable-washroom-rentals-nanaimo-bc/",
+    "/provider/d-b-l-disposal-services-ltd-nanaimo-bc/",
+    "/provider/equinox-rentals-portable-trailer-washrooms-fences-septic-service-north-v/",
+    "/provider/vancouver-luxury-restrooms-pitt-meadows-bc/",
+    "/provider/prince-george-portable-toilet-services-ltd-prince-george-bc/",
+    "/provider/absolute-septic-service-qualicum-beach-bc/",
+    "/provider/all-haul-septic-quesnel-quesnel-bc/",
+    "/provider/budget-toilet-rentals-ltd-trailer-washroom-surrey-bc/",
+    "/provider/diamond-washroom-trailer-rentals-surrey-bc/",
+    "/provider/equinox-rentals-equinox-rentals-portable-trailer-washrooms-fences-septic/",
+    "/provider/exclusive-washroom-trailer-rentals-surrey-bc/",
+    "/provider/premier-site-services-bin-rentals-fence-rentals-toilet-rentals-surrey-bc/",
+    "/provider/prestige-event-services-inc-surrey-bc/",
+    "/provider/primetime-washroom-rentals-surrey-bc/",
+    "/provider/sj-luxury-toilet-rental-surrey-bc/",
+    "/provider/super-save-group-head-office-surrey-bc/",
+    "/provider/topstall-restroom-rentals-surrey-bc/",
+    "/provider/west-coast-disposal-portable-toilet-rental-surrey-bc/",
+    "/provider/western-luxury-trailer-washrooms-surrey-bc/",
+    "/provider/blue-jay-rentals-washroom-trailer-rentals-vancouver-bc/",
+    "/provider/west-coast-disposal-portable-toilet-rental-vancouver-bc/",
+    "/provider/super-save-group-victoria-bc/",
+    "/provider/daylight-equipment-whistler-bc/",
+    "/provider/black-tie-toilets-ancaster-on/",
+    "/provider/suite-moves-arnprior-on/",
+    "/provider/kaneco-group-premium-portable-washroom-rentals-blackstock-on/",
+    "/provider/rental-save-bolton-on/",
+    "/provider/go-to-ready-loo-brampton-on/",
+    "/provider/halco-portable-washrooms-brantford-on/",
+    "/provider/black-tie-toilets-ltd-ca-on/",
+    "/provider/environmental-360-solutions-ca-on/",
+    "/provider/gt-portable-toilet-rental-inc-ca-on/",
+    "/provider/rolling-rentals-ca-on/",
+    "/provider/the-jackpot-portable-sanitation-services-ca-on/",
+    "/provider/throne-porta-potty-inc-ca-on/",
+    "/provider/willscot-ca-on/",
+    "/provider/stone-mills-portable-toilet-rentals-centreville-on/",
+    "/provider/a-1-toilet-rentals-clarksburg-on/",
+    "/provider/the-jackpot-portable-sanitation-services-courtice-on/",
+    "/provider/tp-toilets-inc-ennismore-on/",
+    "/provider/huron-toilet-rentals-ltd-goderich-on/",
+    "/provider/ampot-portable-toilets-gormley-on/",
+    "/provider/nature-s-call-gormley-on/",
+    "/provider/red-star-portable-hagersville-on/",
+    "/provider/five-stars-portable-toilets-hamilton-on/",
+    "/provider/pitton-plumbing-portable-sanitation-hamilton-on/",
+    "/provider/chantler-s-environmental-services-hillsburgh-on/",
+    "/provider/k-winter-sanitation-inc-innisfil-on/",
+    "/provider/pine-porta-potty-kingston-on/",
+    "/provider/room-to-go-inc-millgrove-on/",
+    "/provider/centreline-sanitation-milton-on/",
+    "/provider/four-seasons-portable-restrooms-mississauga-on/",
+    "/provider/xpress-rental-solutions-inc-mississauga-on/",
+    "/provider/m-g-portables-inc-new-hamburg-on/",
+    "/provider/niagara-portable-toilets-niagara-falls-on/",
+    "/provider/ottawa-luxury-bathroom-trailers-ottawa-on/",
+    "/provider/portable-toilet-rentals-pefferlaw-on/",
+    "/provider/premium-portable-toilet-rentals-peterborough-on/",
+    "/provider/lennex-temporary-fence-pickering-on/",
+    "/provider/event-ready-restrooms-st-thomas-on/",
+    "/provider/affordable-portables-st-williams-on/",
+    "/provider/nature-s-call-vaughan-on/",
+    "/provider/markle-s-pumping-service-waterdown-on/",
+    "/provider/halco-portables-welland-on/",
+    "/provider/platinum-vip-portables-wedding-special-event-washroom-rentals-welland-on/"
+  ],
+  "expectedByCategory": {
+    "editorial": [
+      "/",
+      "/providers/",
+      "/construction-jobsites/",
+      "/events-weddings/",
+      "/general-portable-washrooms/",
+      "/remote-oilfield-operations/",
+      "/waste-site-services/",
+      "/about/",
+      "/methodology/",
+      "/contact/",
+      "/coverage/",
+      "/alberta/",
+      "/ontario/",
+      "/british-columbia/",
+      "/privacy/",
+      "/terms/",
+      "/disclaimer/"
+    ],
+    "province": [],
+    "city": [
+      "/city/calgary/",
+      "/city/edmonton/",
+      "/city/fort-mcmurray/",
+      "/city/red-deer/",
+      "/city/canmore/",
+      "/city/toronto/",
+      "/city/mississauga/",
+      "/city/brampton/",
+      "/city/hamilton/",
+      "/city/ottawa/",
+      "/city/london/",
+      "/city/vaughan/",
+      "/city/markham/",
+      "/city/surrey/",
+      "/city/vancouver/",
+      "/city/abbotsford/",
+      "/city/kelowna/",
+      "/city/nanaimo/",
+      "/city/coquitlam/",
+      "/city/victoria/"
+    ],
+    "category": [],
+    "landing": [
+      "/construction-portable-washrooms/calgary/",
+      "/construction-portable-washrooms/edmonton/",
+      "/construction-portable-washrooms/fort-mcmurray/",
+      "/construction-portable-washrooms/red-deer/",
+      "/construction-portable-washrooms/canmore/",
+      "/construction-portable-washrooms/toronto/",
+      "/construction-portable-washrooms/mississauga/",
+      "/construction-portable-washrooms/brampton/",
+      "/construction-portable-washrooms/hamilton/",
+      "/construction-portable-washrooms/vaughan/",
+      "/construction-portable-washrooms/markham/",
+      "/construction-portable-washrooms/surrey/",
+      "/construction-portable-washrooms/vancouver/",
+      "/construction-portable-washrooms/abbotsford/",
+      "/construction-portable-washrooms/kelowna/",
+      "/construction-portable-washrooms/nanaimo/",
+      "/luxury-restroom-trailers/calgary/",
+      "/luxury-restroom-trailers/edmonton/",
+      "/luxury-restroom-trailers/canmore/",
+      "/luxury-restroom-trailers/red-deer/",
+      "/luxury-restroom-trailers/toronto/",
+      "/luxury-restroom-trailers/mississauga/",
+      "/luxury-restroom-trailers/hamilton/",
+      "/luxury-restroom-trailers/vaughan/",
+      "/luxury-restroom-trailers/markham/",
+      "/luxury-restroom-trailers/surrey/",
+      "/luxury-restroom-trailers/vancouver/",
+      "/luxury-restroom-trailers/kelowna/",
+      "/luxury-restroom-trailers/abbotsford/",
+      "/luxury-restroom-trailers/victoria/",
+      "/remote-site-sanitation/fort-mcmurray/",
+      "/remote-site-sanitation/calgary/",
+      "/remote-site-sanitation/edmonton/",
+      "/remote-site-sanitation/red-deer/",
+      "/portable-washroom-rentals/calgary/",
+      "/portable-washroom-rentals/edmonton/",
+      "/portable-washroom-rentals/fort-mcmurray/",
+      "/portable-washroom-rentals/red-deer/",
+      "/portable-washroom-rentals/canmore/",
+      "/portable-washroom-rentals/toronto/",
+      "/portable-washroom-rentals/mississauga/",
+      "/portable-washroom-rentals/brampton/",
+      "/portable-washroom-rentals/hamilton/",
+      "/portable-washroom-rentals/vaughan/",
+      "/portable-washroom-rentals/markham/",
+      "/portable-washroom-rentals/surrey/",
+      "/portable-washroom-rentals/vancouver/",
+      "/portable-washroom-rentals/abbotsford/",
+      "/portable-washroom-rentals/kelowna/",
+      "/portable-washroom-rentals/nanaimo/",
+      "/portable-washroom-rentals/coquitlam/",
+      "/portable-washroom-rentals/victoria/",
+      "/waste-site-services/calgary/",
+      "/waste-site-services/edmonton/",
+      "/waste-site-services/fort-mcmurray/",
+      "/waste-site-services/red-deer/",
+      "/waste-site-services/canmore/",
+      "/waste-site-services/toronto/",
+      "/waste-site-services/mississauga/",
+      "/waste-site-services/brampton/",
+      "/waste-site-services/hamilton/",
+      "/waste-site-services/surrey/",
+      "/waste-site-services/vancouver/",
+      "/waste-site-services/abbotsford/"
+    ],
+    "providerCount": 129
+  },
+  "missingFromSitemap": [
+    "/providers/",
+    "/construction-jobsites/",
+    "/events-weddings/",
+    "/general-portable-washrooms/",
+    "/remote-oilfield-operations/",
+    "/waste-site-services/",
+    "/privacy/",
+    "/terms/",
+    "/disclaimer/",
+    "/city/calgary/",
+    "/city/edmonton/",
+    "/city/fort-mcmurray/",
+    "/city/red-deer/",
+    "/city/canmore/",
+    "/city/toronto/",
+    "/city/mississauga/",
+    "/city/brampton/",
+    "/city/hamilton/",
+    "/city/ottawa/",
+    "/city/london/",
+    "/city/vaughan/",
+    "/city/markham/",
+    "/city/surrey/",
+    "/city/vancouver/",
+    "/city/abbotsford/",
+    "/city/kelowna/",
+    "/city/nanaimo/",
+    "/city/coquitlam/",
+    "/city/victoria/",
+    "/construction-portable-washrooms/surrey/",
+    "/construction-portable-washrooms/vancouver/",
+    "/construction-portable-washrooms/abbotsford/",
+    "/construction-portable-washrooms/kelowna/",
+    "/construction-portable-washrooms/nanaimo/",
+    "/luxury-restroom-trailers/surrey/",
+    "/luxury-restroom-trailers/vancouver/",
+    "/luxury-restroom-trailers/kelowna/",
+    "/luxury-restroom-trailers/abbotsford/",
+    "/luxury-restroom-trailers/victoria/",
+    "/portable-washroom-rentals/surrey/",
+    "/portable-washroom-rentals/vancouver/",
+    "/portable-washroom-rentals/abbotsford/",
+    "/portable-washroom-rentals/kelowna/",
+    "/portable-washroom-rentals/nanaimo/",
+    "/portable-washroom-rentals/coquitlam/",
+    "/portable-washroom-rentals/victoria/",
+    "/waste-site-services/surrey/",
+    "/waste-site-services/vancouver/",
+    "/waste-site-services/abbotsford/"
+  ],
+  "extraInSitemap": [],
+  "urlChecks": [
+    {
+      "url": "https://www.canadawashrooms.ca/",
+      "path": "/",
+      "status": 200,
+      "finalUrl": "https://canadawashrooms.ca/",
+      "redirectChain": [
+        "308 https://www.canadawashrooms.ca/ → https://canadawashrooms.ca/"
+      ],
+      "issue": null
+    },
+    {
+      "url": "https://www.canadawashrooms.ca/providers/",
+      "path": "/providers/",
+      "status": 404,
+      "finalUrl": "https://canadawashrooms.ca/providers/",
+      "redirectChain": [
+        "308 https://www.canadawashrooms.ca/providers/ → https://canadawashrooms.ca/providers/"
+      ],
+      "issue": "404 Not Found"
+    },
+    {
+      "url": "https://www.canadawashrooms.ca/alberta/",
+      "path": "/alberta/",
+      "status": 404,
+      "finalUrl": "https://canadawashrooms.ca/alberta/",
+      "redirectChain": [
+        "308 https://www.canadawashrooms.ca/alberta/ → https://canadawashrooms.ca/alberta/"
+      ],
+      "issue": "404 Not Found"
+    },
+    {
+      "url": "https://www.canadawashrooms.ca/city/calgary/",
+      "path": "/city/calgary/",
+      "status": 404,
+      "finalUrl": "https://canadawashrooms.ca/city/calgary/",
+      "redirectChain": [
+        "308 https://www.canadawashrooms.ca/city/calgary/ → https://canadawashrooms.ca/city/calgary/"
+      ],
+      "issue": "404 Not Found"
+    },
+    {
+      "url": "https://www.canadawashrooms.ca/construction-jobsites/",
+      "path": "/construction-jobsites/",
+      "status": 404,
+      "finalUrl": "https://canadawashrooms.ca/construction-jobsites/",
+      "redirectChain": [
+        "308 https://www.canadawashrooms.ca/construction-jobsites/ → https://canadawashrooms.ca/construction-jobsites/"
+      ],
+      "issue": "404 Not Found"
+    },
+    {
+      "url": "https://www.canadawashrooms.ca/construction-portable-washrooms/calgary/",
+      "path": "/construction-portable-washrooms/calgary/",
+      "status": 404,
+      "finalUrl": "https://canadawashrooms.ca/construction-portable-washrooms/calgary/",
+      "redirectChain": [
+        "308 https://www.canadawashrooms.ca/construction-portable-washrooms/calgary/ → https://canadawashrooms.ca/construction-portable-washrooms/calgary/"
+      ],
+      "issue": "404 Not Found"
+    },
+    {
+      "url": "https://www.canadawashrooms.ca/provider/rhino-calgary-ab/",
+      "path": "/provider/rhino-calgary-ab/",
+      "status": 404,
+      "finalUrl": "https://canadawashrooms.ca/provider/rhino-calgary-ab/",
+      "redirectChain": [
+        "308 https://www.canadawashrooms.ca/provider/rhino-calgary-ab/ → https://canadawashrooms.ca/provider/rhino-calgary-ab/"
+      ],
+      "issue": "404 Not Found"
+    },
+    {
+      "url": "https://www.canadawashrooms.ca/privacy/",
+      "path": "/privacy/",
+      "status": 404,
+      "finalUrl": "https://canadawashrooms.ca/privacy/",
+      "redirectChain": [
+        "308 https://www.canadawashrooms.ca/privacy/ → https://canadawashrooms.ca/privacy/"
+      ],
+      "issue": "404 Not Found"
+    },
+    {
+      "url": "https://www.canadawashrooms.ca/events-weddings/",
+      "path": "/events-weddings/",
+      "status": 404,
+      "finalUrl": "https://canadawashrooms.ca/events-weddings/",
+      "redirectChain": [
+        "308 https://www.canadawashrooms.ca/events-weddings/ → https://canadawashrooms.ca/events-weddings/"
+      ],
+      "issue": "404 Not Found"
+    },
+    {
+      "url": "https://www.canadawashrooms.ca/general-portable-washrooms/",
+      "path": "/general-portable-washrooms/",
+      "status": 404,
+      "finalUrl": "https://canadawashrooms.ca/general-portable-washrooms/",
+      "redirectChain": [
+        "308 https://www.canadawashrooms.ca/general-portable-washrooms/ → https://canadawashrooms.ca/general-portable-washrooms/"
+      ],
+      "issue": "404 Not Found"
+    },
+    {
+      "url": "https://www.canadawashrooms.ca/remote-oilfield-operations/",
+      "path": "/remote-oilfield-operations/",
+      "status": 404,
+      "finalUrl": "https://canadawashrooms.ca/remote-oilfield-operations/",
+      "redirectChain": [
+        "308 https://www.canadawashrooms.ca/remote-oilfield-operations/ → https://canadawashrooms.ca/remote-oilfield-operations/"
+      ],
+      "issue": "404 Not Found"
+    }
+  ],
+  "robots": "User-agent: *\nAllow: /\n\nSitemap: https://www.canadawashrooms.ca/sitemap.xml\n",
+  "wwwCanonicalMismatch": true,
+  "duplicateTitles": [],
+  "titleIssues": [
+    {
+      "url": "https://canadawashrooms.ca/",
+      "title": "Canada Washrooms — Portable toilet & washroom rentals across Canada",
+      "titleLength": 67,
+      "description": "Find portable toilet rentals, portable washrooms, and restroom trailers for construction, events, and remote sites.",
+      "descriptionLength": 115
+    },
+    {
+      "url": "https://canadawashrooms.ca/providers/",
+      "title": "Portable Washroom Providers in Canada | Canada Washrooms",
+      "titleLength": 56,
+      "description": "National directory of portable washroom providers.",
+      "descriptionLength": 50
+    },
+    {
+      "url": "https://canadawashrooms.ca/about/",
+      "title": "About Canada Washrooms | Canada Washrooms",
+      "titleLength": 41,
+      "description": "Independent provider discovery for portable washroom rentals across Canada.",
+      "descriptionLength": 75
+    },
+    {
+      "url": "https://canadawashrooms.ca/methodology/",
+      "title": "Methodology | Canada Washrooms",
+      "titleLength": 30,
+      "description": "How Canada Washrooms curates portable washroom provider listings.",
+      "descriptionLength": 65
+    },
+    {
+      "url": "https://canadawashrooms.ca/contact/",
+      "title": "Contact | Canada Washrooms",
+      "titleLength": 26,
+      "description": "Contact Canada Washrooms.",
+      "descriptionLength": 25
+    },
+    {
+      "url": "https://canadawashrooms.ca/coverage/",
+      "title": "Coverage | Canada Washrooms",
+      "titleLength": 27,
+      "description": "Provincial and city coverage for portable washroom listings.",
+      "descriptionLength": 60
+    },
+    {
+      "url": "https://canadawashrooms.ca/privacy/",
+      "title": "Privacy Policy | Canada Washrooms",
+      "titleLength": 33,
+      "description": "Privacy policy for Canada Washrooms.",
+      "descriptionLength": 36
+    },
+    {
+      "url": "https://canadawashrooms.ca/terms/",
+      "title": "Terms of Use | Canada Washrooms",
+      "titleLength": 31,
+      "description": "Terms of use for Canada Washrooms.",
+      "descriptionLength": 34
+    },
+    {
+      "url": "https://canadawashrooms.ca/disclaimer/",
+      "title": "Disclaimer | Canada Washrooms",
+      "titleLength": 29,
+      "description": "Disclaimer for Canada Washrooms.",
+      "descriptionLength": 32
+    },
+    {
+      "url": "https://canadawashrooms.ca/construction-portable-washrooms/calgary/",
+      "title": "Construction portable washrooms in Calgary — crews, servicing & long-term rentals | Canada Washrooms",
+      "titleLength": 100,
+      "description": "Operational portable sanitation for Calgary construction: serviced routes, crew-scale capacity, and seasonal realities including freeze–thaw and mud cycles. Compare operators matched to jobsite logistics — not a generic directory.",
+      "descriptionLength": 230
+    },
+    {
+      "url": "https://canadawashrooms.ca/construction-portable-washrooms/edmonton/",
+      "title": "Construction portable washrooms in Edmonton — crews, servicing & long-term rentals | Canada Washrooms",
+      "titleLength": 101,
+      "description": "Operational portable sanitation for Edmonton construction: serviced routes, crew-scale capacity, and seasonal realities including freeze–thaw and mud cycles. Compare operators matched to jobsite logistics — not a generic directory.",
+      "descriptionLength": 231
+    },
+    {
+      "url": "https://canadawashrooms.ca/construction-portable-washrooms/fort-mcmurray/",
+      "title": "Construction portable washrooms in Fort McMurray — crews, servicing & long-term rentals | Canada Washrooms",
+      "titleLength": 106,
+      "description": "Operational portable sanitation for Fort McMurray construction: serviced routes, crew-scale capacity, and seasonal realities including freeze–thaw and mud cycles. Compare operators matched to jobsite logistics — not a generic directory.",
+      "descriptionLength": 236
+    },
+    {
+      "url": "https://canadawashrooms.ca/construction-portable-washrooms/red-deer/",
+      "title": "Construction portable washrooms in Red Deer — crews, servicing & long-term rentals | Canada Washrooms",
+      "titleLength": 101,
+      "description": "Operational portable sanitation for Red Deer construction: serviced routes, crew-scale capacity, and seasonal realities including freeze–thaw and mud cycles. Compare operators matched to jobsite logistics — not a generic directory.",
+      "descriptionLength": 231
+    },
+    {
+      "url": "https://canadawashrooms.ca/construction-portable-washrooms/canmore/",
+      "title": "Construction portable washrooms in Canmore — crews, servicing & long-term rentals | Canada Washrooms",
+      "titleLength": 100,
+      "description": "Operational portable sanitation for Canmore construction: serviced routes, crew-scale capacity, and seasonal realities including freeze–thaw and mud cycles. Compare operators matched to jobsite logistics — not a generic directory.",
+      "descriptionLength": 230
+    },
+    {
+      "url": "https://canadawashrooms.ca/construction-portable-washrooms/toronto/",
+      "title": "Construction portable washrooms in Toronto — crews, servicing & long-term rentals | Canada Washrooms",
+      "titleLength": 100,
+      "description": "Operational portable sanitation for Toronto construction: serviced routes, crew-scale capacity, and seasonal realities including freeze–thaw and mud cycles. Compare operators matched to jobsite logistics — not a generic directory.",
+      "descriptionLength": 230
+    },
+    {
+      "url": "https://canadawashrooms.ca/construction-portable-washrooms/mississauga/",
+      "title": "Construction portable washrooms in Mississauga — crews, servicing & long-term rentals | Canada Washrooms",
+      "titleLength": 104,
+      "description": "Operational portable sanitation for Mississauga construction: serviced routes, crew-scale capacity, and seasonal realities including freeze–thaw and mud cycles. Compare operators matched to jobsite logistics — not a generic directory.",
+      "descriptionLength": 234
+    },
+    {
+      "url": "https://canadawashrooms.ca/construction-portable-washrooms/brampton/",
+      "title": "Construction portable washrooms in Brampton — crews, servicing & long-term rentals | Canada Washrooms",
+      "titleLength": 101,
+      "description": "Operational portable sanitation for Brampton construction: serviced routes, crew-scale capacity, and seasonal realities including freeze–thaw and mud cycles. Compare operators matched to jobsite logistics — not a generic directory.",
+      "descriptionLength": 231
+    },
+    {
+      "url": "https://canadawashrooms.ca/construction-portable-washrooms/hamilton/",
+      "title": "Construction portable washrooms in Hamilton — crews, servicing & long-term rentals | Canada Washrooms",
+      "titleLength": 101,
+      "description": "Operational portable sanitation for Hamilton construction: serviced routes, crew-scale capacity, and seasonal realities including freeze–thaw and mud cycles. Compare operators matched to jobsite logistics — not a generic directory.",
+      "descriptionLength": 231
+    },
+    {
+      "url": "https://canadawashrooms.ca/construction-portable-washrooms/vaughan/",
+      "title": "Construction portable washrooms in Vaughan — crews, servicing & long-term rentals | Canada Washrooms",
+      "titleLength": 100,
+      "description": "Operational portable sanitation for Vaughan construction: serviced routes, crew-scale capacity, and seasonal realities including freeze–thaw and mud cycles. Compare operators matched to jobsite logistics — not a generic directory.",
+      "descriptionLength": 230
+    },
+    {
+      "url": "https://canadawashrooms.ca/construction-portable-washrooms/markham/",
+      "title": "Construction portable washrooms in Markham — crews, servicing & long-term rentals | Canada Washrooms",
+      "titleLength": 100,
+      "description": "Operational portable sanitation for Markham construction: serviced routes, crew-scale capacity, and seasonal realities including freeze–thaw and mud cycles. Compare operators matched to jobsite logistics — not a generic directory.",
+      "descriptionLength": 230
+    },
+    {
+      "url": "https://canadawashrooms.ca/construction-portable-washrooms/surrey/",
+      "title": "Construction portable washrooms in Surrey — crews, servicing & long-term rentals | Canada Washrooms",
+      "titleLength": 99,
+      "description": "Operational portable sanitation for Surrey construction: serviced routes, crew-scale capacity, and seasonal realities including freeze–thaw and mud cycles. Compare operators matched to jobsite logistics — not a generic directory.",
+      "descriptionLength": 229
+    },
+    {
+      "url": "https://canadawashrooms.ca/construction-portable-washrooms/vancouver/",
+      "title": "Construction portable washrooms in Vancouver — crews, servicing & long-term rentals | Canada Washrooms",
+      "titleLength": 102,
+      "description": "Operational portable sanitation for Vancouver construction: serviced routes, crew-scale capacity, and seasonal realities including freeze–thaw and mud cycles. Compare operators matched to jobsite logistics — not a generic directory.",
+      "descriptionLength": 232
+    },
+    {
+      "url": "https://canadawashrooms.ca/construction-portable-washrooms/abbotsford/",
+      "title": "Construction portable washrooms in Abbotsford — crews, servicing & long-term rentals | Canada Washrooms",
+      "titleLength": 103,
+      "description": "Operational portable sanitation for Abbotsford construction: serviced routes, crew-scale capacity, and seasonal realities including freeze–thaw and mud cycles. Compare operators matched to jobsite logistics — not a generic directory.",
+      "descriptionLength": 233
+    },
+    {
+      "url": "https://canadawashrooms.ca/construction-portable-washrooms/kelowna/",
+      "title": "Construction portable washrooms in Kelowna — crews, servicing & long-term rentals | Canada Washrooms",
+      "titleLength": 100,
+      "description": "Operational portable sanitation for Kelowna construction: serviced routes, crew-scale capacity, and seasonal realities including freeze–thaw and mud cycles. Compare operators matched to jobsite logistics — not a generic directory.",
+      "descriptionLength": 230
+    },
+    {
+      "url": "https://canadawashrooms.ca/construction-portable-washrooms/nanaimo/",
+      "title": "Construction portable washrooms in Nanaimo — crews, servicing & long-term rentals | Canada Washrooms",
+      "titleLength": 100,
+      "description": "Operational portable sanitation for Nanaimo construction: serviced routes, crew-scale capacity, and seasonal realities including freeze–thaw and mud cycles. Compare operators matched to jobsite logistics — not a generic directory.",
+      "descriptionLength": 230
+    },
+    {
+      "url": "https://canadawashrooms.ca/luxury-restroom-trailers/calgary/",
+      "title": "Luxury restroom trailers in Calgary — weddings, venues & guest comfort | Canada Washrooms",
+      "titleLength": 89,
+      "description": "Upscale portable restrooms for Calgary events: trailer-grade finishes, flush systems, and layouts suited to weddings and venue settings. Practical notes on guest capacity, servicing windows, and seasonal considerations — curated for planners who care about guest experience.",
+      "descriptionLength": 274
+    },
+    {
+      "url": "https://canadawashrooms.ca/luxury-restroom-trailers/edmonton/",
+      "title": "Luxury restroom trailers in Edmonton — weddings, venues & guest comfort | Canada Washrooms",
+      "titleLength": 90,
+      "description": "Upscale portable restrooms for Edmonton events: trailer-grade finishes, flush systems, and layouts suited to weddings and venue settings. Practical notes on guest capacity, servicing windows, and seasonal considerations — curated for planners who care about guest experience.",
+      "descriptionLength": 275
+    },
+    {
+      "url": "https://canadawashrooms.ca/luxury-restroom-trailers/canmore/",
+      "title": "Luxury restroom trailers in Canmore — weddings, venues & guest comfort | Canada Washrooms",
+      "titleLength": 89,
+      "description": "Upscale portable restrooms for Canmore events: trailer-grade finishes, flush systems, and layouts suited to weddings and venue settings. Practical notes on guest capacity, servicing windows, and seasonal considerations — curated for planners who care about guest experience.",
+      "descriptionLength": 274
+    },
+    {
+      "url": "https://canadawashrooms.ca/luxury-restroom-trailers/red-deer/",
+      "title": "Luxury restroom trailers in Red Deer — weddings, venues & guest comfort | Canada Washrooms",
+      "titleLength": 90,
+      "description": "Upscale portable restrooms for Red Deer events: trailer-grade finishes, flush systems, and layouts suited to weddings and venue settings. Practical notes on guest capacity, servicing windows, and seasonal considerations — curated for planners who care about guest experience.",
+      "descriptionLength": 275
+    },
+    {
+      "url": "https://canadawashrooms.ca/luxury-restroom-trailers/toronto/",
+      "title": "Luxury restroom trailers in Toronto — weddings, venues & guest comfort | Canada Washrooms",
+      "titleLength": 89,
+      "description": "Upscale portable restrooms for Toronto events: trailer-grade finishes, flush systems, and layouts suited to weddings and venue settings. Practical notes on guest capacity, servicing windows, and seasonal considerations — curated for planners who care about guest experience.",
+      "descriptionLength": 274
+    },
+    {
+      "url": "https://canadawashrooms.ca/luxury-restroom-trailers/mississauga/",
+      "title": "Luxury restroom trailers in Mississauga — weddings, venues & guest comfort | Canada Washrooms",
+      "titleLength": 93,
+      "description": "Upscale portable restrooms for Mississauga events: trailer-grade finishes, flush systems, and layouts suited to weddings and venue settings. Practical notes on guest capacity, servicing windows, and seasonal considerations — curated for planners who care about guest experience.",
+      "descriptionLength": 278
+    },
+    {
+      "url": "https://canadawashrooms.ca/luxury-restroom-trailers/hamilton/",
+      "title": "Luxury restroom trailers in Hamilton — weddings, venues & guest comfort | Canada Washrooms",
+      "titleLength": 90,
+      "description": "Upscale portable restrooms for Hamilton events: trailer-grade finishes, flush systems, and layouts suited to weddings and venue settings. Practical notes on guest capacity, servicing windows, and seasonal considerations — curated for planners who care about guest experience.",
+      "descriptionLength": 275
+    },
+    {
+      "url": "https://canadawashrooms.ca/luxury-restroom-trailers/vaughan/",
+      "title": "Luxury restroom trailers in Vaughan — weddings, venues & guest comfort | Canada Washrooms",
+      "titleLength": 89,
+      "description": "Upscale portable restrooms for Vaughan events: trailer-grade finishes, flush systems, and layouts suited to weddings and venue settings. Practical notes on guest capacity, servicing windows, and seasonal considerations — curated for planners who care about guest experience.",
+      "descriptionLength": 274
+    },
+    {
+      "url": "https://canadawashrooms.ca/luxury-restroom-trailers/markham/",
+      "title": "Luxury restroom trailers in Markham — weddings, venues & guest comfort | Canada Washrooms",
+      "titleLength": 89,
+      "description": "Upscale portable restrooms for Markham events: trailer-grade finishes, flush systems, and layouts suited to weddings and venue settings. Practical notes on guest capacity, servicing windows, and seasonal considerations — curated for planners who care about guest experience.",
+      "descriptionLength": 274
+    },
+    {
+      "url": "https://canadawashrooms.ca/luxury-restroom-trailers/surrey/",
+      "title": "Luxury restroom trailers in Surrey — weddings, venues & guest comfort | Canada Washrooms",
+      "titleLength": 88,
+      "description": "Upscale portable restrooms for Surrey events: trailer-grade finishes, flush systems, and layouts suited to weddings and venue settings. Practical notes on guest capacity, servicing windows, and seasonal considerations — curated for planners who care about guest experience.",
+      "descriptionLength": 273
+    },
+    {
+      "url": "https://canadawashrooms.ca/luxury-restroom-trailers/vancouver/",
+      "title": "Luxury restroom trailers in Vancouver — weddings, venues & guest comfort | Canada Washrooms",
+      "titleLength": 91,
+      "description": "Upscale portable restrooms for Vancouver events: trailer-grade finishes, flush systems, and layouts suited to weddings and venue settings. Practical notes on guest capacity, servicing windows, and seasonal considerations — curated for planners who care about guest experience.",
+      "descriptionLength": 276
+    },
+    {
+      "url": "https://canadawashrooms.ca/luxury-restroom-trailers/kelowna/",
+      "title": "Luxury restroom trailers in Kelowna — weddings, venues & guest comfort | Canada Washrooms",
+      "titleLength": 89,
+      "description": "Upscale portable restrooms for Kelowna events: trailer-grade finishes, flush systems, and layouts suited to weddings and venue settings. Practical notes on guest capacity, servicing windows, and seasonal considerations — curated for planners who care about guest experience.",
+      "descriptionLength": 274
+    },
+    {
+      "url": "https://canadawashrooms.ca/luxury-restroom-trailers/abbotsford/",
+      "title": "Luxury restroom trailers in Abbotsford — weddings, venues & guest comfort | Canada Washrooms",
+      "titleLength": 92,
+      "description": "Upscale portable restrooms for Abbotsford events: trailer-grade finishes, flush systems, and layouts suited to weddings and venue settings. Practical notes on guest capacity, servicing windows, and seasonal considerations — curated for planners who care about guest experience.",
+      "descriptionLength": 277
+    },
+    {
+      "url": "https://canadawashrooms.ca/luxury-restroom-trailers/victoria/",
+      "title": "Luxury restroom trailers in Victoria — weddings, venues & guest comfort | Canada Washrooms",
+      "titleLength": 90,
+      "description": "Upscale portable restrooms for Victoria events: trailer-grade finishes, flush systems, and layouts suited to weddings and venue settings. Practical notes on guest capacity, servicing windows, and seasonal considerations — curated for planners who care about guest experience.",
+      "descriptionLength": 275
+    },
+    {
+      "url": "https://canadawashrooms.ca/remote-site-sanitation/fort-mcmurray/",
+      "title": "Remote site sanitation in Fort McMurray — camps, heated units & industrial servicing | Canada Washrooms",
+      "titleLength": 103,
+      "description": "Industrial portable sanitation for Fort McMurray-area remote operations: winterized posture, camp support experience, and servicing assumptions for lease roads and restricted-access sites. Operators listed here are segmented for remote and industrial logistics — verify heating, tank sizing, and dispatch SLAs directly before mobilization.",
+      "descriptionLength": 339
+    },
+    {
+      "url": "https://canadawashrooms.ca/remote-site-sanitation/calgary/",
+      "title": "Remote site sanitation in Calgary — camps, heated units & industrial servicing | Canada Washrooms",
+      "titleLength": 97,
+      "description": "Industrial portable sanitation for Calgary-area remote operations: winterized posture, camp support experience, and servicing assumptions for lease roads and restricted-access sites. Operators listed here are segmented for remote and industrial logistics — verify heating, tank sizing, and dispatch SLAs directly before mobilization.",
+      "descriptionLength": 333
+    },
+    {
+      "url": "https://canadawashrooms.ca/remote-site-sanitation/edmonton/",
+      "title": "Remote site sanitation in Edmonton — camps, heated units & industrial servicing | Canada Washrooms",
+      "titleLength": 98,
+      "description": "Industrial portable sanitation for Edmonton-area remote operations: winterized posture, camp support experience, and servicing assumptions for lease roads and restricted-access sites. Operators listed here are segmented for remote and industrial logistics — verify heating, tank sizing, and dispatch SLAs directly before mobilization.",
+      "descriptionLength": 334
+    },
+    {
+      "url": "https://canadawashrooms.ca/remote-site-sanitation/red-deer/",
+      "title": "Remote site sanitation in Red Deer — camps, heated units & industrial servicing | Canada Washrooms",
+      "titleLength": 98,
+      "description": "Industrial portable sanitation for Red Deer-area remote operations: winterized posture, camp support experience, and servicing assumptions for lease roads and restricted-access sites. Operators listed here are segmented for remote and industrial logistics — verify heating, tank sizing, and dispatch SLAs directly before mobilization.",
+      "descriptionLength": 334
+    },
+    {
+      "url": "https://canadawashrooms.ca/portable-washroom-rentals/calgary/",
+      "title": "Portable washroom rentals in Calgary — short-term, residential-friendly & practical | Canada Washrooms",
+      "titleLength": 102,
+      "description": "Straightforward portable washroom rentals in Calgary: short-term drops, accessibility options, handwash stations, and septic partnerships where operators provide them. Built for practical projects where you need capacity fast — without wading through unrelated categories.",
+      "descriptionLength": 272
+    },
+    {
+      "url": "https://canadawashrooms.ca/portable-washroom-rentals/edmonton/",
+      "title": "Portable washroom rentals in Edmonton — short-term, residential-friendly & practical | Canada Washrooms",
+      "titleLength": 103,
+      "description": "Straightforward portable washroom rentals in Edmonton: short-term drops, accessibility options, handwash stations, and septic partnerships where operators provide them. Built for practical projects where you need capacity fast — without wading through unrelated categories.",
+      "descriptionLength": 273
+    },
+    {
+      "url": "https://canadawashrooms.ca/portable-washroom-rentals/fort-mcmurray/",
+      "title": "Portable washroom rentals in Fort McMurray — short-term, residential-friendly & practical | Canada Washrooms",
+      "titleLength": 108,
+      "description": "Straightforward portable washroom rentals in Fort McMurray: short-term drops, accessibility options, handwash stations, and septic partnerships where operators provide them. Built for practical projects where you need capacity fast — without wading through unrelated categories.",
+      "descriptionLength": 278
+    },
+    {
+      "url": "https://canadawashrooms.ca/portable-washroom-rentals/red-deer/",
+      "title": "Portable washroom rentals in Red Deer — short-term, residential-friendly & practical | Canada Washrooms",
+      "titleLength": 103,
+      "description": "Straightforward portable washroom rentals in Red Deer: short-term drops, accessibility options, handwash stations, and septic partnerships where operators provide them. Built for practical projects where you need capacity fast — without wading through unrelated categories.",
+      "descriptionLength": 273
+    },
+    {
+      "url": "https://canadawashrooms.ca/portable-washroom-rentals/canmore/",
+      "title": "Portable washroom rentals in Canmore — short-term, residential-friendly & practical | Canada Washrooms",
+      "titleLength": 102,
+      "description": "Straightforward portable washroom rentals in Canmore: short-term drops, accessibility options, handwash stations, and septic partnerships where operators provide them. Built for practical projects where you need capacity fast — without wading through unrelated categories.",
+      "descriptionLength": 272
+    },
+    {
+      "url": "https://canadawashrooms.ca/portable-washroom-rentals/toronto/",
+      "title": "Portable washroom rentals in Toronto — short-term, residential-friendly & practical | Canada Washrooms",
+      "titleLength": 102,
+      "description": "Straightforward portable washroom rentals in Toronto: short-term drops, accessibility options, handwash stations, and septic partnerships where operators provide them. Built for practical projects where you need capacity fast — without wading through unrelated categories.",
+      "descriptionLength": 272
+    },
+    {
+      "url": "https://canadawashrooms.ca/portable-washroom-rentals/mississauga/",
+      "title": "Portable washroom rentals in Mississauga — short-term, residential-friendly & practical | Canada Washrooms",
+      "titleLength": 106,
+      "description": "Straightforward portable washroom rentals in Mississauga: short-term drops, accessibility options, handwash stations, and septic partnerships where operators provide them. Built for practical projects where you need capacity fast — without wading through unrelated categories.",
+      "descriptionLength": 276
+    },
+    {
+      "url": "https://canadawashrooms.ca/portable-washroom-rentals/brampton/",
+      "title": "Portable washroom rentals in Brampton — short-term, residential-friendly & practical | Canada Washrooms",
+      "titleLength": 103,
+      "description": "Straightforward portable washroom rentals in Brampton: short-term drops, accessibility options, handwash stations, and septic partnerships where operators provide them. Built for practical projects where you need capacity fast — without wading through unrelated categories.",
+      "descriptionLength": 273
+    },
+    {
+      "url": "https://canadawashrooms.ca/portable-washroom-rentals/hamilton/",
+      "title": "Portable washroom rentals in Hamilton — short-term, residential-friendly & practical | Canada Washrooms",
+      "titleLength": 103,
+      "description": "Straightforward portable washroom rentals in Hamilton: short-term drops, accessibility options, handwash stations, and septic partnerships where operators provide them. Built for practical projects where you need capacity fast — without wading through unrelated categories.",
+      "descriptionLength": 273
+    },
+    {
+      "url": "https://canadawashrooms.ca/portable-washroom-rentals/vaughan/",
+      "title": "Portable washroom rentals in Vaughan — short-term, residential-friendly & practical | Canada Washrooms",
+      "titleLength": 102,
+      "description": "Straightforward portable washroom rentals in Vaughan: short-term drops, accessibility options, handwash stations, and septic partnerships where operators provide them. Built for practical projects where you need capacity fast — without wading through unrelated categories.",
+      "descriptionLength": 272
+    },
+    {
+      "url": "https://canadawashrooms.ca/portable-washroom-rentals/markham/",
+      "title": "Portable washroom rentals in Markham — short-term, residential-friendly & practical | Canada Washrooms",
+      "titleLength": 102,
+      "description": "Straightforward portable washroom rentals in Markham: short-term drops, accessibility options, handwash stations, and septic partnerships where operators provide them. Built for practical projects where you need capacity fast — without wading through unrelated categories.",
+      "descriptionLength": 272
+    },
+    {
+      "url": "https://canadawashrooms.ca/portable-washroom-rentals/surrey/",
+      "title": "Portable washroom rentals in Surrey — short-term, residential-friendly & practical | Canada Washrooms",
+      "titleLength": 101,
+      "description": "Straightforward portable washroom rentals in Surrey: short-term drops, accessibility options, handwash stations, and septic partnerships where operators provide them. Built for practical projects where you need capacity fast — without wading through unrelated categories.",
+      "descriptionLength": 271
+    },
+    {
+      "url": "https://canadawashrooms.ca/portable-washroom-rentals/vancouver/",
+      "title": "Portable washroom rentals in Vancouver — short-term, residential-friendly & practical | Canada Washrooms",
+      "titleLength": 104,
+      "description": "Straightforward portable washroom rentals in Vancouver: short-term drops, accessibility options, handwash stations, and septic partnerships where operators provide them. Built for practical projects where you need capacity fast — without wading through unrelated categories.",
+      "descriptionLength": 274
+    },
+    {
+      "url": "https://canadawashrooms.ca/portable-washroom-rentals/abbotsford/",
+      "title": "Portable washroom rentals in Abbotsford — short-term, residential-friendly & practical | Canada Washrooms",
+      "titleLength": 105,
+      "description": "Straightforward portable washroom rentals in Abbotsford: short-term drops, accessibility options, handwash stations, and septic partnerships where operators provide them. Built for practical projects where you need capacity fast — without wading through unrelated categories.",
+      "descriptionLength": 275
+    },
+    {
+      "url": "https://canadawashrooms.ca/portable-washroom-rentals/kelowna/",
+      "title": "Portable washroom rentals in Kelowna — short-term, residential-friendly & practical | Canada Washrooms",
+      "titleLength": 102,
+      "description": "Straightforward portable washroom rentals in Kelowna: short-term drops, accessibility options, handwash stations, and septic partnerships where operators provide them. Built for practical projects where you need capacity fast — without wading through unrelated categories.",
+      "descriptionLength": 272
+    },
+    {
+      "url": "https://canadawashrooms.ca/portable-washroom-rentals/nanaimo/",
+      "title": "Portable washroom rentals in Nanaimo — short-term, residential-friendly & practical | Canada Washrooms",
+      "titleLength": 102,
+      "description": "Straightforward portable washroom rentals in Nanaimo: short-term drops, accessibility options, handwash stations, and septic partnerships where operators provide them. Built for practical projects where you need capacity fast — without wading through unrelated categories.",
+      "descriptionLength": 272
+    },
+    {
+      "url": "https://canadawashrooms.ca/portable-washroom-rentals/coquitlam/",
+      "title": "Portable washroom rentals in Coquitlam — short-term, residential-friendly & practical | Canada Washrooms",
+      "titleLength": 104,
+      "description": "Straightforward portable washroom rentals in Coquitlam: short-term drops, accessibility options, handwash stations, and septic partnerships where operators provide them. Built for practical projects where you need capacity fast — without wading through unrelated categories.",
+      "descriptionLength": 274
+    },
+    {
+      "url": "https://canadawashrooms.ca/portable-washroom-rentals/victoria/",
+      "title": "Portable washroom rentals in Victoria — short-term, residential-friendly & practical | Canada Washrooms",
+      "titleLength": 103,
+      "description": "Straightforward portable washroom rentals in Victoria: short-term drops, accessibility options, handwash stations, and septic partnerships where operators provide them. Built for practical projects where you need capacity fast — without wading through unrelated categories.",
+      "descriptionLength": 273
+    },
+    {
+      "url": "https://canadawashrooms.ca/waste-site-services/calgary/",
+      "title": "Waste & site services in Calgary — septic, roll-off, and construction support | Canada Washrooms",
+      "titleLength": 96,
+      "description": "Integrated waste and site-service operators in Calgary: septic handling, roll-off and disposal partners, and construction-site support beyond portable toilets alone. Compare firms that bundle sanitation with broader site logistics.",
+      "descriptionLength": 231
+    },
+    {
+      "url": "https://canadawashrooms.ca/waste-site-services/edmonton/",
+      "title": "Waste & site services in Edmonton — septic, roll-off, and construction support | Canada Washrooms",
+      "titleLength": 97,
+      "description": "Integrated waste and site-service operators in Edmonton: septic handling, roll-off and disposal partners, and construction-site support beyond portable toilets alone. Compare firms that bundle sanitation with broader site logistics.",
+      "descriptionLength": 232
+    },
+    {
+      "url": "https://canadawashrooms.ca/waste-site-services/fort-mcmurray/",
+      "title": "Waste & site services in Fort McMurray — septic, roll-off, and construction support | Canada Washrooms",
+      "titleLength": 102,
+      "description": "Integrated waste and site-service operators in Fort McMurray: septic handling, roll-off and disposal partners, and construction-site support beyond portable toilets alone. Compare firms that bundle sanitation with broader site logistics.",
+      "descriptionLength": 237
+    },
+    {
+      "url": "https://canadawashrooms.ca/waste-site-services/red-deer/",
+      "title": "Waste & site services in Red Deer — septic, roll-off, and construction support | Canada Washrooms",
+      "titleLength": 97,
+      "description": "Integrated waste and site-service operators in Red Deer: septic handling, roll-off and disposal partners, and construction-site support beyond portable toilets alone. Compare firms that bundle sanitation with broader site logistics.",
+      "descriptionLength": 232
+    },
+    {
+      "url": "https://canadawashrooms.ca/waste-site-services/canmore/",
+      "title": "Waste & site services in Canmore — septic, roll-off, and construction support | Canada Washrooms",
+      "titleLength": 96,
+      "description": "Integrated waste and site-service operators in Canmore: septic handling, roll-off and disposal partners, and construction-site support beyond portable toilets alone. Compare firms that bundle sanitation with broader site logistics.",
+      "descriptionLength": 231
+    },
+    {
+      "url": "https://canadawashrooms.ca/waste-site-services/toronto/",
+      "title": "Waste & site services in Toronto — septic, roll-off, and construction support | Canada Washrooms",
+      "titleLength": 96,
+      "description": "Integrated waste and site-service operators in Toronto: septic handling, roll-off and disposal partners, and construction-site support beyond portable toilets alone. Compare firms that bundle sanitation with broader site logistics.",
+      "descriptionLength": 231
+    },
+    {
+      "url": "https://canadawashrooms.ca/waste-site-services/mississauga/",
+      "title": "Waste & site services in Mississauga — septic, roll-off, and construction support | Canada Washrooms",
+      "titleLength": 100,
+      "description": "Integrated waste and site-service operators in Mississauga: septic handling, roll-off and disposal partners, and construction-site support beyond portable toilets alone. Compare firms that bundle sanitation with broader site logistics.",
+      "descriptionLength": 235
+    },
+    {
+      "url": "https://canadawashrooms.ca/waste-site-services/brampton/",
+      "title": "Waste & site services in Brampton — septic, roll-off, and construction support | Canada Washrooms",
+      "titleLength": 97,
+      "description": "Integrated waste and site-service operators in Brampton: septic handling, roll-off and disposal partners, and construction-site support beyond portable toilets alone. Compare firms that bundle sanitation with broader site logistics.",
+      "descriptionLength": 232
+    },
+    {
+      "url": "https://canadawashrooms.ca/waste-site-services/hamilton/",
+      "title": "Waste & site services in Hamilton — septic, roll-off, and construction support | Canada Washrooms",
+      "titleLength": 97,
+      "description": "Integrated waste and site-service operators in Hamilton: septic handling, roll-off and disposal partners, and construction-site support beyond portable toilets alone. Compare firms that bundle sanitation with broader site logistics.",
+      "descriptionLength": 232
+    },
+    {
+      "url": "https://canadawashrooms.ca/waste-site-services/surrey/",
+      "title": "Waste & site services in Surrey — septic, roll-off, and construction support | Canada Washrooms",
+      "titleLength": 95,
+      "description": "Integrated waste and site-service operators in Surrey: septic handling, roll-off and disposal partners, and construction-site support beyond portable toilets alone. Compare firms that bundle sanitation with broader site logistics.",
+      "descriptionLength": 230
+    },
+    {
+      "url": "https://canadawashrooms.ca/waste-site-services/vancouver/",
+      "title": "Waste & site services in Vancouver — septic, roll-off, and construction support | Canada Washrooms",
+      "titleLength": 98,
+      "description": "Integrated waste and site-service operators in Vancouver: septic handling, roll-off and disposal partners, and construction-site support beyond portable toilets alone. Compare firms that bundle sanitation with broader site logistics.",
+      "descriptionLength": 233
+    },
+    {
+      "url": "https://canadawashrooms.ca/waste-site-services/abbotsford/",
+      "title": "Waste & site services in Abbotsford — septic, roll-off, and construction support | Canada Washrooms",
+      "titleLength": 99,
+      "description": "Integrated waste and site-service operators in Abbotsford: septic handling, roll-off and disposal partners, and construction-site support beyond portable toilets alone. Compare firms that bundle sanitation with broader site logistics.",
+      "descriptionLength": 234
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/fenceline-rentals-ltd-acheson-ab/",
+      "title": "Fenceline Rentals Ltd. | Construction & Jobsites in Acheson | Canada Washrooms",
+      "titleLength": 78,
+      "description": "Fenceline Rentals Ltd. — construction & jobsites in Acheson. Service area: 9871 279 St #112, Acheson, AB T7X 6J4. Google rating 4.3 (63 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 228
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/eh-royal-flush-portable-toilets-ardrossan-ab/",
+      "title": "Eh! Royal Flush Portable Toilets | Construction & Jobsites in Ardrossan | Canada Washrooms",
+      "titleLength": 90,
+      "description": "Eh! Royal Flush Portable Toilets — construction & jobsites in Ardrossan. Service area: 53479 Range Rd 211, Ardrossan, AB T8G 2B7. Google rating 4.8 (19 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 244
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/zero-spill-oilfield-services-ltd-beaverlodge-ab/",
+      "title": "Zero Spill Oilfield Services ltd. | Construction & Jobsites in Beaverlodge | Canada Washrooms",
+      "titleLength": 93,
+      "description": "Zero Spill Oilfield Services ltd. — construction & jobsites in Beaverlodge. Service area: 1034 1 Ave #1059, Beaverlodge, AB T0H 0C0. Google rating 5.0 (1 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 246
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/abc-waste-management-potties-ltd-calgary-ab/",
+      "title": "ABC Waste Management/Potties Ltd. | Construction & Jobsites in Calgary | Canada Washrooms",
+      "titleLength": 89,
+      "description": "ABC Waste Management/Potties Ltd. — construction & jobsites in Calgary. Service area: 3020 52 St. SE, Calgary, AB T2B 1N2. Google rating 3.6 (14 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 237
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/alberta-trailer-rentals-calgary-ab/",
+      "title": "Alberta Trailer Rentals | Weddings & Events in Calgary | Canada Washrooms",
+      "titleLength": 73,
+      "description": "Alberta Trailer Rentals — weddings & events in Calgary. Service area: 2312 52 Ave SE, Calgary, AB T2V 2R3. Google rating 5.0 (8 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 220
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/avalanche-waste-management-inc-calgary-ab/",
+      "title": "Avalanche Waste Management Inc. | Construction & Jobsites in Calgary | Canada Washrooms",
+      "titleLength": 87,
+      "description": "Avalanche Waste Management Inc. — construction & jobsites in Calgary. Service area: 2419 52 Ave SE Unit #1, Calgary, AB T2C 4X7. Google rating 4.9 (124 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 244
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/fenceline-rentals-ltd-calgary-calgary-ab/",
+      "title": "Fenceline Rentals Ltd. Calgary | Construction & Jobsites in Calgary | Canada Washrooms",
+      "titleLength": 86,
+      "description": "Fenceline Rentals Ltd. Calgary — construction & jobsites in Calgary. Service area: 9889 54th St SE, Calgary, AB T2C 5J4. Google rating 5.0 (12 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 235
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/pit-stop-portable-toilet-services-calgary-ab/",
+      "title": "Pit Stop Portable Toilet Services | Construction & Jobsites in Calgary | Canada Washrooms",
+      "titleLength": 89,
+      "description": "Pit Stop Portable Toilet Services — construction & jobsites in Calgary. Service area: 4840 90 Ave SE, Calgary, AB T2C 2T1. Google rating 2.8 (34 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 237
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/portabins-calgary-ab/",
+      "title": "PortaBins | Construction & Jobsites in Calgary | Canada Washrooms",
+      "titleLength": 65,
+      "description": "PortaBins — construction & jobsites in Calgary. Service area: 5115 76 Ave SE #4, Calgary, AB T2C 3C6. Google rating 5.0 (38 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 216
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/rhino-calgary-ab/",
+      "title": "Rhino | Construction & Jobsites in Calgary | Canada Washrooms",
+      "titleLength": 61,
+      "description": "Rhino — construction & jobsites in Calgary. Service area: 230 40 Ave NE, Calgary, AB T2E 2M7. Google rating 5.0 (64 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 208
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/super-save-group-calgary-ab/",
+      "title": "Super Save Group | Construction & Jobsites in Calgary | Canada Washrooms",
+      "titleLength": 72,
+      "description": "Super Save Group — construction & jobsites in Calgary. Service area: 6025 90 Ave SE, Calgary, AB T2C 4Z6. Google rating 2.6 (162 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 221
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/the-garbage-good-guys-calgary-ab/",
+      "title": "The Garbage Good Guys | Construction & Jobsites in Calgary | Canada Washrooms",
+      "titleLength": 77,
+      "description": "The Garbage Good Guys — construction & jobsites in Calgary. Service area: 5512 5 St NW, Calgary, AB T2K 6J1. Google rating 2.5 (20 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 223
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/united-rentals-calgary-ab/",
+      "title": "United Rentals | Construction & Jobsites in Calgary | Canada Washrooms",
+      "titleLength": 70,
+      "description": "United Rentals — construction & jobsites in Calgary. Service area: 7120 Blackfoot Trl SE, Calgary, AB T2H 2M1. Google rating 3.8 (39 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 225
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/vibe-event-rentals-calgary-ab/",
+      "title": "VIBE Event Rentals | Weddings & Events in Calgary | Canada Washrooms",
+      "titleLength": 68,
+      "description": "VIBE Event Rentals — weddings & events in Calgary. Service area: 218106 66 St E, Calgary, AB T1S 3V5. Google rating 4.9 (320 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 217
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/willscot-calgary-ab/",
+      "title": "WillScot | Construction & Jobsites in Calgary | Canada Washrooms",
+      "titleLength": 64,
+      "description": "WillScot — construction & jobsites in Calgary. Service area: 4000 84 St SE, Calgary, AB T1X 1Y3. Google rating 4.4 (21 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 211
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/canmore-septic-canmore-ab/",
+      "title": "Canmore Septic | Construction & Jobsites in Canmore | Canada Washrooms",
+      "titleLength": 70,
+      "description": "Canmore Septic — construction & jobsites in Canmore. Service area: #3 Cougar Mountain Crescent, Exshaw, Alberta, Canada, T0L 2C0. Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 212
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/benoit-rentals-ltd-chauvin-ab/",
+      "title": "Benoit Rentals Ltd | Construction & Jobsites in Chauvin | Canada Washrooms",
+      "titleLength": 74,
+      "description": "Benoit Rentals Ltd — construction & jobsites in Chauvin. Service area: 108 Main St, Chauvin, AB T0B 0J3. Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 187
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/mr-p-potty-ltd-cochrane-ab/",
+      "title": "Mr. P. Potty Ltd. | Construction & Jobsites in Cochrane | Canada Washrooms",
+      "titleLength": 74,
+      "description": "Mr. P. Potty Ltd. — construction & jobsites in Cochrane. Service area: 131 2 Ave E, Cochrane, AB T4C 2B9. Google rating 4.2 (41 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 220
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/steelhead-ventures-ltd-cochrane-ab/",
+      "title": "Steelhead Ventures Ltd. | Construction & Jobsites in Cochrane | Canada Washrooms",
+      "titleLength": 80,
+      "description": "Steelhead Ventures Ltd. — construction & jobsites in Cochrane. Service area: 560 Griffin Rd E, Cochrane, AB, T4C 2B7. Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 200
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/buckaday-toilets-drayton-valley-ab/",
+      "title": "Buckaday Toilets | Construction & Jobsites in Drayton Valley | Canada Washrooms",
+      "titleLength": 79,
+      "description": "Buckaday Toilets — construction & jobsites in Drayton Valley. Service area: 6225 54 Ave, Drayton Valley, AB T7A 1C4. Google rating 5.0 (1 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 230
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/1st-choice-construction-waste-removal-edmonton-ab/",
+      "title": "1st Choice Construction Waste Removal | Construction & Jobsites in Edmonton | Canada Washrooms",
+      "titleLength": 94,
+      "description": "1st Choice Construction Waste Removal — construction & jobsites in Edmonton. Service area: 11230 228 St NW, Edmonton, AB T5S 2B7. Google rating 4.7 (24 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 244
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/heartland-disposal-recycling-ltd-edmonton-ab/",
+      "title": "Heartland Disposal & Recycling Ltd | Construction & Jobsites in Edmonton | Canada Washrooms",
+      "titleLength": 91,
+      "description": "Heartland Disposal & Recycling Ltd — construction & jobsites in Edmonton. Service area: 7730 18 St NW, Edmonton, AB T6P 1Y6. Google rating 4.4 (49 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 239
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/p-cann-edmonton-ab/",
+      "title": "P-Cann | Construction & Jobsites in Edmonton | Canada Washrooms",
+      "titleLength": 63,
+      "description": "P-Cann — construction & jobsites in Edmonton. Service area: 5302 72a Ave NW, Edmonton, AB T6B 2H9. Google rating 4.8 (9 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 212
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/p-cann-services-edmonton-ab/",
+      "title": "P-CANN Services | Construction & Jobsites in Edmonton | Canada Washrooms",
+      "titleLength": 72,
+      "description": "P-CANN Services — construction & jobsites in Edmonton. Service area: 14515 122 Ave NW, Edmonton, AB T5L 2W4. Google rating 1.0 (1 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 222
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/p-pots-portable-washrooms-edmonton-ab/",
+      "title": "P-Pots Portable Washrooms | Construction & Jobsites in Edmonton | Canada Washrooms",
+      "titleLength": 82,
+      "description": "P-Pots Portable Washrooms — construction & jobsites in Edmonton. Service area: 9651 62 Ave NW, Edmonton, AB T6E 0E1. Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 199
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/pioneer-sanitary-solutions-ltd-edmonton-ab/",
+      "title": "Pioneer Sanitary Solutions Ltd. | Construction & Jobsites in Edmonton | Canada Washrooms",
+      "titleLength": 88,
+      "description": "Pioneer Sanitary Solutions Ltd. — construction & jobsites in Edmonton. Service area: 9520 51 Ave NW, Edmonton, AB T6E 5A6. Google rating 4.3 (6 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 236
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/solv-x-enterprises-inc-edmonton-ab/",
+      "title": "SOLV.X Enterprises Inc. | Construction & Jobsites in Edmonton | Canada Washrooms",
+      "titleLength": 80,
+      "description": "SOLV.X Enterprises Inc. — construction & jobsites in Edmonton. Service area: 6805 Whyte Ave NW, Edmonton, AB T6B 0E9. Google rating 4.4 (7 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 231
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/super-save-group-edmonton-ab/",
+      "title": "Super Save Group | Construction & Jobsites in Edmonton | Canada Washrooms",
+      "titleLength": 73,
+      "description": "Super Save Group — construction & jobsites in Edmonton. Service area: 1625 90 Ave, Edmonton, AB T6P 0E2. Google rating 2.7 (94 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 219
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/alberta-toilets-septic-services-evansburg-ab/",
+      "title": "Alberta Toilets & Septic Services | Construction & Jobsites in Evansburg | Canada Washrooms",
+      "titleLength": 91,
+      "description": "Alberta Toilets & Septic Services — construction & jobsites in Evansburg. Service area: 54510 Range Rd 75, Evansburg, AB T0E 0T0. Google rating 5.0 (1 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 243
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/go-services-inc-fort-mcmurray-ab/",
+      "title": "Go Services Inc. | Construction & Jobsites in Fort McMurray | Canada Washrooms",
+      "titleLength": 78,
+      "description": "Go Services Inc. — construction & jobsites in Fort McMurray. Service area: 260 Mackay Crescent, Fort McMurray, AB T9H 4G1. Google rating 2.7 (7 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 236
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/gallason-industrial-cleaning-services-inc-fort-saskatchewan-ab/",
+      "title": "Gallason Industrial Cleaning Services Inc | Construction & Jobsites in Fort Saskatchewan | Canada Washrooms",
+      "titleLength": 107,
+      "description": "Gallason Industrial Cleaning Services Inc — construction & jobsites in Fort Saskatchewan. Service area: 11212 87 Ave, Fort Saskatchewan, AB T8L 2S4. Google rating 4.2 (10 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 263
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/bear-creek-rentals-inc-fox-creek-ab/",
+      "title": "Bear Creek Rentals Inc. | Construction & Jobsites in Fox Creek | Canada Washrooms",
+      "titleLength": 81,
+      "description": "Bear Creek Rentals Inc. — construction & jobsites in Fox Creek. Service area: 104 1 Ave, Fox Creek, AB T0H 1P0. Google rating 5.0 (1 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 225
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/remote-group-grande-prairie-county-no-1-ab/",
+      "title": "Remote Group | Construction & Jobsites in Grande Prairie County No. 1 | Canada Washrooms",
+      "titleLength": 88,
+      "description": "Remote Group — construction & jobsites in Grande Prairie County No. 1. Service area: 60051 HWY 668 #20, Grande Prairie County No. 1, AB T8W 5A8. Google rating 3.0 (2 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 258
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/f5-services-hardisty-ab/",
+      "title": "f5 services | Construction & Jobsites in Hardisty | Canada Washrooms",
+      "titleLength": 68,
+      "description": "f5 services — construction & jobsites in Hardisty. Service area: Box 169, Hardisty, AB T0B 1V0. Google rating 5.0 (1 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 209
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/range-services-leduc-ab/",
+      "title": "Range Services | Construction & Jobsites in Leduc | Canada Washrooms",
+      "titleLength": 68,
+      "description": "Range Services — construction & jobsites in Leduc. Service area: 7019 Sparrow Dr, Leduc, AB T9E 7L1. Google rating 4.0 (1 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 214
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/rockbox-structures-nisku-ab/",
+      "title": "Rockbox Structures | Construction & Jobsites in Nisku | Canada Washrooms",
+      "titleLength": 72,
+      "description": "Rockbox Structures — construction & jobsites in Nisku. Service area: 706 11 Ave, Nisku, AB T9E 7R3. Google rating 4.7 (98 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 214
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/duty-calls-portables-ltd-okotoks-ab/",
+      "title": "Duty Calls Portables Ltd. | Construction & Jobsites in Okotoks | Canada Washrooms",
+      "titleLength": 81,
+      "description": "Duty Calls Portables Ltd. — construction & jobsites in Okotoks. Service area: 64062 393 Ave E, Okotoks, AB T1S 0L1. Google rating 5.0 (13 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 230
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/mcneely-co-rentals-olds-ab/",
+      "title": "McNeely co. Rentals | Construction & Jobsites in Olds | Canada Washrooms",
+      "titleLength": 72,
+      "description": "McNeely co. Rentals — construction & jobsites in Olds. Service area: 5606 51 St, Olds, AB T4H 1H9. Google rating 5.0 (4 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 212
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/canmasters-inc-red-deer-ab/",
+      "title": "Canmasters Inc. | Construction & Jobsites in Red Deer | Canada Washrooms",
+      "titleLength": 72,
+      "description": "Canmasters Inc. — construction & jobsites in Red Deer. Service area: 4883 Chiles Industrial Link, Red Deer, AB T4P 2B6. Google rating 3.7 (3 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 233
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/go-services-inc-red-deer-ab/",
+      "title": "Go Services Inc. | Construction & Jobsites in Red Deer | Canada Washrooms",
+      "titleLength": 73,
+      "description": "Go Services Inc. — construction & jobsites in Red Deer. Service area: 8164 Edgar Industrial Close, Red Deer, AB T4P 3R4. Google rating 4.4 (24 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 235
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/little-jon-s-portable-toilet-rentals-red-deer-ab/",
+      "title": "Little Jon's Portable Toilet Rentals | Construction & Jobsites in Red Deer | Canada Washrooms",
+      "titleLength": 93,
+      "description": "Little Jon's Portable Toilet Rentals — construction & jobsites in Red Deer. Service area: 4883 Chiles Industrial Link, Red Deer, AB T4S 2A3. Google rating 3.2 (21 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 255
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/big-rock-waste-disposal-and-rentals-rocky-mountain-house-ab/",
+      "title": "Big Rock Waste Disposal and Rentals | Construction & Jobsites in Rocky Mountain House | Canada Washrooms",
+      "titleLength": 104,
+      "description": "Big Rock Waste Disposal and Rentals — construction & jobsites in Rocky Mountain House. Service area: 385050 48 Street, 385050 Rge Rd 6 #1, Rocky Mountain House, AB T4T 1A9. Google rating 5.0 (1 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 286
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/oli-s-portable-toilets-rental-rocky-mountain-house-ab/",
+      "title": "Oli's Portable Toilets Rental | Construction & Jobsites in Rocky Mountain House | Canada Washrooms",
+      "titleLength": 98,
+      "description": "Oli's Portable Toilets Rental — construction & jobsites in Rocky Mountain House. Service area: Westward Way, Rocky Mountain House, AB T4T 1E1. Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 225
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/rangeland-event-restrooms-rocky-view-county-ab/",
+      "title": "Rangeland Event Restrooms | Weddings & Events in Rocky View County | Canada Washrooms",
+      "titleLength": 85,
+      "description": "Rangeland Event Restrooms — weddings & events in Rocky View County. Service area: 292184 Crosspointe Rd, Rocky View County, AB T4A 0W2. Google rating 3.0 (2 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 249
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/range-services-sherwood-park-ab/",
+      "title": "RANGE SERVICES | Construction & Jobsites in Sherwood Park | Canada Washrooms",
+      "titleLength": 76,
+      "description": "RANGE SERVICES — construction & jobsites in Sherwood Park. Service area: 53113 AB-21, Sherwood Park, AB T8A 4T7. Google rating 5.0 (9 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 226
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/handi-can-2003-ltd-spruce-grove-ab/",
+      "title": "Handi-Can (2003) Ltd | Construction & Jobsites in Spruce Grove | Canada Washrooms",
+      "titleLength": 81,
+      "description": "Handi-Can (2003) Ltd — construction & jobsites in Spruce Grove. Service area: 327 Saskatchewan Ave, Spruce Grove, AB T7X 3B3. Google rating 4.3 (25 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 240
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/frontline-rentals-div-of-combat-spraying-stettler-ab/",
+      "title": "Frontline Rentals DIV of Combat Spraying | Construction & Jobsites in Stettler | Canada Washrooms",
+      "titleLength": 97,
+      "description": "Frontline Rentals DIV of Combat Spraying — construction & jobsites in Stettler. Service area: 4904 44 Ave, Stettler, AB T0C 2L1. Google rating 5.0 (2 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 242
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/valleyview-sheet-metal-and-insulating-ltd-valleyview-ab/",
+      "title": "Valleyview Sheet Metal and Insulating Ltd. | Construction & Jobsites in Valleyview | Canada Washrooms",
+      "titleLength": 101,
+      "description": "Valleyview Sheet Metal and Insulating Ltd. — construction & jobsites in Valleyview. Service area: Valleyview, AB T0H 3N0. Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 204
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/aikam-rental-ltd-abbotsford-bc/",
+      "title": "AIKAM RENTAL LTD | Construction & Jobsites in Abbotsford | Canada Washrooms",
+      "titleLength": 75,
+      "description": "AIKAM RENTAL LTD — construction & jobsites in Abbotsford. Service area: 31048 Heron Ave, Abbotsford, BC V2T 5K5. Google rating 5.0 (4 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 226
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/equinox-rentals-portable-trailer-washrooms-fences-septic-service-abbotsf/",
+      "title": "Equinox Rentals - Portable & Trailer Washrooms, Fences, Septic Service - Abbotsford | Construction & Jobsites in Abbotsford | Canada Washrooms",
+      "titleLength": 142,
+      "description": "Equinox Rentals - Portable & Trailer Washrooms, Fences, Septic Service - Abbotsford — construction & jobsites in Abbotsford. Service area: 32274 Atwater Crescent, Abbotsford, BC V2T 4L2. Google rating 5.0 (5 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 300
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/scv-waste-management-septic-bins-armstrong-bc-armstrong-bc/",
+      "title": "SCV: Waste Management, Septic & Bins | Armstrong, BC | Construction & Jobsites in Armstrong | Canada Washrooms",
+      "titleLength": 110,
+      "description": "SCV: Waste Management, Septic & Bins | Armstrong, BC — construction & jobsites in Armstrong. Service area: 869 Otter Lake Cross Rd, Armstrong, BC V4Y 0N7. Google rating 4.8 (19 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 269
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/total-site-services-ltd-burnaby-bc/",
+      "title": "Total Site Services Ltd | Construction & Jobsites in Burnaby | Canada Washrooms",
+      "titleLength": 79,
+      "description": "Total Site Services Ltd — construction & jobsites in Burnaby. Service area: 5489 Byrne Rd #277, Burnaby, BC V5J 3J1. Google rating 4.0 (25 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 231
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/vogue-luxury-restrooms-calgary-bc/",
+      "title": "Vogue Luxury Restrooms | Construction & Jobsites in Calgary | Canada Washrooms",
+      "titleLength": 78,
+      "description": "Vogue Luxury Restrooms — construction & jobsites in Calgary. Service area: Calgary, BC. Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 170
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/pioneer-sanitary-solutions-ltd-charlie-lake-bc/",
+      "title": "Pioneer Sanitary Solutions Ltd. | Construction & Jobsites in Charlie Lake | Canada Washrooms",
+      "titleLength": 92,
+      "description": "Pioneer Sanitary Solutions Ltd. — construction & jobsites in Charlie Lake. Service area: 10395 Spruce St, Charlie Lake, BC V1J 8A9. Google rating 5.0 (12 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 246
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/coast-portable-toilet-rentals-chemainus-bc/",
+      "title": "Coast Portable Toilet Rentals | Construction & Jobsites in Chemainus | Canada Washrooms",
+      "titleLength": 87,
+      "description": "Coast Portable Toilet Rentals — construction & jobsites in Chemainus. Service area: 9401 Trans-Canada Hwy, Chemainus, BC V0R 1K0. Google rating 3.7 (3 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 243
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/christina-porta-potty-rv-pumpout-service-christina-lake-bc/",
+      "title": "Christina Porta Potty & RV Pumpout Service | Construction & Jobsites in Christina Lake | Canada Washrooms",
+      "titleLength": 105,
+      "description": "Christina Porta Potty & RV Pumpout Service — construction & jobsites in Christina Lake. Service area: Christina Lake, BC V0H 1E0. Google rating 5.0 (2 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 243
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/full-moon-rentals-coquitlam-bc/",
+      "title": "Full Moon Rentals | Construction & Jobsites in Coquitlam | Canada Washrooms",
+      "titleLength": 75,
+      "description": "Full Moon Rentals — construction & jobsites in Coquitlam. Service area: 175 Schoolhouse St Unit 20, Coquitlam, BC V3K 4X8. Google rating 4.3 (27 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 237
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/pit-stop-portable-toilet-services-coquitlam-bc/",
+      "title": "Pit Stop Portable Toilet Services | Construction & Jobsites in Coquitlam | Canada Washrooms",
+      "titleLength": 91,
+      "description": "Pit Stop Portable Toilet Services — construction & jobsites in Coquitlam. Service area: 32 Fawcett Rd, Coquitlam, BC V3K 6X9. Google rating 3.6 (61 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 240
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/equinox-rentals-portable-trailer-washrooms-fences-septic-service-delta-d/",
+      "title": "Equinox Rentals - Portable & Trailer Washrooms, Fences, Septic Service - Delta | Construction & Jobsites in Delta | Canada Washrooms",
+      "titleLength": 132,
+      "description": "Equinox Rentals - Portable & Trailer Washrooms, Fences, Septic Service - Delta — construction & jobsites in Delta. Service area: 8679 Sunbury Pl, Delta, BC V4C 3Y9. Google rating 5.0 (13 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 279
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/bold-portable-rentals-kelowna-bc/",
+      "title": "Bold Portable Rentals | Construction & Jobsites in Kelowna | Canada Washrooms",
+      "titleLength": 77,
+      "description": "Bold Portable Rentals — construction & jobsites in Kelowna. Service area: 8860 Jim Bailey Crescent #6, Kelowna, BC V4V 2N4. Google rating 5.0 (43 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 238
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/interior-portable-toilet-rentals-kelowna-bc/",
+      "title": "Interior Portable Toilet Rentals | Construction & Jobsites in Kelowna | Canada Washrooms",
+      "titleLength": 88,
+      "description": "Interior Portable Toilet Rentals — construction & jobsites in Kelowna. Service area: 235 Neave Rd, Kelowna, BC V1V 2L9. Google rating 4.2 (20 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 234
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/primetime-washroom-rentals-langley-langley-bc/",
+      "title": "Primetime Washroom Rentals Langley | Construction & Jobsites in Langley | Canada Washrooms",
+      "titleLength": 90,
+      "description": "Primetime Washroom Rentals Langley — construction & jobsites in Langley. Service area: 20763 68 Ave, Langley, BC V2Y 1R1. Google rating 5.0 (10 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 236
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/sunrise-washroom-rentals-langley-twp-bc/",
+      "title": "Sunrise Washroom Rentals | Construction & Jobsites in Langley Twp | Canada Washrooms",
+      "titleLength": 84,
+      "description": "Sunrise Washroom Rentals — construction & jobsites in Langley Twp. Service area: 3350 260 St #200, Langley Twp, BC V4W 2B1. Google rating 4.2 (39 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 238
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/jiffy-john-rentals-ltd-maple-ridge-bc/",
+      "title": "Jiffy John Rentals Ltd | Construction & Jobsites in Maple Ridge | Canada Washrooms",
+      "titleLength": 82,
+      "description": "Jiffy John Rentals Ltd — construction & jobsites in Maple Ridge. Service area: 23338 Fisherman Rd, Maple Ridge, BC V2W 1B9. Google rating 3.1 (19 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 238
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/constance-portable-washroom-rentals-nanaimo-bc/",
+      "title": "Constance Portable Washroom Rentals | Construction & Jobsites in Nanaimo | Canada Washrooms",
+      "titleLength": 91,
+      "description": "Constance Portable Washroom Rentals — construction & jobsites in Nanaimo. Service area: 717 Dogwood Rd, Nanaimo, BC V9R 3C2. Google rating 5.0 (1 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 238
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/d-b-l-disposal-services-ltd-nanaimo-bc/",
+      "title": "D B L Disposal Services Ltd | Construction & Jobsites in Nanaimo | Canada Washrooms",
+      "titleLength": 83,
+      "description": "D B L Disposal Services Ltd — construction & jobsites in Nanaimo. Service area: 4145 Jingle Pot Rd, Nanaimo, BC V9T 5P5. Google rating 4.3 (23 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 235
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/equinox-rentals-portable-trailer-washrooms-fences-septic-service-north-v/",
+      "title": "Equinox Rentals - Portable & Trailer Washrooms, Fences, Septic Service - North Vancouver | Construction & Jobsites in North Vancouver | Canada Washrooms",
+      "titleLength": 152,
+      "description": "Equinox Rentals - Portable & Trailer Washrooms, Fences, Septic Service - North Vancouver — construction & jobsites in North Vancouver. Service area: 145 Chadwick Ct Suite 220, North Vancouver, BC V7M 3K2. Google rating 5.0 (5 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 318
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/vancouver-luxury-restrooms-pitt-meadows-bc/",
+      "title": "Vancouver Luxury Restrooms | Weddings & Events in Pitt Meadows | Canada Washrooms",
+      "titleLength": 81,
+      "description": "Vancouver Luxury Restrooms — weddings & events in Pitt Meadows. Service area: 13411 Sharpe Rd, Pitt Meadows, BC V3Y 1Z1. Google rating 5.0 (5 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 234
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/prince-george-portable-toilet-services-ltd-prince-george-bc/",
+      "title": "Prince George Portable Toilet Services Ltd | Construction & Jobsites in Prince George | Canada Washrooms",
+      "titleLength": 104,
+      "description": "Prince George Portable Toilet Services Ltd — construction & jobsites in Prince George. Service area: 1301 Kelliher Rd, Prince George, BC V2L 5S8. Google rating 4.8 (13 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 260
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/absolute-septic-service-qualicum-beach-bc/",
+      "title": "Absolute Septic Service | Construction & Jobsites in Qualicum Beach | Canada Washrooms",
+      "titleLength": 86,
+      "description": "Absolute Septic Service — construction & jobsites in Qualicum Beach. Service area: 940 View Rd, Qualicum Beach, BC V9K 1N3. Google rating 4.6 (40 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 238
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/all-haul-septic-quesnel-quesnel-bc/",
+      "title": "All Haul Septic Quesnel | Construction & Jobsites in Quesnel | Canada Washrooms",
+      "titleLength": 79,
+      "description": "All Haul Septic Quesnel — construction & jobsites in Quesnel. Service area: 1565 Cariboo Hwy, Quesnel, BC V2J 3K1. Google rating 4.5 (54 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 229
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/budget-toilet-rentals-ltd-trailer-washroom-surrey-bc/",
+      "title": "Budget Toilet Rentals Ltd & trailer washroom | Construction & Jobsites in Surrey | Canada Washrooms",
+      "titleLength": 99,
+      "description": "Budget Toilet Rentals Ltd & trailer washroom — construction & jobsites in Surrey. Service area: 7276 129a St, Surrey, BC V3W 6Z4. Google rating 2.3 (9 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 243
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/diamond-washroom-trailer-rentals-surrey-bc/",
+      "title": "Diamond Washroom Trailer Rentals | Construction & Jobsites in Surrey | Canada Washrooms",
+      "titleLength": 87,
+      "description": "Diamond Washroom Trailer Rentals — construction & jobsites in Surrey. Service area: 10601 Span Rd, Surrey, BC V3V 8A1. Google rating 5.0 (5 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 232
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/equinox-rentals-equinox-rentals-portable-trailer-washrooms-fences-septic/",
+      "title": "Equinox Rentals- Equinox Rentals- Portable & Trailer Washrooms, Fences, Septic Service - Surrey | Construction & Jobsites in Surrey | Canada Washrooms",
+      "titleLength": 150,
+      "description": "Equinox Rentals- Equinox Rentals- Portable & Trailer Washrooms, Fences, Septic Service - Surrey — construction & jobsites in Surrey. Service area: 8850 132 St, Surrey, BC V3V 5P2. Google rating 5.0 (4 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 293
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/exclusive-washroom-trailer-rentals-surrey-bc/",
+      "title": "Exclusive Washroom Trailer Rentals | Weddings & Events in Surrey | Canada Washrooms",
+      "titleLength": 83,
+      "description": "Exclusive Washroom Trailer Rentals — weddings & events in Surrey. Service area: 12956 67a Ave, Surrey, BC V3W 8M7. Google rating 4.9 (8 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 228
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/premier-site-services-bin-rentals-fence-rentals-toilet-rentals-surrey-bc/",
+      "title": "Premier Site Services - Bin Rentals, Fence Rentals, Toilet Rentals | Construction & Jobsites in Surrey | Canada Washrooms",
+      "titleLength": 121,
+      "description": "Premier Site Services - Bin Rentals, Fence Rentals, Toilet Rentals — construction & jobsites in Surrey. Service area: 5945 176a St, Surrey, BC V3S 1V2. Google rating 5.0 (31 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 266
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/prestige-event-services-inc-surrey-bc/",
+      "title": "Prestige Event Services Inc. | Construction & Jobsites in Surrey | Canada Washrooms",
+      "titleLength": 83,
+      "description": "Prestige Event Services Inc. — construction & jobsites in Surrey. Service area: 3211 152 St, Surrey, BC V3Z 1H8. Google rating 5.0 (23 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 227
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/primetime-washroom-rentals-surrey-bc/",
+      "title": "Primetime Washroom Rentals | Construction & Jobsites in Surrey | Canada Washrooms",
+      "titleLength": 81,
+      "description": "Primetime Washroom Rentals — construction & jobsites in Surrey. Service area: 15086 48 Ave, Surrey, BC V3Z 1G6. Google rating 5.0 (32 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 226
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/sj-luxury-toilet-rental-surrey-bc/",
+      "title": "SJ Luxury Toilet Rental | Construction & Jobsites in Surrey | Canada Washrooms",
+      "titleLength": 78,
+      "description": "SJ Luxury Toilet Rental — construction & jobsites in Surrey. Service area: 9177 138 St, Surrey, BC V3V 7Y5. Google rating 3.9 (12 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 222
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/super-save-group-head-office-surrey-bc/",
+      "title": "Super Save Group (Head Office) | Construction & Jobsites in Surrey | Canada Washrooms",
+      "titleLength": 85,
+      "description": "Super Save Group (Head Office) — construction & jobsites in Surrey. Service area: 19395 Langley Bypass, Surrey, BC V3S 6K1. Google rating 3.3 (449 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 239
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/topstall-restroom-rentals-surrey-bc/",
+      "title": "Topstall Restroom Rentals | Construction & Jobsites in Surrey | Canada Washrooms",
+      "titleLength": 80,
+      "description": "Topstall Restroom Rentals — construction & jobsites in Surrey. Service area: 12611 90a Ave, Surrey, BC V3V 1C6. Google rating 5.0 (5 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 225
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/west-coast-disposal-portable-toilet-rental-surrey-bc/",
+      "title": "West Coast Disposal Portable Toilet Rental | Construction & Jobsites in Surrey | Canada Washrooms",
+      "titleLength": 97,
+      "description": "West Coast Disposal Portable Toilet Rental — construction & jobsites in Surrey. Service area: 10601 Span Rd, Surrey, BC V3V 3V5. Google rating 3.4 (17 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 243
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/western-luxury-trailer-washrooms-surrey-bc/",
+      "title": "Western Luxury Trailer Washrooms | Weddings & Events in Surrey | Canada Washrooms",
+      "titleLength": 81,
+      "description": "Western Luxury Trailer Washrooms — weddings & events in Surrey. Service area: 14747 Upland Rd #104, Surrey, BC V3S 3C5. Google rating 5.0 (1 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 233
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/blue-jay-rentals-washroom-trailer-rentals-vancouver-bc/",
+      "title": "Blue Jay Rentals - Washroom Trailer Rentals | Construction & Jobsites in Vancouver | Canada Washrooms",
+      "titleLength": 101,
+      "description": "Blue Jay Rentals - Washroom Trailer Rentals — construction & jobsites in Vancouver. Service area: 3228 Tupper St, Vancouver, BC V5Z 4S7. Google rating 4.9 (48 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 251
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/west-coast-disposal-portable-toilet-rental-vancouver-bc/",
+      "title": "West Coast Disposal Portable Toilet Rental | Construction & Jobsites in Vancouver | Canada Washrooms",
+      "titleLength": 100,
+      "description": "West Coast Disposal Portable Toilet Rental — construction & jobsites in Vancouver. Service area: 1533 E Kent Avenue N, Vancouver, BC V5P 2R3. Google rating 3.5 (26 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 256
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/super-save-group-victoria-bc/",
+      "title": "Super Save Group | Construction & Jobsites in Victoria | Canada Washrooms",
+      "titleLength": 73,
+      "description": "Super Save Group — construction & jobsites in Victoria. Service area: 2895 W Shr Pkwy, Victoria, BC V9B 0B2. Google rating 3.1 (36 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 223
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/daylight-equipment-whistler-bc/",
+      "title": "Daylight Equipment | Construction & Jobsites in Whistler | Canada Washrooms",
+      "titleLength": 75,
+      "description": "Daylight Equipment — construction & jobsites in Whistler. Service area: 2230 Eva Lake Rd B2, Whistler, BC V8E 0M5. Google rating 5.0 (22 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 229
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/black-tie-toilets-ancaster-on/",
+      "title": "Black Tie Toilets | Construction & Jobsites in Ancaster | Canada Washrooms",
+      "titleLength": 74,
+      "description": "Black Tie Toilets — construction & jobsites in Ancaster. Service area: 722 Shaver Rd, Ancaster, ON L9G 3K9. Google rating 3.7 (6 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 221
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/suite-moves-arnprior-on/",
+      "title": "Suite Moves | Weddings & Events in Arnprior | Canada Washrooms",
+      "titleLength": 62,
+      "description": "Suite Moves — weddings & events in Arnprior. Service area: 569 Robertson Line, Arnprior, ON K7S 3G9. Google rating 5.0 (53 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 215
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/kaneco-group-premium-portable-washroom-rentals-blackstock-on/",
+      "title": "Kaneco Group - Premium Portable Washroom Rentals | Weddings & Events in Blackstock | Canada Washrooms",
+      "titleLength": 101,
+      "description": "Kaneco Group - Premium Portable Washroom Rentals — weddings & events in Blackstock. Service area: 14580 Old Scugog Rd, Blackstock, ON L0B 1B0. Google rating 5.0 (4 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 256
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/rental-save-bolton-on/",
+      "title": "Rental Save | Construction & Jobsites in Bolton | Canada Washrooms",
+      "titleLength": 66,
+      "description": "Rental Save — construction & jobsites in Bolton. Service area: 8100 Mayfield Rd, Bolton, ON L7E 0W2. Google rating 4.5 (24 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 215
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/go-to-ready-loo-brampton-on/",
+      "title": "Go To Ready Loo | Construction & Jobsites in Brampton | Canada Washrooms",
+      "titleLength": 72,
+      "description": "Go To Ready Loo — construction & jobsites in Brampton. Service area: Yately St, Brampton, ON L7A 4R9. Google rating 4.8 (16 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 216
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/halco-portable-washrooms-brantford-on/",
+      "title": "HALCO Portable Washrooms | Construction & Jobsites in Brantford | Canada Washrooms",
+      "titleLength": 82,
+      "description": "HALCO Portable Washrooms — construction & jobsites in Brantford. Service area: 47 Ewart Ave, Brantford, ON N3S 0H4. Google rating 5.0 (3 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 229
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/black-tie-toilets-ltd-ca-on/",
+      "title": "Black Tie Toilets Ltd | Construction & Jobsites in CA | Canada Washrooms",
+      "titleLength": 72,
+      "description": "Black Tie Toilets Ltd — construction & jobsites in CA. Service area: 2001 Albion Rd, Etobicoke, ON M9W 6V6. Google rating 3.4 (5 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 221
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/environmental-360-solutions-ca-on/",
+      "title": "Environmental 360 Solutions | Construction & Jobsites in CA | Canada Washrooms",
+      "titleLength": 78,
+      "description": "Environmental 360 Solutions — construction & jobsites in CA. Service area: 425 Kipling Ave, Etobicoke, ON M8Z 5C7. Google rating 2.6 (5 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 228
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/gt-portable-toilet-rental-inc-ca-on/",
+      "title": "GT Portable Toilet Rental Inc | Construction & Jobsites in CA | Canada Washrooms",
+      "titleLength": 80,
+      "description": "GT Portable Toilet Rental Inc — construction & jobsites in CA. Service area: 38 Metropolitan Rd, Scarborough, ON M1R 2T6. Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 204
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/rolling-rentals-ca-on/",
+      "title": "Rolling Rentals | Weddings & Events in CA | Canada Washrooms",
+      "titleLength": 60,
+      "description": "Rolling Rentals — weddings & events in CA. Service area: 1783 Albion Rd, Etobicoke, ON M9W 5S7. Google rating 5.0 (60 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 210
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/the-jackpot-portable-sanitation-services-ca-on/",
+      "title": "The Jackpot Portable Sanitation Services | Construction & Jobsites in CA | Canada Washrooms",
+      "titleLength": 91,
+      "description": "The Jackpot Portable Sanitation Services — construction & jobsites in CA. Service area: 77 Rivalda Rd, North York, ON M9M 2M6. Google rating 5.0 (7 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 240
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/throne-porta-potty-inc-ca-on/",
+      "title": "Throne Porta Potty Inc | Construction & Jobsites in CA | Canada Washrooms",
+      "titleLength": 73,
+      "description": "Throne Porta Potty Inc — construction & jobsites in CA. Service area: 230 Milvan Dr, North York, ON M9L 2A5. Google rating 5.0 (6 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 222
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/willscot-ca-on/",
+      "title": "WillScot | Construction & Jobsites in CA | Canada Washrooms",
+      "titleLength": 59,
+      "description": "WillScot — construction & jobsites in CA. Service area: 90 N Queen St, Etobicoke, ON M8Z 2C9. Google rating 4.7 (47 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 208
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/stone-mills-portable-toilet-rentals-centreville-on/",
+      "title": "Stone Mills Portable Toilet Rentals | Construction & Jobsites in Centreville | Canada Washrooms",
+      "titleLength": 95,
+      "description": "Stone Mills Portable Toilet Rentals — construction & jobsites in Centreville. Service area: Lennox and Addington County Rd 4, Centreville, ON K0K 1N0. Google rating 4.6 (18 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 265
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/a-1-toilet-rentals-clarksburg-on/",
+      "title": "A-1 Toilet Rentals | Construction & Jobsites in Clarksburg | Canada Washrooms",
+      "titleLength": 77,
+      "description": "A-1 Toilet Rentals — construction & jobsites in Clarksburg. Service area: 827464 Grey Rd 40, Clarksburg, ON N0H 1J0. Google rating 4.3 (11 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 231
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/the-jackpot-portable-sanitation-services-courtice-on/",
+      "title": "The Jackpot Portable Sanitation Services | Construction & Jobsites in Courtice | Canada Washrooms",
+      "titleLength": 97,
+      "description": "The Jackpot Portable Sanitation Services — construction & jobsites in Courtice. Service area: 9 Courtice Ct, Courtice, ON L1E 2T4. Google rating 5.0 (2 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 244
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/tp-toilets-inc-ennismore-on/",
+      "title": "TP Toilets Inc. | Construction & Jobsites in Ennismore | Canada Washrooms",
+      "titleLength": 73,
+      "description": "TP Toilets Inc. — construction & jobsites in Ennismore. Service area: 14 Darling Dr, Ennismore, ON K0L 1T0. Google rating 5.0 (11 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 222
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/huron-toilet-rentals-ltd-goderich-on/",
+      "title": "Huron Toilet Rentals Ltd. | Construction & Jobsites in Goderich | Canada Washrooms",
+      "titleLength": 82,
+      "description": "Huron Toilet Rentals Ltd. — construction & jobsites in Goderich. Service area: 79905B Pondsview Rd, Goderich, ON N7A 3X8. Google rating 5.0 (1 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 235
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/ampot-portable-toilets-gormley-on/",
+      "title": "Ampot Portable Toilets | Construction & Jobsites in Gormley | Canada Washrooms",
+      "titleLength": 78,
+      "description": "Ampot Portable Toilets — construction & jobsites in Gormley. Service area: 150 Ram Forest Rd, Gormley, ON L4A 2G8. Google rating 2.4 (8 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 228
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/nature-s-call-gormley-on/",
+      "title": "Nature's Call | Construction & Jobsites in Gormley | Canada Washrooms",
+      "titleLength": 69,
+      "description": "Nature's Call — construction & jobsites in Gormley. Service area: 36 Cardico Dr, Gormley, ON L4A 2G5. Google rating 3.9 (7 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 215
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/red-star-portable-hagersville-on/",
+      "title": "Red Star Portable | Remote & Oilfield Operations in Hagersville | Canada Washrooms",
+      "titleLength": 82,
+      "description": "Red Star Portable — remote & oilfield operations in Hagersville. Service area: 302 Army Camp Rd, Hagersville, ON N0A 1H0. Google rating 5.0 (5 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 235
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/five-stars-portable-toilets-hamilton-on/",
+      "title": "FIVE STARS PORTABLE TOILETS | Construction & Jobsites in Hamilton | Canada Washrooms",
+      "titleLength": 84,
+      "description": "FIVE STARS PORTABLE TOILETS — construction & jobsites in Hamilton. Service area: 60 Beach Rd, Hamilton, ON L8L 8K3. Google rating 4.3 (13 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 230
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/pitton-plumbing-portable-sanitation-hamilton-on/",
+      "title": "Pitton Plumbing Portable Sanitation | Construction & Jobsites in Hamilton | Canada Washrooms",
+      "titleLength": 92,
+      "description": "Pitton Plumbing Portable Sanitation — construction & jobsites in Hamilton. Service area: 566 Rennie St, Hamilton, ON L8H 3P5. Google rating 3.7 (3 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 239
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/chantler-s-environmental-services-hillsburgh-on/",
+      "title": "Chantler's Environmental Services | Construction & Jobsites in Hillsburgh | Canada Washrooms",
+      "titleLength": 92,
+      "description": "Chantler's Environmental Services — construction & jobsites in Hillsburgh. Service area: 9426 Wellington 22, Hillsburgh, ON N0B 1Z0. Google rating 3.6 (48 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 247
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/k-winter-sanitation-inc-innisfil-on/",
+      "title": "K. Winter Sanitation Inc | Construction & Jobsites in Innisfil | Canada Washrooms",
+      "titleLength": 81,
+      "description": "K. Winter Sanitation Inc — construction & jobsites in Innisfil. Service area: 2816 6th Line, Innisfil, ON L9S 4S4. Google rating 3.0 (29 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 229
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/pine-porta-potty-kingston-on/",
+      "title": "Pine Porta Potty | Construction & Jobsites in Kingston | Canada Washrooms",
+      "titleLength": 73,
+      "description": "Pine Porta Potty — construction & jobsites in Kingston. Service area: 50 Grant Timmins Dr Unit 3, Kingston, ON K7M 8N2. Google rating 5.0 (27 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 234
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/room-to-go-inc-millgrove-on/",
+      "title": "Room To Go Inc | Construction & Jobsites in Millgrove | Canada Washrooms",
+      "titleLength": 72,
+      "description": "Room To Go Inc — construction & jobsites in Millgrove. Service area: 1031 Hwy 6, Millgrove, ON L8B 1M7. Google rating 4.6 (20 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 218
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/centreline-sanitation-milton-on/",
+      "title": "Centreline Sanitation | Construction & Jobsites in Milton | Canada Washrooms",
+      "titleLength": 76,
+      "description": "Centreline Sanitation — construction & jobsites in Milton. Service area: 104 Bronte St N, Milton, ON L9T 2N5. Google rating 4.3 (11 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 224
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/four-seasons-portable-restrooms-mississauga-on/",
+      "title": "Four Seasons Portable Restrooms | Construction & Jobsites in Mississauga | Canada Washrooms",
+      "titleLength": 91,
+      "description": "Four Seasons Portable Restrooms — construction & jobsites in Mississauga. Service area: 2605 Summerville Ct, Mississauga, ON L4X 2W7. Google rating 4.7 (42 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 248
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/xpress-rental-solutions-inc-mississauga-on/",
+      "title": "Xpress Rental Solutions Inc | Construction & Jobsites in Mississauga | Canada Washrooms",
+      "titleLength": 87,
+      "description": "Xpress Rental Solutions Inc — construction & jobsites in Mississauga. Service area: 6660 Ordan Dr, Mississauga, ON L5T 1J7. Google rating 5.0 (8 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 237
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/m-g-portables-inc-new-hamburg-on/",
+      "title": "M & G Portables Inc. | Construction & Jobsites in New Hamburg | Canada Washrooms",
+      "titleLength": 80,
+      "description": "M & G Portables Inc. — construction & jobsites in New Hamburg. Service area: 2510 Nafziger Rd, New Hamburg, ON N3A 3H1. Google rating 5.0 (1 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 233
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/niagara-portable-toilets-niagara-falls-on/",
+      "title": "Niagara Portable Toilets | Construction & Jobsites in Niagara Falls | Canada Washrooms",
+      "titleLength": 86,
+      "description": "Niagara Portable Toilets — construction & jobsites in Niagara Falls. Service area: 7972 Thorold Townline Rd, Niagara Falls, ON L2H 1X9. Google rating 5.0 (82 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 250
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/ottawa-luxury-bathroom-trailers-ottawa-on/",
+      "title": "Ottawa Luxury Bathroom Trailers | Weddings & Events in Ottawa | Canada Washrooms",
+      "titleLength": 80,
+      "description": "Ottawa Luxury Bathroom Trailers — weddings & events in Ottawa. Service area: 7827 Jock Trail, Ottawa, ON K0A 2Z0. Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 196
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/portable-toilet-rentals-pefferlaw-on/",
+      "title": "Portable Toilet Rentals | Construction & Jobsites in Pefferlaw | Canada Washrooms",
+      "titleLength": 81,
+      "description": "Portable Toilet Rentals — construction & jobsites in Pefferlaw. Service area: 6420 Frog St, Pefferlaw, ON L0E 1N0. Google rating 4.2 (6 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 228
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/premium-portable-toilet-rentals-peterborough-on/",
+      "title": "Premium Portable Toilet Rentals | Construction & Jobsites in Peterborough | Canada Washrooms",
+      "titleLength": 92,
+      "description": "Premium Portable Toilet Rentals — construction & jobsites in Peterborough. Service area: Erskine Ave, Peterborough, ON K9J 5T6. Google rating 5.0 (8 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 241
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/lennex-temporary-fence-pickering-on/",
+      "title": "Lennex Temporary Fence | Construction & Jobsites in Pickering | Canada Washrooms",
+      "titleLength": 80,
+      "description": "Lennex Temporary Fence — construction & jobsites in Pickering. Service area: 1984 Notion Rd L1V 1C9, Pickering, ON L1W 3R3. Google rating 4.7 (30 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 238
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/event-ready-restrooms-st-thomas-on/",
+      "title": "Event Ready Restrooms | Weddings & Events in St Thomas | Canada Washrooms",
+      "titleLength": 73,
+      "description": "Event Ready Restrooms — weddings & events in St Thomas. Service area: 42703 Southdale Line, St Thomas, ON N5R 1C1. Google rating 5.0 (2 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 228
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/affordable-portables-st-williams-on/",
+      "title": "Affordable Portables | Remote & Oilfield Operations in St Williams | Canada Washrooms",
+      "titleLength": 85,
+      "description": "Affordable Portables — remote & oilfield operations in St Williams. Service area: 1019 Front Rd, St Williams, ON N0E 1P0. Google rating 4.3 (12 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 236
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/nature-s-call-vaughan-on/",
+      "title": "Nature's Call | Construction & Jobsites in Vaughan | Canada Washrooms",
+      "titleLength": 69,
+      "description": "Nature's Call — construction & jobsites in Vaughan. Service area: 177 Creditstone Rd, Vaughan, ON L4K 1N5. Google rating 3.3 (52 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 221
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/markle-s-pumping-service-waterdown-on/",
+      "title": "Markle's Pumping Service | Construction & Jobsites in Waterdown | Canada Washrooms",
+      "titleLength": 82,
+      "description": "Markle's Pumping Service — construction & jobsites in Waterdown. Service area: 526 Concession 5 W, Waterdown, ON L8B 1L5. Google rating 5.0 (3 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 235
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/halco-portables-welland-on/",
+      "title": "Halco Portables | Construction & Jobsites in Welland | Canada Washrooms",
+      "titleLength": 71,
+      "description": "Halco Portables — construction & jobsites in Welland. Service area: 42 Clark St, Welland, ON L3B 5W6. Google rating 4.7 (88 reviews). Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 216
+    },
+    {
+      "url": "https://canadawashrooms.ca/provider/platinum-vip-portables-wedding-special-event-washroom-rentals-welland-on/",
+      "title": "Platinum VIP Portables - Wedding, Special Event Washroom Rentals | Construction & Jobsites in Welland | Canada Washrooms",
+      "titleLength": 120,
+      "description": "Platinum VIP Portables - Wedding, Special Event Washroom Rentals — construction & jobsites in Welland. Service area: 42 Clark St Unit 2, Welland, ON L3B 5W6. Compare capabilities and contact details — confirm availability with the operator.",
+      "descriptionLength": 240
+    }
+  ],
+  "thinProviders": [],
+  "landingSlugs": {
+    "construction": "construction-portable-washrooms",
+    "event": "luxury-restroom-trailers",
+    "oilfield": "remote-site-sanitation",
+    "general": "portable-washroom-rentals",
+    "site_services": "waste-site-services"
+  },
+  "orphanCandidates": {
+    "city": [
+      "/city/calgary/",
+      "/city/edmonton/",
+      "/city/fort-mcmurray/",
+      "/city/red-deer/",
+      "/city/canmore/",
+      "/city/toronto/",
+      "/city/mississauga/",
+      "/city/brampton/",
+      "/city/hamilton/",
+      "/city/ottawa/",
+      "/city/london/",
+      "/city/vaughan/",
+      "/city/markham/",
+      "/city/surrey/",
+      "/city/vancouver/",
+      "/city/abbotsford/",
+      "/city/kelowna/",
+      "/city/nanaimo/",
+      "/city/coquitlam/",
+      "/city/victoria/"
+    ],
+    "category": [],
+    "providers": [
+      "/provider/fenceline-rentals-ltd-acheson-ab/",
+      "/provider/eh-royal-flush-portable-toilets-ardrossan-ab/",
+      "/provider/zero-spill-oilfield-services-ltd-beaverlodge-ab/",
+      "/provider/abc-waste-management-potties-ltd-calgary-ab/",
+      "/provider/alberta-trailer-rentals-calgary-ab/",
+      "/provider/avalanche-waste-management-inc-calgary-ab/",
+      "/provider/fenceline-rentals-ltd-calgary-calgary-ab/",
+      "/provider/pit-stop-portable-toilet-services-calgary-ab/",
+      "/provider/portabins-calgary-ab/",
+      "/provider/rhino-calgary-ab/",
+      "/provider/super-save-group-calgary-ab/",
+      "/provider/the-garbage-good-guys-calgary-ab/",
+      "/provider/united-rentals-calgary-ab/",
+      "/provider/vibe-event-rentals-calgary-ab/",
+      "/provider/willscot-calgary-ab/",
+      "/provider/canmore-septic-canmore-ab/",
+      "/provider/benoit-rentals-ltd-chauvin-ab/",
+      "/provider/mr-p-potty-ltd-cochrane-ab/",
+      "/provider/steelhead-ventures-ltd-cochrane-ab/",
+      "/provider/buckaday-toilets-drayton-valley-ab/",
+      "/provider/1st-choice-construction-waste-removal-edmonton-ab/",
+      "/provider/heartland-disposal-recycling-ltd-edmonton-ab/",
+      "/provider/p-cann-edmonton-ab/",
+      "/provider/p-cann-services-edmonton-ab/",
+      "/provider/p-pots-portable-washrooms-edmonton-ab/",
+      "/provider/pioneer-sanitary-solutions-ltd-edmonton-ab/",
+      "/provider/solv-x-enterprises-inc-edmonton-ab/",
+      "/provider/super-save-group-edmonton-ab/",
+      "/provider/alberta-toilets-septic-services-evansburg-ab/",
+      "/provider/go-services-inc-fort-mcmurray-ab/",
+      "/provider/gallason-industrial-cleaning-services-inc-fort-saskatchewan-ab/",
+      "/provider/bear-creek-rentals-inc-fox-creek-ab/",
+      "/provider/remote-group-grande-prairie-county-no-1-ab/",
+      "/provider/f5-services-hardisty-ab/",
+      "/provider/range-services-leduc-ab/",
+      "/provider/rockbox-structures-nisku-ab/",
+      "/provider/duty-calls-portables-ltd-okotoks-ab/",
+      "/provider/mcneely-co-rentals-olds-ab/",
+      "/provider/canmasters-inc-red-deer-ab/",
+      "/provider/go-services-inc-red-deer-ab/",
+      "/provider/little-jon-s-portable-toilet-rentals-red-deer-ab/",
+      "/provider/big-rock-waste-disposal-and-rentals-rocky-mountain-house-ab/",
+      "/provider/oli-s-portable-toilets-rental-rocky-mountain-house-ab/",
+      "/provider/rangeland-event-restrooms-rocky-view-county-ab/",
+      "/provider/range-services-sherwood-park-ab/",
+      "/provider/handi-can-2003-ltd-spruce-grove-ab/",
+      "/provider/frontline-rentals-div-of-combat-spraying-stettler-ab/",
+      "/provider/valleyview-sheet-metal-and-insulating-ltd-valleyview-ab/",
+      "/provider/aikam-rental-ltd-abbotsford-bc/",
+      "/provider/equinox-rentals-portable-trailer-washrooms-fences-septic-service-abbotsf/",
+      "/provider/scv-waste-management-septic-bins-armstrong-bc-armstrong-bc/",
+      "/provider/total-site-services-ltd-burnaby-bc/",
+      "/provider/vogue-luxury-restrooms-calgary-bc/",
+      "/provider/pioneer-sanitary-solutions-ltd-charlie-lake-bc/",
+      "/provider/coast-portable-toilet-rentals-chemainus-bc/",
+      "/provider/christina-porta-potty-rv-pumpout-service-christina-lake-bc/",
+      "/provider/full-moon-rentals-coquitlam-bc/",
+      "/provider/pit-stop-portable-toilet-services-coquitlam-bc/",
+      "/provider/equinox-rentals-portable-trailer-washrooms-fences-septic-service-delta-d/",
+      "/provider/bold-portable-rentals-kelowna-bc/",
+      "/provider/interior-portable-toilet-rentals-kelowna-bc/",
+      "/provider/primetime-washroom-rentals-langley-langley-bc/",
+      "/provider/sunrise-washroom-rentals-langley-twp-bc/",
+      "/provider/jiffy-john-rentals-ltd-maple-ridge-bc/",
+      "/provider/constance-portable-washroom-rentals-nanaimo-bc/",
+      "/provider/d-b-l-disposal-services-ltd-nanaimo-bc/",
+      "/provider/equinox-rentals-portable-trailer-washrooms-fences-septic-service-north-v/",
+      "/provider/vancouver-luxury-restrooms-pitt-meadows-bc/",
+      "/provider/prince-george-portable-toilet-services-ltd-prince-george-bc/",
+      "/provider/absolute-septic-service-qualicum-beach-bc/",
+      "/provider/all-haul-septic-quesnel-quesnel-bc/",
+      "/provider/budget-toilet-rentals-ltd-trailer-washroom-surrey-bc/",
+      "/provider/diamond-washroom-trailer-rentals-surrey-bc/",
+      "/provider/equinox-rentals-equinox-rentals-portable-trailer-washrooms-fences-septic/",
+      "/provider/exclusive-washroom-trailer-rentals-surrey-bc/",
+      "/provider/premier-site-services-bin-rentals-fence-rentals-toilet-rentals-surrey-bc/",
+      "/provider/prestige-event-services-inc-surrey-bc/",
+      "/provider/primetime-washroom-rentals-surrey-bc/",
+      "/provider/sj-luxury-toilet-rental-surrey-bc/",
+      "/provider/super-save-group-head-office-surrey-bc/",
+      "/provider/topstall-restroom-rentals-surrey-bc/",
+      "/provider/west-coast-disposal-portable-toilet-rental-surrey-bc/",
+      "/provider/western-luxury-trailer-washrooms-surrey-bc/",
+      "/provider/blue-jay-rentals-washroom-trailer-rentals-vancouver-bc/",
+      "/provider/west-coast-disposal-portable-toilet-rental-vancouver-bc/",
+      "/provider/super-save-group-victoria-bc/",
+      "/provider/daylight-equipment-whistler-bc/",
+      "/provider/black-tie-toilets-ancaster-on/",
+      "/provider/suite-moves-arnprior-on/",
+      "/provider/kaneco-group-premium-portable-washroom-rentals-blackstock-on/",
+      "/provider/rental-save-bolton-on/",
+      "/provider/go-to-ready-loo-brampton-on/",
+      "/provider/halco-portable-washrooms-brantford-on/",
+      "/provider/black-tie-toilets-ltd-ca-on/",
+      "/provider/environmental-360-solutions-ca-on/",
+      "/provider/gt-portable-toilet-rental-inc-ca-on/",
+      "/provider/rolling-rentals-ca-on/",
+      "/provider/the-jackpot-portable-sanitation-services-ca-on/",
+      "/provider/throne-porta-potty-inc-ca-on/",
+      "/provider/willscot-ca-on/",
+      "/provider/stone-mills-portable-toilet-rentals-centreville-on/",
+      "/provider/a-1-toilet-rentals-clarksburg-on/",
+      "/provider/the-jackpot-portable-sanitation-services-courtice-on/",
+      "/provider/tp-toilets-inc-ennismore-on/",
+      "/provider/huron-toilet-rentals-ltd-goderich-on/",
+      "/provider/ampot-portable-toilets-gormley-on/",
+      "/provider/nature-s-call-gormley-on/",
+      "/provider/red-star-portable-hagersville-on/",
+      "/provider/five-stars-portable-toilets-hamilton-on/",
+      "/provider/pitton-plumbing-portable-sanitation-hamilton-on/",
+      "/provider/chantler-s-environmental-services-hillsburgh-on/",
+      "/provider/k-winter-sanitation-inc-innisfil-on/",
+      "/provider/pine-porta-potty-kingston-on/",
+      "/provider/room-to-go-inc-millgrove-on/",
+      "/provider/centreline-sanitation-milton-on/",
+      "/provider/four-seasons-portable-restrooms-mississauga-on/",
+      "/provider/xpress-rental-solutions-inc-mississauga-on/",
+      "/provider/m-g-portables-inc-new-hamburg-on/",
+      "/provider/niagara-portable-toilets-niagara-falls-on/",
+      "/provider/ottawa-luxury-bathroom-trailers-ottawa-on/",
+      "/provider/portable-toilet-rentals-pefferlaw-on/",
+      "/provider/premium-portable-toilet-rentals-peterborough-on/",
+      "/provider/lennex-temporary-fence-pickering-on/",
+      "/provider/event-ready-restrooms-st-thomas-on/",
+      "/provider/affordable-portables-st-williams-on/",
+      "/provider/nature-s-call-vaughan-on/",
+      "/provider/markle-s-pumping-service-waterdown-on/",
+      "/provider/halco-portables-welland-on/",
+      "/provider/platinum-vip-portables-wedding-special-event-washroom-rentals-welland-on/"
+    ]
+  }
+}
