@@ -3,12 +3,13 @@ import { AppShell } from '../components/AppShell'
 import { EditorialChrome, EditorialSection } from '../components/editorial/EditorialChrome'
 import { DocumentMeta } from '../components/seo/DocumentMeta'
 import { TRANSPARENCY } from '../lib/transparencyCopy'
+import { formatSynonymList } from '../lib/seo/canadianTerminology'
 import { buildStaticDocumentMeta } from '../seo/metadata'
 
 const meta = buildStaticDocumentMeta({
   title: 'Methodology',
   description:
-    'How Canada Washrooms matches portable sanitation operators in Alberta: cohort ranking, enrichment passes, review signal inference, and segment categorization — without marketing claims.',
+    'How Canada Washrooms matches portable washroom, portable toilet, and porta-potty operators across Canada — cohort ranking, enrichment, and segment categorization without marketing claims.',
   canonicalPath: '/methodology',
 })
 
@@ -23,9 +24,10 @@ export default function MethodologyPage() {
               Matching starts from your{' '}
               <strong className="font-semibold text-cwr-steel">segment</strong> (construction, luxury
               event trailers, remote industrial, or general rental) and a{' '}
-              <strong className="font-semibold text-cwr-steel">priority city</strong>. Operators must be in
-              cohort for that city; secondary-fit operators may appear when they support the segment but
-              classify differently.
+              <strong className="font-semibold text-cwr-steel">priority city</strong>. Search queries
+              using {formatSynonymList({ conjunction: 'or' })} resolve to the same portable
+              sanitation intent — operators must be in cohort for that city; secondary-fit operators
+              may appear when they support the segment but classify differently.
             </p>
             <p>
               Optional <strong className="font-semibold text-cwr-steel">capability filters</strong> narrow

@@ -31,12 +31,12 @@ export const SEGMENT_SEO: Record<PrimarySegment, SegmentSeoDefinition> = {
   construction: {
     slug: 'construction-portable-washrooms',
     titleTemplate:
-      'Construction portable washrooms in {city} — crews, servicing & long-term rentals',
+      'Portable washroom & portable toilet rentals in {city} — construction jobsites',
     metaDescriptionTemplate:
-      'Operational portable sanitation for {city} construction: serviced routes, crew-scale capacity, and seasonal realities including freeze–thaw and mud cycles. Compare operators matched to jobsite logistics — not a generic directory.',
+      'Compare portable washroom, portable toilet, and porta-potty providers for {city} construction sites, crew programs, and temporary worksites.',
     h1Template: 'Construction portable washrooms built for {city} jobsites',
     introTemplate:
-      'Crew throughput, gate access, and pump-truck cadence decide whether a washroom line works on a jobsite — not brochure photos. This guide surfaces operators positioned for construction logistics in {city}: long-term rental posture, scheduled servicing, handwash and hygiene add-ons, and units that hold up through weather without shutting down your hygiene plan.',
+      'Construction sites often require portable toilets, portable washrooms, handwashing stations, and temporary sanitation facilities. Crew throughput, gate access, and pump-truck cadence decide whether a washroom line works on a jobsite — not brochure photos. This guide surfaces operators positioned for construction logistics in {city}: long-term rental posture, scheduled servicing, handwash and hygiene add-ons, and units that hold up through weather without shutting down your hygiene plan.',
     breadcrumbLabel: 'Construction & jobsites',
     capabilityBadges: [
       'Scheduled jobsite servicing',
@@ -58,12 +58,13 @@ export const SEGMENT_SEO: Record<PrimarySegment, SegmentSeoDefinition> = {
   },
   event: {
     slug: 'luxury-restroom-trailers',
-    titleTemplate: 'Luxury restroom trailers in {city} — weddings, venues & guest comfort',
+    titleTemplate:
+      'Portable restroom & washroom rentals in {city} — events & weddings',
     metaDescriptionTemplate:
-      'Upscale portable restrooms for {city} events: trailer-grade finishes, flush systems, and layouts suited to weddings and venue settings. Practical notes on guest capacity, servicing windows, and seasonal considerations — curated for planners who care about guest experience.',
+      'Compare portable restroom, portable washroom, and porta-potty providers for {city} weddings, festivals, and outdoor events — trailer and standard units.',
     h1Template: 'Luxury restroom trailers for {city} events and venues',
     introTemplate:
-      'Guest comfort is operational: queueing, lighting, hand washing, and pump service timing. For {city} weddings, festivals, and private venues — especially where access and elevation matter — trailer-grade restrooms often outperform standard singles. Use this page to compare operators aligned to upscale events, flush systems, and planner-friendly servicing.',
+      'Event planners may search for portable restrooms, portable washrooms, or porta-potties depending on the type of gathering. Guest comfort is operational: queueing, lighting, hand washing, and pump service timing. For {city} weddings, festivals, and private venues — especially where access and elevation matter — trailer-grade restrooms often outperform standard singles. Use this page to compare operators aligned to upscale events, flush systems, and planner-friendly servicing.',
     breadcrumbLabel: 'Luxury restroom trailers',
     capabilityBadges: [
       'Upscale trailer layouts',
@@ -86,12 +87,12 @@ export const SEGMENT_SEO: Record<PrimarySegment, SegmentSeoDefinition> = {
   oilfield: {
     slug: 'remote-site-sanitation',
     titleTemplate:
-      'Remote site sanitation in {city} — camps, heated units & industrial servicing',
+      'Portable toilet & washroom rentals in {city} — remote & oilfield sites',
     metaDescriptionTemplate:
-      'Industrial portable sanitation for {city}-area remote operations: winterized posture, camp support experience, and servicing assumptions for lease roads and restricted-access sites. Operators listed here are segmented for remote and industrial logistics — verify heating, tank sizing, and dispatch SLAs directly before mobilization.',
+      'Compare portable toilet and winter-ready portable washroom providers for {city}-area remote camps, lease roads, and industrial operations.',
     h1Template: 'Remote site sanitation for {city} industrial operations',
     introTemplate:
-      '{city} corridors can tie together remote camps, turnaround windows, and seasonal access constraints. Sanitation has to keep pace with occupancy swings, frozen lines, and routes that do not tolerate fragile gear. This landing focuses on operators equipped for remote and industrial contexts: winterized inventory where applicable, camp-aware logistics, and field servicing posture suited to demanding operating environments.',
+      'Remote projects frequently require portable toilets and winter-ready sanitation equipment. {city} corridors can tie together remote camps, turnaround windows, and seasonal access constraints. Sanitation has to keep pace with occupancy swings, frozen lines, and routes that do not tolerate fragile gear. This landing focuses on operators equipped for remote and industrial contexts: winterized inventory where applicable, camp-aware logistics, and field servicing posture suited to demanding operating environments.',
     breadcrumbLabel: 'Remote & oilfield operations',
     capabilityBadges: [
       'Winterized & heated inventory',
@@ -114,12 +115,12 @@ export const SEGMENT_SEO: Record<PrimarySegment, SegmentSeoDefinition> = {
   general: {
     slug: 'portable-washroom-rentals',
     titleTemplate:
-      'Portable washroom rentals in {city} — short-term, residential-friendly & practical',
+      'Portable washroom & portable toilet rentals in {city}',
     metaDescriptionTemplate:
-      'Straightforward portable washroom rentals in {city}: short-term drops, accessibility options, handwash stations, and septic partnerships where operators provide them. Built for practical projects where you need capacity fast — without wading through unrelated categories.',
+      'Compare portable washroom, portable toilet, and porta-potty providers for everyday {city} rental projects — short-term drops and practical coverage.',
     h1Template: 'Portable washroom rentals for everyday {city} projects',
     introTemplate:
-      'Not every job is a megaproject — but timelines, property access, and basic compliance still matter. For {city}, this page highlights operators oriented to everyday portable washroom needs: quick mobilization, ADA-capable inventory where available, handwash add-ons, and septic or pumping partnerships when your scope requires them.',
+      'Everyday projects often start with a search for portable toilets, porta-potties, or portable washrooms — the equipment is the same category of rental. Not every job is a megaproject — but timelines, property access, and basic compliance still matter. For {city}, this page highlights operators oriented to everyday portable washroom needs: quick mobilization, ADA-capable inventory where available, handwash add-ons, and septic or pumping partnerships when your scope requires them.',
     breadcrumbLabel: 'Portable washroom rentals',
     capabilityBadges: [
       'Short-term mobilization',
@@ -142,12 +143,12 @@ export const SEGMENT_SEO: Record<PrimarySegment, SegmentSeoDefinition> = {
   site_services: {
     slug: 'waste-site-services',
     titleTemplate:
-      'Waste & site services in {city} — septic, roll-off, and construction support',
+      'Waste & site services in {city} — septic, roll-off & portable sanitation',
     metaDescriptionTemplate:
-      'Integrated waste and site-service operators in {city}: septic handling, roll-off and disposal partners, and construction-site support beyond portable toilets alone. Compare firms that bundle sanitation with broader site logistics.',
+      'Compare integrated portable sanitation, septic, roll-off, and site-service providers serving {city} construction and infrastructure projects.',
     h1Template: 'Waste & site services for {city} construction and infrastructure work',
     introTemplate:
-      'Many operators are not pure portable-toilet companies — they run septic routes, roll-off programs, disposal partnerships, and broader site support. For {city} projects that need integrated servicing, this guide surfaces operators positioned for waste handling and temporary site logistics alongside washroom capacity.',
+      'Integrated site programs may combine portable toilets, septic service, and broader temporary sanitation support. Many operators are not pure portable-toilet companies — they run septic routes, roll-off programs, disposal partnerships, and broader site support. For {city} projects that need integrated servicing, this guide surfaces operators positioned for waste handling and temporary site logistics alongside washroom capacity.',
     breadcrumbLabel: 'Waste & site services',
     capabilityBadges: [
       'Septic & fluid handling',

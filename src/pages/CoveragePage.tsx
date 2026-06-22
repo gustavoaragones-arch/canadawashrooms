@@ -3,15 +3,19 @@ import { Link } from 'react-router-dom'
 import { AppShell } from '../components/AppShell'
 import { EditorialChrome, EditorialSection } from '../components/editorial/EditorialChrome'
 import { DocumentMeta } from '../components/seo/DocumentMeta'
+import { JsonLd } from '../components/seo/JsonLd'
+import { TerminologyFaq } from '../components/seo/TerminologyFaq'
 import { segmentLabel } from '../lib/segments'
+import { formatSynonymList } from '../lib/seo/canadianTerminology'
 import { LIVE_PROVINCES } from '../lib/locations/canadaLocations'
 import { allResolvedLandings, listingPath } from '../seo/landingRoutes'
 import { buildStaticDocumentMeta } from '../seo/metadata'
+import { buildTerminologyFaqJsonLd } from '../seo/schema'
 
 const meta = buildStaticDocumentMeta({
   title: 'Coverage',
   description:
-    'Provinces and cities with published portable washroom guides on Canada Washrooms. Live in Alberta, Ontario, and British Columbia.',
+    'Provinces and cities with published portable washroom, portable toilet, and porta-potty guides on Canada Washrooms. Live in Alberta, Ontario, and British Columbia.',
   canonicalPath: '/coverage',
 })
 
@@ -31,6 +35,7 @@ export default function CoveragePage() {
   return (
     <>
       <DocumentMeta meta={meta} />
+      <JsonLd data={buildTerminologyFaqJsonLd(meta.canonicalUrl)} />
       <AppShell>
         <EditorialChrome kicker="Coverage" title="National portable washroom coverage">
 
@@ -43,8 +48,9 @@ export default function CoveragePage() {
               Coverage expands as province datasets are curated.
             </p>
             <p>
-              Presence on this site means a listing is in the curated cohort for the routed
-              city and category. It does not imply guaranteed availability, verified
+              Listings cover the same portable sanitation category whether you search for{' '}
+              {formatSynonymList()}. Presence on this site means a listing is in the curated cohort
+              for the routed city and category. It does not imply guaranteed availability, verified
               certification, or province-wide dispatch — confirm all details directly with
               the operator.
             </p>
@@ -123,6 +129,10 @@ export default function CoveragePage() {
               </Link>
             </p>
           </EditorialSection>
+
+          <div className="mt-12 border-t border-cwr-border pt-10">
+            <TerminologyFaq />
+          </div>
 
         </EditorialChrome>
       </AppShell>

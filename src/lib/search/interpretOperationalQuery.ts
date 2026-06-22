@@ -1,3 +1,7 @@
+import {
+  applyPortableSanitationPhraseNormalization,
+  expandPortableSanitationTokens,
+} from '../seo/canadianTerminology'
 import { CANADA_PROVINCES, LIVE_CITIES } from '../locations/canadaLocations'
 import type { FilterCapability, PrimarySegment } from '../../types/provider'
 
@@ -37,7 +41,6 @@ const TOKEN_CORRECTIONS: Record<string, string> = {
 
 /** Multi-token phrases → normalized expansion (added as synthetic tokens). */
 const PHRASE_EXPANSIONS: [RegExp, string][] = [
-  [/porta[\s-]?pott(y|ies)/gi, ' portable toilet washroom rental '],
   [/wash\s*room/gi, ' washroom '],
   [/rest\s*room/gi, ' restroom '],
   [/flush\s*toilet(s)?/gi, ' flush toilets flushing '],
@@ -191,7 +194,19 @@ function inferSegmentsAndCapabilities(tokens: Set<string>): {
     impliedCapabilities.add('handwash_available')
   }
 
-  if (has('portable', 'washroom', 'toilet', 'rental')) {
+  if (
+    has(
+      'portable',
+      'washroom',
+      'toilet',
+      'restroom',
+      'porta',
+      'portapotty',
+      'sanitation',
+      'portable_sanitation',
+      'rental',
+    )
+  ) {
     segmentHints.add('general')
     segmentHints.add('construction')
   }
@@ -219,6 +234,8 @@ export function interpretOperationalQuery(rawInput: string): InterpretedOperatio
     }
   }
 
+  raw = applyPortableSanitationPhraseNormalization(raw)
+
   for (const [re, replacement] of PHRASE_EXPANSIONS) {
     raw = raw.replace(re, replacement)
   }
@@ -230,6 +247,8 @@ export function interpretOperationalQuery(rawInput: string): InterpretedOperatio
   tokens = expandOperationalTokens(tokens)
 
   const tokenSet = new Set(tokens)
+  expandPortableSanitationTokens(tokenSet)
+  tokens = [...tokenSet]
   const { segmentHints, impliedCapabilities, impliedInferenceKeys } =
     inferSegmentsAndCapabilities(tokenSet)
 
@@ -264,7 +283,11 @@ export function relaxOperationalTypos(tokens: string[]): string[] {
     'septic',
     'handwash',
     'washroom',
+    'restroom',
+    'toilet',
     'portable',
+    'porta',
+    'sanitation',
   ]
 
   function lev(a: string, b: string): number {

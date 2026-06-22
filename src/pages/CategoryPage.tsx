@@ -2,7 +2,10 @@ import { Link, useParams, useLocation, Navigate } from 'react-router-dom'
 import { AppShell } from '../components/AppShell'
 import { ProviderCard } from '../components/ProviderCard'
 import { DocumentMeta } from '../components/seo/DocumentMeta'
+import { JsonLd } from '../components/seo/JsonLd'
+import { TerminologyFaq } from '../components/seo/TerminologyFaq'
 import { buildStaticDocumentMeta } from '../seo/metadata'
+import { buildTerminologyFaqJsonLd } from '../seo/schema'
 import { CANADA_PROVINCES } from '../lib/locations/canadaLocations'
 import { PROVIDERS } from '../lib/providersDataset'
 import { getFeaturedProviders } from '../lib/getFeaturedProviders'
@@ -131,6 +134,7 @@ export default function CategoryPage() {
   return (
     <>
       <DocumentMeta meta={meta} />
+      <JsonLd data={buildTerminologyFaqJsonLd(meta.canonicalUrl)} />
       <AppShell>
         <div className="mx-auto max-w-5xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14">
 
@@ -242,10 +246,11 @@ export default function CategoryPage() {
           ) : null}
 
           {/* Footer nav */}
-          <div className="mt-12 border-t border-cwr-border pt-8 text-sm text-cwr-muted">
+          <div className="mt-12 border-t border-cwr-border pt-8">
+            <TerminologyFaq className="pb-8" />
             <Link
               to="/providers"
-              className="font-semibold text-cwr-accent underline-offset-4 hover:underline"
+              className="text-sm font-semibold text-cwr-accent underline-offset-4 hover:underline"
             >
               ← All providers
             </Link>

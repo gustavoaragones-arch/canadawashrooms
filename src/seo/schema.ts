@@ -1,5 +1,6 @@
 import { SITE_NAME, SITE_ORIGIN } from '../config/site'
 import { OWNER } from '../config/owner'
+import { TERMINOLOGY_FAQ } from '../lib/seo/canadianTerminology'
 import type { Provider } from '../types/provider'
 import type { ResolvedLanding } from './landingRoutes'
 import type { FaqItem } from './faqs'
@@ -125,8 +126,11 @@ export function buildLandingJsonLd(params: {
   }
 }
 
-/** JSON-LD for homepage — WebSite + WebPage + Organization. */
+/** JSON-LD for homepage — WebSite + WebPage + Organization + terminology FAQ. */
 export function buildHomeJsonLd(meta: LandingDocumentMeta): Record<string, unknown> {
+  const faqPage = buildTerminologyFaqJsonLd(meta.canonicalUrl)
+  const faqGraph = (faqPage['@graph'] as Record<string, unknown>[]) ?? [faqPage]
+
   return {
     '@context': 'https://schema.org',
     '@graph': [
@@ -156,6 +160,30 @@ export function buildHomeJsonLd(meta: LandingDocumentMeta): Record<string, unkno
         description: meta.description,
         isPartOf: { '@id': `${SITE_ORIGIN}/#website` },
       },
+      ...faqGraph,
     ],
+  }
+}
+
+/** Shared terminology FAQ schema for editorial and category pages. */
+export function buildTerminologyFaqJsonLd(pageUrl: string): Record<string, unknown> {
+  const faqPage: Record<string, unknown> = {
+    '@type': 'FAQPage',
+    '@id': `${pageUrl}#terminology-faq`,
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: TERMINOLOGY_FAQ.question,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: TERMINOLOGY_FAQ.answer,
+        },
+      },
+    ],
+  }
+
+  return {
+    '@context': 'https://schema.org',
+    '@graph': [faqPage],
   }
 }

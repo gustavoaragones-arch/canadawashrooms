@@ -1,4 +1,5 @@
 import { FlowSteps } from './FlowSteps'
+import { compareProvidersCopy } from '../lib/seo/canadianTerminology'
 import type { PrimarySegment } from '../types/provider'
 import type { PriorityCity } from '../lib/segments'
 
@@ -36,7 +37,7 @@ export function Hero({ segment, city }: HeroProps) {
           Across Canada
         </h1>
         <p className="mt-4 max-w-2xl text-base leading-relaxed text-cwr-steel sm:mt-5 sm:text-lg">
-          Compare portable toilet, restroom trailer, construction site, and event washroom providers
+          {compareProvidersCopy()} Browse restroom trailer, construction site, and event providers
           across Alberta, Ontario, and British Columbia.{' '}
           <span className="font-medium text-cwr-ink">Confirm availability and pricing directly with each operator</span>{' '}
           before you book.

@@ -10,6 +10,7 @@ import { MatchWorkspace } from '../components/MatchWorkspace'
 import { ProviderCard } from '../components/ProviderCard'
 import { DocumentMeta } from '../components/seo/DocumentMeta'
 import { JsonLd } from '../components/seo/JsonLd'
+import { TerminologyFaq } from '../components/seo/TerminologyFaq'
 import { defaultSiteMeta } from '../seo/metadata'
 import { buildHomeJsonLd } from '../seo/schema'
 import { CANADA_PROVINCES } from '../lib/locations/canadaLocations'
@@ -227,6 +228,9 @@ export default function HomePage() {
             </section>
             <ProvinceSection />
             <FeaturedProviders />
+            <section className="mx-auto max-w-6xl px-4 pb-20 sm:px-6 lg:px-8">
+              <TerminologyFaq heading="Portable washroom terminology in Canada" />
+            </section>
           </>
         )}
       </AppShell>

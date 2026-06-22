@@ -18,6 +18,7 @@ import { getProviderBySlug, relatedProviders } from '../lib/providersLookup'
 import { segmentLandingPath } from '../seo/landingRoutes'
 import { buildProviderDocumentMeta } from '../seo/providerPageMeta'
 import { buildProviderLocalBusinessJsonLd } from '../seo/providerSchema'
+import { providerLexiconNote } from '../lib/seo/canadianTerminology'
 import { TRANSPARENCY } from '../lib/transparencyCopy'
 
 function telHref(phone: string): string {
@@ -255,6 +256,9 @@ export default function ProviderPage() {
             <h2 id="provider-fit-heading" className="text-lg font-semibold text-cwr-ink">
               Best suited for
             </h2>
+            <p className="mt-2 text-sm leading-relaxed text-cwr-muted">
+              {providerLexiconNote()}
+            </p>
             <p className="mt-2 text-sm text-cwr-muted">
               Inferred from listing signals and enrichment — confirm directly with the operator.
             </p>

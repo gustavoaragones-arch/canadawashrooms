@@ -1,6 +1,7 @@
 import { SITE_NAME, SITE_ORIGIN } from '../config/site'
 import type { ResolvedLanding } from './landingRoutes'
 import { listingPath } from './landingRoutes'
+import { formatSynonymList } from '../lib/seo/canadianTerminology'
 import { fillCity, SEGMENT_SEO } from './segmentSeo'
 
 export interface LandingDocumentMeta {
@@ -64,7 +65,7 @@ export function defaultSiteMeta(): LandingDocumentMeta {
   const canonicalUrl = `${SITE_ORIGIN}/`
   const title = 'Portable Washroom Rentals Across Canada | CanadaWashrooms.ca'
   const description =
-    'Find portable washroom, portable toilet, restroom trailer, construction site, and sanitation service providers across Alberta, Ontario, and British Columbia.'
+    `Find ${formatSynonymList()}, restroom trailer, construction site, and sanitation service providers across Alberta, Ontario, and British Columbia.`
   return {
     title,
     description,

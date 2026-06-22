@@ -5,6 +5,8 @@ export interface FaqItem {
   answer: string
 }
 
+export { TERMINOLOGY_FAQ } from '../lib/seo/canadianTerminology'
+
 export const SEGMENT_FAQS: Record<PrimarySegment, FaqItem[]> = {
   construction: [
     {
