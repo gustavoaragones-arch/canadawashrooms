@@ -26,7 +26,7 @@ export function MatchSummaryPanel({
             </h2>
             <div className="mt-3 flex flex-wrap gap-2 text-xs font-medium text-cwr-muted">
               <span className="rounded-md border border-cwr-border bg-cwr-bg px-2 py-1 text-cwr-steel">
-                AB · ON · BC · live listings
+                AB · SK · ON · BC · live listings
               </span>
               <span className="rounded-md border border-cwr-border bg-cwr-bg px-2 py-1 text-cwr-steel">
                 Research only — confirm with operators

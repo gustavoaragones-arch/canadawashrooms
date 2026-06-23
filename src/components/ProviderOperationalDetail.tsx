@@ -1,20 +1,13 @@
-import type { FilterCapability, PrimarySegment, Provider } from '../types/provider'
+import type { Provider } from '../types/provider'
 
 interface ProviderOperationalDetailProps {
   provider: Provider
-  activeSegment: PrimarySegment
-  activeCapabilities: FilterCapability[]
 }
 
 /**
- * Inline operational note shown below the feature badges on a provider card.
- * Only renders when the provider has a curated operational_notes string.
- * All internal matching vocabulary has been removed from cards — see ProviderPage
- * for the full detail view.
+ * Curated operator note on provider cards — human-written text only.
  */
-export function ProviderOperationalDetail({
-  provider,
-}: ProviderOperationalDetailProps) {
+export function ProviderOperationalDetail({ provider }: ProviderOperationalDetailProps) {
   if (!provider.operational_notes) return null
 
   return (
