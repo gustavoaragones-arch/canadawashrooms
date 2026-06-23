@@ -9,7 +9,7 @@ import { DocumentMeta } from '../components/seo/DocumentMeta'
 import { JsonLd } from '../components/seo/JsonLd'
 import { emitProductionAnalytics } from '../lib/analytics/productionAnalytics'
 import { segmentDisplayLabel } from '../lib/providerDetail'
-import { getProviderBySlug, relatedProviders } from '../lib/providersLookup'
+import { getProviderBySlug, relatedProviders, relatedProvidersHeading } from '../lib/providersLookup'
 import { segmentLandingPath } from '../seo/landingRoutes'
 import { buildProviderDocumentMeta } from '../seo/providerPageMeta'
 import { buildProviderLocalBusinessJsonLd } from '../seo/providerSchema'
@@ -39,7 +39,9 @@ export default function ProviderPage() {
 
   const meta = buildProviderDocumentMeta(provider)
   const jsonLd = buildProviderLocalBusinessJsonLd(provider, meta)
-  const related = relatedProviders(provider, { limit: 5 })
+  const relatedResult = relatedProviders(provider, { limit: 5 })
+  const related = relatedResult.providers
+  const relatedHeading = relatedProvidersHeading(relatedResult.scope, provider)
   const segmentGuidePath = segmentLandingPath(provider.primary_segment, provider.city)
   const segmentTitle = segmentDisplayLabel(provider.primary_segment)
   const locationLine = [
@@ -236,11 +238,9 @@ export default function ProviderPage() {
               aria-labelledby="related-providers-heading"
             >
               <h2 id="related-providers-heading" className="text-lg font-semibold text-cwr-ink">
-                Similar providers nearby
+                {relatedHeading.title}
               </h2>
-              <p className="mt-2 text-sm text-cwr-muted">
-                Other portable washroom operators in {provider.city} and surrounding areas.
-              </p>
+              <p className="mt-2 text-sm text-cwr-muted">{relatedHeading.subtitle}</p>
               <div className="mt-8 flex flex-col gap-6">
                 {related.map((p) => (
                   <ProviderCard
