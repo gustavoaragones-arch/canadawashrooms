@@ -15,11 +15,12 @@ import { buildTerminologyFaqJsonLd } from '../seo/schema'
 const meta = buildStaticDocumentMeta({
   title: 'Coverage',
   description:
-    'Provinces and cities with published portable washroom, portable toilet, and porta-potty guides on Canada Washrooms. Live in Alberta, Ontario, and British Columbia.',
+    'Provinces and cities with published portable washroom, portable toilet, and porta-potty guides on Canada Washrooms. Live in Alberta, Saskatchewan, Ontario, and British Columbia.',
   canonicalPath: '/coverage',
 })
 
 const AB_CITIES = new Set(['calgary', 'edmonton', 'fort-mcmurray', 'red-deer', 'canmore'])
+const SK_CITIES = new Set(['saskatoon', 'regina', 'prince-albert', 'moose-jaw', 'swift-current'])
 const ON_CITIES = new Set(['toronto', 'mississauga', 'brampton', 'hamilton', 'ottawa', 'london', 'vaughan', 'markham'])
 const BC_CITIES = new Set(['surrey', 'vancouver', 'abbotsford', 'kelowna', 'nanaimo', 'coquitlam', 'victoria', 'whistler'])
 
@@ -28,6 +29,7 @@ export default function CoveragePage() {
 
   const routesByProvince = useMemo(() => ({
     AB: routes.filter((r) => AB_CITIES.has(r.citySlug)),
+    SK: routes.filter((r) => SK_CITIES.has(r.citySlug)),
     ON: routes.filter((r) => ON_CITIES.has(r.citySlug)),
     BC: routes.filter((r) => BC_CITIES.has(r.citySlug)),
   }), [routes])
@@ -43,6 +45,7 @@ export default function CoveragePage() {
             <p>
               Canada Washrooms is now live in{' '}
               <strong className="font-semibold text-cwr-steel">Alberta</strong>,{' '}
+              <strong className="font-semibold text-cwr-steel">Saskatchewan</strong>,{' '}
               <strong className="font-semibold text-cwr-steel">Ontario</strong>, and{' '}
               <strong className="font-semibold text-cwr-steel">British Columbia</strong>.
               Coverage expands as province datasets are curated.
@@ -71,6 +74,23 @@ export default function CoveragePage() {
             <EditorialSection title="Alberta — published routes">
               <ul className="mt-4 space-y-2 border-t border-cwr-border pt-4">
                 {routesByProvince.AB.map((r) => (
+                  <li key={`${r.segmentSlug}-${r.citySlug}`}>
+                    <Link
+                      to={listingPath(r)}
+                      className="text-sm font-semibold text-cwr-accent underline-offset-4 hover:underline"
+                    >
+                      {segmentLabel(r.segment)} — {r.city}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </EditorialSection>
+          ) : null}
+
+          {routesByProvince.SK.length > 0 ? (
+            <EditorialSection title="Saskatchewan — published routes">
+              <ul className="mt-4 space-y-2 border-t border-cwr-border pt-4">
+                {routesByProvince.SK.map((r) => (
                   <li key={`${r.segmentSlug}-${r.citySlug}`}>
                     <Link
                       to={listingPath(r)}

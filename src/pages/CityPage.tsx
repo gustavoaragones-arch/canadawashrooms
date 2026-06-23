@@ -13,6 +13,7 @@ import type { PrimarySegment } from '../types/provider'
 
 const PROVINCE_SLUGS: Record<string, string> = {
   AB: 'alberta',
+  SK: 'saskatchewan',
   ON: 'ontario',
   BC: 'british-columbia',
 }

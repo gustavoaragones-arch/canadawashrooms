@@ -21,6 +21,7 @@ import type { PrimarySegment } from '../types/provider'
 
 const PROVINCE_SLUGS: Record<string, string> = {
   AB: 'alberta',
+  SK: 'saskatchewan',
   ON: 'ontario',
   BC: 'british-columbia',
 }
@@ -89,7 +90,7 @@ function ProvinceSection() {
       >
         Browse by province
       </h2>
-      <div className="mt-4 grid gap-4 sm:grid-cols-3">
+      <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         {provinceCounts.map((p) => (
           <Link
             key={p.code}

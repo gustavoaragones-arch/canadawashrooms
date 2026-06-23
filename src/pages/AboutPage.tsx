@@ -47,7 +47,7 @@ export default function AboutPage() {
           <EditorialSection title="Coverage">
             <p>
               The directory is currently live in{' '}
-              <strong className="font-semibold text-cwr-steel">Alberta, Ontario, and British Columbia</strong>.
+              <strong className="font-semibold text-cwr-steel">Alberta, Saskatchewan, Ontario, and British Columbia</strong>.
               Coverage is intentional — curated operators with verified contact information,
               not a bulk-scraped map.
             </p>

@@ -98,7 +98,7 @@ function buildExpectedInventory(): UrlRecord[] {
   return out
 }
 
-function staticMeta(title: string, description: string, path: string) {
+function staticMeta(title: string, description: string) {
   const fullTitle = `${title} | ${SITE_NAME}`
   return { title: fullTitle, description }
 }
@@ -134,14 +134,14 @@ function assignMetadata(records: UrlRecord[]): UrlRecord[] {
   }
   const staticMetaMap: Record<string, { title: string; description: string }> = {
     '/': home,
-    '/about/': staticMeta('About Canada Washrooms', 'Independent provider discovery for portable washroom rentals across Canada.', '/about/'),
-    '/methodology/': staticMeta('Methodology', 'How Canada Washrooms curates portable washroom provider listings.', '/methodology/'),
-    '/contact/': staticMeta('Contact', 'Contact Canada Washrooms.', '/contact/'),
-    '/coverage/': staticMeta('Coverage', 'Provincial and city coverage for portable washroom listings.', '/coverage/'),
-    '/providers/': staticMeta('Portable Washroom Providers in Canada', 'National directory of portable washroom providers.', '/providers/'),
-    '/privacy/': staticMeta('Privacy Policy', 'Privacy policy for Canada Washrooms.', '/privacy/'),
-    '/terms/': staticMeta('Terms of Use', 'Terms of use for Canada Washrooms.', '/terms/'),
-    '/disclaimer/': staticMeta('Disclaimer', 'Disclaimer for Canada Washrooms.', '/disclaimer/'),
+    '/about/': staticMeta('About Canada Washrooms', 'Independent provider discovery for portable washroom rentals across Canada.'),
+    '/methodology/': staticMeta('Methodology', 'How Canada Washrooms curates portable washroom provider listings.'),
+    '/contact/': staticMeta('Contact', 'Contact Canada Washrooms.'),
+    '/coverage/': staticMeta('Coverage', 'Provincial and city coverage for portable washroom listings.'),
+    '/providers/': staticMeta('Portable Washroom Providers in Canada', 'National directory of portable washroom providers.'),
+    '/privacy/': staticMeta('Privacy Policy', 'Privacy policy for Canada Washrooms.'),
+    '/terms/': staticMeta('Terms of Use', 'Terms of use for Canada Washrooms.'),
+    '/disclaimer/': staticMeta('Disclaimer', 'Disclaimer for Canada Washrooms.'),
   }
 
   return records.map((r) => {
@@ -166,7 +166,7 @@ function assignMetadata(records: UrlRecord[]): UrlRecord[] {
     if (r.category === 'category') {
       const cat = CATEGORY_PAGES.find((c) => c.path === r.path)
       if (cat) {
-        const m = staticMeta(cat.title, `${cat.title} — browse operators nationally.`, cat.path)
+        const m = staticMeta(cat.title, `${cat.title} — browse operators nationally.`)
         return { ...r, ...m }
       }
     }

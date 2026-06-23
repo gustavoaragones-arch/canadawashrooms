@@ -14,6 +14,14 @@ interface LandingCityConfig {
   city: PriorityCity
 }
 
+const SK_CITIES: LandingCityConfig[] = [
+  { citySlug: 'saskatoon', city: 'Saskatoon' },
+  { citySlug: 'regina', city: 'Regina' },
+  { citySlug: 'prince-albert', city: 'Prince Albert' },
+  { citySlug: 'moose-jaw', city: 'Moose Jaw' },
+  { citySlug: 'swift-current', city: 'Swift Current' },
+]
+
 interface LandingSegmentRouteGroup {
   segment: PrimarySegment
   segmentSlug: string
@@ -49,6 +57,8 @@ export const LANDING_ROUTE_GROUPS: readonly LandingSegmentRouteGroup[] = [
       { citySlug: 'abbotsford', city: 'Abbotsford' },
       { citySlug: 'kelowna', city: 'Kelowna' },
       { citySlug: 'nanaimo', city: 'Nanaimo' },
+      // Saskatchewan
+      ...SK_CITIES,
     ],
   },
   {
@@ -72,6 +82,9 @@ export const LANDING_ROUTE_GROUPS: readonly LandingSegmentRouteGroup[] = [
       { citySlug: 'kelowna', city: 'Kelowna' },
       { citySlug: 'abbotsford', city: 'Abbotsford' },
       { citySlug: 'victoria', city: 'Victoria' },
+      // Saskatchewan
+      { citySlug: 'saskatoon', city: 'Saskatoon' },
+      { citySlug: 'regina', city: 'Regina' },
     ],
   },
   {
@@ -83,6 +96,8 @@ export const LANDING_ROUTE_GROUPS: readonly LandingSegmentRouteGroup[] = [
       { citySlug: 'calgary', city: 'Calgary' },
       { citySlug: 'edmonton', city: 'Edmonton' },
       { citySlug: 'red-deer', city: 'Red Deer' },
+      // Saskatchewan — Regina only (oilfield density)
+      { citySlug: 'regina', city: 'Regina' },
     ],
   },
   {
@@ -110,6 +125,8 @@ export const LANDING_ROUTE_GROUPS: readonly LandingSegmentRouteGroup[] = [
       { citySlug: 'nanaimo', city: 'Nanaimo' },
       { citySlug: 'coquitlam', city: 'Coquitlam' },
       { citySlug: 'victoria', city: 'Victoria' },
+      // Saskatchewan
+      ...SK_CITIES,
     ],
   },
   {
@@ -131,6 +148,9 @@ export const LANDING_ROUTE_GROUPS: readonly LandingSegmentRouteGroup[] = [
       { citySlug: 'surrey', city: 'Surrey' },
       { citySlug: 'vancouver', city: 'Vancouver' },
       { citySlug: 'abbotsford', city: 'Abbotsford' },
+      // Saskatchewan
+      { citySlug: 'saskatoon', city: 'Saskatoon' },
+      { citySlug: 'regina', city: 'Regina' },
     ],
   },
 ] as const

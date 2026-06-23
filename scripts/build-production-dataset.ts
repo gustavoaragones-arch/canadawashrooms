@@ -35,6 +35,7 @@ interface ProvinceManifestEntry {
 
 const PROVINCE_MANIFEST: ProvinceManifestEntry[] = [
   { code: 'AB', file: 'data/provinces/alberta.json' },
+  { code: 'SK', file: 'data/provinces/saskatchewan.json' },
   { code: 'ON', file: 'data/provinces/ontario.json' },
   { code: 'BC', file: 'data/provinces/british-columbia.json' },
 ]

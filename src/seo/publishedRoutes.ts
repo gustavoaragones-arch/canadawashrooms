@@ -14,6 +14,7 @@ export const SITEMAP_ORIGIN = 'https://canadawashrooms.ca'
 
 export const PROVINCE_PATHS = [
   '/alberta/',
+  '/saskatchewan/',
   '/ontario/',
   '/british-columbia/',
 ] as const

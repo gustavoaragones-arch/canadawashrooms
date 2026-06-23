@@ -14,6 +14,7 @@ import type { PrimarySegment } from '../types/provider'
 
 const PROVINCE_SLUGS: Record<string, string> = {
   AB: 'alberta',
+  SK: 'saskatchewan',
   ON: 'ontario',
   BC: 'british-columbia',
 }
@@ -36,7 +37,7 @@ const CATEGORIES: CategoryConfig[] = [
       'Portable washroom providers serving construction sites, infrastructure projects, and long-term jobsite contracts across Canada. Includes standard units, handwashing stations, and crane-liftable configurations.',
     seoTitle: 'Construction & Jobsite Portable Washrooms in Canada',
     seoDescription:
-      'Find portable toilet and washroom rental providers for construction sites and jobsites across Canada — Alberta, Ontario, and British Columbia.',
+      'Find portable toilet and washroom rental providers for construction sites and jobsites across Canada — Alberta, Saskatchewan, Ontario, and British Columbia.',
   },
   {
     segment: 'event',
@@ -53,7 +54,7 @@ const CATEGORIES: CategoryConfig[] = [
     slug: 'general-portable-washrooms',
     label: 'General Portable Washrooms',
     description:
-      'General portable toilet and washroom rentals for any project or occasion. Standard units available across Alberta, Ontario, and British Columbia.',
+      'General portable toilet and washroom rentals for any project or occasion. Standard units available across Alberta, Saskatchewan, Ontario, and British Columbia.',
     seoTitle: 'General Portable Washroom Rentals in Canada',
     seoDescription:
       'Browse portable toilet and washroom rental providers across Canada. Standard units for any project — construction, events, or residential use.',

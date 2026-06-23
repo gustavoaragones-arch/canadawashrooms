@@ -11,6 +11,7 @@ import type { PrimarySegment } from '../types/provider'
 
 const PROVINCE_SLUGS: Record<string, string> = {
   AB: 'alberta',
+  SK: 'saskatchewan',
   ON: 'ontario',
   BC: 'british-columbia',
 }
@@ -26,7 +27,7 @@ const ALL_SEGMENTS: { key: PrimarySegment; slug: string }[] = [
 const meta = buildStaticDocumentMeta({
   title: 'Portable Washroom Providers in Canada',
   description:
-    'Browse all portable toilet and washroom rental companies across Canada — Alberta, Ontario, and British Columbia. Construction, events, general rentals, and remote site operators.',
+    'Browse all portable toilet and washroom rental companies across Canada — Alberta, Saskatchewan, Ontario, and British Columbia. Construction, events, general rentals, and remote site operators.',
   canonicalPath: '/providers/',
 })
 

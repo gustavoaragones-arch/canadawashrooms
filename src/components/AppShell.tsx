@@ -35,7 +35,7 @@ export function AppShell({ children, mainClassName }: AppShellProps) {
                 decoding="async"
               />
               <p className="mt-3 text-sm leading-relaxed text-cwr-muted">
-                Find and compare portable washroom rentals across Canada. Live in Alberta, Ontario,
+                Find and compare portable washroom rentals across Canada. Live in Alberta, Saskatchewan, Ontario,
                 and British Columbia — curated directory, not a marketplace.
               </p>
             </div>
@@ -52,6 +52,11 @@ export function AppShell({ children, mainClassName }: AppShellProps) {
                 <li>
                   <Link className="text-cwr-accent underline-offset-4 hover:underline" to="/alberta">
                     Alberta
+                  </Link>
+                </li>
+                <li>
+                  <Link className="text-cwr-accent underline-offset-4 hover:underline" to="/saskatchewan">
+                    Saskatchewan
                   </Link>
                 </li>
                 <li>

@@ -26,7 +26,7 @@ export function Hero({ segment, city }: HeroProps) {
           CanadaWashrooms.ca
         </p>
         <p className="mt-2 text-sm font-medium text-cwr-steel">
-          Now live in Alberta, Ontario, and British Columbia.
+          Now live in Alberta, Saskatchewan, Ontario, and British Columbia.
         </p>
         <h1
           id="hero-heading"
@@ -38,7 +38,7 @@ export function Hero({ segment, city }: HeroProps) {
         </h1>
         <p className="mt-4 max-w-2xl text-base leading-relaxed text-cwr-steel sm:mt-5 sm:text-lg">
           {compareProvidersCopy()} Browse restroom trailer, construction site, and event providers
-          across Alberta, Ontario, and British Columbia.{' '}
+          across Alberta, Saskatchewan, Ontario, and British Columbia.{' '}
           <span className="font-medium text-cwr-ink">Confirm availability and pricing directly with each operator</span>{' '}
           before you book.
         </p>

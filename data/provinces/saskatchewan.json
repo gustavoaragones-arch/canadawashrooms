@@ -1,0 +1,1423 @@
+[
+  {
+    "id": "rooter-man-drain-services-saskatoon-sk",
+    "company_name": "Rooter Man Drain Services",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Saskatoon",
+    "province": "Saskatchewan",
+    "province_code": "SK",
+    "service_area": "1527 Ontario Ave Unit 8, Saskatoon, SK S7K 1S7",
+    "rating": 4.9,
+    "review_count": 253,
+    "website": "http://www.saskrooterman.com",
+    "phone": "+13066512564",
+    "badges": [
+      "Plumber",
+      "Plumber, Drainage service, Portable toilet supplier, Repair Service"
+    ],
+    "heated": false,
+    "handwash_available": false,
+    "ada_accessible": false,
+    "winterized": false,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "plumber"
+    ],
+    "public_categories": [
+      "construction",
+      "event",
+      "general",
+      "site_services"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.78,
+    "supported_segments": [
+      "construction",
+      "event",
+      "general",
+      "site_services"
+    ],
+    "capabilities": [
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly"
+    ],
+    "operational_tags": [
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "review_volume_signal",
+      "rating_consistency_signal",
+      "listed_web_presence"
+    ],
+    "response_priority": "priority_field",
+    "operator_scale": "regional",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Review volume supports repeat-use validation — still confirm servicing scope directly.",
+      "Rating pattern is steady enough to treat reviews as a meaningful signal.",
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ]
+  },
+  {
+    "id": "environmental-360-solutions-regina-c-d-waste-transfer-sk",
+    "company_name": "Environmental 360 Solutions - Regina - C&D Waste Transfer Station",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Regina",
+    "province": "Saskatchewan",
+    "province_code": "SK",
+    "service_area": "Rm of Sherwood, 1046 Kearns Cres #1, Regina, SK S4K 0A1",
+    "rating": 3,
+    "review_count": 54,
+    "website": "https://e360s.ca/welcome-local-environmental-customers",
+    "phone": "+13065226666",
+    "badges": [
+      "Waste transfer station",
+      "Waste transfer station, Waste management service"
+    ],
+    "heated": true,
+    "handwash_available": false,
+    "ada_accessible": true,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "waste transfer station"
+    ],
+    "public_categories": [
+      "construction",
+      "event",
+      "general",
+      "site_services"
+    ],
+    "winter_service": true,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.78,
+    "supported_segments": [
+      "construction",
+      "event",
+      "general",
+      "site_services"
+    ],
+    "capabilities": [
+      "ada_accessible",
+      "heated",
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
+    ],
+    "operational_tags": [
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "small",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
+    ]
+  },
+  {
+    "id": "little-john-rentals-warman-sk",
+    "company_name": "Little John Rentals",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Warman",
+    "province": "Saskatchewan",
+    "province_code": "SK",
+    "service_area": "210 Eldorado St, Warman, SK S0K 0A1",
+    "rating": 4.3,
+    "review_count": 47,
+    "website": "http://www.littlejohnrentals.ca",
+    "phone": "+13069331958",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "heated": true,
+    "handwash_available": false,
+    "ada_accessible": true,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "public_categories": [
+      "construction",
+      "event",
+      "general"
+    ],
+    "reviews_normalized": [],
+    "winter_service": true,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "primary_segment_confidence": 0.84,
+    "supported_segments": [
+      "construction",
+      "event",
+      "general"
+    ],
+    "capabilities": [
+      "ada_accessible",
+      "heated",
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "small",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
+    ]
+  },
+  {
+    "id": "super-save-group-saskatoon-sk",
+    "company_name": "Super Save Group",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Saskatoon",
+    "province": "Saskatchewan",
+    "province_code": "SK",
+    "service_area": "511 47th St E, Saskatoon, SK S7K 5B5",
+    "rating": 4.3,
+    "review_count": 47,
+    "website": "https://supersave.ca/super-save-toilet-rentals/portable-washroom-trailer-rentals",
+    "phone": "+13069562477",
+    "badges": [
+      "Waste management service",
+      "Waste management service, Fence supply store, Portable toilet supplier, Sewage disposal service, Tool rental service"
+    ],
+    "heated": true,
+    "handwash_available": false,
+    "ada_accessible": false,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "waste management service"
+    ],
+    "public_categories": [
+      "construction",
+      "event",
+      "general",
+      "site_services"
+    ],
+    "reviews_normalized": [],
+    "winter_service": true,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": true,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "primary_segment_confidence": 0.78,
+    "supported_segments": [
+      "construction",
+      "event",
+      "general",
+      "site_services"
+    ],
+    "capabilities": [
+      "heated",
+      "luxury_trailers",
+      "septic_service",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
+    ],
+    "operational_tags": [
+      "category:fluid_services",
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "fluid_handling_partnership",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
+      "Tank servicing & fluid partners",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "small",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
+    ]
+  },
+  {
+    "id": "tristen-hydrovac-services-regina-sk",
+    "company_name": "Tristen HydroVac Services",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Regina",
+    "province": "Saskatchewan",
+    "province_code": "SK",
+    "service_area": "1410 Fleet St, Regina, SK S4K 0A1",
+    "rating": 3.2,
+    "review_count": 13,
+    "website": "https://tristenhydrovac.ca",
+    "phone": "+13065367507",
+    "badges": [
+      "Septic system service"
+    ],
+    "heated": true,
+    "handwash_available": false,
+    "ada_accessible": false,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": true,
+    "wedding_friendly": false,
+    "luxury_units": false,
+    "google_categories": [
+      "septic system service"
+    ],
+    "public_categories": [
+      "construction",
+      "oilfield",
+      "general",
+      "site_services"
+    ],
+    "winter_service": true,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": true,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.74,
+    "supported_segments": [
+      "construction",
+      "oilfield",
+      "general",
+      "site_services"
+    ],
+    "capabilities": [
+      "heated",
+      "remote_logistics",
+      "septic_service",
+      "site_support",
+      "winter_service",
+      "winterized"
+    ],
+    "operational_tags": [
+      "category:fluid_services",
+      "declared:industrial_remote",
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "jobsite_programs",
+      "fluid_handling_partnership",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Cold-weather equipment posture",
+      "Tank servicing & fluid partners",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Winter-capable equipment posture corroborated by listing or weighted reviews.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "gary-blythe-vacuum-services-ltd-lloydminster-sk",
+    "company_name": "Gary Blythe Vacuum Services Ltd",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Lloydminster",
+    "province": "Saskatchewan",
+    "province_code": "SK",
+    "service_area": "Stn Main, Lloydminster, SK S9V 3A7",
+    "rating": 5,
+    "review_count": 11,
+    "website": "http://www.garyblythevacuum.com",
+    "phone": "+17808758457",
+    "badges": [
+      "Septic system service"
+    ],
+    "heated": false,
+    "handwash_available": false,
+    "ada_accessible": false,
+    "winterized": false,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "septic system service"
+    ],
+    "public_categories": [
+      "construction",
+      "event",
+      "general",
+      "site_services"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": true,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.74,
+    "supported_segments": [
+      "construction",
+      "event",
+      "general",
+      "site_services"
+    ],
+    "capabilities": [
+      "luxury_trailers",
+      "septic_service",
+      "site_support",
+      "wedding_friendly"
+    ],
+    "operational_tags": [
+      "category:fluid_services",
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "fluid_handling_partnership",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Tank servicing & fluid partners",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ]
+  },
+  {
+    "id": "premium-portable-washrooms-ltd-saskatoon-sk",
+    "company_name": "Premium Portable Washrooms Ltd",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Saskatoon",
+    "province": "Saskatchewan",
+    "province_code": "SK",
+    "service_area": "510 47th St E, Saskatoon, SK S7K 4L3",
+    "rating": 4,
+    "review_count": 8,
+    "website": "https://premiumportables.com",
+    "phone": "+13066513230",
+    "badges": [
+      "Equipment supplier"
+    ],
+    "heated": true,
+    "handwash_available": false,
+    "ada_accessible": false,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "equipment supplier"
+    ],
+    "public_categories": [
+      "construction",
+      "event",
+      "general"
+    ],
+    "winter_service": true,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": false,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "construction",
+      "event",
+      "general"
+    ],
+    "capabilities": [
+      "heated",
+      "luxury_trailers",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
+    ],
+    "operational_tags": [
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Cold-weather equipment posture"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
+    ]
+  },
+  {
+    "id": "super-save-group-regina-sk",
+    "company_name": "Super Save Group",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Regina",
+    "province": "Saskatchewan",
+    "province_code": "SK",
+    "service_area": "511F Dewdney Ave E, Regina, SK S4N 4E9",
+    "rating": 3.4,
+    "review_count": 5,
+    "website": "https://supersave.ca/location/regina/%3Futm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_campaign%3Dregina-s4n4e9-gmb%26utm_content%3Dwebsite-button-click",
+    "phone": "+13065852477",
+    "badges": [
+      "Waste management service",
+      "Waste management service, Fence contractor, Fence supply store, Garbage collection service, Portable toilet supplier"
+    ],
+    "heated": true,
+    "handwash_available": false,
+    "ada_accessible": false,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "waste management service"
+    ],
+    "public_categories": [
+      "construction",
+      "event",
+      "general",
+      "site_services"
+    ],
+    "winter_service": true,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": true,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.74,
+    "supported_segments": [
+      "construction",
+      "event",
+      "general",
+      "site_services"
+    ],
+    "capabilities": [
+      "heated",
+      "luxury_trailers",
+      "septic_service",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
+    ],
+    "operational_tags": [
+      "category:fluid_services",
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "fluid_handling_partnership",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
+      "Tank servicing & fluid partners",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
+    ]
+  },
+  {
+    "id": "northshore-septic-silton-sk",
+    "company_name": "Northshore Septic",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Silton",
+    "province": "Saskatchewan",
+    "province_code": "SK",
+    "service_area": "14 Lakeshore Dr, Silton, SK S0G 4L0",
+    "rating": 4.8,
+    "review_count": 5,
+    "website": "https://northshoreseptic.com",
+    "phone": "+13062014695",
+    "badges": [
+      "Septic system service"
+    ],
+    "heated": false,
+    "handwash_available": false,
+    "ada_accessible": false,
+    "winterized": false,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "septic system service"
+    ],
+    "public_categories": [
+      "construction",
+      "event",
+      "general",
+      "site_services"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": true,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.74,
+    "supported_segments": [
+      "construction",
+      "event",
+      "general",
+      "site_services"
+    ],
+    "capabilities": [
+      "luxury_trailers",
+      "septic_service",
+      "site_support",
+      "wedding_friendly"
+    ],
+    "operational_tags": [
+      "category:fluid_services",
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "fluid_handling_partnership",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Tank servicing & fluid partners",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ]
+  },
+  {
+    "id": "dynamic-disposal-ltd-gull-lake-sk",
+    "company_name": "Dynamic Disposal Ltd",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Gull Lake",
+    "province": "Saskatchewan",
+    "province_code": "SK",
+    "service_area": "2118 Proton Ave, Gull Lake, SK S0N 0B2",
+    "rating": 4.8,
+    "review_count": 4,
+    "website": "https://dynamicdisposal.ca/equipment-rentals-dynamic-disposal",
+    "phone": "+13066723062",
+    "badges": [
+      "Oil field equipment supplier"
+    ],
+    "heated": true,
+    "handwash_available": false,
+    "ada_accessible": false,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": true,
+    "wedding_friendly": false,
+    "luxury_units": false,
+    "google_categories": [
+      "oil field equipment supplier"
+    ],
+    "public_categories": [
+      "construction",
+      "oilfield",
+      "general",
+      "site_services"
+    ],
+    "winter_service": true,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": false,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.74,
+    "supported_segments": [
+      "construction",
+      "oilfield",
+      "general",
+      "site_services"
+    ],
+    "capabilities": [
+      "heated",
+      "remote_logistics",
+      "winter_service",
+      "winterized"
+    ],
+    "operational_tags": [
+      "declared:industrial_remote",
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "jobsite_programs"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Cold-weather equipment posture"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Winter-capable equipment posture corroborated by listing or weighted reviews.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "protex-environmental-meadow-lake-sk",
+    "company_name": "Protex Environmental",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Meadow Lake",
+    "province": "Saskatchewan",
+    "province_code": "SK",
+    "service_area": "19 Industrial Crescent, Meadow Lake, SK S9X 1Z1",
+    "rating": 3,
+    "review_count": 4,
+    "website": "https://www.protexenviro.ca",
+    "phone": "+13062365200",
+    "badges": [
+      "Waste management service",
+      "Waste management service, Portable toilet supplier, Recycling center, Sewage disposal service"
+    ],
+    "heated": false,
+    "handwash_available": false,
+    "ada_accessible": true,
+    "winterized": false,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "waste management service"
+    ],
+    "public_categories": [
+      "construction",
+      "event",
+      "general",
+      "site_services"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": true,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.74,
+    "supported_segments": [
+      "construction",
+      "event",
+      "general",
+      "site_services"
+    ],
+    "capabilities": [
+      "ada_accessible",
+      "luxury_trailers",
+      "septic_service",
+      "site_support",
+      "wedding_friendly"
+    ],
+    "operational_tags": [
+      "category:fluid_services",
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "fluid_handling_partnership",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Tank servicing & fluid partners",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ]
+  },
+  {
+    "id": "gordon-s-sanitation-services-yorkton-sk",
+    "company_name": "Gordon's Sanitation Services",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Yorkton",
+    "province": "Saskatchewan",
+    "province_code": "SK",
+    "service_area": "284 Myrtle Ave, Yorkton, SK S3N 0A5",
+    "rating": 5,
+    "review_count": 2,
+    "website": "http://www.gordonssanitation.ca",
+    "phone": "+13067834181",
+    "badges": [
+      "Sewage treatment plant",
+      "Sewage treatment plant, Portable toilet supplier, Septic system service, Sewage disposal service, Waste management service"
+    ],
+    "heated": false,
+    "handwash_available": false,
+    "ada_accessible": false,
+    "winterized": false,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "sewage treatment plant"
+    ],
+    "public_categories": [
+      "construction",
+      "event",
+      "general",
+      "site_services"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": true,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.74,
+    "supported_segments": [
+      "construction",
+      "event",
+      "general",
+      "site_services"
+    ],
+    "capabilities": [
+      "luxury_trailers",
+      "septic_service",
+      "site_support",
+      "wedding_friendly"
+    ],
+    "operational_tags": [
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "fluid_handling_partnership",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Tank servicing & fluid partners",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ]
+  },
+  {
+    "id": "southwest-rentals-shaunavon-sk",
+    "company_name": "Southwest Rentals",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Shaunavon",
+    "province": "Saskatchewan",
+    "province_code": "SK",
+    "service_area": "237 7th St W, Shaunavon, SK S0N 2M0",
+    "rating": 5,
+    "review_count": 1,
+    "website": "https://www.southwestrental.ca",
+    "phone": "+13062974080",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "heated": true,
+    "handwash_available": true,
+    "ada_accessible": true,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "public_categories": [
+      "construction",
+      "event",
+      "general"
+    ],
+    "winter_service": true,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "construction",
+      "event",
+      "general"
+    ],
+    "capabilities": [
+      "ada_accessible",
+      "handwash_available",
+      "heated",
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
+    ]
+  },
+  {
+    "id": "allan-s-disposal-services-ltd-saskatoon-sk",
+    "company_name": "ALLAN'S DISPOSAL SERVICES LTD.",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Saskatoon",
+    "province": "Saskatchewan",
+    "province_code": "SK",
+    "service_area": "777 60 St W #3, Saskatoon, SK S7K 3J7",
+    "rating": 1,
+    "review_count": 1,
+    "website": "https://allansdisposalservices.com/toilets-rental",
+    "phone": "+13069312604",
+    "badges": [
+      "Waste management service",
+      "Waste management service, Portable toilet supplier"
+    ],
+    "heated": true,
+    "handwash_available": true,
+    "ada_accessible": true,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "waste management service"
+    ],
+    "public_categories": [
+      "construction",
+      "event",
+      "general",
+      "site_services"
+    ],
+    "winter_service": true,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": true,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.74,
+    "supported_segments": [
+      "construction",
+      "event",
+      "general",
+      "site_services"
+    ],
+    "capabilities": [
+      "ada_accessible",
+      "handwash_available",
+      "heated",
+      "luxury_trailers",
+      "septic_service",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
+    ],
+    "operational_tags": [
+      "category:fluid_services",
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "fluid_handling_partnership",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
+      "Tank servicing & fluid partners",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
+    ]
+  },
+  {
+    "id": "premium-portable-washrooms-ltd-corman-park-no-344-sk",
+    "company_name": "Premium Portable Washrooms Ltd",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Corman Park No. 344",
+    "province": "Saskatchewan",
+    "province_code": "SK",
+    "service_area": "115 Premium Wy, Corman Park No. 344, SK S7P 0G7",
+    "rating": 0,
+    "review_count": 0,
+    "website": "https://premiumportables.com",
+    "phone": "+13066513230",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "heated": true,
+    "handwash_available": false,
+    "ada_accessible": false,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "public_categories": [
+      "construction",
+      "event",
+      "general"
+    ],
+    "winter_service": true,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7999999999999999,
+    "supported_segments": [
+      "construction",
+      "event",
+      "general"
+    ],
+    "capabilities": [
+      "heated",
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
+    ]
+  },
+  {
+    "id": "waste-a-way-septic-ltd-maple-creek-sk",
+    "company_name": "Waste-A-Way Septic Ltd",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Maple Creek",
+    "province": "Saskatchewan",
+    "province_code": "SK",
+    "service_area": "512 2 Ave N, Maple Creek, SK S0N 1N0",
+    "rating": 0,
+    "review_count": 0,
+    "website": "http://wasteawayseptic.ca",
+    "phone": "+13066627955",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "heated": true,
+    "handwash_available": true,
+    "ada_accessible": false,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": true,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "public_categories": [
+      "construction",
+      "oilfield",
+      "event",
+      "general",
+      "site_services"
+    ],
+    "winter_service": true,
+    "remote_logistics": true,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.74,
+    "supported_segments": [
+      "construction",
+      "oilfield",
+      "event",
+      "general",
+      "site_services"
+    ],
+    "capabilities": [
+      "handwash_available",
+      "heated",
+      "luxury_trailers",
+      "remote_logistics",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Winter-capable equipment posture corroborated by listing or weighted reviews.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  },
+  {
+    "id": "p-r-septic-city-water-hauling-christopher-lake-sk",
+    "company_name": "P R Septic & City Water Hauling",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Christopher Lake",
+    "province": "Saskatchewan",
+    "province_code": "SK",
+    "service_area": "1 St N RR#1, Christopher Lake, SK S0J 0N0",
+    "rating": 4,
+    "review_count": 0,
+    "website": "https://prseptic.ca",
+    "phone": "+13069824544",
+    "badges": [
+      "Septic system service",
+      "Septic system service, Water utility company"
+    ],
+    "heated": false,
+    "handwash_available": false,
+    "ada_accessible": false,
+    "winterized": false,
+    "construction_ready": true,
+    "oilfield_ready": true,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "septic system service"
+    ],
+    "public_categories": [
+      "construction",
+      "oilfield",
+      "event",
+      "general",
+      "site_services"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": true,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.74,
+    "supported_segments": [
+      "construction",
+      "oilfield",
+      "event",
+      "general",
+      "site_services"
+    ],
+    "capabilities": [
+      "luxury_trailers",
+      "remote_logistics",
+      "septic_service",
+      "site_support",
+      "wedding_friendly"
+    ],
+    "operational_tags": [
+      "category:fluid_services",
+      "declared:industrial_remote",
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "fluid_handling_partnership",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Guest-density event layouts",
+      "Tank servicing & fluid partners",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ]
+  }
+]

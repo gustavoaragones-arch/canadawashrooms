@@ -12,6 +12,7 @@ import type { PrimarySegment } from '../types/provider'
 
 const PROVINCE_SLUG_MAP: Record<string, ProvinceCode> = {
   alberta: 'AB',
+  saskatchewan: 'SK',
   ontario: 'ON',
   'british-columbia': 'BC',
 }
@@ -21,6 +22,11 @@ const PROVINCE_META: Record<ProvinceCode, { title: string; description: string }
     title: 'Portable Washroom Rentals in Alberta',
     description:
       'Find portable toilet and washroom rental providers across Alberta — Calgary, Edmonton, Fort McMurray, Red Deer, and more. Construction, events, remote operations, and general rentals.',
+  },
+  SK: {
+    title: 'Portable Washroom Rentals in Saskatchewan',
+    description:
+      'Compare portable washroom and portable toilet providers across Saskatchewan — Saskatoon, Regina, and surrounding communities. Construction, events, general rentals, and site services.',
   },
   ON: {
     title: 'Portable Washroom Rentals in Ontario',

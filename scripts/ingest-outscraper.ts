@@ -64,6 +64,7 @@ function printConsoleSummary(qa: QaSummaryReport) {
 
 const PROVINCE_FILE_MAP: Record<ProvinceCode, string> = {
   AB: 'data/provinces/alberta.json',
+  SK: 'data/provinces/saskatchewan.json',
   ON: 'data/provinces/ontario.json',
   BC: 'data/provinces/british-columbia.json',
 }

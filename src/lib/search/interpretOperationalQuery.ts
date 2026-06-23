@@ -10,6 +10,11 @@ const CITY_LOOKUP: { slug: string; names: string[] }[] = [
   // Aliases for common shortforms (must come before auto-generated entries)
   { slug: 'fort-mcmurray', names: ['fort mcmurray', 'fortmac', 'ymm'] },
   { slug: 'red-deer', names: ['red deer'] },
+  { slug: 'saskatoon', names: ['saskatoon', 'yxe'] },
+  { slug: 'regina', names: ['regina', 'yqr'] },
+  { slug: 'prince-albert', names: ['prince albert'] },
+  { slug: 'moose-jaw', names: ['moose jaw'] },
+  { slug: 'swift-current', names: ['swift current'] },
   { slug: 'calgary', names: ['calgary', 'yyc'] },
   { slug: 'edmonton', names: ['edmonton', 'yeg'] },
   { slug: 'toronto', names: ['toronto', 'yyz', 'the six'] },

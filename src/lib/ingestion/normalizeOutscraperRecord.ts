@@ -18,6 +18,50 @@ function cell(row: Record<string, string>, ...aliases: string[]): string {
   return ''
 }
 
+function inferProvinceCode(
+  row: Record<string, string>,
+  sourceFilename?: string,
+): ProvinceCode {
+  const VALID_CODES = new Set<string>(['AB', 'ON', 'BC', 'SK'])
+  const rowCode = cell(row, 'state_code', 'province_code').toUpperCase()
+  if (VALID_CODES.has(rowCode)) return rowCode as ProvinceCode
+
+  const state = cell(row, 'state', 'province').toLowerCase()
+  if (state.includes('saskatchewan')) return 'SK'
+  if (state.includes('alberta')) return 'AB'
+  if (state.includes('ontario')) return 'ON'
+  if (state.includes('british columbia') || state === 'bc') return 'BC'
+
+  return sourceFilename ? (inferProvinceCodeFromFilename(sourceFilename) ?? 'AB') : 'AB'
+}
+
+function deriveCuratedPublicCategories(row: Record<string, string>): PrimarySegment[] {
+  const cats: PrimarySegment[] = []
+  if (isYes(row, 'Construction & Jobsites')) cats.push('construction')
+  if (isYes(row, 'Remote & Oilfield Operations')) cats.push('oilfield')
+  if (isYes(row, 'Events & Weddings')) cats.push('event')
+  if (isYes(row, 'General Portable Washrooms')) cats.push('general')
+  if (isYes(row, 'Waste & Site Services')) cats.push('site_services')
+  return cats
+}
+
+function primarySegmentFromCurated(categories: PrimarySegment[]): PrimarySegment | null {
+  if (categories.length === 0) return null
+  if (categories.includes('construction')) return 'construction'
+  if (categories.length === 1) return categories[0]
+  if (categories.includes('site_services') && !categories.includes('construction')) {
+    return 'site_services'
+  }
+  if (categories.includes('oilfield') && !categories.includes('construction')) {
+    return 'oilfield'
+  }
+  if (categories.includes('event') && !categories.includes('construction')) {
+    return 'event'
+  }
+  if (categories.includes('general')) return 'general'
+  return categories[0]
+}
+
 function inferSegmentHint(categoryBlob: string): PrimarySegment {
   const b = categoryBlob.toLowerCase()
   if (/waste|disposal|roll[\s-]?off|dumpster|septic|sanitation service|garbage bin/.test(b)) {
@@ -94,31 +138,35 @@ export function normalizeOutscraperRecord(
   const csv_construction   = isYes(row, 'Construction & Jobsites')
   const csv_oilfield       = isYes(row, 'Remote & Oilfield Operations')
   const csv_events         = isYes(row, 'Events & Weddings')
+  const csv_general        = isYes(row, 'General Portable Washrooms')
   const csv_waste_services = isYes(row, 'Waste & Site Services')
   const csv_heated         = isYes(row, 'Heated Restroom')
   const csv_handwash       = isYes(row, 'Handwashing Stations')
   const csv_accessible     = isYes(row, 'wheelchair accessible')
 
+  const curatedCategories = deriveCuratedPublicCategories(row)
+  const hasCuratedCategories = curatedCategories.length > 0
+
   // ── Segment: prefer explicit CSV columns, fall back to category inference ─────
   const catNorm = category ? normalizeCategory(category) : ''
   const inferredSegment = inferSegmentHint(catNorm)
-  let primary_segment: PrimarySegment = inferredSegment
-  if (csv_waste_services && !csv_construction && !csv_oilfield && !csv_events) {
-    primary_segment = 'site_services'
-  } else if (csv_oilfield && !csv_construction) {
-    primary_segment = 'oilfield'
-  } else if (csv_construction) {
-    primary_segment = 'construction'
-  } else if (csv_events && !csv_construction && !csv_oilfield) {
-    primary_segment = 'event'
+  const curatedPrimary = primarySegmentFromCurated(curatedCategories)
+  let primary_segment: PrimarySegment = curatedPrimary ?? inferredSegment
+  if (!hasCuratedCategories) {
+    if (csv_waste_services && !csv_construction && !csv_oilfield && !csv_events) {
+      primary_segment = 'site_services'
+    } else if (csv_oilfield && !csv_construction) {
+      primary_segment = 'oilfield'
+    } else if (csv_construction) {
+      primary_segment = 'construction'
+    } else if (csv_events && !csv_construction && !csv_oilfield) {
+      primary_segment = 'event'
+    } else if (csv_general) {
+      primary_segment = 'general'
+    }
   }
 
-  // Province inference: try row column first, then source filename, fallback AB
-  const VALID_CODES = new Set<string>(['AB', 'ON', 'BC'])
-  const rowProvinceRaw = cell(row, 'province', 'province_code', 'state').toUpperCase()
-  const province_code: ProvinceCode = VALID_CODES.has(rowProvinceRaw)
-    ? (rowProvinceRaw as ProvinceCode)
-    : (sourceFilename ? (inferProvinceCodeFromFilename(sourceFilename) ?? 'AB') : 'AB')
+  const province_code = inferProvinceCode(row, sourceFilename)
   const province = provinceNameFromCode(province_code)
 
   const id = slugId(`${name}-${city}`, province_code)
@@ -149,5 +197,6 @@ export function normalizeOutscraperRecord(
     luxury_units:      false,              // needs manual curation
     google_categories: category ? [normalizeCategory(category)] : [],
     address_full: address || undefined,
+    ...(hasCuratedCategories ? { public_categories: curatedCategories } : {}),
   }
 }

@@ -432,11 +432,13 @@ export function enrichProvider(raw: ProviderRaw): Provider {
   }
   applyBlockedFilterCapabilities(manual, capCore)
 
-  let supported_segments = deriveSupportedSegments(capCore, {
-    winter_service: Boolean(capCore.winter_service),
-    remote_logistics: Boolean(capCore.remote_logistics),
-    luxury_trailers: Boolean(capCore.luxury_trailers),
-  })
+  let supported_segments = workingRaw.public_categories?.length
+    ? [...new Set([effectivePrimary, ...workingRaw.public_categories])]
+    : deriveSupportedSegments(capCore, {
+        winter_service: Boolean(capCore.winter_service),
+        remote_logistics: Boolean(capCore.remote_logistics),
+        luxury_trailers: Boolean(capCore.luxury_trailers),
+      })
 
   if (manual?.supported_segments?.length) {
     supported_segments = [
@@ -517,11 +519,13 @@ export function enrichProvider(raw: ProviderRaw): Provider {
     flushing_units,
     operator_scale,
     years_in_business_estimate: workingRaw.years_in_business_estimate ?? null,
-    public_categories: derivePublicCategories({
-      ...capCore,
-      luxury_trailers,
-      remote_logistics,
-    }),
+    public_categories: workingRaw.public_categories?.length
+      ? [...workingRaw.public_categories]
+      : derivePublicCategories({
+          ...capCore,
+          luxury_trailers,
+          remote_logistics,
+        }),
   }
 
   const operational_trust_cues = deriveOperationalTrustCues(sansTrustCues)

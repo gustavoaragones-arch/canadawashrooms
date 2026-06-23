@@ -65,7 +65,7 @@ export function defaultSiteMeta(): LandingDocumentMeta {
   const canonicalUrl = `${SITE_ORIGIN}/`
   const title = 'Portable Washroom Rentals Across Canada | CanadaWashrooms.ca'
   const description =
-    `Find ${formatSynonymList()}, restroom trailer, construction site, and sanitation service providers across Alberta, Ontario, and British Columbia.`
+    `Find ${formatSynonymList()}, restroom trailer, construction site, and sanitation service providers across Alberta, Saskatchewan, Ontario, and British Columbia.`
   return {
     title,
     description,

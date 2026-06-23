@@ -90,7 +90,7 @@ export default function LandingPage() {
         <article className="border-b border-cwr-border bg-cwr-surface">
           <div className="mx-auto max-w-3xl px-4 py-12 sm:px-6 md:py-16 lg:max-w-[42rem] lg:px-8">
             <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-cwr-accent">
-              Portable washrooms · Alberta (live rollout)
+              Portable washrooms · Canada (live rollout)
             </p>
             <h1 className="mt-4 text-3xl font-semibold tracking-tight text-cwr-ink sm:text-4xl">
               {h1}

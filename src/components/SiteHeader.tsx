@@ -16,7 +16,7 @@ export function SiteHeader() {
           />
         </Link>
         <div className="hidden shrink-0 flex-col items-end gap-1 text-right text-sm sm:flex">
-          <span className="text-xs text-cwr-muted">Live in Alberta, Ontario &amp; BC</span>
+          <span className="text-xs text-cwr-muted">Live in Alberta, Saskatchewan, Ontario &amp; BC</span>
           <nav aria-label="Platform pages" className="mt-1.5 flex gap-4">
             <Link
               className="font-semibold text-cwr-ink underline-offset-4 hover:text-cwr-accent hover:underline"

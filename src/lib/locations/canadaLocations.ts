@@ -6,7 +6,7 @@
  * "comingSoon" marks planned expansions.
  */
 
-export type ProvinceCode = 'AB' | 'ON' | 'BC'
+export type ProvinceCode = 'AB' | 'ON' | 'BC' | 'SK'
 
 export interface CanadaCity {
   name: string
@@ -36,6 +36,23 @@ export const CANADA_PROVINCES: CanadaProvince[] = [
       { name: 'Canmore', provinceCode: 'AB', slug: 'canmore', live: true },
       { name: 'Lethbridge', provinceCode: 'AB', slug: 'lethbridge', live: false },
       { name: 'Medicine Hat', provinceCode: 'AB', slug: 'medicine-hat', live: false },
+    ],
+  },
+  {
+    name: 'Saskatchewan',
+    code: 'SK',
+    live: true,
+    cities: [
+      { name: 'Saskatoon', provinceCode: 'SK', slug: 'saskatoon', live: true },
+      { name: 'Regina', provinceCode: 'SK', slug: 'regina', live: true },
+      { name: 'Prince Albert', provinceCode: 'SK', slug: 'prince-albert', live: true },
+      { name: 'Moose Jaw', provinceCode: 'SK', slug: 'moose-jaw', live: true },
+      { name: 'Swift Current', provinceCode: 'SK', slug: 'swift-current', live: true },
+      { name: 'Warman', provinceCode: 'SK', slug: 'warman', live: false },
+      { name: 'Yorkton', provinceCode: 'SK', slug: 'yorkton', live: false },
+      { name: 'Estevan', provinceCode: 'SK', slug: 'estevan', live: false },
+      { name: 'Lloydminster', provinceCode: 'SK', slug: 'lloydminster', live: false },
+      { name: 'North Battleford', provinceCode: 'SK', slug: 'north-battleford', live: false },
     ],
   },
   {
@@ -104,6 +121,8 @@ export function provinceForCity(cityName: string): CanadaProvince | null {
 /** Infer province code from a filename (for ingest routing). */
 export function inferProvinceCodeFromFilename(filename: string): ProvinceCode | null {
   const lower = filename.toLowerCase()
+  if (/saskatchewan|saskatoon|regina|prince.?albert|moose.?jaw|swift.?current|lloydminster|north.?battleford/.test(lower))
+    return 'SK'
   if (/alberta|calgary|edmonton|fort.?mc|red.?deer|canmore|lethbridge/.test(lower)) return 'AB'
   if (/ontario|toronto|mississauga|brampton|hamilton|ottawa|vaughan|welland|london.on/.test(lower))
     return 'ON'

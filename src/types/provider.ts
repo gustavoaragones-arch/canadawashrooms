@@ -58,7 +58,7 @@ export interface ManualEnrichmentOverrides extends InferenceOverrideShape {
 }
 
 /** ISO province codes for Canada. Extend as provinces are added. */
-export type ProvinceCode = 'AB' | 'ON' | 'BC'
+export type ProvinceCode = 'AB' | 'ON' | 'BC' | 'SK'
 
 export interface ProviderCore {
   id: string

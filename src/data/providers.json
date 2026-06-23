@@ -35,10 +35,12 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.84,
+    "primary_segment_confidence": 0.78,
     "supported_segments": [
       "construction",
-      "event"
+      "general",
+      "event",
+      "oilfield"
     ],
     "capabilities": [
       "ada_accessible",
@@ -76,7 +78,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "eh-royal-flush-portable-toilets-ardrossan-ab",
@@ -117,8 +119,8 @@
     "primary_segment_confidence": 0.6399999999999999,
     "supported_segments": [
       "construction",
-      "event",
       "general",
+      "event",
       "site_services"
     ],
     "capabilities": [
@@ -157,7 +159,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "zero-spill-oilfield-services-ltd-beaverlodge-ab",
@@ -199,6 +201,7 @@
     "primary_segment_confidence": 0.6399999999999999,
     "supported_segments": [
       "construction",
+      "general",
       "event",
       "oilfield",
       "site_services"
@@ -247,7 +250,7 @@
       "Winter-capable equipment posture corroborated by listing or weighted reviews.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "abc-waste-management-potties-ltd-calgary-ab",
@@ -285,10 +288,12 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7599999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
+      "general",
       "event",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -335,7 +340,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "alberta-trailer-rentals-calgary-ab",
@@ -373,9 +378,12 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7599999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "event",
+      "general",
+      "construction",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -417,7 +425,7 @@
       "Winter-capable equipment posture corroborated by listing or weighted reviews.",
       "Event-oriented restroom trailer positioning — confirm footprint and pump windows."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "avalanche-waste-management-inc-calgary-ab",
@@ -456,9 +464,11 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.84,
+    "primary_segment_confidence": 0.78,
     "supported_segments": [
       "construction",
+      "general",
+      "event",
       "site_services"
     ],
     "capabilities": [
@@ -496,7 +506,7 @@
       "Rating pattern is steady enough to treat reviews as a meaningful signal.",
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "fenceline-rentals-ltd-calgary-calgary-ab",
@@ -534,10 +544,12 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7599999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
-      "event"
+      "general",
+      "event",
+      "oilfield"
     ],
     "capabilities": [
       "ada_accessible",
@@ -575,7 +587,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "pit-stop-portable-toilet-services-calgary-ab",
@@ -617,9 +629,9 @@
     "primary_segment_confidence": 0.6399999999999999,
     "supported_segments": [
       "construction",
+      "general",
       "event",
       "oilfield",
-      "general",
       "site_services"
     ],
     "capabilities": [
@@ -671,7 +683,7 @@
       "Winter-capable equipment posture corroborated by listing or weighted reviews.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "portabins-calgary-ab",
@@ -710,9 +722,11 @@
     "roll_off_disposal": true,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7599999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
+      "general",
+      "event",
       "site_services"
     ],
     "capabilities": [
@@ -747,7 +761,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "rhino-calgary-ab",
@@ -789,6 +803,7 @@
     "primary_segment_confidence": 0.72,
     "supported_segments": [
       "construction",
+      "general",
       "event",
       "oilfield",
       "site_services"
@@ -837,7 +852,7 @@
       "Winter-capable equipment posture corroborated by listing or weighted reviews.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "super-save-group-calgary-ab",
@@ -879,8 +894,9 @@
     "primary_segment_confidence": 0.72,
     "supported_segments": [
       "construction",
-      "event",
       "general",
+      "event",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -924,7 +940,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "the-garbage-good-guys-calgary-ab",
@@ -964,7 +980,9 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
-      "construction"
+      "construction",
+      "general",
+      "event"
     ],
     "capabilities": [],
     "operational_tags": [
@@ -989,7 +1007,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "united-rentals-calgary-ab",
@@ -1031,9 +1049,9 @@
     "primary_segment_confidence": 0.6399999999999999,
     "supported_segments": [
       "construction",
+      "general",
       "event",
-      "oilfield",
-      "general"
+      "oilfield"
     ],
     "capabilities": [
       "ada_accessible",
@@ -1075,7 +1093,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "vibe-event-rentals-calgary-ab",
@@ -1114,9 +1132,12 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.84,
+    "primary_segment_confidence": 0.78,
     "supported_segments": [
       "event",
+      "general",
+      "construction",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -1162,7 +1183,7 @@
       "Winter-capable equipment posture corroborated by listing or weighted reviews.",
       "Event-oriented restroom trailer positioning — confirm footprint and pump windows."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "willscot-calgary-ab",
@@ -1204,9 +1225,9 @@
     "primary_segment_confidence": 0.6399999999999999,
     "supported_segments": [
       "construction",
+      "general",
       "event",
       "oilfield",
-      "general",
       "site_services"
     ],
     "capabilities": [
@@ -1255,7 +1276,7 @@
       "Winter-capable equipment posture corroborated by listing or weighted reviews.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "canmore-septic-canmore-ab",
@@ -1294,10 +1315,12 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7599999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
+      "general",
       "event",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -1339,7 +1362,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "benoit-rentals-ltd-chauvin-ab",
@@ -1378,9 +1401,11 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7599999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
+      "general",
+      "event",
       "oilfield"
     ],
     "capabilities": [
@@ -1418,7 +1443,7 @@
       "Winter-capable equipment posture corroborated by listing or weighted reviews.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "mr-p-potty-ltd-cochrane-ab",
@@ -1460,8 +1485,9 @@
     "primary_segment_confidence": 0.72,
     "supported_segments": [
       "construction",
-      "event",
       "general",
+      "event",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -1509,7 +1535,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "steelhead-ventures-ltd-cochrane-ab",
@@ -1551,6 +1577,7 @@
     "primary_segment_confidence": 0.6399999999999999,
     "supported_segments": [
       "construction",
+      "general",
       "event",
       "oilfield",
       "site_services"
@@ -1600,7 +1627,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "buckaday-toilets-drayton-valley-ab",
@@ -1638,9 +1665,11 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7599999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
+      "general",
+      "event",
       "oilfield",
       "site_services"
     ],
@@ -1684,7 +1713,7 @@
       "Winter-capable equipment posture corroborated by listing or weighted reviews.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "1st-choice-construction-waste-removal-edmonton-ab",
@@ -1723,9 +1752,11 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7599999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
+      "general",
+      "event",
       "site_services"
     ],
     "capabilities": [
@@ -1761,7 +1792,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "heartland-disposal-recycling-ltd-edmonton-ab",
@@ -1803,8 +1834,9 @@
     "primary_segment_confidence": 0.72,
     "supported_segments": [
       "construction",
-      "event",
       "general",
+      "event",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -1851,7 +1883,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "p-cann-edmonton-ab",
@@ -1890,10 +1922,12 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7599999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
+      "general",
       "event",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -1937,7 +1971,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "p-cann-services-edmonton-ab",
@@ -1975,10 +2009,12 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7599999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
+      "general",
       "event",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -2022,7 +2058,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "p-pots-portable-washrooms-edmonton-ab",
@@ -2062,7 +2098,9 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
-      "construction"
+      "construction",
+      "general",
+      "event"
     ],
     "capabilities": [],
     "operational_tags": [
@@ -2087,7 +2125,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "pioneer-sanitary-solutions-ltd-edmonton-ab",
@@ -2128,6 +2166,7 @@
     "primary_segment_confidence": 0.6399999999999999,
     "supported_segments": [
       "construction",
+      "general",
       "event",
       "oilfield",
       "site_services"
@@ -2177,7 +2216,7 @@
       "Winter-capable equipment posture corroborated by listing or weighted reviews.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "solv-x-enterprises-inc-edmonton-ab",
@@ -2216,9 +2255,11 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7599999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
+      "general",
+      "event",
       "site_services"
     ],
     "capabilities": [
@@ -2251,7 +2292,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "super-save-group-edmonton-ab",
@@ -2293,8 +2334,9 @@
     "primary_segment_confidence": 0.72,
     "supported_segments": [
       "construction",
-      "event",
       "general",
+      "event",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -2338,7 +2380,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "alberta-toilets-septic-services-evansburg-ab",
@@ -2380,9 +2422,9 @@
     "primary_segment_confidence": 0.6399999999999999,
     "supported_segments": [
       "construction",
+      "general",
       "event",
       "oilfield",
-      "general",
       "site_services"
     ],
     "capabilities": [
@@ -2433,7 +2475,7 @@
       "Winter-capable equipment posture corroborated by listing or weighted reviews.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "go-services-inc-fort-mcmurray-ab",
@@ -2475,6 +2517,7 @@
     "primary_segment_confidence": 0.6399999999999999,
     "supported_segments": [
       "construction",
+      "general",
       "event",
       "oilfield",
       "site_services"
@@ -2527,7 +2570,7 @@
       "Winter-capable equipment posture corroborated by listing or weighted reviews.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "gallason-industrial-cleaning-services-inc-fort-saskatchewan-ab",
@@ -2569,8 +2612,9 @@
     "primary_segment_confidence": 0.6399999999999999,
     "supported_segments": [
       "construction",
-      "event",
       "general",
+      "event",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -2614,7 +2658,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "bear-creek-rentals-inc-fox-creek-ab",
@@ -2656,6 +2700,7 @@
     "primary_segment_confidence": 0.6399999999999999,
     "supported_segments": [
       "construction",
+      "general",
       "event",
       "oilfield",
       "site_services"
@@ -2705,7 +2750,7 @@
       "Winter-capable equipment posture corroborated by listing or weighted reviews.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "remote-group-grande-prairie-county-no-1-ab",
@@ -2744,9 +2789,11 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7599999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
+      "general",
+      "event",
       "oilfield",
       "site_services"
     ],
@@ -2789,7 +2836,7 @@
       "Winter-capable equipment posture corroborated by listing or weighted reviews.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "f5-services-hardisty-ab",
@@ -2831,9 +2878,9 @@
     "primary_segment_confidence": 0.6399999999999999,
     "supported_segments": [
       "construction",
+      "general",
       "event",
       "oilfield",
-      "general",
       "site_services"
     ],
     "capabilities": [
@@ -2880,7 +2927,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "range-services-leduc-ab",
@@ -2918,10 +2965,12 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7599999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
+      "general",
       "event",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -2965,7 +3014,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "rockbox-structures-nisku-ab",
@@ -3007,6 +3056,7 @@
     "primary_segment_confidence": 0.72,
     "supported_segments": [
       "construction",
+      "general",
       "event",
       "oilfield",
       "site_services"
@@ -3054,7 +3104,7 @@
       "Winter-capable equipment posture corroborated by listing or weighted reviews.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "duty-calls-portables-ltd-okotoks-ab",
@@ -3092,10 +3142,12 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7599999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
+      "general",
       "event",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -3139,7 +3191,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "mcneely-co-rentals-olds-ab",
@@ -3180,8 +3232,9 @@
     "primary_segment_confidence": 0.6399999999999999,
     "supported_segments": [
       "construction",
-      "event",
       "general",
+      "event",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -3226,7 +3279,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "canmasters-inc-red-deer-ab",
@@ -3265,10 +3318,12 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7599999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
+      "general",
       "event",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -3311,7 +3366,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "go-services-inc-red-deer-ab",
@@ -3353,6 +3408,7 @@
     "primary_segment_confidence": 0.6399999999999999,
     "supported_segments": [
       "construction",
+      "general",
       "event",
       "oilfield",
       "site_services"
@@ -3406,7 +3462,7 @@
       "Winter-capable equipment posture corroborated by listing or weighted reviews.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "little-jon-s-portable-toilet-rentals-red-deer-ab",
@@ -3448,8 +3504,9 @@
     "primary_segment_confidence": 0.6399999999999999,
     "supported_segments": [
       "construction",
-      "event",
       "general",
+      "event",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -3497,7 +3554,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "big-rock-waste-disposal-and-rentals-rocky-mountain-house-ab",
@@ -3538,6 +3595,7 @@
     "primary_segment_confidence": 0.6399999999999999,
     "supported_segments": [
       "construction",
+      "general",
       "event",
       "oilfield",
       "site_services"
@@ -3587,7 +3645,7 @@
       "Winter-capable equipment posture corroborated by listing or weighted reviews.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "oli-s-portable-toilets-rental-rocky-mountain-house-ab",
@@ -3628,6 +3686,7 @@
     "primary_segment_confidence": 0.6399999999999999,
     "supported_segments": [
       "construction",
+      "general",
       "event",
       "oilfield",
       "site_services"
@@ -3677,7 +3736,7 @@
       "Winter-capable equipment posture corroborated by listing or weighted reviews.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "rangeland-event-restrooms-rocky-view-county-ab",
@@ -3716,9 +3775,12 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7599999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "event",
+      "general",
+      "construction",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -3761,7 +3823,7 @@
       "Winter-capable equipment posture corroborated by listing or weighted reviews.",
       "Event-oriented restroom trailer positioning — confirm footprint and pump windows."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "range-services-sherwood-park-ab",
@@ -3799,10 +3861,12 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7599999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
+      "general",
       "event",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -3846,7 +3910,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "handi-can-2003-ltd-spruce-grove-ab",
@@ -3888,8 +3952,9 @@
     "primary_segment_confidence": 0.6399999999999999,
     "supported_segments": [
       "construction",
-      "event",
       "general",
+      "event",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -3934,7 +3999,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "frontline-rentals-div-of-combat-spraying-stettler-ab",
@@ -3975,6 +4040,7 @@
     "primary_segment_confidence": 0.6399999999999999,
     "supported_segments": [
       "construction",
+      "general",
       "event",
       "oilfield",
       "site_services"
@@ -4020,7 +4086,7 @@
       "Winter-capable equipment posture corroborated by listing or weighted reviews.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "valleyview-sheet-metal-and-insulating-ltd-valleyview-ab",
@@ -4062,6 +4128,7 @@
     "primary_segment_confidence": 0.6399999999999999,
     "supported_segments": [
       "construction",
+      "general",
       "event",
       "oilfield",
       "site_services"
@@ -4113,7 +4180,7 @@
       "Winter-capable equipment posture corroborated by listing or weighted reviews.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "aikam-rental-ltd-abbotsford-bc",
@@ -4154,8 +4221,8 @@
     "primary_segment_confidence": 0.6399999999999999,
     "supported_segments": [
       "construction",
-      "event",
       "general",
+      "event",
       "site_services"
     ],
     "capabilities": [
@@ -4194,7 +4261,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "equinox-rentals-portable-trailer-washrooms-fences-septic-service-abbotsf",
@@ -4233,10 +4300,12 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7599999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
+      "general",
       "event",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -4282,7 +4351,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "scv-waste-management-septic-bins-armstrong-bc-armstrong-bc",
@@ -4321,9 +4390,10 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7599999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
+      "general",
       "event",
       "site_services"
     ],
@@ -4363,7 +4433,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "total-site-services-ltd-burnaby-bc",
@@ -4404,6 +4474,7 @@
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
       "construction",
+      "general",
       "event"
     ],
     "capabilities": [
@@ -4431,7 +4502,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "vogue-luxury-restrooms-calgary-bc",
@@ -4470,10 +4541,12 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7599999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
+      "general",
       "event",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -4517,7 +4590,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "pioneer-sanitary-solutions-ltd-charlie-lake-bc",
@@ -4559,6 +4632,7 @@
     "primary_segment_confidence": 0.6399999999999999,
     "supported_segments": [
       "construction",
+      "general",
       "event",
       "oilfield",
       "site_services"
@@ -4608,7 +4682,7 @@
       "Winter-capable equipment posture corroborated by listing or weighted reviews.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "coast-portable-toilet-rentals-chemainus-bc",
@@ -4649,8 +4723,8 @@
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
       "construction",
-      "event",
-      "general"
+      "general",
+      "event"
     ],
     "capabilities": [
       "ada_accessible",
@@ -4683,7 +4757,7 @@
     "operational_trust_cues": [
       "Phone-forward operator — expect to confirm inventory and cadence by voice."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "christina-porta-potty-rv-pumpout-service-christina-lake-bc",
@@ -4724,8 +4798,8 @@
     "primary_segment_confidence": 0.6399999999999999,
     "supported_segments": [
       "construction",
-      "event",
       "general",
+      "event",
       "site_services"
     ],
     "capabilities": [
@@ -4766,7 +4840,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "full-moon-rentals-coquitlam-bc",
@@ -4808,8 +4882,9 @@
     "primary_segment_confidence": 0.6399999999999999,
     "supported_segments": [
       "construction",
-      "event",
       "general",
+      "event",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -4857,7 +4932,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "pit-stop-portable-toilet-services-coquitlam-bc",
@@ -4898,8 +4973,9 @@
     "primary_segment_confidence": 0.72,
     "supported_segments": [
       "construction",
-      "event",
       "general",
+      "event",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -4944,7 +5020,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "equinox-rentals-portable-trailer-washrooms-fences-septic-service-delta-d",
@@ -4983,10 +5059,12 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7599999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
+      "general",
       "event",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -5032,7 +5110,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "bold-portable-rentals-kelowna-bc",
@@ -5071,9 +5149,10 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.84,
+    "primary_segment_confidence": 0.78,
     "supported_segments": [
       "construction",
+      "general",
       "event",
       "site_services"
     ],
@@ -5115,7 +5194,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "interior-portable-toilet-rentals-kelowna-bc",
@@ -5153,9 +5232,10 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7599999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
+      "general",
       "event",
       "site_services"
     ],
@@ -5193,7 +5273,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "primetime-washroom-rentals-langley-langley-bc",
@@ -5231,10 +5311,12 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7599999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
+      "general",
       "event",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -5277,7 +5359,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "sunrise-washroom-rentals-langley-twp-bc",
@@ -5318,8 +5400,9 @@
     "primary_segment_confidence": 0.6399999999999999,
     "supported_segments": [
       "construction",
-      "event",
       "general",
+      "event",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -5364,7 +5447,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "jiffy-john-rentals-ltd-maple-ridge-bc",
@@ -5405,8 +5488,9 @@
     "primary_segment_confidence": 0.6399999999999999,
     "supported_segments": [
       "construction",
-      "event",
       "general",
+      "event",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -5451,7 +5535,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "constance-portable-washroom-rentals-nanaimo-bc",
@@ -5490,9 +5574,10 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7599999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
+      "general",
       "event",
       "site_services"
     ],
@@ -5530,7 +5615,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "d-b-l-disposal-services-ltd-nanaimo-bc",
@@ -5569,9 +5654,10 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7599999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
+      "general",
       "event",
       "site_services"
     ],
@@ -5608,7 +5694,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "equinox-rentals-portable-trailer-washrooms-fences-septic-service-north-v",
@@ -5647,10 +5733,12 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7599999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
+      "general",
       "event",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -5696,7 +5784,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "vancouver-luxury-restrooms-pitt-meadows-bc",
@@ -5734,9 +5822,12 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7599999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "event",
+      "general",
+      "construction",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -5778,7 +5869,7 @@
       "Winter-capable equipment posture corroborated by listing or weighted reviews.",
       "Event-oriented restroom trailer positioning — confirm footprint and pump windows."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "prince-george-portable-toilet-services-ltd-prince-george-bc",
@@ -5816,9 +5907,10 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7599999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
+      "general",
       "event",
       "site_services"
     ],
@@ -5856,7 +5948,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "absolute-septic-service-qualicum-beach-bc",
@@ -5894,9 +5986,10 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.84,
+    "primary_segment_confidence": 0.78,
     "supported_segments": [
       "construction",
+      "general",
       "event",
       "site_services"
     ],
@@ -5937,7 +6030,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "all-haul-septic-quesnel-quesnel-bc",
@@ -5976,9 +6069,10 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.84,
+    "primary_segment_confidence": 0.78,
     "supported_segments": [
       "construction",
+      "general",
       "event",
       "site_services"
     ],
@@ -6019,7 +6113,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "budget-toilet-rentals-ltd-trailer-washroom-surrey-bc",
@@ -6057,10 +6151,12 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7599999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
-      "event"
+      "general",
+      "event",
+      "oilfield"
     ],
     "capabilities": [
       "handwash_available",
@@ -6098,7 +6194,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "diamond-washroom-trailer-rentals-surrey-bc",
@@ -6139,8 +6235,9 @@
     "primary_segment_confidence": 0.6399999999999999,
     "supported_segments": [
       "construction",
-      "event",
       "general",
+      "event",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -6185,7 +6282,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "equinox-rentals-equinox-rentals-portable-trailer-washrooms-fences-septic",
@@ -6223,10 +6320,12 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7599999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
+      "general",
       "event",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -6269,7 +6368,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "exclusive-washroom-trailer-rentals-surrey-bc",
@@ -6307,9 +6406,11 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7599999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "event",
+      "general",
+      "construction",
       "site_services"
     ],
     "capabilities": [
@@ -6345,7 +6446,7 @@
       "Phone-forward operator — expect to confirm inventory and cadence by voice.",
       "Event-oriented restroom trailer positioning — confirm footprint and pump windows."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "premier-site-services-bin-rentals-fence-rentals-toilet-rentals-surrey-bc",
@@ -6384,9 +6485,10 @@
     "roll_off_disposal": true,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7599999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
+      "general",
       "event",
       "site_services"
     ],
@@ -6430,7 +6532,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "prestige-event-services-inc-surrey-bc",
@@ -6471,8 +6573,8 @@
     "primary_segment_confidence": 0.6399999999999999,
     "supported_segments": [
       "construction",
-      "event",
       "general",
+      "event",
       "site_services"
     ],
     "capabilities": [
@@ -6511,7 +6613,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "primetime-washroom-rentals-surrey-bc",
@@ -6549,10 +6651,12 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7599999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
+      "general",
       "event",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -6595,7 +6699,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "sj-luxury-toilet-rental-surrey-bc",
@@ -6633,9 +6737,10 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7599999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
+      "general",
       "event",
       "site_services"
     ],
@@ -6673,7 +6778,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "super-save-group-head-office-surrey-bc",
@@ -6715,8 +6820,8 @@
     "primary_segment_confidence": 0.72,
     "supported_segments": [
       "construction",
-      "event",
       "general",
+      "event",
       "site_services"
     ],
     "capabilities": [
@@ -6760,7 +6865,7 @@
       "Review volume supports repeat-use validation — still confirm servicing scope directly.",
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "topstall-restroom-rentals-surrey-bc",
@@ -6798,10 +6903,12 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7599999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
+      "general",
       "event",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -6844,7 +6951,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "west-coast-disposal-portable-toilet-rental-surrey-bc",
@@ -6885,8 +6992,8 @@
     "primary_segment_confidence": 0.6399999999999999,
     "supported_segments": [
       "construction",
-      "event",
       "general",
+      "event",
       "site_services"
     ],
     "capabilities": [
@@ -6925,7 +7032,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "western-luxury-trailer-washrooms-surrey-bc",
@@ -6964,9 +7071,12 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7599999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "event",
+      "general",
+      "construction",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -7009,7 +7119,7 @@
       "Winter-capable equipment posture corroborated by listing or weighted reviews.",
       "Event-oriented restroom trailer positioning — confirm footprint and pump windows."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "blue-jay-rentals-washroom-trailer-rentals-vancouver-bc",
@@ -7047,10 +7157,12 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.84,
+    "primary_segment_confidence": 0.78,
     "supported_segments": [
       "construction",
+      "general",
       "event",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -7094,7 +7206,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "west-coast-disposal-portable-toilet-rental-vancouver-bc",
@@ -7136,8 +7248,8 @@
     "primary_segment_confidence": 0.6399999999999999,
     "supported_segments": [
       "construction",
-      "event",
       "general",
+      "event",
       "site_services"
     ],
     "capabilities": [
@@ -7176,7 +7288,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "super-save-group-victoria-bc",
@@ -7218,8 +7330,8 @@
     "primary_segment_confidence": 0.6399999999999999,
     "supported_segments": [
       "construction",
-      "event",
       "general",
+      "event",
       "site_services"
     ],
     "capabilities": [
@@ -7258,7 +7370,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "daylight-equipment-whistler-bc",
@@ -7297,9 +7409,10 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7599999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
+      "general",
       "event",
       "site_services"
     ],
@@ -7337,7 +7450,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "black-tie-toilets-ancaster-on",
@@ -7376,9 +7489,12 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7599999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
+      "general",
+      "event",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -7420,7 +7536,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "suite-moves-arnprior-on",
@@ -7458,9 +7574,12 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.84,
+    "primary_segment_confidence": 0.78,
     "supported_segments": [
       "event",
+      "general",
+      "construction",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -7502,7 +7621,7 @@
       "Winter-capable equipment posture corroborated by listing or weighted reviews.",
       "Event-oriented restroom trailer positioning — confirm footprint and pump windows."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "kaneco-group-premium-portable-washroom-rentals-blackstock-on",
@@ -7540,9 +7659,12 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7599999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "event",
+      "general",
+      "construction",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -7584,7 +7706,7 @@
       "Winter-capable equipment posture corroborated by listing or weighted reviews.",
       "Event-oriented restroom trailer positioning — confirm footprint and pump windows."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "rental-save-bolton-on",
@@ -7622,10 +7744,12 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7599999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
+      "general",
       "event",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -7668,7 +7792,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "go-to-ready-loo-brampton-on",
@@ -7706,10 +7830,12 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7599999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
-      "event"
+      "general",
+      "event",
+      "oilfield"
     ],
     "capabilities": [
       "heated",
@@ -7746,7 +7872,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "halco-portable-washrooms-brantford-on",
@@ -7788,8 +7914,9 @@
     "primary_segment_confidence": 0.6399999999999999,
     "supported_segments": [
       "construction",
-      "event",
       "general",
+      "event",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -7836,7 +7963,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "black-tie-toilets-ltd-ca-on",
@@ -7874,9 +8001,12 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7599999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
+      "general",
+      "event",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -7915,7 +8045,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "environmental-360-solutions-ca-on",
@@ -7956,8 +8086,9 @@
     "primary_segment_confidence": 0.6399999999999999,
     "supported_segments": [
       "construction",
-      "event",
       "general",
+      "event",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -8001,7 +8132,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "gt-portable-toilet-rental-inc-ca-on",
@@ -8042,8 +8173,9 @@
     "primary_segment_confidence": 0.6399999999999999,
     "supported_segments": [
       "construction",
-      "event",
       "general",
+      "event",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -8088,7 +8220,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "rolling-rentals-ca-on",
@@ -8126,9 +8258,12 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.84,
+    "primary_segment_confidence": 0.78,
     "supported_segments": [
       "event",
+      "general",
+      "construction",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -8171,7 +8306,7 @@
       "Winter-capable equipment posture corroborated by listing or weighted reviews.",
       "Event-oriented restroom trailer positioning — confirm footprint and pump windows."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "the-jackpot-portable-sanitation-services-ca-on",
@@ -8209,9 +8344,10 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7599999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
+      "general",
       "event",
       "site_services"
     ],
@@ -8250,7 +8386,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "throne-porta-potty-inc-ca-on",
@@ -8291,8 +8427,9 @@
     "primary_segment_confidence": 0.6399999999999999,
     "supported_segments": [
       "construction",
-      "event",
       "general",
+      "event",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -8337,7 +8474,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "willscot-ca-on",
@@ -8376,10 +8513,12 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.84,
+    "primary_segment_confidence": 0.78,
     "supported_segments": [
       "construction",
-      "event"
+      "general",
+      "event",
+      "oilfield"
     ],
     "capabilities": [
       "ada_accessible",
@@ -8417,7 +8556,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "stone-mills-portable-toilet-rentals-centreville-on",
@@ -8455,10 +8594,12 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7599999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
+      "general",
       "event",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -8502,7 +8643,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "a-1-toilet-rentals-clarksburg-on",
@@ -8543,8 +8684,9 @@
     "primary_segment_confidence": 0.6399999999999999,
     "supported_segments": [
       "construction",
-      "event",
       "general",
+      "event",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -8589,7 +8731,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "the-jackpot-portable-sanitation-services-courtice-on",
@@ -8627,9 +8769,10 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7599999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
+      "general",
       "event",
       "site_services"
     ],
@@ -8668,7 +8811,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "tp-toilets-inc-ennismore-on",
@@ -8706,9 +8849,10 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7599999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
+      "general",
       "event",
       "site_services"
     ],
@@ -8746,7 +8890,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "huron-toilet-rentals-ltd-goderich-on",
@@ -8784,10 +8928,12 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7599999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
+      "general",
       "event",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -8827,7 +8973,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "ampot-portable-toilets-gormley-on",
@@ -8868,8 +9014,9 @@
     "primary_segment_confidence": 0.6399999999999999,
     "supported_segments": [
       "construction",
-      "event",
       "general",
+      "event",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -8914,7 +9061,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "nature-s-call-gormley-on",
@@ -8955,8 +9102,9 @@
     "primary_segment_confidence": 0.6399999999999999,
     "supported_segments": [
       "construction",
-      "event",
       "general",
+      "event",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -9001,7 +9149,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "red-star-portable-hagersville-on",
@@ -9039,9 +9187,12 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7599999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "oilfield",
+      "general",
+      "construction",
+      "event",
       "site_services"
     ],
     "capabilities": [
@@ -9073,7 +9224,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "five-stars-portable-toilets-hamilton-on",
@@ -9111,9 +9262,11 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7599999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
+      "general",
+      "event",
       "site_services"
     ],
     "capabilities": [
@@ -9146,7 +9299,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "pitton-plumbing-portable-sanitation-hamilton-on",
@@ -9187,8 +9340,9 @@
     "primary_segment_confidence": 0.6399999999999999,
     "supported_segments": [
       "construction",
-      "event",
       "general",
+      "event",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -9233,7 +9387,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "chantler-s-environmental-services-hillsburgh-on",
@@ -9271,10 +9425,12 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.84,
+    "primary_segment_confidence": 0.78,
     "supported_segments": [
       "construction",
+      "general",
       "event",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -9318,7 +9474,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "k-winter-sanitation-inc-innisfil-on",
@@ -9359,8 +9515,9 @@
     "primary_segment_confidence": 0.6399999999999999,
     "supported_segments": [
       "construction",
-      "event",
       "general",
+      "event",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -9401,7 +9558,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "pine-porta-potty-kingston-on",
@@ -9442,8 +9599,9 @@
     "primary_segment_confidence": 0.6399999999999999,
     "supported_segments": [
       "construction",
-      "event",
       "general",
+      "event",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -9488,7 +9646,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "room-to-go-inc-millgrove-on",
@@ -9529,8 +9687,9 @@
     "primary_segment_confidence": 0.6399999999999999,
     "supported_segments": [
       "construction",
-      "event",
       "general",
+      "event",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -9575,7 +9734,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "centreline-sanitation-milton-on",
@@ -9616,8 +9775,8 @@
     "primary_segment_confidence": 0.6399999999999999,
     "supported_segments": [
       "construction",
-      "event",
       "general",
+      "event",
       "site_services"
     ],
     "capabilities": [
@@ -9652,7 +9811,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "four-seasons-portable-restrooms-mississauga-on",
@@ -9693,8 +9852,9 @@
     "primary_segment_confidence": 0.72,
     "supported_segments": [
       "construction",
-      "event",
       "general",
+      "event",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -9739,7 +9899,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "xpress-rental-solutions-inc-mississauga-on",
@@ -9780,8 +9940,9 @@
     "primary_segment_confidence": 0.6399999999999999,
     "supported_segments": [
       "construction",
-      "event",
       "general",
+      "event",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -9826,7 +9987,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "m-g-portables-inc-new-hamburg-on",
@@ -9864,10 +10025,12 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7599999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
+      "general",
       "event",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -9907,7 +10070,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "niagara-portable-toilets-niagara-falls-on",
@@ -9948,8 +10111,9 @@
     "primary_segment_confidence": 0.72,
     "supported_segments": [
       "construction",
-      "event",
       "general",
+      "event",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -9994,7 +10158,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "ottawa-luxury-bathroom-trailers-ottawa-on",
@@ -10032,9 +10196,12 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7599999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "event",
+      "general",
+      "construction",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -10076,7 +10243,7 @@
       "Winter-capable equipment posture corroborated by listing or weighted reviews.",
       "Event-oriented restroom trailer positioning — confirm footprint and pump windows."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "portable-toilet-rentals-pefferlaw-on",
@@ -10114,10 +10281,12 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7599999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
-      "event"
+      "general",
+      "event",
+      "oilfield"
     ],
     "capabilities": [
       "handwash_available",
@@ -10155,7 +10324,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "premium-portable-toilet-rentals-peterborough-on",
@@ -10193,10 +10362,12 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7599999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
+      "general",
       "event",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -10239,7 +10410,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "lennex-temporary-fence-pickering-on",
@@ -10278,10 +10449,12 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7599999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
+      "general",
       "event",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -10323,7 +10496,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "event-ready-restrooms-st-thomas-on",
@@ -10361,9 +10534,12 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7599999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
-      "event"
+      "event",
+      "general",
+      "construction",
+      "oilfield"
     ],
     "capabilities": [
       "heated",
@@ -10401,7 +10577,7 @@
       "Winter-capable equipment posture corroborated by listing or weighted reviews.",
       "Event-oriented restroom trailer positioning — confirm footprint and pump windows."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "affordable-portables-st-williams-on",
@@ -10439,9 +10615,12 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7599999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "oilfield",
+      "general",
+      "construction",
+      "event",
       "site_services"
     ],
     "capabilities": [
@@ -10474,7 +10653,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "nature-s-call-vaughan-on",
@@ -10515,8 +10694,9 @@
     "primary_segment_confidence": 0.72,
     "supported_segments": [
       "construction",
-      "event",
       "general",
+      "event",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -10561,7 +10741,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "markle-s-pumping-service-waterdown-on",
@@ -10599,10 +10779,12 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7599999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
+      "general",
       "event",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -10646,7 +10828,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "halco-portables-welland-on",
@@ -10685,10 +10867,12 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.84,
+    "primary_segment_confidence": 0.78,
     "supported_segments": [
       "construction",
+      "general",
       "event",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -10732,7 +10916,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   },
   {
     "id": "platinum-vip-portables-wedding-special-event-washroom-rentals-welland-on",
@@ -10774,8 +10958,9 @@
     "primary_segment_confidence": 0.6399999999999999,
     "supported_segments": [
       "construction",
-      "event",
       "general",
+      "event",
+      "oilfield",
       "site_services"
     ],
     "capabilities": [
@@ -10822,6 +11007,1444 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-03T23:57:36.795Z"
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
+  },
+  {
+    "id": "p-r-septic-city-water-hauling-christopher-lake-sk",
+    "company_name": "P R Septic & City Water Hauling",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Christopher Lake",
+    "province": "Saskatchewan",
+    "province_code": "SK",
+    "service_area": "1 St N RR#1, Christopher Lake, SK S0J 0N0",
+    "rating": 4,
+    "review_count": 0,
+    "website": "https://prseptic.ca",
+    "phone": "+13069824544",
+    "badges": [
+      "Septic system service",
+      "Septic system service, Water utility company"
+    ],
+    "heated": false,
+    "handwash_available": false,
+    "ada_accessible": false,
+    "winterized": false,
+    "construction_ready": true,
+    "oilfield_ready": true,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "septic system service"
+    ],
+    "public_categories": [
+      "construction",
+      "oilfield",
+      "event",
+      "general",
+      "site_services"
+    ],
+    "winter_service": false,
+    "remote_logistics": true,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": true,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.6399999999999999,
+    "supported_segments": [
+      "construction",
+      "oilfield",
+      "event",
+      "general",
+      "site_services"
+    ],
+    "capabilities": [
+      "luxury_trailers",
+      "remote_logistics",
+      "septic_service",
+      "site_support",
+      "wedding_friendly"
+    ],
+    "operational_tags": [
+      "category:fluid_services",
+      "declared:industrial_remote",
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "fluid_handling_partnership",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Guest-density event layouts",
+      "Tank servicing & fluid partners",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ],
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
+  },
+  {
+    "id": "premium-portable-washrooms-ltd-corman-park-no-344-sk",
+    "company_name": "Premium Portable Washrooms Ltd",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Corman Park No. 344",
+    "province": "Saskatchewan",
+    "province_code": "SK",
+    "service_area": "115 Premium Wy, Corman Park No. 344, SK S7P 0G7",
+    "rating": 0,
+    "review_count": 0,
+    "website": "https://premiumportables.com",
+    "phone": "+13066513230",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "heated": true,
+    "handwash_available": false,
+    "ada_accessible": false,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "public_categories": [
+      "construction",
+      "event",
+      "general"
+    ],
+    "winter_service": true,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7599999999999999,
+    "supported_segments": [
+      "construction",
+      "event",
+      "general"
+    ],
+    "capabilities": [
+      "heated",
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
+    ],
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
+  },
+  {
+    "id": "dynamic-disposal-ltd-gull-lake-sk",
+    "company_name": "Dynamic Disposal Ltd",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Gull Lake",
+    "province": "Saskatchewan",
+    "province_code": "SK",
+    "service_area": "2118 Proton Ave, Gull Lake, SK S0N 0B2",
+    "rating": 4.8,
+    "review_count": 4,
+    "website": "https://dynamicdisposal.ca/equipment-rentals-dynamic-disposal",
+    "phone": "+13066723062",
+    "badges": [
+      "Oil field equipment supplier"
+    ],
+    "heated": true,
+    "handwash_available": false,
+    "ada_accessible": false,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": true,
+    "wedding_friendly": false,
+    "luxury_units": false,
+    "google_categories": [
+      "oil field equipment supplier"
+    ],
+    "public_categories": [
+      "construction",
+      "oilfield",
+      "general",
+      "site_services"
+    ],
+    "winter_service": true,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": false,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.6399999999999999,
+    "supported_segments": [
+      "construction",
+      "oilfield",
+      "general",
+      "site_services"
+    ],
+    "capabilities": [
+      "heated",
+      "remote_logistics",
+      "winter_service",
+      "winterized"
+    ],
+    "operational_tags": [
+      "declared:industrial_remote",
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "jobsite_programs"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Cold-weather equipment posture"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Winter-capable equipment posture corroborated by listing or weighted reviews.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ],
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
+  },
+  {
+    "id": "gary-blythe-vacuum-services-ltd-lloydminster-sk",
+    "company_name": "Gary Blythe Vacuum Services Ltd",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Lloydminster",
+    "province": "Saskatchewan",
+    "province_code": "SK",
+    "service_area": "Stn Main, Lloydminster, SK S9V 3A7",
+    "rating": 5,
+    "review_count": 11,
+    "website": "http://www.garyblythevacuum.com",
+    "phone": "+17808758457",
+    "badges": [
+      "Septic system service"
+    ],
+    "heated": false,
+    "handwash_available": false,
+    "ada_accessible": false,
+    "winterized": false,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "septic system service"
+    ],
+    "public_categories": [
+      "construction",
+      "event",
+      "general",
+      "site_services"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": true,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.6399999999999999,
+    "supported_segments": [
+      "construction",
+      "event",
+      "general",
+      "site_services"
+    ],
+    "capabilities": [
+      "luxury_trailers",
+      "septic_service",
+      "site_support",
+      "wedding_friendly"
+    ],
+    "operational_tags": [
+      "category:fluid_services",
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "fluid_handling_partnership",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Tank servicing & fluid partners",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ],
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
+  },
+  {
+    "id": "waste-a-way-septic-ltd-maple-creek-sk",
+    "company_name": "Waste-A-Way Septic Ltd",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Maple Creek",
+    "province": "Saskatchewan",
+    "province_code": "SK",
+    "service_area": "512 2 Ave N, Maple Creek, SK S0N 1N0",
+    "rating": 0,
+    "review_count": 0,
+    "website": "http://wasteawayseptic.ca",
+    "phone": "+13066627955",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "heated": true,
+    "handwash_available": true,
+    "ada_accessible": false,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": true,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "public_categories": [
+      "construction",
+      "oilfield",
+      "event",
+      "general",
+      "site_services"
+    ],
+    "winter_service": true,
+    "remote_logistics": true,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.6399999999999999,
+    "supported_segments": [
+      "construction",
+      "oilfield",
+      "event",
+      "general",
+      "site_services"
+    ],
+    "capabilities": [
+      "handwash_available",
+      "heated",
+      "luxury_trailers",
+      "remote_logistics",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:industrial_remote",
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Winter-capable equipment posture corroborated by listing or weighted reviews.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ],
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
+  },
+  {
+    "id": "protex-environmental-meadow-lake-sk",
+    "company_name": "Protex Environmental",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Meadow Lake",
+    "province": "Saskatchewan",
+    "province_code": "SK",
+    "service_area": "19 Industrial Crescent, Meadow Lake, SK S9X 1Z1",
+    "rating": 3,
+    "review_count": 4,
+    "website": "https://www.protexenviro.ca",
+    "phone": "+13062365200",
+    "badges": [
+      "Waste management service",
+      "Waste management service, Portable toilet supplier, Recycling center, Sewage disposal service"
+    ],
+    "heated": false,
+    "handwash_available": false,
+    "ada_accessible": true,
+    "winterized": false,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "waste management service"
+    ],
+    "public_categories": [
+      "construction",
+      "event",
+      "general",
+      "site_services"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": true,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.6399999999999999,
+    "supported_segments": [
+      "construction",
+      "event",
+      "general",
+      "site_services"
+    ],
+    "capabilities": [
+      "ada_accessible",
+      "luxury_trailers",
+      "septic_service",
+      "site_support",
+      "wedding_friendly"
+    ],
+    "operational_tags": [
+      "category:fluid_services",
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "fluid_handling_partnership",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Tank servicing & fluid partners",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ],
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
+  },
+  {
+    "id": "environmental-360-solutions-regina-c-d-waste-transfer-station-regina-sk",
+    "company_name": "Environmental 360 Solutions - Regina - C&D Waste Transfer Station",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Regina",
+    "province": "Saskatchewan",
+    "province_code": "SK",
+    "service_area": "Rm of Sherwood, 1046 Kearns Cres #1, Regina, SK S4K 0A1",
+    "rating": 3,
+    "review_count": 54,
+    "website": "https://e360s.ca/welcome-local-environmental-customers",
+    "phone": "+13065226666",
+    "badges": [
+      "Waste transfer station",
+      "Waste transfer station, Waste management service"
+    ],
+    "heated": true,
+    "handwash_available": false,
+    "ada_accessible": true,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "waste transfer station"
+    ],
+    "public_categories": [
+      "construction",
+      "event",
+      "general",
+      "site_services"
+    ],
+    "winter_service": true,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.72,
+    "supported_segments": [
+      "construction",
+      "event",
+      "general",
+      "site_services"
+    ],
+    "capabilities": [
+      "ada_accessible",
+      "heated",
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
+    ],
+    "operational_tags": [
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "small",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
+    ],
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
+  },
+  {
+    "id": "super-save-group-regina-sk",
+    "company_name": "Super Save Group",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Regina",
+    "province": "Saskatchewan",
+    "province_code": "SK",
+    "service_area": "511F Dewdney Ave E, Regina, SK S4N 4E9",
+    "rating": 3.4,
+    "review_count": 5,
+    "website": "https://supersave.ca/location/regina/%3Futm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_campaign%3Dregina-s4n4e9-gmb%26utm_content%3Dwebsite-button-click",
+    "phone": "+13065852477",
+    "badges": [
+      "Waste management service",
+      "Waste management service, Fence contractor, Fence supply store, Garbage collection service, Portable toilet supplier"
+    ],
+    "heated": true,
+    "handwash_available": false,
+    "ada_accessible": false,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "waste management service"
+    ],
+    "public_categories": [
+      "construction",
+      "event",
+      "general",
+      "site_services"
+    ],
+    "winter_service": true,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": true,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.6399999999999999,
+    "supported_segments": [
+      "construction",
+      "event",
+      "general",
+      "site_services"
+    ],
+    "capabilities": [
+      "heated",
+      "luxury_trailers",
+      "septic_service",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
+    ],
+    "operational_tags": [
+      "category:fluid_services",
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "fluid_handling_partnership",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
+      "Tank servicing & fluid partners",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
+    ],
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
+  },
+  {
+    "id": "tristen-hydrovac-services-regina-sk",
+    "company_name": "Tristen HydroVac Services",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Regina",
+    "province": "Saskatchewan",
+    "province_code": "SK",
+    "service_area": "1410 Fleet St, Regina, SK S4K 0A1",
+    "rating": 3.2,
+    "review_count": 13,
+    "website": "https://tristenhydrovac.ca",
+    "phone": "+13065367507",
+    "badges": [
+      "Septic system service"
+    ],
+    "heated": true,
+    "handwash_available": false,
+    "ada_accessible": false,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": true,
+    "wedding_friendly": false,
+    "luxury_units": false,
+    "google_categories": [
+      "septic system service"
+    ],
+    "public_categories": [
+      "construction",
+      "oilfield",
+      "general",
+      "site_services"
+    ],
+    "winter_service": true,
+    "remote_logistics": true,
+    "luxury_trailers": false,
+    "flushing_units": false,
+    "septic_service": true,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.6399999999999999,
+    "supported_segments": [
+      "construction",
+      "oilfield",
+      "general",
+      "site_services"
+    ],
+    "capabilities": [
+      "heated",
+      "remote_logistics",
+      "septic_service",
+      "site_support",
+      "winter_service",
+      "winterized"
+    ],
+    "operational_tags": [
+      "category:fluid_services",
+      "declared:industrial_remote",
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "jobsite_programs",
+      "fluid_handling_partnership",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Industrial remote corridors",
+      "Cold-weather equipment posture",
+      "Tank servicing & fluid partners",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Winter-capable equipment posture corroborated by listing or weighted reviews.",
+      "Remote logistics signals present — validate lease-road access and SLAs."
+    ],
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
+  },
+  {
+    "id": "allan-s-disposal-services-ltd-saskatoon-sk",
+    "company_name": "ALLAN'S DISPOSAL SERVICES LTD.",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Saskatoon",
+    "province": "Saskatchewan",
+    "province_code": "SK",
+    "service_area": "777 60 St W #3, Saskatoon, SK S7K 3J7",
+    "rating": 1,
+    "review_count": 1,
+    "website": "https://allansdisposalservices.com/toilets-rental",
+    "phone": "+13069312604",
+    "badges": [
+      "Waste management service",
+      "Waste management service, Portable toilet supplier"
+    ],
+    "heated": true,
+    "handwash_available": true,
+    "ada_accessible": true,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "waste management service"
+    ],
+    "public_categories": [
+      "construction",
+      "event",
+      "general",
+      "site_services"
+    ],
+    "winter_service": true,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": true,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.6399999999999999,
+    "supported_segments": [
+      "construction",
+      "event",
+      "general",
+      "site_services"
+    ],
+    "capabilities": [
+      "ada_accessible",
+      "handwash_available",
+      "heated",
+      "luxury_trailers",
+      "septic_service",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
+    ],
+    "operational_tags": [
+      "category:fluid_services",
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "fluid_handling_partnership",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
+      "Tank servicing & fluid partners",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
+    ],
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
+  },
+  {
+    "id": "premium-portable-washrooms-ltd-saskatoon-sk",
+    "company_name": "Premium Portable Washrooms Ltd",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Saskatoon",
+    "province": "Saskatchewan",
+    "province_code": "SK",
+    "service_area": "510 47th St E, Saskatoon, SK S7K 4L3",
+    "rating": 4,
+    "review_count": 8,
+    "website": "https://premiumportables.com",
+    "phone": "+13066513230",
+    "badges": [
+      "Equipment supplier"
+    ],
+    "heated": true,
+    "handwash_available": false,
+    "ada_accessible": false,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "equipment supplier"
+    ],
+    "public_categories": [
+      "construction",
+      "event",
+      "general"
+    ],
+    "winter_service": true,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": false,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7599999999999999,
+    "supported_segments": [
+      "construction",
+      "event",
+      "general"
+    ],
+    "capabilities": [
+      "heated",
+      "luxury_trailers",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
+    ],
+    "operational_tags": [
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Cold-weather equipment posture"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
+    ],
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
+  },
+  {
+    "id": "rooter-man-drain-services-saskatoon-sk",
+    "company_name": "Rooter Man Drain Services",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Saskatoon",
+    "province": "Saskatchewan",
+    "province_code": "SK",
+    "service_area": "1527 Ontario Ave Unit 8, Saskatoon, SK S7K 1S7",
+    "rating": 4.9,
+    "review_count": 253,
+    "website": "http://www.saskrooterman.com",
+    "phone": "+13066512564",
+    "badges": [
+      "Plumber",
+      "Plumber, Drainage service, Portable toilet supplier, Repair Service"
+    ],
+    "heated": false,
+    "handwash_available": false,
+    "ada_accessible": false,
+    "winterized": false,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "plumber"
+    ],
+    "public_categories": [
+      "construction",
+      "event",
+      "general",
+      "site_services"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.72,
+    "supported_segments": [
+      "construction",
+      "event",
+      "general",
+      "site_services"
+    ],
+    "capabilities": [
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly"
+    ],
+    "operational_tags": [
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "review_volume_signal",
+      "rating_consistency_signal",
+      "listed_web_presence"
+    ],
+    "response_priority": "priority_field",
+    "operator_scale": "regional",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Review volume supports repeat-use validation — still confirm servicing scope directly.",
+      "Rating pattern is steady enough to treat reviews as a meaningful signal.",
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ],
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
+  },
+  {
+    "id": "super-save-group-saskatoon-sk",
+    "company_name": "Super Save Group",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Saskatoon",
+    "province": "Saskatchewan",
+    "province_code": "SK",
+    "service_area": "511 47th St E, Saskatoon, SK S7K 5B5",
+    "rating": 4.3,
+    "review_count": 47,
+    "website": "https://supersave.ca/super-save-toilet-rentals/portable-washroom-trailer-rentals",
+    "phone": "+13069562477",
+    "badges": [
+      "Waste management service",
+      "Waste management service, Fence supply store, Portable toilet supplier, Sewage disposal service, Tool rental service"
+    ],
+    "heated": true,
+    "handwash_available": false,
+    "ada_accessible": false,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "waste management service"
+    ],
+    "public_categories": [
+      "construction",
+      "event",
+      "general",
+      "site_services"
+    ],
+    "reviews_normalized": [],
+    "winter_service": true,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": true,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "primary_segment_confidence": 0.72,
+    "supported_segments": [
+      "construction",
+      "event",
+      "general",
+      "site_services"
+    ],
+    "capabilities": [
+      "heated",
+      "luxury_trailers",
+      "septic_service",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
+    ],
+    "operational_tags": [
+      "category:fluid_services",
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "fluid_handling_partnership",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
+      "Tank servicing & fluid partners",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "small",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
+    ],
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
+  },
+  {
+    "id": "southwest-rentals-shaunavon-sk",
+    "company_name": "Southwest Rentals",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Shaunavon",
+    "province": "Saskatchewan",
+    "province_code": "SK",
+    "service_area": "237 7th St W, Shaunavon, SK S0N 2M0",
+    "rating": 5,
+    "review_count": 1,
+    "website": "https://www.southwestrental.ca",
+    "phone": "+13062974080",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "heated": true,
+    "handwash_available": true,
+    "ada_accessible": true,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "public_categories": [
+      "construction",
+      "event",
+      "general"
+    ],
+    "winter_service": true,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.7599999999999999,
+    "supported_segments": [
+      "construction",
+      "event",
+      "general"
+    ],
+    "capabilities": [
+      "ada_accessible",
+      "handwash_available",
+      "heated",
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
+    ],
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
+  },
+  {
+    "id": "northshore-septic-silton-sk",
+    "company_name": "Northshore Septic",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Silton",
+    "province": "Saskatchewan",
+    "province_code": "SK",
+    "service_area": "14 Lakeshore Dr, Silton, SK S0G 4L0",
+    "rating": 4.8,
+    "review_count": 5,
+    "website": "https://northshoreseptic.com",
+    "phone": "+13062014695",
+    "badges": [
+      "Septic system service"
+    ],
+    "heated": false,
+    "handwash_available": false,
+    "ada_accessible": false,
+    "winterized": false,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "septic system service"
+    ],
+    "public_categories": [
+      "construction",
+      "event",
+      "general",
+      "site_services"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": true,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.6399999999999999,
+    "supported_segments": [
+      "construction",
+      "event",
+      "general",
+      "site_services"
+    ],
+    "capabilities": [
+      "luxury_trailers",
+      "septic_service",
+      "site_support",
+      "wedding_friendly"
+    ],
+    "operational_tags": [
+      "category:fluid_services",
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "fluid_handling_partnership",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Tank servicing & fluid partners",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ],
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
+  },
+  {
+    "id": "little-john-rentals-warman-sk",
+    "company_name": "Little John Rentals",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Warman",
+    "province": "Saskatchewan",
+    "province_code": "SK",
+    "service_area": "210 Eldorado St, Warman, SK S0K 0A1",
+    "rating": 4.3,
+    "review_count": 47,
+    "website": "http://www.littlejohnrentals.ca",
+    "phone": "+13069331958",
+    "badges": [
+      "Portable toilet supplier"
+    ],
+    "heated": true,
+    "handwash_available": false,
+    "ada_accessible": true,
+    "winterized": true,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "portable toilet supplier"
+    ],
+    "public_categories": [
+      "construction",
+      "event",
+      "general"
+    ],
+    "reviews_normalized": [],
+    "winter_service": true,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": false,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "primary_segment_confidence": 0.84,
+    "supported_segments": [
+      "construction",
+      "event",
+      "general"
+    ],
+    "capabilities": [
+      "ada_accessible",
+      "heated",
+      "luxury_trailers",
+      "site_support",
+      "wedding_friendly",
+      "winter_service",
+      "winterized"
+    ],
+    "operational_tags": [
+      "category:portable_sanitation",
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Cold-weather equipment posture",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "small",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions.",
+      "Winter-capable equipment posture corroborated by listing or weighted reviews."
+    ],
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
+  },
+  {
+    "id": "gordon-s-sanitation-services-yorkton-sk",
+    "company_name": "Gordon's Sanitation Services",
+    "primary_segment": "construction",
+    "segment_key": "construction",
+    "city": "Yorkton",
+    "province": "Saskatchewan",
+    "province_code": "SK",
+    "service_area": "284 Myrtle Ave, Yorkton, SK S3N 0A5",
+    "rating": 5,
+    "review_count": 2,
+    "website": "http://www.gordonssanitation.ca",
+    "phone": "+13067834181",
+    "badges": [
+      "Sewage treatment plant",
+      "Sewage treatment plant, Portable toilet supplier, Septic system service, Sewage disposal service, Waste management service"
+    ],
+    "heated": false,
+    "handwash_available": false,
+    "ada_accessible": false,
+    "winterized": false,
+    "construction_ready": true,
+    "oilfield_ready": false,
+    "wedding_friendly": true,
+    "luxury_units": false,
+    "google_categories": [
+      "sewage treatment plant"
+    ],
+    "public_categories": [
+      "construction",
+      "event",
+      "general",
+      "site_services"
+    ],
+    "winter_service": false,
+    "remote_logistics": false,
+    "luxury_trailers": true,
+    "flushing_units": false,
+    "septic_service": true,
+    "site_support": true,
+    "roll_off_disposal": false,
+    "crane_liftable": false,
+    "reviews_normalized": [],
+    "primary_segment_confidence": 0.6399999999999999,
+    "supported_segments": [
+      "construction",
+      "event",
+      "general",
+      "site_services"
+    ],
+    "capabilities": [
+      "luxury_trailers",
+      "septic_service",
+      "site_support",
+      "wedding_friendly"
+    ],
+    "operational_tags": [
+      "declared:jobsite_ready",
+      "source:badge_alignment"
+    ],
+    "service_types": [
+      "event_trailer_operations",
+      "jobsite_programs",
+      "fluid_handling_partnership",
+      "integrated_site_support"
+    ],
+    "inferred_specialties": [
+      "Guest-density event layouts",
+      "Tank servicing & fluid partners",
+      "Multi-trade site servicing"
+    ],
+    "trust_signals": [
+      "listed_web_presence"
+    ],
+    "response_priority": "standard",
+    "operator_scale": "solo",
+    "years_in_business_estimate": null,
+    "operational_trust_cues": [
+      "Listed web presence — faster verification of inventory and route assumptions."
+    ],
+    "last_verified_at": "2026-06-22T23:58:34.816Z"
   }
 ]
