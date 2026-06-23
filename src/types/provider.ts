@@ -104,6 +104,8 @@ export interface ProviderCore {
    * primary_segment is kept for internal ranking only.
    */
   public_categories?: PrimarySegment[]
+  /** Analyst/CSV-assigned categories — preserved over inference at enrich time. */
+  curated_public_categories?: PrimarySegment[]
 }
 
 export interface ProviderEnrichment extends OperationalRelationshipHooks {

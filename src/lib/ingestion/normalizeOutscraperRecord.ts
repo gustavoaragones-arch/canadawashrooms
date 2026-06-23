@@ -197,6 +197,6 @@ export function normalizeOutscraperRecord(
     luxury_units:      false,              // needs manual curation
     google_categories: category ? [normalizeCategory(category)] : [],
     address_full: address || undefined,
-    ...(hasCuratedCategories ? { public_categories: curatedCategories } : {}),
+    ...(hasCuratedCategories ? { curated_public_categories: curatedCategories } : {}),
   }
 }

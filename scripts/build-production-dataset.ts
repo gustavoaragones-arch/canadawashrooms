@@ -22,6 +22,8 @@ import type { Provider, ProvinceCode, ProviderRaw } from '../src/types/provider'
 import { enrichProvider } from '../src/lib/enrichment/enrichProvider'
 import type { ManualOverridesFile } from '../src/lib/dataOperations/manualOverridesFile'
 import { applyManualOverridesFile } from '../src/lib/dataOperations/manualOverridesFile'
+import type { CategoryQaFile } from '../src/lib/dataOperations/categoryQaFile'
+import { applyCategoryQaFile } from '../src/lib/dataOperations/categoryQaFile'
 
 const __dirname = fileURLToPath(new URL('.', import.meta.url))
 const REPO_ROOT = resolve(__dirname, '..')
@@ -95,12 +97,43 @@ function detectCollisions(providers: Provider[]): string[] {
   return [...seen.entries()].filter(([, n]) => n > 1).map(([id]) => id)
 }
 
+function loadCategoryQa(): CategoryQaFile | null {
+  const p = resolve(REPO_ROOT, 'data/curation/category-qa.json')
+  if (!existsSync(p)) return null
+  try {
+    const parsed = JSON.parse(readFileSync(p, 'utf8')) as CategoryQaFile
+    if (typeof parsed.version !== 'number' || !Array.isArray(parsed.entries)) return null
+    return parsed
+  } catch {
+    return null
+  }
+}
+
+/** Prepare province row for enrichment — strip stale derived categories, preserve CSV curation. */
+function prepareRawForEnrich(
+  raw: ProviderRaw & { province_code?: ProvinceCode },
+): ProviderRaw & { province_code?: ProvinceCode } {
+  const legacyCurated =
+    raw.curated_public_categories ??
+    (raw.province_code === 'SK' && raw.public_categories?.length
+      ? raw.public_categories
+      : undefined)
+
+  const { public_categories, ...rest } = raw
+  void public_categories
+  return {
+    ...rest,
+    ...(legacyCurated?.length ? { curated_public_categories: legacyCurated } : {}),
+  }
+}
+
 // ── Assembly pipeline ─────────────────────────────────────────────────────────
 
 function main(): void {
   mkdirSync(resolve(REPO_ROOT, 'src/data'), { recursive: true })
 
   const manual = loadManualOverrides()
+  const categoryQa = loadCategoryQa()
   const allRaw: (ProviderRaw & { province_code?: ProvinceCode })[] = []
   const summary: { code: ProvinceCode; path: string; loaded: number }[] = []
 
@@ -147,11 +180,13 @@ function main(): void {
     last_verified_at: (r as { last_verified_at?: string }).last_verified_at ?? BUILD_TIMESTAMP,
   }))
 
+  const withCategoryQa = applyCategoryQaFile(withNationalSlugs, categoryQa)
+
   const enriched: Provider[] = []
   let enrichErrors = 0
-  for (const raw of withNationalSlugs) {
+  for (const raw of withCategoryQa) {
     try {
-      enriched.push(enrichProvider(raw))
+      enriched.push(enrichProvider(prepareRawForEnrich(raw)))
     } catch {
       enrichErrors++
     }
@@ -211,6 +246,7 @@ function main(): void {
   console.log(`  ID collisions:      ${collisions.length}`)
   console.log(`  Output:             src/data/providers.json`)
   console.log(`  Manual overrides:   ${manual ? `yes (v${manual.version}, ${manual.entries.length} entries)` : 'none'}`)
+  console.log(`  Category QA:        ${categoryQa ? `yes (v${categoryQa.version}, ${categoryQa.entries.length} entries)` : 'none'}`)
   console.log('──────────────────────────────────────\n')
 
   if (collisions.length > 0) {

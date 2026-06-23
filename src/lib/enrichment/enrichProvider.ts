@@ -9,7 +9,7 @@ import {
 } from '../normalize'
 import { runInferredCapabilityPipeline } from '../inference/inferredCapabilityPipeline'
 import { normalizeReviewRecord } from '../inference/reviewPipeline'
-import { derivePublicCategories } from '../taxonomy/publicCategoryMapper'
+import { resolvePublicCategories } from '../taxonomy/publicCategoryMapper'
 import type {
   FilterCapability,
   InferenceOverrideShape,
@@ -391,10 +391,10 @@ export function enrichProvider(raw: ProviderRaw): Provider {
   const listingBlob = [...badges, ...google_categories].join(' ').toLowerCase()
   let site_support = Boolean(
     workingRaw.site_support ??
-      (/site service|waste management|sanitation|portable toilet|dumpster|disposal/.test(
+      (/septic|hydrovac|vacuum truck|vacuum services|septic pump|waste haul|roll[\s-]?off|dumpster|garbage bin|holding tank/.test(
         listingBlob,
       ) &&
-        !/campervan|rv rental|tent rental only/.test(listingBlob)),
+        !/campervan|rv rental|tent rental only|portable toilet supplier/.test(listingBlob)),
   )
   const roll_off_disposal = Boolean(
     workingRaw.roll_off_disposal ??
@@ -519,13 +519,25 @@ export function enrichProvider(raw: ProviderRaw): Provider {
     flushing_units,
     operator_scale,
     years_in_business_estimate: workingRaw.years_in_business_estimate ?? null,
-    public_categories: workingRaw.public_categories?.length
-      ? [...workingRaw.public_categories]
-      : derivePublicCategories({
-          ...capCore,
-          luxury_trailers,
-          remote_logistics,
-        }),
+    public_categories: resolvePublicCategories(workingRaw, {
+      ...capCore,
+      construction_ready: workingRaw.construction_ready,
+      weekly_service: capCore.weekly_service,
+      crane_liftable: capCore.crane_liftable,
+      luxury_units: workingRaw.luxury_units,
+      luxury_trailers: Boolean(workingRaw.luxury_trailers || workingRaw.luxury_units),
+      wedding_friendly: workingRaw.wedding_friendly,
+      flush_toilets: workingRaw.flush_toilets ?? capCore.flush_toilets,
+      oilfield_ready: workingRaw.oilfield_ready,
+      remote_logistics: Boolean(workingRaw.remote_logistics),
+      remote_support: workingRaw.remote_support,
+      camp_support: workingRaw.camp_support,
+      septic_service: capCore.septic_service,
+      roll_off_disposal: capCore.roll_off_disposal,
+      primary_segment: effectivePrimary,
+      badges,
+      google_categories,
+    }),
   }
 
   const operational_trust_cues = deriveOperationalTrustCues(sansTrustCues)

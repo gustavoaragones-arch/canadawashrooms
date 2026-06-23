@@ -1,30 +1,8 @@
 /**
  * publicCategoryMapper — derives the public_categories array for a provider.
  *
- * This is the FILTERING layer. A provider can belong to multiple categories.
- * Intentionally different from primary_segment (kept for internal ranking only).
- *
- * Design principle:
- *   Capability signals in scraped data are sparse — most providers only have
- *   inferred signals, not explicit ones. The mapper therefore errs toward
- *   INCLUSION rather than exclusion. Differentiation between categories comes
- *   from what EXTRA capabilities a provider has, not from what it lacks.
- *
- * Category rules:
- *
- * GENERAL — universal baseline: every portable sanitation provider belongs here.
- *   Only pure industrial waste/septic firms with no portable unit presence are excluded.
- *
- * CONSTRUCTION — all general providers (portable toilets on jobsites is the #1 use
- *   case of the industry). Explicitly excluded only for pure event/luxury operators.
- *
- * EVENT — all general providers (any portable toilet company can serve an event).
- *   Providers with luxury/event signals are ranked higher within this category.
- *
- * OILFIELD/REMOTE — providers with explicit cold-climate or remote logistics posture.
- *   This is an ADDITIVE category (a provider can be general + oilfield).
- *
- * SITE_SERVICES — providers with waste, septic, or disposal capabilities.
+ * Filtering layer only — intentionally separate from primary_segment (internal ranking).
+ * UX-11: strict inclusion rules so categories act as real filters, not decorative labels.
  */
 
 import type { PrimarySegment, Provider, ProviderRaw } from '../../types/provider'
@@ -33,76 +11,112 @@ type ProviderLike = (ProviderRaw | Provider) & {
   luxury_trailers?: boolean
   remote_logistics?: boolean
   flushing_units?: boolean
-  winter_service?: boolean
+  flush_toilets?: boolean
+  weekly_service?: boolean
+  badges?: string[]
+  google_categories?: string[]
 }
 
+function listingBlob(provider: ProviderLike): string {
+  return [...(provider.badges ?? []), ...(provider.google_categories ?? [])]
+    .join(' ')
+    .toLowerCase()
+}
+
+function hasConstructionSignals(provider: ProviderLike): boolean {
+  if (provider.construction_ready || provider.weekly_service || provider.crane_liftable) {
+    return true
+  }
+  const blob = listingBlob(provider)
+  return /jobsite|job site|contractor|long[\s-]term rental|construction site/.test(blob)
+}
+
+function hasEventSignals(provider: ProviderLike): boolean {
+  if (
+    provider.luxury_units ||
+    provider.luxury_trailers ||
+    provider.flush_toilets ||
+    provider.flushing_units
+  ) {
+    return true
+  }
+  const blob = listingBlob(provider)
+  if (/wedding|event restroom|luxury trailer|special event|party rental/.test(blob)) {
+    return true
+  }
+  if (provider.wedding_friendly && /wedding|event|party|trailer|restroom/.test(blob)) {
+    return true
+  }
+  return false
+}
+
+function countStrongOilfieldSignals(provider: ProviderLike): number {
+  let count = 0
+  if (provider.oilfield_ready) count++
+  if (provider.remote_logistics) count++
+  if (provider.camp_support) count++
+  if (provider.remote_support) count++
+  return count
+}
+
+function hasOilfieldSignals(provider: ProviderLike): boolean {
+  if (provider.primary_segment === 'oilfield') return true
+  return countStrongOilfieldSignals(provider) >= 2
+}
+
+function hasWasteServiceSignals(provider: ProviderLike): boolean {
+  if (provider.septic_service || provider.roll_off_disposal) return true
+  const blob = listingBlob(provider)
+  return /septic|hydrovac|vacuum truck|vacuum services|septic pump|waste haul|roll[\s-]?off|dumpster|garbage bin/.test(
+    blob,
+  )
+}
+
+/** Strict signal-based categories — used when no curated CSV list is present. */
 export function derivePublicCategories(provider: ProviderLike): PrimarySegment[] {
   const cats = new Set<PrimarySegment>()
 
-  // ── GENERAL ──────────────────────────────────────────────────────────────────
-  // Universal baseline — every operator in this directory offers portable
-  // sanitation services. Always included.
+  // RULE 1 — universal default for portable sanitation operators
   cats.add('general')
 
-  // ── CONSTRUCTION ─────────────────────────────────────────────────────────────
-  // All general providers belong here — portable toilets on jobsites is the
-  // primary industry use case. Explicit construction signals rank providers higher.
-  if (cats.has('general')) {
-    cats.add('construction')
-  }
-  if (
-    provider.primary_segment === 'construction' ||
-    provider.construction_ready ||
-    provider.crane_liftable ||
-    provider.weekly_service ||
-    provider.handwash_available
-  ) {
+  // RULE 2 — construction requires explicit jobsite signals
+  if (hasConstructionSignals(provider)) {
     cats.add('construction')
   }
 
-  // ── EVENT ────────────────────────────────────────────────────────────────────
-  // All general providers belong here — any portable toilet company can serve
-  // an outdoor event. Providers with explicit luxury/event signals rank higher.
-  if (cats.has('general')) {
-    cats.add('event')
-  }
-  if (
-    provider.primary_segment === 'event' ||
-    provider.luxury_units ||
-    (provider as ProviderLike).luxury_trailers ||
-    provider.flush_toilets ||
-    provider.wedding_friendly
-  ) {
+  // RULE 3 — events require explicit luxury/event signals
+  if (hasEventSignals(provider)) {
     cats.add('event')
   }
 
-  // ── OILFIELD / REMOTE ────────────────────────────────────────────────────────
-  // Explicit remote/winter/industrial capability signals.
-  // This is additive — a provider can be general + construction + oilfield.
-  if (
-    provider.primary_segment === 'oilfield' ||
-    provider.oilfield_ready ||
-    provider.winterized ||
-    provider.heated ||
-    provider.remote_support ||
-    provider.camp_support ||
-    (provider as ProviderLike).remote_logistics
-  ) {
+  // RULE 4 — oilfield requires strong remote/industrial posture (not winter heat alone)
+  if (hasOilfieldSignals(provider)) {
     cats.add('oilfield')
   }
 
-  // ── SITE SERVICES ────────────────────────────────────────────────────────────
-  // Providers with waste, septic, or disposal capabilities.
-  if (
-    provider.primary_segment === 'site_services' ||
-    provider.septic_service ||
-    provider.site_support ||
-    provider.roll_off_disposal
-  ) {
+  // RULE 5 — waste/site requires septic, disposal, or explicit waste-service language
+  if (hasWasteServiceSignals(provider)) {
     cats.add('site_services')
   }
 
   return [...cats]
+}
+
+/**
+ * RULE 6 — curated CSV categories win over inference.
+ * Always ensures general is present as the broad default.
+ */
+export function resolvePublicCategories(
+  raw: Pick<ProviderRaw, 'curated_public_categories'>,
+  provider: ProviderLike,
+): PrimarySegment[] {
+  const curated = raw.curated_public_categories
+  if (curated?.length) {
+    const out = new Set<PrimarySegment>(curated)
+    out.add('general')
+    return [...out]
+  }
+  return derivePublicCategories(provider)
 }
 
 /**
