@@ -41,14 +41,6 @@ export const INTENT_CARDS: IntentCardDefinition[] = [
     badges: ['Winterized', 'Remote Ready', 'Camp Support'],
   },
   {
-    segment: 'site_services',
-    title: 'Waste & Site Services',
-    icon: '/3.svg',
-    microcopy:
-      'Integrated site servicing for construction projects, infrastructure work, waste handling, and temporary site support.',
-    badges: ['Septic Services', 'Site Support', 'Roll-Off & Disposal'],
-  },
-  {
     segment: 'general',
     title: 'General Portable Washrooms',
     icon: '/5.svg',
@@ -63,6 +55,26 @@ export interface SegmentFilterDefinition {
   label: string
   capability: FilterCapability
 }
+
+/** Operational services — independent of project category; shown on all match flows. */
+export const AVAILABLE_SERVICE_FILTERS: SegmentFilterDefinition[] = [
+  { id: 'septic_service', label: 'Septic Pumping', capability: 'septic_service' },
+  { id: 'roll_off_disposal', label: 'Roll-Off Disposal', capability: 'roll_off_disposal' },
+  { id: 'site_support', label: 'Site Servicing', capability: 'site_support' },
+  {
+    id: 'handwash_available',
+    label: 'Handwashing Stations',
+    capability: 'handwash_available',
+  },
+  { id: 'heated', label: 'Heated Units', capability: 'heated' },
+  {
+    id: 'ada_accessible',
+    label: 'Wheelchair Accessible Units',
+    capability: 'ada_accessible',
+  },
+  { id: 'luxury_units', label: 'Restroom Trailers', capability: 'luxury_units' },
+  { id: 'remote_support', label: 'Remote Logistics', capability: 'remote_support' },
+]
 
 export const SEGMENT_FILTERS: Record<PrimarySegment, SegmentFilterDefinition[]> =
   {
@@ -94,15 +106,7 @@ export const SEGMENT_FILTERS: Record<PrimarySegment, SegmentFilterDefinition[]> 
       },
       { id: 'camp_support', label: 'Camp Support', capability: 'camp_support' },
     ],
-    site_services: [
-      { id: 'septic_service', label: 'Septic Services', capability: 'septic_service' },
-      { id: 'site_support', label: 'Site Support', capability: 'site_support' },
-      {
-        id: 'roll_off_disposal',
-        label: 'Roll-Off & Disposal',
-        capability: 'roll_off_disposal',
-      },
-    ],
+    site_services: [],
     general: [
       {
         id: 'ada_accessible',
@@ -114,9 +118,24 @@ export const SEGMENT_FILTERS: Record<PrimarySegment, SegmentFilterDefinition[]> 
         label: 'Handwash Stations',
         capability: 'handwash_available',
       },
-      { id: 'septic_service', label: 'Septic Service', capability: 'septic_service' },
     ],
   }
+
+/** Segment-specific filters plus shared available services (deduped by capability). */
+export function matchFiltersForSegment(segment: PrimarySegment): {
+  project: SegmentFilterDefinition[]
+  services: SegmentFilterDefinition[]
+} {
+  const project = SEGMENT_FILTERS[segment]
+  const projectCaps = new Set(project.map((d) => d.capability))
+  const services = AVAILABLE_SERVICE_FILTERS.filter((d) => !projectCaps.has(d.capability))
+  return { project, services }
+}
+
+export function allMatchFilterDefs(segment: PrimarySegment): SegmentFilterDefinition[] {
+  const { project, services } = matchFiltersForSegment(segment)
+  return [...project, ...services]
+}
 
 export function segmentLabel(segment: PrimarySegment): string {
   const card = INTENT_CARDS.find((c) => c.segment === segment)

@@ -50,7 +50,10 @@ export default function App() {
             <Route path="/events-weddings" element={<CategoryPage />} />
             <Route path="/general-portable-washrooms" element={<CategoryPage />} />
             <Route path="/remote-oilfield-operations" element={<CategoryPage />} />
-            <Route path="/waste-site-services" element={<CategoryPage />} />
+            <Route
+              path="/waste-site-services/*"
+              element={<Navigate to="/construction-jobsites/" replace />}
+            />
             <Route path="/city/:citySlug" element={<CityPage />} />
             <Route path="/provider/:providerSlug" element={<ProviderPage />} />
             <Route path="/:segmentSlug/:citySlug" element={<LandingPage />} />

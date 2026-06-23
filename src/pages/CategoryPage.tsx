@@ -10,7 +10,8 @@ import { CANADA_PROVINCES } from '../lib/locations/canadaLocations'
 import { PROVIDERS } from '../lib/providersDataset'
 import { getFeaturedProviders } from '../lib/getFeaturedProviders'
 import { LANDING_ROUTE_GROUPS } from '../seo/landingRoutes'
-import type { PrimarySegment } from '../types/provider'
+import type { PrimarySegment, PublicPrimaryCategory } from '../types/provider'
+import { providerDisplayCategories } from '../lib/taxonomy/publicPrimaryCategories'
 
 const PROVINCE_SLUGS: Record<string, string> = {
   AB: 'alberta',
@@ -69,16 +70,6 @@ const CATEGORIES: CategoryConfig[] = [
     seoDescription:
       'Find heated and winterized portable washroom providers for remote sites, oilfield camps, and industrial operations across Canada.',
   },
-  {
-    segment: 'site_services',
-    slug: 'waste-site-services',
-    label: 'Waste & Site Services',
-    description:
-      'Integrated waste management, roll-off disposal, septic services, and temporary site support for construction and infrastructure projects. Providers offering more than portable toilet rental alone.',
-    seoTitle: 'Waste & Site Services in Canada',
-    seoDescription:
-      'Find waste management, roll-off disposal, septic, and integrated site service providers for construction and infrastructure projects across Canada.',
-  },
 ]
 
 const SLUG_MAP = Object.fromEntries(CATEGORIES.map((c) => [c.slug, c]))
@@ -96,7 +87,7 @@ export default function CategoryPage() {
 
   // All providers with this category
   const categoryProviders = PROVIDERS.filter((p) =>
-    p.public_categories?.includes(segment) ?? p.primary_segment === segment,
+    providerDisplayCategories(p).includes(segment as PublicPrimaryCategory),
   )
 
   // Province breakdown

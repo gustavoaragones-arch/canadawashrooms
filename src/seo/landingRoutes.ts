@@ -129,30 +129,6 @@ export const LANDING_ROUTE_GROUPS: readonly LandingSegmentRouteGroup[] = [
       ...SK_CITIES,
     ],
   },
-  {
-    segment: 'site_services',
-    segmentSlug: SEGMENT_SEO.site_services.slug,
-    cities: [
-      // Alberta
-      { citySlug: 'calgary', city: 'Calgary' },
-      { citySlug: 'edmonton', city: 'Edmonton' },
-      { citySlug: 'fort-mcmurray', city: 'Fort McMurray' },
-      { citySlug: 'red-deer', city: 'Red Deer' },
-      { citySlug: 'canmore', city: 'Canmore' },
-      // Ontario
-      { citySlug: 'toronto', city: 'Toronto' },
-      { citySlug: 'mississauga', city: 'Mississauga' },
-      { citySlug: 'brampton', city: 'Brampton' },
-      { citySlug: 'hamilton', city: 'Hamilton' },
-      // British Columbia
-      { citySlug: 'surrey', city: 'Surrey' },
-      { citySlug: 'vancouver', city: 'Vancouver' },
-      { citySlug: 'abbotsford', city: 'Abbotsford' },
-      // Saskatchewan
-      { citySlug: 'saskatoon', city: 'Saskatoon' },
-      { citySlug: 'regina', city: 'Regina' },
-    ],
-  },
 ] as const
 
 /** City slug for editorial / provider breadcrumbs when a priority city is known. */

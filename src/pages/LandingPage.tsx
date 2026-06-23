@@ -57,6 +57,13 @@ export default function LandingPage() {
     }
   }, [resolved])
 
+  if (segmentSlug?.toLowerCase() === 'waste-site-services') {
+    const target = citySlug
+      ? `/construction-jobsites/${citySlug}/`
+      : '/construction-jobsites/'
+    return <Navigate to={target} replace />
+  }
+
   if (!resolved) {
     return <Navigate to="/" replace />
   }

@@ -77,13 +77,11 @@ function deriveSupportedSegments(
     }
   }
 
-  if (raw.primary_segment !== 'site_services') {
-    if (raw.septic_service || raw.site_support || raw.roll_off_disposal) {
-      s.add('site_services')
-    }
-  }
-
   return [...s]
+}
+
+function withoutLegacySiteServices(segments: PrimarySegment[]): PrimarySegment[] {
+  return segments.filter((segment) => segment !== 'site_services')
 }
 
 function buildCapabilityTokens(p: {
@@ -433,7 +431,9 @@ export function enrichProvider(raw: ProviderRaw): Provider {
   applyBlockedFilterCapabilities(manual, capCore)
 
   let supported_segments = workingRaw.public_categories?.length
-    ? [...new Set([effectivePrimary, ...workingRaw.public_categories])]
+    ? withoutLegacySiteServices([
+        ...new Set([effectivePrimary, ...workingRaw.public_categories]),
+      ])
     : deriveSupportedSegments(capCore, {
         winter_service: Boolean(capCore.winter_service),
         remote_logistics: Boolean(capCore.remote_logistics),
@@ -441,9 +441,9 @@ export function enrichProvider(raw: ProviderRaw): Provider {
       })
 
   if (manual?.supported_segments?.length) {
-    supported_segments = [
+    supported_segments = withoutLegacySiteServices([
       ...new Set([effectivePrimary, ...manual.supported_segments]),
-    ]
+    ])
   }
 
   const capabilities = buildCapabilityTokens({

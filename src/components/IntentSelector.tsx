@@ -19,8 +19,9 @@ export function IntentSelector({ selected, onSelect }: IntentSelectorProps) {
           What kind of project?
         </h2>
         <p className="mt-3 text-base leading-relaxed text-cwr-muted">
-          Choose the closest fit — construction jobsites, events, remote operations, waste & site
-          services, or general portable rentals. Your choice sets the filters and ranking below.
+          Choose the closest fit — construction jobsites, events, remote operations, or general
+          portable rentals. Additional services like septic or roll-off appear on each operator
+          profile.
         </p>
       </div>
 

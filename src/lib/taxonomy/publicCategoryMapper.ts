@@ -5,7 +5,8 @@
  * UX-11: strict inclusion rules so categories act as real filters, not decorative labels.
  */
 
-import type { PrimarySegment, Provider, ProviderRaw } from '../../types/provider'
+import type { PrimarySegment, Provider, ProviderRaw, PublicPrimaryCategory } from '../../types/provider'
+import { displayPublicCategories } from './publicPrimaryCategories'
 
 type ProviderLike = (ProviderRaw | Provider) & {
   luxury_trailers?: boolean
@@ -64,14 +65,6 @@ function hasOilfieldSignals(provider: ProviderLike): boolean {
   return countStrongOilfieldSignals(provider) >= 2
 }
 
-function hasWasteServiceSignals(provider: ProviderLike): boolean {
-  if (provider.septic_service || provider.roll_off_disposal) return true
-  const blob = listingBlob(provider)
-  return /septic|hydrovac|vacuum truck|vacuum services|septic pump|waste haul|roll[\s-]?off|dumpster|garbage bin/.test(
-    blob,
-  )
-}
-
 /** Strict signal-based categories — used when no curated CSV list is present. */
 export function derivePublicCategories(provider: ProviderLike): PrimarySegment[] {
   const cats = new Set<PrimarySegment>()
@@ -95,42 +88,51 @@ export function derivePublicCategories(provider: ProviderLike): PrimarySegment[]
   }
 
   // RULE 5 — waste/site requires septic, disposal, or explicit waste-service language
-  if (hasWasteServiceSignals(provider)) {
-    cats.add('site_services')
-  }
-
+  // Waste/site capabilities are shown under Available Services — not a primary category.
   return [...cats]
+}
+
+/** Final public categories stored on provider rows — four primary intents only. */
+export function finalizePublicCategories(
+  categories: PrimarySegment[],
+  provider: ProviderLike,
+): PublicPrimaryCategory[] {
+  return displayPublicCategories(categories, {
+    promoteConstruction: Boolean(
+      provider.construction_ready ||
+        provider.septic_service ||
+        provider.site_support ||
+        provider.roll_off_disposal,
+    ),
+  })
 }
 
 /**
  * RULE 6 — curated CSV categories win over inference.
- * Always ensures general is present as the broad default.
+ * Always ensures general is present; strips legacy site_services primary category.
  */
 export function resolvePublicCategories(
   raw: Pick<ProviderRaw, 'curated_public_categories'>,
   provider: ProviderLike,
-): PrimarySegment[] {
+): PublicPrimaryCategory[] {
   const curated = raw.curated_public_categories
-  if (curated?.length) {
-    const out = new Set<PrimarySegment>(curated)
-    out.add('general')
-    return [...out]
-  }
-  return derivePublicCategories(provider)
+  const inferred = curated?.length
+    ? curated
+    : derivePublicCategories(provider)
+  return finalizePublicCategories(inferred, provider)
 }
 
 /**
  * Human-readable label for each public category key.
  * Canonical names — must match INTENT_CARDS titles.
  */
-export const PUBLIC_CATEGORY_LABELS: Record<PrimarySegment, string> = {
+export const PUBLIC_CATEGORY_LABELS: Record<PublicPrimaryCategory, string> = {
   construction: 'Construction & Jobsites',
   event: 'Events & Weddings',
   oilfield: 'Remote & Oilfield',
   general: 'General Portable Washrooms',
-  site_services: 'Waste & Site Services',
 }
 
-export function publicCategoryLabel(cat: PrimarySegment): string {
+export function publicCategoryLabel(cat: PublicPrimaryCategory): string {
   return PUBLIC_CATEGORY_LABELS[cat] ?? cat
 }

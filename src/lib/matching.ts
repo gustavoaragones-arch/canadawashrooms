@@ -1,6 +1,12 @@
 import { internalCompletenessContribution } from './intelligence/providerCompleteness'
-import { INTENT_CARDS, SEGMENT_FILTERS } from './segments'
-import type { FilterCapability, PrimarySegment, Provider } from '../types/provider'
+import { INTENT_CARDS, allMatchFilterDefs } from './segments'
+import { providerDisplayCategories } from './taxonomy/publicPrimaryCategories'
+import type {
+  FilterCapability,
+  PrimarySegment,
+  PublicPrimaryCategory,
+  Provider,
+} from '../types/provider'
 
 export function capabilityMet(
   provider: Provider,
@@ -22,8 +28,11 @@ export function providersInScope(
 ): Provider[] {
   return providers.filter((p) => {
     if (p.city.toLowerCase() !== city.toLowerCase()) return false
-    if (p.public_categories?.length) return p.public_categories.includes(segment)
-    // Fallback for providers without public_categories
+    if (segment === 'site_services') return false
+    const categories = providerDisplayCategories(p)
+    if (categories.length) {
+      return categories.includes(segment as PublicPrimaryCategory)
+    }
     return p.primary_segment === segment || p.supported_segments.includes(segment)
   })
 }
@@ -57,7 +66,11 @@ function providersInProvince(
 ): Provider[] {
   return providers.filter((p) => {
     if (p.province_code !== provinceCode) return false
-    if (p.public_categories?.length) return p.public_categories.includes(segment)
+    if (segment === 'site_services') return false
+    const categories = providerDisplayCategories(p)
+    if (categories.length) {
+      return categories.includes(segment as PublicPrimaryCategory)
+    }
     return p.primary_segment === segment || p.supported_segments.includes(segment)
   })
 }
@@ -144,8 +157,13 @@ function inferredAlignmentScore(p: Provider, segment: PrimarySegment): number {
   if (segment === 'construction' && p.capabilities.includes('weekly_service')) s += 28
   if (segment === 'construction' && p.construction_ready) s += 22
   if (segment === 'general' && p.ada_accessible) s += 20
-  if (segment === 'site_services' && p.septic_service) s += 40
-  if (segment === 'site_services' && (p.site_support || p.roll_off_disposal)) s += 32
+  if (segment === 'construction' && p.septic_service) s += 28
+  if (
+    segment === 'construction' &&
+    (p.site_support || p.roll_off_disposal)
+  ) {
+    s += 22
+  }
   if (p.inferred_specialties.length) {
     s += Math.min(p.inferred_specialties.length * 7, 28)
   }
@@ -277,7 +295,7 @@ export function filterLabelsActive(
   segment: PrimarySegment,
   active: Set<FilterCapability>,
 ): string[] {
-  const defs = SEGMENT_FILTERS[segment]
+  const defs = allMatchFilterDefs(segment)
   return [...active]
     .map((cap) => defs.find((d) => d.capability === cap)?.label)
     .filter((l): l is string => Boolean(l))

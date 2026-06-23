@@ -41,7 +41,6 @@ function deriveCuratedPublicCategories(row: Record<string, string>): PrimarySegm
   if (isYes(row, 'Remote & Oilfield Operations')) cats.push('oilfield')
   if (isYes(row, 'Events & Weddings')) cats.push('event')
   if (isYes(row, 'General Portable Washrooms')) cats.push('general')
-  if (isYes(row, 'Waste & Site Services')) cats.push('site_services')
   return cats
 }
 
@@ -49,9 +48,6 @@ function primarySegmentFromCurated(categories: PrimarySegment[]): PrimarySegment
   if (categories.length === 0) return null
   if (categories.includes('construction')) return 'construction'
   if (categories.length === 1) return categories[0]
-  if (categories.includes('site_services') && !categories.includes('construction')) {
-    return 'site_services'
-  }
   if (categories.includes('oilfield') && !categories.includes('construction')) {
     return 'oilfield'
   }
@@ -65,7 +61,7 @@ function primarySegmentFromCurated(categories: PrimarySegment[]): PrimarySegment
 function inferSegmentHint(categoryBlob: string): PrimarySegment {
   const b = categoryBlob.toLowerCase()
   if (/waste|disposal|roll[\s-]?off|dumpster|septic|sanitation service|garbage bin/.test(b)) {
-    return 'site_services'
+    return 'construction'
   }
   if (/oil|industrial|rental.*equipment|pipeline/.test(b)) return 'oilfield'
   if (/wedding|event|party/.test(b)) return 'event'
@@ -153,8 +149,8 @@ export function normalizeOutscraperRecord(
   const curatedPrimary = primarySegmentFromCurated(curatedCategories)
   let primary_segment: PrimarySegment = curatedPrimary ?? inferredSegment
   if (!hasCuratedCategories) {
-    if (csv_waste_services && !csv_construction && !csv_oilfield && !csv_events) {
-      primary_segment = 'site_services'
+    if (csv_waste_services && !csv_construction) {
+      primary_segment = 'construction'
     } else if (csv_oilfield && !csv_construction) {
       primary_segment = 'oilfield'
     } else if (csv_construction) {

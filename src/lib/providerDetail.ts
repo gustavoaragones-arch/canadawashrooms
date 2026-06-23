@@ -45,12 +45,7 @@ export function bestSuitedForLines(provider: Provider): string[] {
   ) {
     lines.push('Remote logistics, camps, and industrial corridors')
   }
-  if (
-    provider.supported_segments.includes('site_services') ||
-    provider.septic_service ||
-    provider.site_support ||
-    provider.roll_off_disposal
-  ) {
+  if (provider.septic_service || provider.site_support || provider.roll_off_disposal) {
     lines.push('Waste handling, septic, roll-off, and integrated site support')
   }
   if (provider.supported_segments.includes('general')) {

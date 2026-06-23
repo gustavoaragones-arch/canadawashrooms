@@ -4,8 +4,9 @@
  * No UI is attached here — import these helpers where needed.
  */
 
-import type { Provider, PrimarySegment } from '../../types/provider'
+import type { Provider, PublicPrimaryCategory } from '../../types/provider'
 import { CANADA_PROVINCES } from '../locations/canadaLocations'
+import { providerDisplayCategories } from '../taxonomy/publicPrimaryCategories'
 
 export interface ProvinceStats {
   code: string
@@ -25,7 +26,7 @@ export interface CityStats {
 }
 
 export interface CategoryStats {
-  segment: PrimarySegment
+  segment: PublicPrimaryCategory
   count: number
   percentage: number
 }
@@ -39,13 +40,11 @@ export interface NationalCoverage {
   categoryTotals: CategoryStats[]
 }
 
-const SEGMENTS: PrimarySegment[] = ['general', 'construction', 'event', 'oilfield', 'site_services']
+const SEGMENTS: PublicPrimaryCategory[] = ['general', 'construction', 'event', 'oilfield']
 
 function categoryBreakdown(providers: Provider[]): CategoryStats[] {
   return SEGMENTS.map((seg) => {
-    const count = providers.filter(
-      (p) => p.public_categories?.includes(seg) ?? p.primary_segment === seg,
-    ).length
+    const count = providers.filter((p) => providerDisplayCategories(p).includes(seg)).length
     return {
       segment: seg,
       count,

@@ -8,8 +8,9 @@ import { PROVIDERS } from '../lib/providersDataset'
 import { getFeaturedProviders } from '../lib/getFeaturedProviders'
 import { segmentLabel } from '../lib/segments'
 import { publicCategoryLabel } from '../lib/taxonomy/publicCategoryMapper'
+import { providerDisplayCategories } from '../lib/taxonomy/publicPrimaryCategories'
 import { LANDING_ROUTE_GROUPS } from '../seo/landingRoutes'
-import type { PrimarySegment } from '../types/provider'
+import type { PrimarySegment, PublicPrimaryCategory } from '../types/provider'
 
 const PROVINCE_SLUGS: Record<string, string> = {
   AB: 'alberta',
@@ -18,12 +19,11 @@ const PROVINCE_SLUGS: Record<string, string> = {
   BC: 'british-columbia',
 }
 
-const ALL_CATEGORIES: PrimarySegment[] = [
+const ALL_CATEGORIES: PublicPrimaryCategory[] = [
   'general',
   'construction',
   'event',
   'oilfield',
-  'site_services',
 ]
 
 export default function CityPage() {
@@ -54,7 +54,7 @@ export default function CityPage() {
   // Category breakdown counts
   const categoryCounts = ALL_CATEGORIES.map((cat) => ({
     cat,
-    count: cityProviders.filter((p) => p.public_categories?.includes(cat)).length,
+    count: cityProviders.filter((p) => providerDisplayCategories(p).includes(cat)).length,
   })).filter((c) => c.count > 0)
 
   // Landing route entries for this city (for "Browse by type" links)

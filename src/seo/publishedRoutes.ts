@@ -24,7 +24,6 @@ export const CATEGORY_HUB_PATHS = [
   '/events-weddings/',
   '/general-portable-washrooms/',
   '/remote-oilfield-operations/',
-  '/waste-site-services/',
 ] as const
 
 /** Editorial and directory pages (excludes province + category hubs — counted separately). */

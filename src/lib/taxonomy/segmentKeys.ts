@@ -5,7 +5,7 @@
  * PrimarySegment in types/provider.ts is the authoritative runtime type; this module
  * provides helpers that bridge the two where needed (ingest hints, display copy).
  */
-import type { PrimarySegment } from '../../types/provider'
+import type { PrimarySegment, PublicPrimaryCategory } from '../../types/provider'
 
 /** Stable canonical key → human-readable UI label. */
 export const SEGMENT_KEY_LABELS: Record<PrimarySegment, string> = {
@@ -47,11 +47,15 @@ export function labelToSegmentKey(label: string): PrimarySegment | null {
   return LABEL_TO_SEGMENT_KEY[label.toLowerCase().trim()] ?? null
 }
 
-/** All stable internal keys in display order. */
-export const ALL_SEGMENT_KEYS: PrimarySegment[] = [
+/** All stable internal keys in display order (public primary categories). */
+export const PUBLIC_PRIMARY_SEGMENT_KEYS: PublicPrimaryCategory[] = [
   'construction',
   'event',
   'oilfield',
-  'site_services',
   'general',
+]
+
+export const ALL_SEGMENT_KEYS: PrimarySegment[] = [
+  ...PUBLIC_PRIMARY_SEGMENT_KEYS,
+  'site_services',
 ]

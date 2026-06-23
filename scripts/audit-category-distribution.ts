@@ -16,12 +16,11 @@ const BASELINE_PATH = resolve(__dirname, 'reports/category-baseline-ux10.json')
 
 const providers = providersJson as Provider[]
 
-const CATEGORIES: PrimarySegment[] = [
+const CATEGORIES: PublicPrimaryCategory[] = [
   'general',
   'construction',
   'event',
   'oilfield',
-  'site_services',
 ]
 
 const PROVINCES: ProvinceCode[] = ['AB', 'SK', 'ON', 'BC']

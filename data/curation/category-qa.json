@@ -4,7 +4,11 @@
     {
       "id": "zero-spill-oilfield-services-ltd-beaverlodge-ab",
       "patch": {
-        "curated_public_categories": ["general", "construction", "oilfield"],
+        "curated_public_categories": [
+          "general",
+          "construction",
+          "oilfield"
+        ],
         "wedding_friendly": false,
         "luxury_trailers": false,
         "oilfield_ready": true,
@@ -17,7 +21,10 @@
     {
       "id": "abc-waste-management-potties-ltd-calgary-ab",
       "patch": {
-        "curated_public_categories": ["general", "construction", "site_services"],
+        "curated_public_categories": [
+          "general",
+          "construction"
+        ],
         "wedding_friendly": false,
         "luxury_trailers": false,
         "oilfield_ready": false,
@@ -30,7 +37,10 @@
     {
       "id": "pit-stop-portable-toilet-services-calgary-ab",
       "patch": {
-        "curated_public_categories": ["general", "construction", "site_services"],
+        "curated_public_categories": [
+          "general",
+          "construction"
+        ],
         "wedding_friendly": false,
         "luxury_trailers": false,
         "oilfield_ready": false,
@@ -42,7 +52,10 @@
     {
       "id": "rhino-calgary-ab",
       "patch": {
-        "curated_public_categories": ["general", "construction"],
+        "curated_public_categories": [
+          "general",
+          "construction"
+        ],
         "wedding_friendly": false,
         "luxury_trailers": false,
         "oilfield_ready": false,
@@ -55,7 +68,10 @@
     {
       "id": "willscot-calgary-ab",
       "patch": {
-        "curated_public_categories": ["general", "construction"],
+        "curated_public_categories": [
+          "general",
+          "construction"
+        ],
         "wedding_friendly": false,
         "luxury_trailers": false,
         "oilfield_ready": false,
@@ -66,7 +82,10 @@
     {
       "id": "mr-p-potty-ltd-cochrane-ab",
       "patch": {
-        "curated_public_categories": ["general", "construction", "site_services"],
+        "curated_public_categories": [
+          "general",
+          "construction"
+        ],
         "wedding_friendly": false,
         "luxury_trailers": false,
         "septic_service": true,
@@ -76,7 +95,11 @@
     {
       "id": "steelhead-ventures-ltd-cochrane-ab",
       "patch": {
-        "curated_public_categories": ["general", "construction", "site_services", "oilfield"],
+        "curated_public_categories": [
+          "general",
+          "construction",
+          "oilfield"
+        ],
         "wedding_friendly": false,
         "luxury_trailers": false,
         "oilfield_ready": true,
@@ -91,7 +114,10 @@
     {
       "id": "pioneer-sanitary-solutions-ltd-edmonton-ab",
       "patch": {
-        "curated_public_categories": ["general", "construction"],
+        "curated_public_categories": [
+          "general",
+          "construction"
+        ],
         "wedding_friendly": false,
         "luxury_trailers": false,
         "oilfield_ready": false,
@@ -104,7 +130,10 @@
     {
       "id": "alberta-toilets-septic-services-evansburg-ab",
       "patch": {
-        "curated_public_categories": ["general", "construction", "site_services"],
+        "curated_public_categories": [
+          "general",
+          "construction"
+        ],
         "wedding_friendly": false,
         "luxury_trailers": false,
         "oilfield_ready": false,
@@ -116,7 +145,11 @@
     {
       "id": "go-services-inc-fort-mcmurray-ab",
       "patch": {
-        "curated_public_categories": ["general", "construction", "site_services", "oilfield"],
+        "curated_public_categories": [
+          "general",
+          "construction",
+          "oilfield"
+        ],
         "wedding_friendly": false,
         "luxury_trailers": false,
         "oilfield_ready": true,
@@ -129,7 +162,11 @@
     {
       "id": "bear-creek-rentals-inc-fox-creek-ab",
       "patch": {
-        "curated_public_categories": ["general", "construction", "oilfield"],
+        "curated_public_categories": [
+          "general",
+          "construction",
+          "oilfield"
+        ],
         "wedding_friendly": false,
         "luxury_trailers": false,
         "oilfield_ready": true,
@@ -142,7 +179,10 @@
     {
       "id": "f5-services-hardisty-ab",
       "patch": {
-        "curated_public_categories": ["general", "construction", "site_services"],
+        "curated_public_categories": [
+          "general",
+          "construction"
+        ],
         "wedding_friendly": false,
         "luxury_trailers": false,
         "oilfield_ready": false,
@@ -154,7 +194,10 @@
     {
       "id": "rockbox-structures-nisku-ab",
       "patch": {
-        "curated_public_categories": ["general", "construction"],
+        "curated_public_categories": [
+          "general",
+          "construction"
+        ],
         "wedding_friendly": false,
         "luxury_trailers": false,
         "oilfield_ready": false,
@@ -167,7 +210,10 @@
     {
       "id": "go-services-inc-red-deer-ab",
       "patch": {
-        "curated_public_categories": ["general", "construction", "site_services"],
+        "curated_public_categories": [
+          "general",
+          "construction"
+        ],
         "wedding_friendly": false,
         "luxury_trailers": false,
         "oilfield_ready": false,
@@ -180,7 +226,10 @@
     {
       "id": "little-jon-s-portable-toilet-rentals-red-deer-ab",
       "patch": {
-        "curated_public_categories": ["general", "construction", "site_services"],
+        "curated_public_categories": [
+          "general",
+          "construction"
+        ],
         "wedding_friendly": false,
         "luxury_trailers": false,
         "septic_service": true,
@@ -190,7 +239,10 @@
     {
       "id": "big-rock-waste-disposal-and-rentals-rocky-mountain-house-ab",
       "patch": {
-        "curated_public_categories": ["general", "construction"],
+        "curated_public_categories": [
+          "general",
+          "construction"
+        ],
         "wedding_friendly": false,
         "luxury_trailers": false,
         "oilfield_ready": false,
@@ -203,7 +255,10 @@
     {
       "id": "oli-s-portable-toilets-rental-rocky-mountain-house-ab",
       "patch": {
-        "curated_public_categories": ["general", "construction"],
+        "curated_public_categories": [
+          "general",
+          "construction"
+        ],
         "wedding_friendly": false,
         "luxury_trailers": false,
         "oilfield_ready": false,
@@ -215,7 +270,11 @@
     {
       "id": "valleyview-sheet-metal-and-insulating-ltd-valleyview-ab",
       "patch": {
-        "curated_public_categories": ["general", "construction", "oilfield"],
+        "curated_public_categories": [
+          "general",
+          "construction",
+          "oilfield"
+        ],
         "wedding_friendly": false,
         "luxury_trailers": false,
         "oilfield_ready": true,
@@ -228,7 +287,11 @@
     {
       "id": "equinox-rentals-portable-trailer-washrooms-fences-septic-service-abbotsf",
       "patch": {
-        "curated_public_categories": ["general", "construction", "event"],
+        "curated_public_categories": [
+          "general",
+          "construction",
+          "event"
+        ],
         "wedding_friendly": true,
         "luxury_trailers": true,
         "oilfield_ready": false,
@@ -242,7 +305,10 @@
     {
       "id": "scv-waste-management-septic-bins-armstrong-bc-armstrong-bc",
       "patch": {
-        "curated_public_categories": ["general", "construction", "site_services"],
+        "curated_public_categories": [
+          "general",
+          "construction"
+        ],
         "wedding_friendly": false,
         "luxury_trailers": false,
         "septic_service": true,
@@ -254,7 +320,10 @@
     {
       "id": "pioneer-sanitary-solutions-ltd-charlie-lake-bc",
       "patch": {
-        "curated_public_categories": ["general", "construction"],
+        "curated_public_categories": [
+          "general",
+          "construction"
+        ],
         "wedding_friendly": false,
         "luxury_trailers": false,
         "oilfield_ready": false,
@@ -265,7 +334,10 @@
     {
       "id": "christina-porta-potty-rv-pumpout-service-christina-lake-bc",
       "patch": {
-        "curated_public_categories": ["general", "construction"],
+        "curated_public_categories": [
+          "general",
+          "construction"
+        ],
         "wedding_friendly": false,
         "luxury_trailers": false,
         "site_support": false,
@@ -275,7 +347,10 @@
     {
       "id": "full-moon-rentals-coquitlam-bc",
       "patch": {
-        "curated_public_categories": ["general", "construction"],
+        "curated_public_categories": [
+          "general",
+          "construction"
+        ],
         "wedding_friendly": false,
         "luxury_trailers": false,
         "site_support": false,
@@ -285,7 +360,11 @@
     {
       "id": "equinox-rentals-portable-trailer-washrooms-fences-septic-service-delta-d",
       "patch": {
-        "curated_public_categories": ["general", "construction", "event"],
+        "curated_public_categories": [
+          "general",
+          "construction",
+          "event"
+        ],
         "wedding_friendly": true,
         "luxury_trailers": true,
         "oilfield_ready": false,
@@ -298,7 +377,10 @@
     {
       "id": "bold-portable-rentals-kelowna-bc",
       "patch": {
-        "curated_public_categories": ["general", "construction"],
+        "curated_public_categories": [
+          "general",
+          "construction"
+        ],
         "wedding_friendly": false,
         "luxury_trailers": false,
         "site_support": false,
@@ -308,7 +390,11 @@
     {
       "id": "equinox-rentals-portable-trailer-washrooms-fences-septic-service-north-v",
       "patch": {
-        "curated_public_categories": ["general", "construction", "event"],
+        "curated_public_categories": [
+          "general",
+          "construction",
+          "event"
+        ],
         "wedding_friendly": true,
         "luxury_trailers": true,
         "oilfield_ready": false,
@@ -321,7 +407,10 @@
     {
       "id": "absolute-septic-service-qualicum-beach-bc",
       "patch": {
-        "curated_public_categories": ["general", "construction", "site_services"],
+        "curated_public_categories": [
+          "general",
+          "construction"
+        ],
         "wedding_friendly": false,
         "luxury_trailers": false,
         "septic_service": true,
@@ -331,7 +420,10 @@
     {
       "id": "all-haul-septic-quesnel-quesnel-bc",
       "patch": {
-        "curated_public_categories": ["general", "construction", "site_services"],
+        "curated_public_categories": [
+          "general",
+          "construction"
+        ],
         "wedding_friendly": false,
         "luxury_trailers": false,
         "septic_service": true,
@@ -341,7 +433,10 @@
     {
       "id": "premier-site-services-bin-rentals-fence-rentals-toilet-rentals-surrey-bc",
       "patch": {
-        "curated_public_categories": ["general", "construction", "site_services"],
+        "curated_public_categories": [
+          "general",
+          "construction"
+        ],
         "wedding_friendly": false,
         "luxury_trailers": false,
         "septic_service": false,
@@ -351,7 +446,10 @@
     {
       "id": "super-save-group-head-office-surrey-bc",
       "patch": {
-        "curated_public_categories": ["general", "construction", "site_services"],
+        "curated_public_categories": [
+          "general",
+          "construction"
+        ],
         "wedding_friendly": false,
         "luxury_trailers": false,
         "septic_service": false,
@@ -361,7 +459,10 @@
     {
       "id": "halco-portable-washrooms-brantford-on",
       "patch": {
-        "curated_public_categories": ["general", "construction"],
+        "curated_public_categories": [
+          "general",
+          "construction"
+        ],
         "wedding_friendly": false,
         "luxury_trailers": false,
         "site_support": false,
@@ -371,7 +472,10 @@
     {
       "id": "platinum-vip-portables-wedding-special-event-washroom-rentals-welland-on",
       "patch": {
-        "curated_public_categories": ["general", "event"],
+        "curated_public_categories": [
+          "general",
+          "event"
+        ],
         "wedding_friendly": true,
         "luxury_trailers": true,
         "luxury_units": true,
@@ -383,7 +487,9 @@
     {
       "id": "p-r-septic-city-water-hauling-christopher-lake-sk",
       "patch": {
-        "curated_public_categories": ["general", "site_services"],
+        "curated_public_categories": [
+          "general"
+        ],
         "wedding_friendly": false,
         "luxury_trailers": false,
         "oilfield_ready": false,
@@ -398,7 +504,9 @@
     {
       "id": "dynamic-disposal-ltd-gull-lake-sk",
       "patch": {
-        "curated_public_categories": ["general", "site_services"],
+        "curated_public_categories": [
+          "general"
+        ],
         "wedding_friendly": false,
         "luxury_trailers": false,
         "oilfield_ready": false,
@@ -411,7 +519,9 @@
     {
       "id": "gary-blythe-vacuum-services-ltd-lloydminster-sk",
       "patch": {
-        "curated_public_categories": ["general", "site_services"],
+        "curated_public_categories": [
+          "general"
+        ],
         "wedding_friendly": false,
         "luxury_trailers": false,
         "construction_ready": false,
@@ -424,7 +534,9 @@
     {
       "id": "waste-a-way-septic-ltd-maple-creek-sk",
       "patch": {
-        "curated_public_categories": ["general", "site_services"],
+        "curated_public_categories": [
+          "general"
+        ],
         "wedding_friendly": false,
         "luxury_trailers": false,
         "oilfield_ready": false,
@@ -439,7 +551,10 @@
     {
       "id": "protex-environmental-meadow-lake-sk",
       "patch": {
-        "curated_public_categories": ["general", "construction"],
+        "curated_public_categories": [
+          "general",
+          "construction"
+        ],
         "wedding_friendly": false,
         "luxury_trailers": false,
         "site_support": false,
@@ -449,7 +564,9 @@
     {
       "id": "environmental-360-solutions-regina-c-d-waste-transfer-station-regina-sk",
       "patch": {
-        "curated_public_categories": ["general", "site_services"],
+        "curated_public_categories": [
+          "general"
+        ],
         "wedding_friendly": false,
         "luxury_trailers": false,
         "construction_ready": false,
@@ -460,7 +577,10 @@
     {
       "id": "super-save-group-regina-sk",
       "patch": {
-        "curated_public_categories": ["general", "construction"],
+        "curated_public_categories": [
+          "general",
+          "construction"
+        ],
         "wedding_friendly": false,
         "luxury_trailers": false,
         "site_support": false,
@@ -470,7 +590,9 @@
     {
       "id": "tristen-hydrovac-services-regina-sk",
       "patch": {
-        "curated_public_categories": ["general", "site_services"],
+        "curated_public_categories": [
+          "general"
+        ],
         "wedding_friendly": false,
         "luxury_trailers": false,
         "oilfield_ready": false,
@@ -485,7 +607,10 @@
     {
       "id": "allan-s-disposal-services-ltd-saskatoon-sk",
       "patch": {
-        "curated_public_categories": ["general", "construction", "site_services"],
+        "curated_public_categories": [
+          "general",
+          "construction"
+        ],
         "wedding_friendly": false,
         "luxury_trailers": false,
         "septic_service": true,
@@ -495,7 +620,10 @@
     {
       "id": "rooter-man-drain-services-saskatoon-sk",
       "patch": {
-        "curated_public_categories": ["general", "construction"],
+        "curated_public_categories": [
+          "general",
+          "construction"
+        ],
         "wedding_friendly": false,
         "luxury_trailers": false,
         "site_support": false,
@@ -507,7 +635,10 @@
     {
       "id": "super-save-group-saskatoon-sk",
       "patch": {
-        "curated_public_categories": ["general", "construction"],
+        "curated_public_categories": [
+          "general",
+          "construction"
+        ],
         "wedding_friendly": false,
         "luxury_trailers": false,
         "site_support": false,
@@ -517,7 +648,9 @@
     {
       "id": "northshore-septic-silton-sk",
       "patch": {
-        "curated_public_categories": ["general", "site_services"],
+        "curated_public_categories": [
+          "general"
+        ],
         "wedding_friendly": false,
         "luxury_trailers": false,
         "construction_ready": false,
@@ -528,7 +661,10 @@
     {
       "id": "gordon-s-sanitation-services-yorkton-sk",
       "patch": {
-        "curated_public_categories": ["general", "construction", "site_services"],
+        "curated_public_categories": [
+          "general",
+          "construction"
+        ],
         "wedding_friendly": false,
         "luxury_trailers": false,
         "septic_service": true,

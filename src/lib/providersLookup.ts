@@ -1,5 +1,6 @@
 import { PROVIDERS } from './providersDataset'
-import { activeProviderFeatures } from './providerFeatures'
+import { activeProviderAvailableServices } from './providerAvailableServices'
+import { providerDisplayCategories } from './taxonomy/publicPrimaryCategories'
 import {
   metroCityProximityRank,
   metroRegionCities,
@@ -7,7 +8,7 @@ import {
   normalizeCityName,
 } from './locations/cityRegions'
 import { provinceForCity, provinceNameFromCode } from './locations/canadaLocations'
-import type { PrimarySegment, ProvinceCode, Provider } from '../types/provider'
+import type { PrimarySegment, ProvinceCode, Provider, PublicPrimaryCategory } from '../types/provider'
 
 export function getProviderBySlug(slug: string | undefined): Provider | null {
   if (!slug) return null
@@ -27,10 +28,8 @@ function providerProvinceCode(provider: Provider): ProvinceCode | null {
   return provinceForCity(provider.city)?.code ?? null
 }
 
-function providerCategories(provider: Provider): PrimarySegment[] {
-  return provider.public_categories?.length
-    ? provider.public_categories
-    : [provider.primary_segment]
+function providerCategories(provider: Provider): PublicPrimaryCategory[] {
+  return providerDisplayCategories(provider)
 }
 
 function sharedCategoryCount(a: Provider, b: Provider): number {
@@ -39,8 +38,8 @@ function sharedCategoryCount(a: Provider, b: Provider): number {
 }
 
 function sharedFeatureCount(a: Provider, b: Provider): number {
-  const aFeatures = new Set(activeProviderFeatures(a))
-  return activeProviderFeatures(b).filter((feature) => aFeatures.has(feature)).length
+  const aFeatures = new Set(activeProviderAvailableServices(a))
+  return activeProviderAvailableServices(b).filter((feature) => aFeatures.has(feature)).length
 }
 
 function qualityScore(provider: Provider): number {

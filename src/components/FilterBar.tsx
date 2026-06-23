@@ -1,5 +1,5 @@
 import { emitProductionAnalytics } from '../lib/analytics/productionAnalytics'
-import { SEGMENT_FILTERS, segmentLabel } from '../lib/segments'
+import { matchFiltersForSegment, segmentLabel } from '../lib/segments'
 import type { FilterCapability, PrimarySegment } from '../types/provider'
 import type { PriorityCity } from '../lib/segments'
 
@@ -12,8 +12,37 @@ interface FilterBarProps {
 }
 
 export function FilterBar({ segment, city, active, onToggle, onClear }: FilterBarProps) {
-  const defs = SEGMENT_FILTERS[segment]
+  const { project, services } = matchFiltersForSegment(segment)
   const count = active.size
+
+  function renderFilterButton(def: (typeof project)[number]) {
+    const isOn = active.has(def.capability)
+    return (
+      <button
+        key={def.id}
+        type="button"
+        aria-pressed={isOn}
+        onClick={() => {
+          emitProductionAnalytics('capability_filter_toggled', {
+            capability: def.capability,
+            segment,
+            city,
+          })
+          onToggle(def.capability)
+        }}
+        className={[
+          'min-h-11 rounded-full border px-4 py-2.5 text-sm font-semibold transition-[transform,background-color,border-color,box-shadow] duration-150 ease-out',
+          'focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cwr-accent',
+          'active:scale-[0.99]',
+          isOn
+            ? 'border-cwr-accent bg-cwr-accent-muted text-cwr-ink shadow-[inset_0_1px_0_rgb(255_255_255/0.5)] ring-2 ring-cwr-accent/20'
+            : 'border-cwr-border bg-cwr-surface text-cwr-steel hover:border-cwr-steel/40 hover:bg-cwr-bg',
+        ].join(' ')}
+      >
+        {def.label}
+      </button>
+    )
+  }
 
   return (
     <section
@@ -63,36 +92,25 @@ export function FilterBar({ segment, city, active, onToggle, onClear }: FilterBa
         and label the list accordingly.
       </p>
 
-      <div className="mt-6 flex flex-wrap gap-2.5" role="group" aria-label="Feature filters">
-        {defs.map((def) => {
-          const isOn = active.has(def.capability)
-          return (
-            <button
-              key={def.id}
-              type="button"
-              aria-pressed={isOn}
-              onClick={() => {
-                emitProductionAnalytics('capability_filter_toggled', {
-                  capability: def.capability,
-                  segment,
-                  city,
-                })
-                onToggle(def.capability)
-              }}
-              className={[
-                'min-h-11 rounded-full border px-4 py-2.5 text-sm font-semibold transition-[transform,background-color,border-color,box-shadow] duration-150 ease-out',
-                'focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cwr-accent',
-                'active:scale-[0.99]',
-                isOn
-                  ? 'border-cwr-accent bg-cwr-accent-muted text-cwr-ink shadow-[inset_0_1px_0_rgb(255_255_255/0.5)] ring-2 ring-cwr-accent/20'
-                  : 'border-cwr-border bg-cwr-surface text-cwr-steel hover:border-cwr-steel/40 hover:bg-cwr-bg',
-              ].join(' ')}
-            >
-              {def.label}
-            </button>
-          )
-        })}
+      <div className="mt-6 flex flex-wrap gap-2.5" role="group" aria-label="Project filters">
+        {project.map(renderFilterButton)}
       </div>
+
+      {services.length > 0 ? (
+        <>
+          <h3 className="mt-8 text-sm font-semibold text-cwr-ink">Available services</h3>
+          <p className="mt-1 text-sm text-cwr-muted">
+            Optional add-ons like septic, roll-off, or trailers — independent of your project type.
+          </p>
+          <div
+            className="mt-4 flex flex-wrap gap-2.5"
+            role="group"
+            aria-label="Available service filters"
+          >
+            {services.map(renderFilterButton)}
+          </div>
+        </>
+      ) : null}
     </section>
   )
 }

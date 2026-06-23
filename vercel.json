@@ -4,5 +4,27 @@
       "source": "/(.*)",
       "destination": "/index.html"
     }
+  ],
+  "redirects": [
+    {
+      "source": "/waste-site-services",
+      "destination": "/construction-jobsites/",
+      "permanent": true
+    },
+    {
+      "source": "/waste-site-services/",
+      "destination": "/construction-jobsites/",
+      "permanent": true
+    },
+    {
+      "source": "/waste-site-services/:city",
+      "destination": "/construction-jobsites/:city/",
+      "permanent": true
+    },
+    {
+      "source": "/waste-site-services/:city/",
+      "destination": "/construction-jobsites/:city/",
+      "permanent": true
+    }
   ]
 }

@@ -176,18 +176,18 @@ function inferSegmentsAndCapabilities(tokens: Set<string>): {
 
   if (has('septic', 'pump', 'septic_service')) {
     impliedCapabilities.add('septic_service')
-    segmentHints.add('site_services')
+    segmentHints.add('construction')
     segmentHints.add('general')
   }
 
   if (has('roll', 'rolloff', 'roll_off', 'dumpster', 'disposal', 'roll_off_disposal')) {
     impliedCapabilities.add('roll_off_disposal')
-    segmentHints.add('site_services')
+    segmentHints.add('construction')
   }
 
   if (has('waste', 'site_support', 'sanitation')) {
     impliedCapabilities.add('site_support')
-    segmentHints.add('site_services')
+    segmentHints.add('construction')
   }
 
   if (has('weekly', 'weekly_service', 'servicing')) {

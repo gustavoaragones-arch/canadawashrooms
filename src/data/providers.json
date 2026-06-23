@@ -70,7 +70,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -113,12 +113,11 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.6399999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
       "event",
-      "general",
-      "site_services"
+      "general"
     ],
     "capabilities": [
       "ada_accessible",
@@ -150,7 +149,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -224,7 +223,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "curated_public_categories": [
       "general",
       "construction",
@@ -275,8 +274,7 @@
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
       "construction",
-      "event",
-      "site_services"
+      "event"
     ],
     "capabilities": [
       "ada_accessible",
@@ -306,16 +304,14 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "curated_public_categories": [
       "general",
-      "construction",
-      "site_services"
+      "construction"
     ],
     "public_categories": [
       "general",
-      "construction",
-      "site_services"
+      "construction"
     ]
   },
   {
@@ -356,8 +352,7 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
-      "event",
-      "site_services"
+      "event"
     ],
     "capabilities": [
       "heated",
@@ -391,7 +386,7 @@
       "Winter-capable equipment posture corroborated by listing or weighted reviews.",
       "Event-oriented restroom trailer positioning — confirm footprint and pump windows."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "event"
@@ -436,8 +431,7 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.84,
     "supported_segments": [
-      "construction",
-      "site_services"
+      "construction"
     ],
     "capabilities": [
       "septic_service",
@@ -468,11 +462,10 @@
       "Rating pattern is steady enough to treat reviews as a meaningful signal.",
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
-      "construction",
-      "site_services"
+      "construction"
     ]
   },
   {
@@ -546,7 +539,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -590,12 +583,11 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.6399999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
       "event",
-      "general",
-      "site_services"
+      "general"
     ],
     "capabilities": [
       "ada_accessible",
@@ -631,16 +623,14 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "curated_public_categories": [
       "general",
-      "construction",
-      "site_services"
+      "construction"
     ],
     "public_categories": [
       "general",
-      "construction",
-      "site_services"
+      "construction"
     ]
   },
   {
@@ -682,8 +672,7 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
-      "construction",
-      "site_services"
+      "construction"
     ],
     "capabilities": [
       "roll_off_disposal",
@@ -711,11 +700,10 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
-      "construction",
-      "site_services"
+      "construction"
     ]
   },
   {
@@ -780,7 +768,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "curated_public_categories": [
       "general",
       "construction"
@@ -827,12 +815,11 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.72,
+    "primary_segment_confidence": 0.78,
     "supported_segments": [
       "construction",
       "event",
-      "general",
-      "site_services"
+      "general"
     ],
     "capabilities": [
       "ada_accessible",
@@ -868,11 +855,10 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
-      "construction",
-      "site_services"
+      "construction"
     ]
   },
   {
@@ -933,7 +919,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction"
@@ -1017,7 +1003,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -1063,8 +1049,7 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.84,
     "supported_segments": [
-      "event",
-      "site_services"
+      "event"
     ],
     "capabilities": [
       "heated",
@@ -1102,7 +1087,7 @@
       "Winter-capable equipment posture corroborated by listing or weighted reviews.",
       "Event-oriented restroom trailer positioning — confirm footprint and pump windows."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "event"
@@ -1182,7 +1167,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "curated_public_categories": [
       "general",
       "construction"
@@ -1232,8 +1217,7 @@
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
       "construction",
-      "event",
-      "site_services"
+      "event"
     ],
     "capabilities": [
       "heated",
@@ -1267,7 +1251,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -1345,7 +1329,7 @@
       "Winter-capable equipment posture corroborated by listing or weighted reviews.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -1389,12 +1373,11 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.72,
+    "primary_segment_confidence": 0.78,
     "supported_segments": [
       "construction",
       "event",
-      "general",
-      "site_services"
+      "general"
     ],
     "capabilities": [
       "ada_accessible",
@@ -1430,16 +1413,14 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "curated_public_categories": [
       "general",
-      "construction",
-      "site_services"
+      "construction"
     ],
     "public_categories": [
       "general",
-      "construction",
-      "site_services"
+      "construction"
     ]
   },
   {
@@ -1482,8 +1463,7 @@
     "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
-      "oilfield",
-      "site_services"
+      "oilfield"
     ],
     "capabilities": [
       "remote_logistics",
@@ -1516,17 +1496,15 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "curated_public_categories": [
       "general",
       "construction",
-      "site_services",
       "oilfield"
     ],
     "public_categories": [
       "general",
       "construction",
-      "site_services",
       "oilfield"
     ]
   },
@@ -1569,8 +1547,7 @@
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
       "construction",
-      "oilfield",
-      "site_services"
+      "oilfield"
     ],
     "capabilities": [
       "heated",
@@ -1605,7 +1582,7 @@
       "Winter-capable equipment posture corroborated by listing or weighted reviews.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -1651,8 +1628,7 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
-      "construction",
-      "site_services"
+      "construction"
     ],
     "capabilities": [
       "septic_service",
@@ -1681,11 +1657,10 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
-      "construction",
-      "site_services"
+      "construction"
     ]
   },
   {
@@ -1725,12 +1700,11 @@
     "roll_off_disposal": true,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.72,
+    "primary_segment_confidence": 0.78,
     "supported_segments": [
       "construction",
       "event",
-      "general",
-      "site_services"
+      "general"
     ],
     "capabilities": [
       "ada_accessible",
@@ -1769,11 +1743,10 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
-      "construction",
-      "site_services"
+      "construction"
     ]
   },
   {
@@ -1816,8 +1789,7 @@
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
       "construction",
-      "event",
-      "site_services"
+      "event"
     ],
     "capabilities": [
       "ada_accessible",
@@ -1853,7 +1825,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -1899,8 +1871,7 @@
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
       "construction",
-      "event",
-      "site_services"
+      "event"
     ],
     "capabilities": [
       "ada_accessible",
@@ -1936,7 +1907,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -2001,7 +1972,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction"
@@ -2069,7 +2040,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "curated_public_categories": [
       "general",
       "construction"
@@ -2118,8 +2089,7 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
-      "construction",
-      "site_services"
+      "construction"
     ],
     "capabilities": [
       "site_support"
@@ -2145,7 +2115,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction"
@@ -2188,12 +2158,11 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.72,
+    "primary_segment_confidence": 0.78,
     "supported_segments": [
       "construction",
       "event",
-      "general",
-      "site_services"
+      "general"
     ],
     "capabilities": [
       "ada_accessible",
@@ -2229,11 +2198,10 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
-      "construction",
-      "site_services"
+      "construction"
     ]
   },
   {
@@ -2273,12 +2241,11 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.6399999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
       "event",
-      "general",
-      "site_services"
+      "general"
     ],
     "capabilities": [
       "handwash_available",
@@ -2313,16 +2280,14 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "curated_public_categories": [
       "general",
-      "construction",
-      "site_services"
+      "construction"
     ],
     "public_categories": [
       "general",
-      "construction",
-      "site_services"
+      "construction"
     ]
   },
   {
@@ -2362,12 +2327,11 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.6399999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
       "event",
-      "oilfield",
-      "site_services"
+      "oilfield"
     ],
     "capabilities": [
       "ada_accessible",
@@ -2406,17 +2370,15 @@
       "Winter-capable equipment posture corroborated by listing or weighted reviews.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "curated_public_categories": [
       "general",
       "construction",
-      "site_services",
       "oilfield"
     ],
     "public_categories": [
       "general",
       "construction",
-      "site_services",
       "oilfield"
     ]
   },
@@ -2457,12 +2419,11 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.6399999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
       "event",
-      "general",
-      "site_services"
+      "general"
     ],
     "capabilities": [
       "ada_accessible",
@@ -2498,11 +2459,10 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
-      "construction",
-      "site_services"
+      "construction"
     ]
   },
   {
@@ -2574,7 +2534,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "curated_public_categories": [
       "general",
       "construction",
@@ -2626,8 +2586,7 @@
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
       "construction",
-      "oilfield",
-      "site_services"
+      "oilfield"
     ],
     "capabilities": [
       "heated",
@@ -2661,7 +2620,7 @@
       "Winter-capable equipment posture corroborated by listing or weighted reviews.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -2705,12 +2664,11 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.6399999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
       "event",
-      "general",
-      "site_services"
+      "general"
     ],
     "capabilities": [
       "ada_accessible",
@@ -2741,16 +2699,14 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "curated_public_categories": [
       "general",
-      "construction",
-      "site_services"
+      "construction"
     ],
     "public_categories": [
       "general",
-      "construction",
-      "site_services"
+      "construction"
     ]
   },
   {
@@ -2792,8 +2748,7 @@
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
       "construction",
-      "event",
-      "site_services"
+      "event"
     ],
     "capabilities": [
       "handwash_available",
@@ -2829,7 +2784,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -2895,7 +2850,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "curated_public_categories": [
       "general",
       "construction"
@@ -2944,8 +2899,7 @@
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
       "construction",
-      "event",
-      "site_services"
+      "event"
     ],
     "capabilities": [
       "ada_accessible",
@@ -2981,7 +2935,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -3024,12 +2978,11 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.6399999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
       "event",
-      "general",
-      "site_services"
+      "general"
     ],
     "capabilities": [
       "ada_accessible",
@@ -3066,7 +3019,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -3113,8 +3066,7 @@
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
       "construction",
-      "event",
-      "site_services"
+      "event"
     ],
     "capabilities": [
       "handwash_available",
@@ -3149,7 +3101,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -3193,12 +3145,11 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.6399999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
       "event",
-      "oilfield",
-      "site_services"
+      "oilfield"
     ],
     "capabilities": [
       "ada_accessible",
@@ -3236,16 +3187,14 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "curated_public_categories": [
       "general",
-      "construction",
-      "site_services"
+      "construction"
     ],
     "public_categories": [
       "general",
-      "construction",
-      "site_services"
+      "construction"
     ]
   },
   {
@@ -3285,12 +3234,11 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.6399999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
       "event",
-      "general",
-      "site_services"
+      "general"
     ],
     "capabilities": [
       "ada_accessible",
@@ -3326,16 +3274,14 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "curated_public_categories": [
       "general",
-      "construction",
-      "site_services"
+      "construction"
     ],
     "public_categories": [
       "general",
-      "construction",
-      "site_services"
+      "construction"
     ]
   },
   {
@@ -3400,7 +3346,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "curated_public_categories": [
       "general",
       "construction"
@@ -3478,7 +3424,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "curated_public_categories": [
       "general",
       "construction"
@@ -3527,8 +3473,7 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
-      "event",
-      "site_services"
+      "event"
     ],
     "capabilities": [
       "heated",
@@ -3563,7 +3508,7 @@
       "Winter-capable equipment posture corroborated by listing or weighted reviews.",
       "Event-oriented restroom trailer positioning — confirm footprint and pump windows."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "event"
@@ -3608,8 +3553,7 @@
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
       "construction",
-      "event",
-      "site_services"
+      "event"
     ],
     "capabilities": [
       "handwash_available",
@@ -3645,7 +3589,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -3689,12 +3633,11 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.6399999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
       "event",
-      "general",
-      "site_services"
+      "general"
     ],
     "capabilities": [
       "ada_accessible",
@@ -3731,7 +3674,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -3774,12 +3717,11 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.6399999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
       "event",
-      "oilfield",
-      "site_services"
+      "oilfield"
     ],
     "capabilities": [
       "handwash_available",
@@ -3815,7 +3757,7 @@
       "Winter-capable equipment posture corroborated by listing or weighted reviews.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -3894,7 +3836,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Remote logistics signals present — validate lease-road access and SLAs."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "curated_public_categories": [
       "general",
       "construction",
@@ -3942,12 +3884,11 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.6399999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
       "event",
-      "general",
-      "site_services"
+      "general"
     ],
     "capabilities": [
       "ada_accessible",
@@ -3979,7 +3920,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -4026,8 +3967,7 @@
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
       "construction",
-      "event",
-      "site_services"
+      "event"
     ],
     "capabilities": [
       "luxury_trailers",
@@ -4060,7 +4000,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "curated_public_categories": [
       "general",
       "construction",
@@ -4111,8 +4051,7 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
-      "construction",
-      "site_services"
+      "construction"
     ],
     "capabilities": [
       "septic_service",
@@ -4140,16 +4079,14 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "curated_public_categories": [
       "general",
-      "construction",
-      "site_services"
+      "construction"
     ],
     "public_categories": [
       "general",
-      "construction",
-      "site_services"
+      "construction"
     ]
   },
   {
@@ -4213,7 +4150,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction"
@@ -4259,8 +4196,7 @@
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
       "construction",
-      "event",
-      "site_services"
+      "event"
     ],
     "capabilities": [
       "heated",
@@ -4296,7 +4232,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -4372,7 +4308,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "curated_public_categories": [
       "general",
       "construction"
@@ -4450,7 +4386,7 @@
     "operational_trust_cues": [
       "Phone-forward operator — expect to confirm inventory and cadence by voice."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -4493,12 +4429,11 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.6399999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
       "event",
-      "general",
-      "site_services"
+      "general"
     ],
     "capabilities": [
       "handwash_available",
@@ -4528,7 +4463,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "curated_public_categories": [
       "general",
       "construction"
@@ -4575,12 +4510,11 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.6399999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
       "event",
-      "general",
-      "site_services"
+      "general"
     ],
     "capabilities": [
       "handwash_available",
@@ -4617,7 +4551,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "curated_public_categories": [
       "general",
       "construction"
@@ -4663,12 +4597,11 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.72,
+    "primary_segment_confidence": 0.78,
     "supported_segments": [
       "construction",
       "event",
-      "general",
-      "site_services"
+      "general"
     ],
     "capabilities": [
       "ada_accessible",
@@ -4705,7 +4638,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -4752,8 +4685,7 @@
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
       "construction",
-      "event",
-      "site_services"
+      "event"
     ],
     "capabilities": [
       "luxury_trailers",
@@ -4790,7 +4722,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "curated_public_categories": [
       "general",
       "construction",
@@ -4842,8 +4774,7 @@
     "primary_segment_confidence": 0.84,
     "supported_segments": [
       "construction",
-      "event",
-      "site_services"
+      "event"
     ],
     "capabilities": [
       "ada_accessible",
@@ -4873,7 +4804,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "curated_public_categories": [
       "general",
       "construction"
@@ -4922,8 +4853,7 @@
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
       "construction",
-      "event",
-      "site_services"
+      "event"
     ],
     "capabilities": [
       "luxury_trailers",
@@ -4953,7 +4883,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -4999,8 +4929,7 @@
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
       "construction",
-      "event",
-      "site_services"
+      "event"
     ],
     "capabilities": [
       "heated",
@@ -5035,7 +4964,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -5078,12 +5007,11 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.6399999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
       "event",
-      "general",
-      "site_services"
+      "general"
     ],
     "capabilities": [
       "ada_accessible",
@@ -5120,7 +5048,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -5163,12 +5091,11 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.6399999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
       "event",
-      "general",
-      "site_services"
+      "general"
     ],
     "capabilities": [
       "ada_accessible",
@@ -5205,7 +5132,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -5252,8 +5179,7 @@
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
       "construction",
-      "event",
-      "site_services"
+      "event"
     ],
     "capabilities": [
       "luxury_trailers",
@@ -5283,7 +5209,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -5330,8 +5256,7 @@
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
       "construction",
-      "event",
-      "site_services"
+      "event"
     ],
     "capabilities": [
       "luxury_trailers",
@@ -5360,7 +5285,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -5407,8 +5332,7 @@
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
       "construction",
-      "event",
-      "site_services"
+      "event"
     ],
     "capabilities": [
       "luxury_trailers",
@@ -5445,7 +5369,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "curated_public_categories": [
       "general",
       "construction",
@@ -5495,8 +5419,7 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
-      "event",
-      "site_services"
+      "event"
     ],
     "capabilities": [
       "heated",
@@ -5530,7 +5453,7 @@
       "Winter-capable equipment posture corroborated by listing or weighted reviews.",
       "Event-oriented restroom trailer positioning — confirm footprint and pump windows."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "event"
@@ -5575,8 +5498,7 @@
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
       "construction",
-      "event",
-      "site_services"
+      "event"
     ],
     "capabilities": [
       "luxury_trailers",
@@ -5606,7 +5528,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -5651,8 +5573,7 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.84,
     "supported_segments": [
-      "construction",
-      "site_services"
+      "construction"
     ],
     "capabilities": [
       "septic_service",
@@ -5681,16 +5602,14 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "curated_public_categories": [
       "general",
-      "construction",
-      "site_services"
+      "construction"
     ],
     "public_categories": [
       "general",
-      "construction",
-      "site_services"
+      "construction"
     ]
   },
   {
@@ -5732,8 +5651,7 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.84,
     "supported_segments": [
-      "construction",
-      "site_services"
+      "construction"
     ],
     "capabilities": [
       "septic_service",
@@ -5762,16 +5680,14 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "curated_public_categories": [
       "general",
-      "construction",
-      "site_services"
+      "construction"
     ],
     "public_categories": [
       "general",
-      "construction",
-      "site_services"
+      "construction"
     ]
   },
   {
@@ -5845,7 +5761,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -5888,12 +5804,11 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.6399999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
       "event",
-      "general",
-      "site_services"
+      "general"
     ],
     "capabilities": [
       "ada_accessible",
@@ -5930,7 +5845,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -5976,8 +5891,7 @@
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
       "construction",
-      "event",
-      "site_services"
+      "event"
     ],
     "capabilities": [
       "heated",
@@ -6012,7 +5926,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -6057,8 +5971,7 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
-      "event",
-      "site_services"
+      "event"
     ],
     "capabilities": [
       "luxury_trailers",
@@ -6087,7 +6000,7 @@
       "Phone-forward operator — expect to confirm inventory and cadence by voice.",
       "Event-oriented restroom trailer positioning — confirm footprint and pump windows."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "event"
@@ -6132,8 +6045,7 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
-      "construction",
-      "site_services"
+      "construction"
     ],
     "capabilities": [
       "roll_off_disposal",
@@ -6165,16 +6077,14 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "curated_public_categories": [
       "general",
-      "construction",
-      "site_services"
+      "construction"
     ],
     "public_categories": [
       "general",
-      "construction",
-      "site_services"
+      "construction"
     ]
   },
   {
@@ -6213,12 +6123,11 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.6399999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
       "event",
-      "general",
-      "site_services"
+      "general"
     ],
     "capabilities": [
       "ada_accessible",
@@ -6250,7 +6159,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -6296,8 +6205,7 @@
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
       "construction",
-      "event",
-      "site_services"
+      "event"
     ],
     "capabilities": [
       "heated",
@@ -6332,7 +6240,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -6378,8 +6286,7 @@
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
       "construction",
-      "event",
-      "site_services"
+      "event"
     ],
     "capabilities": [
       "luxury_trailers",
@@ -6409,7 +6316,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -6453,12 +6360,11 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.72,
+    "primary_segment_confidence": 0.78,
     "supported_segments": [
       "construction",
       "event",
-      "general",
-      "site_services"
+      "general"
     ],
     "capabilities": [
       "ada_accessible",
@@ -6491,16 +6397,14 @@
       "Review volume supports repeat-use validation — still confirm servicing scope directly.",
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "curated_public_categories": [
       "general",
-      "construction",
-      "site_services"
+      "construction"
     ],
     "public_categories": [
       "general",
-      "construction",
-      "site_services"
+      "construction"
     ]
   },
   {
@@ -6542,8 +6446,7 @@
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
       "construction",
-      "event",
-      "site_services"
+      "event"
     ],
     "capabilities": [
       "heated",
@@ -6578,7 +6481,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -6621,12 +6524,11 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.6399999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
       "event",
-      "general",
-      "site_services"
+      "general"
     ],
     "capabilities": [
       "ada_accessible",
@@ -6658,7 +6560,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -6704,8 +6606,7 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
-      "event",
-      "site_services"
+      "event"
     ],
     "capabilities": [
       "heated",
@@ -6740,7 +6641,7 @@
       "Winter-capable equipment posture corroborated by listing or weighted reviews.",
       "Event-oriented restroom trailer positioning — confirm footprint and pump windows."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "event"
@@ -6785,8 +6686,7 @@
     "primary_segment_confidence": 0.84,
     "supported_segments": [
       "construction",
-      "event",
-      "site_services"
+      "event"
     ],
     "capabilities": [
       "ada_accessible",
@@ -6822,7 +6722,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -6866,12 +6766,11 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.6399999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
       "event",
-      "general",
-      "site_services"
+      "general"
     ],
     "capabilities": [
       "ada_accessible",
@@ -6903,7 +6802,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -6947,12 +6846,11 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.6399999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
       "event",
-      "general",
-      "site_services"
+      "general"
     ],
     "capabilities": [
       "ada_accessible",
@@ -6984,7 +6882,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -7031,8 +6929,7 @@
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
       "construction",
-      "event",
-      "site_services"
+      "event"
     ],
     "capabilities": [
       "ada_accessible",
@@ -7062,7 +6959,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -7108,8 +7005,7 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
-      "construction",
-      "site_services"
+      "construction"
     ],
     "capabilities": [
       "heated",
@@ -7143,11 +7039,10 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
-      "construction",
-      "site_services"
+      "construction"
     ]
   },
   {
@@ -7188,8 +7083,7 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.84,
     "supported_segments": [
-      "event",
-      "site_services"
+      "event"
     ],
     "capabilities": [
       "heated",
@@ -7223,7 +7117,7 @@
       "Winter-capable equipment posture corroborated by listing or weighted reviews.",
       "Event-oriented restroom trailer positioning — confirm footprint and pump windows."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "event"
@@ -7267,8 +7161,7 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
-      "event",
-      "site_services"
+      "event"
     ],
     "capabilities": [
       "heated",
@@ -7302,7 +7195,7 @@
       "Winter-capable equipment posture corroborated by listing or weighted reviews.",
       "Event-oriented restroom trailer positioning — confirm footprint and pump windows."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "event"
@@ -7347,8 +7240,7 @@
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
       "construction",
-      "event",
-      "site_services"
+      "event"
     ],
     "capabilities": [
       "heated",
@@ -7383,7 +7275,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -7460,7 +7352,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -7504,12 +7396,11 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.6399999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
       "event",
-      "general",
-      "site_services"
+      "general"
     ],
     "capabilities": [
       "handwash_available",
@@ -7544,7 +7435,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "curated_public_categories": [
       "general",
       "construction"
@@ -7592,8 +7483,7 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
-      "construction",
-      "site_services"
+      "construction"
     ],
     "capabilities": [
       "heated",
@@ -7624,7 +7514,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction"
@@ -7666,12 +7556,11 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.6399999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
       "event",
-      "general",
-      "site_services"
+      "general"
     ],
     "capabilities": [
       "ada_accessible",
@@ -7707,11 +7596,10 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
-      "construction",
-      "site_services"
+      "construction"
     ]
   },
   {
@@ -7750,12 +7638,11 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.6399999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
       "event",
-      "general",
-      "site_services"
+      "general"
     ],
     "capabilities": [
       "ada_accessible",
@@ -7792,7 +7679,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -7837,8 +7724,7 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.84,
     "supported_segments": [
-      "event",
-      "site_services"
+      "event"
     ],
     "capabilities": [
       "handwash_available",
@@ -7873,7 +7759,7 @@
       "Winter-capable equipment posture corroborated by listing or weighted reviews.",
       "Event-oriented restroom trailer positioning — confirm footprint and pump windows."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "event"
@@ -7918,8 +7804,7 @@
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
       "construction",
-      "event",
-      "site_services"
+      "event"
     ],
     "capabilities": [
       "handwash_available",
@@ -7950,7 +7835,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -7993,12 +7878,11 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.6399999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
       "event",
-      "general",
-      "site_services"
+      "general"
     ],
     "capabilities": [
       "ada_accessible",
@@ -8035,7 +7919,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -8114,7 +7998,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -8160,8 +8044,7 @@
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
       "construction",
-      "event",
-      "site_services"
+      "event"
     ],
     "capabilities": [
       "ada_accessible",
@@ -8197,7 +8080,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -8240,12 +8123,11 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.6399999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
       "event",
-      "general",
-      "site_services"
+      "general"
     ],
     "capabilities": [
       "ada_accessible",
@@ -8282,7 +8164,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -8328,8 +8210,7 @@
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
       "construction",
-      "event",
-      "site_services"
+      "event"
     ],
     "capabilities": [
       "handwash_available",
@@ -8360,7 +8241,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -8406,8 +8287,7 @@
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
       "construction",
-      "event",
-      "site_services"
+      "event"
     ],
     "capabilities": [
       "luxury_trailers",
@@ -8437,7 +8317,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -8483,8 +8363,7 @@
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
       "construction",
-      "event",
-      "site_services"
+      "event"
     ],
     "capabilities": [
       "handwash_available",
@@ -8516,7 +8395,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction"
@@ -8558,12 +8437,11 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.6399999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
       "event",
-      "general",
-      "site_services"
+      "general"
     ],
     "capabilities": [
       "ada_accessible",
@@ -8600,7 +8478,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -8643,12 +8521,11 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.6399999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
       "event",
-      "general",
-      "site_services"
+      "general"
     ],
     "capabilities": [
       "ada_accessible",
@@ -8685,7 +8562,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -8730,8 +8607,7 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
-      "oilfield",
-      "site_services"
+      "oilfield"
     ],
     "capabilities": [
       "site_support"
@@ -8755,7 +8631,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "oilfield"
@@ -8799,8 +8675,7 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
-      "construction",
-      "site_services"
+      "construction"
     ],
     "capabilities": [
       "site_support"
@@ -8826,7 +8701,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction"
@@ -8868,12 +8743,11 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.6399999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
       "event",
-      "general",
-      "site_services"
+      "general"
     ],
     "capabilities": [
       "ada_accessible",
@@ -8910,7 +8784,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -8956,8 +8830,7 @@
     "primary_segment_confidence": 0.84,
     "supported_segments": [
       "construction",
-      "event",
-      "site_services"
+      "event"
     ],
     "capabilities": [
       "handwash_available",
@@ -8993,7 +8866,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -9036,12 +8909,11 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.6399999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
       "event",
-      "general",
-      "site_services"
+      "general"
     ],
     "capabilities": [
       "ada_accessible",
@@ -9074,7 +8946,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction"
@@ -9116,12 +8988,11 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.6399999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
       "event",
-      "general",
-      "site_services"
+      "general"
     ],
     "capabilities": [
       "ada_accessible",
@@ -9158,7 +9029,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -9201,12 +9072,11 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.6399999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
       "event",
-      "general",
-      "site_services"
+      "general"
     ],
     "capabilities": [
       "ada_accessible",
@@ -9243,7 +9113,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -9286,12 +9156,11 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.6399999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
       "event",
-      "general",
-      "site_services"
+      "general"
     ],
     "capabilities": [
       "ada_accessible",
@@ -9319,7 +9188,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction"
@@ -9361,12 +9230,11 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.72,
+    "primary_segment_confidence": 0.78,
     "supported_segments": [
       "construction",
       "event",
-      "general",
-      "site_services"
+      "general"
     ],
     "capabilities": [
       "ada_accessible",
@@ -9403,7 +9271,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -9446,12 +9314,11 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.6399999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
       "event",
-      "general",
-      "site_services"
+      "general"
     ],
     "capabilities": [
       "ada_accessible",
@@ -9488,7 +9355,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -9534,8 +9401,7 @@
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
       "construction",
-      "event",
-      "site_services"
+      "event"
     ],
     "capabilities": [
       "handwash_available",
@@ -9567,7 +9433,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction"
@@ -9609,12 +9475,11 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.72,
+    "primary_segment_confidence": 0.78,
     "supported_segments": [
       "construction",
       "event",
-      "general",
-      "site_services"
+      "general"
     ],
     "capabilities": [
       "ada_accessible",
@@ -9651,7 +9516,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -9696,8 +9561,7 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
-      "event",
-      "site_services"
+      "event"
     ],
     "capabilities": [
       "heated",
@@ -9731,7 +9595,7 @@
       "Winter-capable equipment posture corroborated by listing or weighted reviews.",
       "Event-oriented restroom trailer positioning — confirm footprint and pump windows."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "event"
@@ -9808,7 +9672,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -9854,8 +9718,7 @@
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
       "construction",
-      "event",
-      "site_services"
+      "event"
     ],
     "capabilities": [
       "heated",
@@ -9890,7 +9753,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -9937,8 +9800,7 @@
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
       "construction",
-      "event",
-      "site_services"
+      "event"
     ],
     "capabilities": [
       "heated",
@@ -9972,7 +9834,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -10049,7 +9911,7 @@
       "Winter-capable equipment posture corroborated by listing or weighted reviews.",
       "Event-oriented restroom trailer positioning — confirm footprint and pump windows."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "event"
@@ -10093,8 +9955,7 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
-      "oilfield",
-      "site_services"
+      "oilfield"
     ],
     "capabilities": [
       "ada_accessible",
@@ -10119,7 +9980,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "oilfield"
@@ -10161,12 +10022,11 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.72,
+    "primary_segment_confidence": 0.78,
     "supported_segments": [
       "construction",
       "event",
-      "general",
-      "site_services"
+      "general"
     ],
     "capabilities": [
       "ada_accessible",
@@ -10203,7 +10063,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -10249,8 +10109,7 @@
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
       "construction",
-      "event",
-      "site_services"
+      "event"
     ],
     "capabilities": [
       "ada_accessible",
@@ -10286,7 +10145,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -10333,8 +10192,7 @@
     "primary_segment_confidence": 0.84,
     "supported_segments": [
       "construction",
-      "event",
-      "site_services"
+      "event"
     ],
     "capabilities": [
       "handwash_available",
@@ -10370,7 +10228,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "public_categories": [
       "general",
       "construction",
@@ -10417,8 +10275,7 @@
     "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
-      "event",
-      "site_services"
+      "event"
     ],
     "capabilities": [
       "handwash_available",
@@ -10456,7 +10313,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "curated_public_categories": [
       "general",
       "event"
@@ -10505,8 +10362,7 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.7,
     "supported_segments": [
-      "construction",
-      "site_services"
+      "construction"
     ],
     "capabilities": [
       "septic_service",
@@ -10533,14 +10389,12 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "curated_public_categories": [
-      "general",
-      "site_services"
+      "general"
     ],
     "public_categories": [
-      "general",
-      "site_services"
+      "general"
     ]
   },
   {
@@ -10582,8 +10436,7 @@
     "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
       "construction",
-      "event",
-      "site_services"
+      "event"
     ],
     "capabilities": [
       "heated",
@@ -10618,16 +10471,16 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "curated_public_categories": [
       "construction",
       "event",
       "general"
     ],
     "public_categories": [
+      "general",
       "construction",
-      "event",
-      "general"
+      "event"
     ]
   },
   {
@@ -10668,8 +10521,7 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.7,
     "supported_segments": [
-      "construction",
-      "site_services"
+      "construction"
     ],
     "capabilities": [
       "heated",
@@ -10700,14 +10552,12 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "curated_public_categories": [
-      "general",
-      "site_services"
+      "general"
     ],
     "public_categories": [
-      "general",
-      "site_services"
+      "general"
     ]
   },
   {
@@ -10748,8 +10598,7 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.7,
     "supported_segments": [
-      "construction",
-      "site_services"
+      "construction"
     ],
     "capabilities": [
       "septic_service",
@@ -10776,14 +10625,12 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "curated_public_categories": [
-      "general",
-      "site_services"
+      "general"
     ],
     "public_categories": [
-      "general",
-      "site_services"
+      "general"
     ]
   },
   {
@@ -10824,8 +10671,7 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.7,
     "supported_segments": [
-      "construction",
-      "site_services"
+      "construction"
     ],
     "capabilities": [
       "septic_service",
@@ -10856,14 +10702,12 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "curated_public_categories": [
-      "general",
-      "site_services"
+      "general"
     ],
     "public_categories": [
-      "general",
-      "site_services"
+      "general"
     ]
   },
   {
@@ -10906,8 +10750,7 @@
     "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
-      "event",
-      "site_services"
+      "event"
     ],
     "capabilities": [
       "ada_accessible",
@@ -10934,7 +10777,7 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "curated_public_categories": [
       "general",
       "construction"
@@ -10984,8 +10827,7 @@
     "primary_segment_confidence": 0.78,
     "supported_segments": [
       "construction",
-      "event",
-      "site_services"
+      "event"
     ],
     "capabilities": [
       "ada_accessible",
@@ -11014,14 +10856,12 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "curated_public_categories": [
-      "general",
-      "site_services"
+      "general"
     ],
     "public_categories": [
-      "general",
-      "site_services"
+      "general"
     ]
   },
   {
@@ -11063,8 +10903,7 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.7,
     "supported_segments": [
-      "construction",
-      "site_services"
+      "construction"
     ],
     "capabilities": [
       "heated",
@@ -11095,7 +10934,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "curated_public_categories": [
       "general",
       "construction"
@@ -11143,8 +10982,7 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.7,
     "supported_segments": [
-      "construction",
-      "site_services"
+      "construction"
     ],
     "capabilities": [
       "septic_service",
@@ -11175,14 +11013,12 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "curated_public_categories": [
-      "general",
-      "site_services"
+      "general"
     ],
     "public_categories": [
-      "general",
-      "site_services"
+      "general"
     ]
   },
   {
@@ -11222,12 +11058,11 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.6399999999999999,
+    "primary_segment_confidence": 0.7,
     "supported_segments": [
       "construction",
       "event",
-      "general",
-      "site_services"
+      "general"
     ],
     "capabilities": [
       "ada_accessible",
@@ -11263,16 +11098,14 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "curated_public_categories": [
       "general",
-      "construction",
-      "site_services"
+      "construction"
     ],
     "public_categories": [
       "general",
-      "construction",
-      "site_services"
+      "construction"
     ]
   },
   {
@@ -11345,16 +11178,16 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "curated_public_categories": [
       "construction",
       "event",
       "general"
     ],
     "public_categories": [
+      "general",
       "construction",
-      "event",
-      "general"
+      "event"
     ]
   },
   {
@@ -11420,7 +11253,7 @@
       "Rating pattern is steady enough to treat reviews as a meaningful signal.",
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "curated_public_categories": [
       "general",
       "construction"
@@ -11469,8 +11302,7 @@
     "crane_liftable": false,
     "primary_segment_confidence": 0.78,
     "supported_segments": [
-      "construction",
-      "site_services"
+      "construction"
     ],
     "capabilities": [
       "heated",
@@ -11501,7 +11333,7 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "curated_public_categories": [
       "general",
       "construction"
@@ -11547,12 +11379,11 @@
     "roll_off_disposal": false,
     "crane_liftable": false,
     "reviews_normalized": [],
-    "primary_segment_confidence": 0.7,
+    "primary_segment_confidence": 0.7599999999999999,
     "supported_segments": [
       "construction",
       "event",
-      "general",
-      "site_services"
+      "general"
     ],
     "capabilities": [
       "ada_accessible",
@@ -11589,16 +11420,16 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "curated_public_categories": [
       "construction",
       "event",
       "general"
     ],
     "public_categories": [
+      "general",
       "construction",
-      "event",
-      "general"
+      "event"
     ]
   },
   {
@@ -11639,8 +11470,7 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.7,
     "supported_segments": [
-      "construction",
-      "site_services"
+      "construction"
     ],
     "capabilities": [
       "septic_service",
@@ -11667,14 +11497,12 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "curated_public_categories": [
-      "general",
-      "site_services"
+      "general"
     ],
     "public_categories": [
-      "general",
-      "site_services"
+      "general"
     ]
   },
   {
@@ -11716,8 +11544,7 @@
     "primary_segment_confidence": 0.84,
     "supported_segments": [
       "construction",
-      "event",
-      "site_services"
+      "event"
     ],
     "capabilities": [
       "ada_accessible",
@@ -11753,16 +11580,16 @@
       "Listed web presence — faster verification of inventory and route assumptions.",
       "Winter-capable equipment posture corroborated by listing or weighted reviews."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "curated_public_categories": [
       "construction",
       "event",
       "general"
     ],
     "public_categories": [
+      "general",
       "construction",
-      "event",
-      "general"
+      "event"
     ]
   },
   {
@@ -11804,8 +11631,7 @@
     "reviews_normalized": [],
     "primary_segment_confidence": 0.7,
     "supported_segments": [
-      "construction",
-      "site_services"
+      "construction"
     ],
     "capabilities": [
       "septic_service",
@@ -11833,16 +11659,14 @@
     "operational_trust_cues": [
       "Listed web presence — faster verification of inventory and route assumptions."
     ],
-    "last_verified_at": "2026-06-23T02:03:08.799Z",
+    "last_verified_at": "2026-06-23T02:19:20.841Z",
     "curated_public_categories": [
       "general",
-      "construction",
-      "site_services"
+      "construction"
     ],
     "public_categories": [
       "general",
-      "construction",
-      "site_services"
+      "construction"
     ]
   }
 ]

@@ -9,6 +9,9 @@ export type PrimarySegment =
   | 'general'
   | 'site_services'
 
+/** Customer-facing project categories — excludes operational waste/site bucket. */
+export type PublicPrimaryCategory = Exclude<PrimarySegment, 'site_services'>
+
 /** Capability keys used by segment-specific filters (boolean on provider). */
 export type FilterCapability =
   | 'weekly_service'
@@ -103,7 +106,7 @@ export interface ProviderCore {
    * Derived at build time; replaces primary_segment + supported_segments as the FILTERING layer.
    * primary_segment is kept for internal ranking only.
    */
-  public_categories?: PrimarySegment[]
+  public_categories?: PublicPrimaryCategory[]
   /** Analyst/CSV-assigned categories — preserved over inference at enrich time. */
   curated_public_categories?: PrimarySegment[]
 }

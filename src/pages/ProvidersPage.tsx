@@ -7,7 +7,8 @@ import { CANADA_PROVINCES } from '../lib/locations/canadaLocations'
 import { PROVIDERS } from '../lib/providersDataset'
 import { getFeaturedProviders } from '../lib/getFeaturedProviders'
 import { segmentLabel } from '../lib/segments'
-import type { PrimarySegment } from '../types/provider'
+import type { PublicPrimaryCategory } from '../types/provider'
+import { providerDisplayCategories } from '../lib/taxonomy/publicPrimaryCategories'
 
 const PROVINCE_SLUGS: Record<string, string> = {
   AB: 'alberta',
@@ -16,12 +17,11 @@ const PROVINCE_SLUGS: Record<string, string> = {
   BC: 'british-columbia',
 }
 
-const ALL_SEGMENTS: { key: PrimarySegment; slug: string }[] = [
+const ALL_SEGMENTS: { key: PublicPrimaryCategory; slug: string }[] = [
   { key: 'construction', slug: 'construction-jobsites' },
   { key: 'event', slug: 'events-weddings' },
   { key: 'general', slug: 'general-portable-washrooms' },
   { key: 'oilfield', slug: 'remote-oilfield-operations' },
-  { key: 'site_services', slug: 'waste-site-services' },
 ]
 
 const meta = buildStaticDocumentMeta({
@@ -85,7 +85,9 @@ export default function ProvidersPage() {
             </h2>
             <ul className="mt-3 flex flex-wrap gap-2">
               {ALL_SEGMENTS.map(({ key, slug }) => {
-                const count = PROVIDERS.filter((p) => p.public_categories?.includes(key)).length
+                const count = PROVIDERS.filter((p) =>
+                  providerDisplayCategories(p).includes(key),
+                ).length
                 return (
                   <li key={key}>
                     <Link

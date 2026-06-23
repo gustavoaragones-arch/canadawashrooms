@@ -1,5 +1,6 @@
+import { providerDisplayCategories } from '../lib/taxonomy/publicPrimaryCategories'
 import { publicCategoryLabel } from '../lib/taxonomy/publicCategoryMapper'
-import type { PrimarySegment, Provider } from '../types/provider'
+import type { Provider } from '../types/provider'
 
 interface ProviderServicesOfferedProps {
   provider: Provider
@@ -7,9 +8,7 @@ interface ProviderServicesOfferedProps {
 }
 
 export function ProviderServicesOffered({ provider, className = '' }: ProviderServicesOfferedProps) {
-  const categories: PrimarySegment[] = provider.public_categories?.length
-    ? provider.public_categories
-    : [provider.primary_segment]
+  const categories = providerDisplayCategories(provider)
 
   return (
     <div className={className}>
