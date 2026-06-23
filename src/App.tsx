@@ -1,5 +1,6 @@
 import { lazy, Suspense } from 'react'
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
+import { ScrollToTop } from './components/ScrollToTop'
 import { OperationalInquiryProvider } from './components/inquiry/OperationalInquiryContext'
 import { OperationalInquirySurface } from './components/inquiry/OperationalInquirySurface'
 import HomePage from './pages/HomePage'
@@ -34,6 +35,7 @@ export default function App() {
   return (
     <OperationalInquiryProvider>
       <BrowserRouter>
+        <ScrollToTop />
         <Suspense fallback={<RouteFallback />}>
           <Routes>
             <Route path="/" element={<HomePage />} />

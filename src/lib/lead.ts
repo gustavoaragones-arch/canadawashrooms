@@ -1,5 +1,5 @@
-/** Platform lead inbox for MVP quote routing (mailto). */
-export const PLATFORM_QUOTE_EMAIL = 'quotes@canadawashrooms.ca'
+/** Platform contact inbox for general inquiries and quote routing (mailto). */
+export const PLATFORM_QUOTE_EMAIL = 'contact@canadawashrooms.ca'
 
 export function quoteMailto(companyName: string, city: string, segmentTitle: string): string {
   const subject = `Quote request: ${companyName} (${city})`
