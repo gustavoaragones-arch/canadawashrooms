@@ -1,4 +1,4 @@
-import { useMemo } from 'react'
+import { useLayoutEffect, useMemo } from 'react'
 import { Link, Navigate, useParams } from 'react-router-dom'
 import { AppShell } from '../components/AppShell'
 import { ProviderCard } from '../components/ProviderCard'
@@ -37,6 +37,10 @@ function formatVerifiedAt(iso: string): string {
 export default function ProviderPage() {
   const { providerSlug } = useParams()
   const { openInquiry } = useOperationalInquiry()
+
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0)
+  }, [providerSlug])
 
   const provider = useMemo(() => getProviderBySlug(providerSlug), [providerSlug])
 
